@@ -1,11 +1,11 @@
 #!/bin/bash
 
-python3 -m pip install -r docs/requirements.txt
-
 if [ ! -e docs ]; then
     git clone https://github.com/GATEOverflow/inference_results_visualization_template.git docs
     test $? -eq 0 || exit $?
 fi
+
+python3 -m pip install -r docs/requirements.txt
 
 if [ ! -e overrides ]; then
     cp -r docs/overrides overrides
