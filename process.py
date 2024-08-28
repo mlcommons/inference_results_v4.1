@@ -280,10 +280,10 @@ def generate_html_form(platforms, models_all, data1=None, data2=None, modelsdata
 
     return html_form
 
-system1 = "ESC8000_E11P_H100x8_TRT"
-system2 = "ESC8000_E11_L40Sx8_TRT"
-sysversion1 = "v4.0"
-sysversion2 = "v4.0"
+system1 = "1xMI300X_2EPYC-937F"
+system2 = "8xMI300X_2EPYC-937F"
+sysversion1 = "v4.1"
+sysversion2 = "v4.1"
 modelfilterstring = ""
 
 content = process_scenarios(system1, system2, sysversion1, sysversion2, modelfilterstring)
