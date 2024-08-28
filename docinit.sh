@@ -14,7 +14,9 @@ fi
 
 if [ ! -e docs/javascripts/config.js ]; then
    if [ -n "${INFERENCE_RESULTS_VERSION}" ]; then
-   	echo "var result_version=\"${INFERENCE_RESULTS_VERSION}\";" >> docs/javascripts/config.js;
+   	echo "const result_version=\"${INFERENCE_RESULTS_VERSION}\";" > docs/javascripts/config.js;
+    ver_num=`echo ${INFERENCE_RESULTS_VERSION} | tr -cd '0-9'`
+   	echo "const dbVersion =\"${ver_num}\";" >> docs/javascripts/config.js;
    else
 	echo "Please export INFERENCE_RESULTS_VERSION=v4.1 or the corresponding version";
 	exit 1
@@ -26,5 +28,5 @@ if [ ! -e docs/thirdparty/tablesorter ]; then
     test $? -eq 0 || exit $?
 fi
 
-#python3 process.py
-#python3 process_results_table.py
+python3 process.py
+python3 process_results_table.py
