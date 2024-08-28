@@ -1,0 +1,43 @@
+site_name: MLPerf Inference Results Comparison
+repo_url: https://github.com/mlcommons/inference_results_v4.0
+theme:
+  name: material
+  logo: img/logo_v2.svg
+  favicon: img/logo_v2.svg
+  palette:
+    primary: deep purple
+    accent: yellow
+  custom_dir: overrides
+  features:
+    - content.tabs.link
+    - content.code.copy
+    - navigation.expand
+    - navigation.sections
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - toc.follow
+nav:
+  - Results: index.md
+  - Compare: compare/index.md
+  - Top Results: top_results/index.md
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+plugins:
+  - macros
