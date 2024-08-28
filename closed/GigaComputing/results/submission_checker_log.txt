@@ -1,0 +1,251 @@
+[2024-07-26 16:45:50,016 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/mixtral-8x7b/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,017 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/mixtral-8x7b/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,019 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/mixtral-8x7b/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,021 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/mixtral-8x7b/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,022 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/mixtral-8x7b/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,023 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/mixtral-8x7b/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,023 submission_checker.py:1210 INFO] Target latency: None, Latency: 2743161372949, Scenario: Offline
+[2024-07-26 16:45:50,046 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/retinanet/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,049 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/retinanet/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,050 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/retinanet/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,050 submission_checker.py:1192 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 16:45:50,050 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/retinanet/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,050 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/retinanet/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,051 submission_checker.py:1192 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 16:45:50,051 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/retinanet/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,051 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/retinanet/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,052 submission_checker.py:1192 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 16:45:50,072 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/retinanet/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,074 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/retinanet/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,074 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/retinanet/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,074 submission_checker.py:1210 INFO] Target latency: None, Latency: 627769727306, Scenario: Offline
+[2024-07-26 16:45:50,075 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/retinanet/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,075 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/retinanet/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,075 submission_checker.py:1210 INFO] Target latency: None, Latency: 627640476997, Scenario: Offline
+[2024-07-26 16:45:50,076 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/retinanet/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,076 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/retinanet/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,076 submission_checker.py:1210 INFO] Target latency: None, Latency: 628381277808, Scenario: Offline
+[2024-07-26 16:45:50,078 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/llama2-70b-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,080 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,082 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,082 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-07-26 16:45:50,084 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/llama2-70b-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,085 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,087 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,087 submission_checker.py:1210 INFO] Target latency: None, Latency: 2719056187967, Scenario: Offline
+[2024-07-26 16:45:50,089 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,090 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,091 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,091 submission_checker.py:1192 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 16:45:50,092 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,093 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,093 submission_checker.py:1192 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 16:45:50,094 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,095 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,095 submission_checker.py:1192 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 16:45:50,095 submission_checker.py:2555 INFO] Compliance test accuracy check (deterministic mode) in closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Server/TEST01 failed
+[2024-07-26 16:45:50,096 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,097 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,098 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,098 submission_checker.py:1210 INFO] Target latency: None, Latency: 670794662254, Scenario: Offline
+[2024-07-26 16:45:50,099 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,100 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,100 submission_checker.py:1210 INFO] Target latency: None, Latency: 670769661342, Scenario: Offline
+[2024-07-26 16:45:50,101 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,102 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,102 submission_checker.py:1210 INFO] Target latency: None, Latency: 671020056232, Scenario: Offline
+[2024-07-26 16:45:50,106 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,107 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,108 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,108 submission_checker.py:1192 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 16:45:50,108 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,109 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,109 submission_checker.py:1192 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 16:45:50,109 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,110 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,110 submission_checker.py:1192 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 16:45:50,111 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,111 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,111 submission_checker.py:1192 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 16:45:50,116 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,117 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,117 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,117 submission_checker.py:1210 INFO] Target latency: None, Latency: 621133642639, Scenario: Offline
+[2024-07-26 16:45:50,118 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,118 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,118 submission_checker.py:1210 INFO] Target latency: None, Latency: 621551938438, Scenario: Offline
+[2024-07-26 16:45:50,119 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,119 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,119 submission_checker.py:1210 INFO] Target latency: None, Latency: 1587582566432, Scenario: Offline
+[2024-07-26 16:45:50,120 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,120 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,120 submission_checker.py:1210 INFO] Target latency: None, Latency: 621686604900, Scenario: Offline
+[2024-07-26 16:45:50,122 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/gptj-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,123 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/gptj-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,124 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/gptj-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,124 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 16:45:50,125 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/gptj-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,126 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/gptj-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,127 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/gptj-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,127 submission_checker.py:1210 INFO] Target latency: None, Latency: 686908993663, Scenario: Offline
+[2024-07-26 16:45:50,129 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/llama2-70b-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,131 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,133 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,133 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-07-26 16:45:50,135 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/llama2-70b-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,137 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,138 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,139 submission_checker.py:1210 INFO] Target latency: None, Latency: 2719056187967, Scenario: Offline
+[2024-07-26 16:45:50,159 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,172 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,185 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,186 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 16:45:50,199 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,211 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,211 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 16:45:50,224 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,236 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,237 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 16:45:50,239 submission_checker.py:2555 INFO] Compliance test accuracy check (deterministic mode) in closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Server/TEST01 failed
+[2024-07-26 16:45:50,257 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,270 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,281 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,282 submission_checker.py:1210 INFO] Target latency: None, Latency: 1192619601146, Scenario: Offline
+[2024-07-26 16:45:50,295 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,306 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,307 submission_checker.py:1210 INFO] Target latency: None, Latency: 1193400850725, Scenario: Offline
+[2024-07-26 16:45:50,319 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,330 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,331 submission_checker.py:1210 INFO] Target latency: None, Latency: 1191814573407, Scenario: Offline
+[2024-07-26 16:45:50,334 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,334 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,335 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,335 submission_checker.py:1192 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 16:45:50,336 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,337 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,337 submission_checker.py:1192 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 16:45:50,338 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,339 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,339 submission_checker.py:1192 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 16:45:50,341 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,341 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,342 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,342 submission_checker.py:1210 INFO] Target latency: None, Latency: 670995943422, Scenario: Offline
+[2024-07-26 16:45:50,343 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,344 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,344 submission_checker.py:1210 INFO] Target latency: None, Latency: 671177977100, Scenario: Offline
+[2024-07-26 16:45:50,345 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,346 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,346 submission_checker.py:1210 INFO] Target latency: None, Latency: 672335275260, Scenario: Offline
+[2024-07-26 16:45:50,364 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,377 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,388 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,389 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 16:45:50,402 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,413 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,414 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 16:45:50,426 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,437 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,438 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 16:45:50,457 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,469 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,480 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,481 submission_checker.py:1210 INFO] Target latency: None, Latency: 735697776058, Scenario: Offline
+[2024-07-26 16:45:50,493 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,504 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,505 submission_checker.py:1210 INFO] Target latency: None, Latency: 735709022810, Scenario: Offline
+[2024-07-26 16:45:50,517 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,528 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,528 submission_checker.py:1210 INFO] Target latency: None, Latency: 735399354116, Scenario: Offline
+[2024-07-26 16:45:50,531 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/stable-diffusion-xl/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,531 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/stable-diffusion-xl/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,532 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/stable-diffusion-xl/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,532 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 16:45:50,533 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/stable-diffusion-xl/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,534 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/stable-diffusion-xl/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,534 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 16:45:50,534 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/stable-diffusion-xl/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,535 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/stable-diffusion-xl/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,535 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 16:45:50,536 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/stable-diffusion-xl/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,536 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/stable-diffusion-xl/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,537 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/stable-diffusion-xl/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,537 submission_checker.py:1210 INFO] Target latency: None, Latency: 629689082701, Scenario: Offline
+[2024-07-26 16:45:50,538 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/stable-diffusion-xl/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,538 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/stable-diffusion-xl/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,538 submission_checker.py:1210 INFO] Target latency: None, Latency: 629596694434, Scenario: Offline
+[2024-07-26 16:45:50,539 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/stable-diffusion-xl/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,540 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/stable-diffusion-xl/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,540 submission_checker.py:1210 INFO] Target latency: None, Latency: 628799756745, Scenario: Offline
+[2024-07-26 16:45:50,541 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/3d-unet-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,541 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/3d-unet-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,541 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/3d-unet-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,541 submission_checker.py:1210 INFO] Target latency: None, Latency: 673374116309, Scenario: Offline
+[2024-07-26 16:45:50,542 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/3d-unet-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,542 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/3d-unet-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,542 submission_checker.py:1210 INFO] Target latency: None, Latency: 673458955654, Scenario: Offline
+[2024-07-26 16:45:50,543 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/3d-unet-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,543 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/3d-unet-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,543 submission_checker.py:1210 INFO] Target latency: None, Latency: 673349158666, Scenario: Offline
+[2024-07-26 16:45:50,544 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/3d-unet-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,544 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/3d-unet-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,544 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/3d-unet-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,545 submission_checker.py:1210 INFO] Target latency: None, Latency: 673374116309, Scenario: Offline
+[2024-07-26 16:45:50,545 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/3d-unet-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,545 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/3d-unet-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,545 submission_checker.py:1210 INFO] Target latency: None, Latency: 673458955654, Scenario: Offline
+[2024-07-26 16:45:50,546 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/3d-unet-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,546 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/3d-unet-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,546 submission_checker.py:1210 INFO] Target latency: None, Latency: 673349158666, Scenario: Offline
+[2024-07-26 16:45:50,547 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/gptj-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,548 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/gptj-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,550 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/gptj-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,550 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 16:45:50,551 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/gptj-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,552 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/gptj-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,553 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/gptj-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 16:45:50,553 submission_checker.py:1210 INFO] Target latency: None, Latency: 686908993663, Scenario: Offline
+[2024-07-26 16:45:50,553 submission_checker.py:2784 INFO] ---
+[2024-07-26 16:45:50,553 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/3d-unet-99.9/Offline 54.3608
+[2024-07-26 16:45:50,553 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/3d-unet-99/Offline 54.3608
+[2024-07-26 16:45:50,553 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Offline 64368.8
+[2024-07-26 16:45:50,553 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99.9/Server 51213.6
+[2024-07-26 16:45:50,553 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99/Offline 73765.6
+[2024-07-26 16:45:50,553 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/bert-99/Server 58090.2
+[2024-07-26 16:45:50,553 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Offline 394489.0
+[2024-07-26 16:45:50,553 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99.9/Server 370085.0
+[2024-07-26 16:45:50,553 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99/Offline 639512.0
+[2024-07-26 16:45:50,553 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/dlrm-v2-99/Server 585209.0
+[2024-07-26 16:45:50,553 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/gptj-99.9/Offline 20041.3
+[2024-07-26 16:45:50,553 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/gptj-99.9/Server 19250.4
+[2024-07-26 16:45:50,553 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/gptj-99/Offline 20041.3
+[2024-07-26 16:45:50,553 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/gptj-99/Server 19250.4
+[2024-07-26 16:45:50,553 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/llama2-70b-99.9/Offline 31263.8
+[2024-07-26 16:45:50,554 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/llama2-70b-99.9/Server 29715.3
+[2024-07-26 16:45:50,554 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/llama2-70b-99/Offline 31263.8
+[2024-07-26 16:45:50,554 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/llama2-70b-99/Server 29715.3
+[2024-07-26 16:45:50,554 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/mixtral-8x7b/Offline 59334.8
+[2024-07-26 16:45:50,554 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/mixtral-8x7b/Server 57174.1
+[2024-07-26 16:45:50,554 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Offline 757446.0
+[2024-07-26 16:45:50,554 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/resnet50/Server 681328.0
+[2024-07-26 16:45:50,554 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/retinanet/Offline 14988.0
+[2024-07-26 16:45:50,554 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/retinanet/Server 14012.2
+[2024-07-26 16:45:50,554 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/stable-diffusion-xl/Offline 17.3717
+[2024-07-26 16:45:50,554 submission_checker.py:2788 INFO] Results closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT/stable-diffusion-xl/Server 16.5912
+[2024-07-26 16:45:50,554 submission_checker.py:2790 INFO] ---
+[2024-07-26 16:45:50,554 submission_checker.py:2875 INFO] ---
+[2024-07-26 16:45:50,554 submission_checker.py:2876 INFO] Results=26, NoResults=0, Power Results=0
+[2024-07-26 16:45:50,554 submission_checker.py:2883 INFO] ---
+[2024-07-26 16:45:50,554 submission_checker.py:2884 INFO] Closed Results=26, Closed Power Results=0
+
+[2024-07-26 16:45:50,554 submission_checker.py:2889 INFO] Open Results=0, Open Power Results=0
+
+[2024-07-26 16:45:50,554 submission_checker.py:2894 INFO] Network Results=0, Network Power Results=0
+
+[2024-07-26 16:45:50,554 submission_checker.py:2899 INFO] ---
+[2024-07-26 16:45:50,554 submission_checker.py:2901 INFO] Systems=1, Power Systems=0
+[2024-07-26 16:45:50,554 submission_checker.py:2902 INFO] Closed Systems=1, Closed Power Systems=0
+[2024-07-26 16:45:50,554 submission_checker.py:2907 INFO] Open Systems=0, Open Power Systems=0
+[2024-07-26 16:45:50,554 submission_checker.py:2912 INFO] Network Systems=0, Network Power Systems=0
+[2024-07-26 16:45:50,554 submission_checker.py:2917 INFO] ---
+[2024-07-26 16:45:50,554 submission_checker.py:2922 INFO] SUMMARY: submission looks OK

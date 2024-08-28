@@ -1,0 +1,395 @@
+[2024-07-26 12:36:13,837 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/gptj-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,839 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/gptj-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,841 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/gptj-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,841 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 12:36:13,843 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/gptj-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,845 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/gptj-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,847 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/gptj-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,847 submission_checker.py:1210 INFO] Target latency: None, Latency: 735912020457, Scenario: Offline
+[2024-07-26 12:36:13,849 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/gptj-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,851 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/gptj-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,852 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/gptj-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,853 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 12:36:13,855 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/gptj-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,856 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/gptj-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,858 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/gptj-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,858 submission_checker.py:1210 INFO] Target latency: None, Latency: 735912020457, Scenario: Offline
+[2024-07-26 12:36:13,893 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,917 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,941 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,943 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 12:36:13,964 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,983 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:13,985 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 12:36:14,005 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,024 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,026 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 12:36:14,056 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,076 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,095 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,097 submission_checker.py:1210 INFO] Target latency: None, Latency: 669564181927, Scenario: Offline
+[2024-07-26 12:36:14,116 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,134 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,136 submission_checker.py:1210 INFO] Target latency: None, Latency: 687991107565, Scenario: Offline
+[2024-07-26 12:36:14,155 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,174 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,176 submission_checker.py:1210 INFO] Target latency: None, Latency: 689553218012, Scenario: Offline
+[2024-07-26 12:36:14,180 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/mixtral-8x7b/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,182 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/mixtral-8x7b/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,184 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/mixtral-8x7b/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,187 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/mixtral-8x7b/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,189 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/mixtral-8x7b/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,190 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/mixtral-8x7b/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,191 submission_checker.py:1210 INFO] Target latency: None, Latency: 2858985582483, Scenario: Offline
+[2024-07-26 12:36:14,192 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,193 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,194 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,195 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 12:36:14,196 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,197 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,197 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 12:36:14,198 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,199 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,199 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 12:36:14,200 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,201 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,202 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,202 submission_checker.py:1210 INFO] Target latency: None, Latency: 649758254482, Scenario: Offline
+[2024-07-26 12:36:14,203 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,204 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,204 submission_checker.py:1210 INFO] Target latency: None, Latency: 646400451693, Scenario: Offline
+[2024-07-26 12:36:14,205 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,206 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,206 submission_checker.py:1210 INFO] Target latency: None, Latency: 645799319658, Scenario: Offline
+[2024-07-26 12:36:14,212 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,214 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,215 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,215 submission_checker.py:1192 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 12:36:14,216 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,216 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,216 submission_checker.py:1192 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 12:36:14,217 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,218 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,218 submission_checker.py:1192 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 12:36:14,219 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,220 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,220 submission_checker.py:1192 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 12:36:14,226 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,228 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,229 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,229 submission_checker.py:1210 INFO] Target latency: None, Latency: 669032363816, Scenario: Offline
+[2024-07-26 12:36:14,230 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,230 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,231 submission_checker.py:1210 INFO] Target latency: None, Latency: 661390760390, Scenario: Offline
+[2024-07-26 12:36:14,231 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,232 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,232 submission_checker.py:1210 INFO] Target latency: None, Latency: 774999312457, Scenario: Offline
+[2024-07-26 12:36:14,233 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,234 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,234 submission_checker.py:1210 INFO] Target latency: None, Latency: 661875681438, Scenario: Offline
+[2024-07-26 12:36:14,237 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/llama2-70b-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,239 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,242 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,242 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-07-26 12:36:14,245 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/llama2-70b-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,248 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,250 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,251 submission_checker.py:1210 INFO] Target latency: None, Latency: 3466841195473, Scenario: Offline
+[2024-07-26 12:36:14,279 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,300 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,319 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,321 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 12:36:14,341 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,360 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,362 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 12:36:14,381 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,400 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,402 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 12:36:14,431 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,451 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,470 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,472 submission_checker.py:1210 INFO] Target latency: None, Latency: 684210104728, Scenario: Offline
+[2024-07-26 12:36:14,491 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,509 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,510 submission_checker.py:1210 INFO] Target latency: None, Latency: 691660579847, Scenario: Offline
+[2024-07-26 12:36:14,530 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,547 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,549 submission_checker.py:1210 INFO] Target latency: None, Latency: 689568794531, Scenario: Offline
+[2024-07-26 12:36:14,552 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/3d-unet-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,553 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/3d-unet-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,553 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/3d-unet-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,554 submission_checker.py:1210 INFO] Target latency: None, Latency: 693094980897, Scenario: Offline
+[2024-07-26 12:36:14,554 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/3d-unet-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,555 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/3d-unet-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,555 submission_checker.py:1210 INFO] Target latency: None, Latency: 694176153920, Scenario: Offline
+[2024-07-26 12:36:14,555 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/3d-unet-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,556 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/3d-unet-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,556 submission_checker.py:1210 INFO] Target latency: None, Latency: 693748863891, Scenario: Offline
+[2024-07-26 12:36:14,559 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/llama2-70b-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,562 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,564 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,565 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-07-26 12:36:14,568 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/llama2-70b-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,570 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,573 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,573 submission_checker.py:1210 INFO] Target latency: None, Latency: 3466841195473, Scenario: Offline
+[2024-07-26 12:36:14,574 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/3d-unet-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,575 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/3d-unet-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,575 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/3d-unet-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,575 submission_checker.py:1210 INFO] Target latency: None, Latency: 693094980897, Scenario: Offline
+[2024-07-26 12:36:14,576 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/3d-unet-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,576 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/3d-unet-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,576 submission_checker.py:1210 INFO] Target latency: None, Latency: 694176153920, Scenario: Offline
+[2024-07-26 12:36:14,577 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/3d-unet-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,578 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/3d-unet-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,578 submission_checker.py:1210 INFO] Target latency: None, Latency: 693748863891, Scenario: Offline
+[2024-07-26 12:36:14,607 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/retinanet/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,611 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/retinanet/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,612 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/retinanet/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,612 submission_checker.py:1192 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 12:36:14,613 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/retinanet/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,613 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/retinanet/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,613 submission_checker.py:1192 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 12:36:14,614 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/retinanet/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,615 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/retinanet/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,615 submission_checker.py:1192 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 12:36:14,644 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/retinanet/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,648 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/retinanet/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,649 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/retinanet/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,649 submission_checker.py:1210 INFO] Target latency: None, Latency: 631032337371, Scenario: Offline
+[2024-07-26 12:36:14,649 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/retinanet/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,650 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/retinanet/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,650 submission_checker.py:1210 INFO] Target latency: None, Latency: 621254492056, Scenario: Offline
+[2024-07-26 12:36:14,651 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/retinanet/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,651 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/retinanet/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,651 submission_checker.py:1210 INFO] Target latency: None, Latency: 616893527911, Scenario: Offline
+[2024-07-26 12:36:14,653 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/bert-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,655 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/bert-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,656 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/bert-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,656 submission_checker.py:1192 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 12:36:14,658 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,659 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,659 submission_checker.py:1192 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 12:36:14,661 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,662 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,662 submission_checker.py:1192 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 12:36:14,664 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/bert-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,666 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/bert-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,667 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/bert-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,667 submission_checker.py:1210 INFO] Target latency: None, Latency: 685335258115, Scenario: Offline
+[2024-07-26 12:36:14,668 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,670 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,670 submission_checker.py:1210 INFO] Target latency: None, Latency: 685857530997, Scenario: Offline
+[2024-07-26 12:36:14,671 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,673 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,673 submission_checker.py:1210 INFO] Target latency: None, Latency: 685753728655, Scenario: Offline
+[2024-07-26 12:36:14,675 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,676 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,677 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,678 submission_checker.py:1192 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 12:36:14,679 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,681 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,681 submission_checker.py:1192 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 12:36:14,682 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,684 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,684 submission_checker.py:1192 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 12:36:14,684 submission_checker.py:2555 INFO] Compliance test accuracy check (deterministic mode) in closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Server/TEST01 failed
+[2024-07-26 12:36:14,686 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,687 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,689 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,689 submission_checker.py:1210 INFO] Target latency: None, Latency: 683722996155, Scenario: Offline
+[2024-07-26 12:36:14,690 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,691 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,692 submission_checker.py:1210 INFO] Target latency: None, Latency: 683434499453, Scenario: Offline
+[2024-07-26 12:36:14,693 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,694 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,695 submission_checker.py:1210 INFO] Target latency: None, Latency: 683355148163, Scenario: Offline
+[2024-07-26 12:36:14,697 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/gptj-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,698 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/gptj-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,700 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/gptj-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,700 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 12:36:14,702 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/gptj-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,704 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/gptj-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,705 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/gptj-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,705 submission_checker.py:1210 INFO] Target latency: None, Latency: 796387864891, Scenario: Offline
+[2024-07-26 12:36:14,707 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/gptj-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,709 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/gptj-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,710 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/gptj-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,711 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 12:36:14,713 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/gptj-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,714 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/gptj-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,716 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/gptj-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,716 submission_checker.py:1210 INFO] Target latency: None, Latency: 796387864891, Scenario: Offline
+[2024-07-26 12:36:14,719 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/llama2-70b-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,721 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,724 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,724 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-07-26 12:36:14,727 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/llama2-70b-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,730 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,732 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,733 submission_checker.py:1210 INFO] Target latency: None, Latency: 3822305004697, Scenario: Offline
+[2024-07-26 12:36:14,736 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/llama2-70b-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,738 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,741 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,741 submission_checker.py:1192 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-07-26 12:36:14,744 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/llama2-70b-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,747 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,749 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx8_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,750 submission_checker.py:1210 INFO] Target latency: None, Latency: 3822305004697, Scenario: Offline
+[2024-07-26 12:36:14,777 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/dlrm-v2-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,797 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/dlrm-v2-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,816 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/dlrm-v2-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,818 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 12:36:14,837 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/dlrm-v2-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,855 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/dlrm-v2-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,857 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 12:36:14,877 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/dlrm-v2-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,894 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/dlrm-v2-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,896 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 12:36:14,925 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/dlrm-v2-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,945 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/dlrm-v2-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,963 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/dlrm-v2-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:14,965 submission_checker.py:1210 INFO] Target latency: None, Latency: 684509421429, Scenario: Offline
+[2024-07-26 12:36:14,984 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/dlrm-v2-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,002 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/dlrm-v2-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,004 submission_checker.py:1210 INFO] Target latency: None, Latency: 684155386221, Scenario: Offline
+[2024-07-26 12:36:15,023 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/dlrm-v2-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,041 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/dlrm-v2-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,042 submission_checker.py:1210 INFO] Target latency: None, Latency: 684395955938, Scenario: Offline
+[2024-07-26 12:36:15,051 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/resnet50/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,053 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/resnet50/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,053 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/resnet50/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,053 submission_checker.py:1192 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 12:36:15,054 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/resnet50/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,055 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/resnet50/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,055 submission_checker.py:1192 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 12:36:15,056 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/resnet50/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,057 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/resnet50/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,057 submission_checker.py:1192 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 12:36:15,058 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/resnet50/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,058 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/resnet50/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,059 submission_checker.py:1192 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 12:36:15,064 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/resnet50/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,066 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/resnet50/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,067 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/resnet50/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,067 submission_checker.py:1210 INFO] Target latency: None, Latency: 653433712300, Scenario: Offline
+[2024-07-26 12:36:15,067 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/resnet50/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,068 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/resnet50/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,068 submission_checker.py:1210 INFO] Target latency: None, Latency: 653292877660, Scenario: Offline
+[2024-07-26 12:36:15,069 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/resnet50/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,070 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/resnet50/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,070 submission_checker.py:1210 INFO] Target latency: None, Latency: 655839480248, Scenario: Offline
+[2024-07-26 12:36:15,070 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/resnet50/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,071 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/resnet50/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,071 submission_checker.py:1210 INFO] Target latency: None, Latency: 653515952896, Scenario: Offline
+[2024-07-26 12:36:15,098 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/dlrm-v2-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,118 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/dlrm-v2-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,136 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/dlrm-v2-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,138 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 12:36:15,158 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/dlrm-v2-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,176 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/dlrm-v2-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,177 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 12:36:15,197 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/dlrm-v2-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,214 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/dlrm-v2-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,216 submission_checker.py:1192 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 12:36:15,245 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/dlrm-v2-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,265 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/dlrm-v2-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,282 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/dlrm-v2-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,284 submission_checker.py:1210 INFO] Target latency: None, Latency: 685331795479, Scenario: Offline
+[2024-07-26 12:36:15,304 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/dlrm-v2-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,321 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/dlrm-v2-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,323 submission_checker.py:1210 INFO] Target latency: None, Latency: 683709399699, Scenario: Offline
+[2024-07-26 12:36:15,342 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/dlrm-v2-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,359 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/dlrm-v2-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,361 submission_checker.py:1210 INFO] Target latency: None, Latency: 684121481609, Scenario: Offline
+[2024-07-26 12:36:15,364 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/3d-unet-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,365 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/3d-unet-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,365 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/3d-unet-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,365 submission_checker.py:1210 INFO] Target latency: None, Latency: 695315696774, Scenario: Offline
+[2024-07-26 12:36:15,366 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/3d-unet-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,367 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/3d-unet-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,367 submission_checker.py:1210 INFO] Target latency: None, Latency: 694334942115, Scenario: Offline
+[2024-07-26 12:36:15,367 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/3d-unet-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,368 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/3d-unet-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,368 submission_checker.py:1210 INFO] Target latency: None, Latency: 694516118368, Scenario: Offline
+[2024-07-26 12:36:15,397 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/retinanet/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,401 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/retinanet/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,401 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/retinanet/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,401 submission_checker.py:1192 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 12:36:15,402 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/retinanet/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,403 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/retinanet/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,403 submission_checker.py:1192 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 12:36:15,403 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/retinanet/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,404 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/retinanet/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,404 submission_checker.py:1192 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 12:36:15,432 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/retinanet/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,436 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/retinanet/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,437 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/results/CDI_L40Sx16_TRT/retinanet/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,437 submission_checker.py:1210 INFO] Target latency: None, Latency: 704993297873, Scenario: Offline
+[2024-07-26 12:36:15,438 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/retinanet/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,438 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/retinanet/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,438 submission_checker.py:1210 INFO] Target latency: None, Latency: 705395275281, Scenario: Offline
+[2024-07-26 12:36:15,439 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/retinanet/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,440 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Fujitsu/compliance/CDI_L40Sx16_TRT/retinanet/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 12:36:15,440 submission_checker.py:1210 INFO] Target latency: None, Latency: 705643135821, Scenario: Offline
+[2024-07-26 12:36:15,441 submission_checker.py:2784 INFO] ---
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx16_TRT/3d-unet-99/Offline 61.09
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx16_TRT/dlrm-v2-99.9/Offline 104010.0
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx16_TRT/dlrm-v2-99.9/Server 90013.1
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx16_TRT/dlrm-v2-99/Offline 103879.0
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx16_TRT/dlrm-v2-99/Server 90013.4
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx16_TRT/resnet50/Offline 164084.0
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx16_TRT/resnet50/Server 164396.0
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx16_TRT/retinanet/Offline 12048.3
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx16_TRT/retinanet/Server 11948.7
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx8_TRT/gptj-99.9/Offline 6911.78
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx8_TRT/gptj-99.9/Server 6903.45
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx8_TRT/gptj-99/Offline 6911.78
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx8_TRT/gptj-99/Server 6903.45
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx8_TRT/llama2-70b-99.9/Offline 3717.74
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx8_TRT/llama2-70b-99.9/Server 3218.55
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx8_TRT/llama2-70b-99/Offline 3717.74
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/CDI_L40Sx8_TRT/llama2-70b-99/Server 3218.55
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/3d-unet-99.9/Offline 25.6741
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/3d-unet-99/Offline 25.6741
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Offline 31575.2
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/bert-99.9/Server 25504.8
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/bert-99/Offline 36110.8
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/bert-99/Server 28605.3
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99.9/Offline 190162.0
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99.9/Server 179024.0
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99/Offline 303974.0
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/dlrm-v2-99/Server 293303.0
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/gptj-99.9/Offline 9960.74
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/gptj-99.9/Server 9602.79
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/gptj-99/Offline 9960.74
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/gptj-99/Server 9602.79
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/llama2-70b-99.9/Offline 10133.3
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/llama2-70b-99.9/Server 9493.99
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/llama2-70b-99/Offline 10133.3
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/llama2-70b-99/Server 9493.99
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/mixtral-8x7b/Offline 26641.6
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/mixtral-8x7b/Server 25358.5
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Offline 351603.0
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/resnet50/Server 301304.0
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/retinanet/Offline 7041.1
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/retinanet/Server 6801.47
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Offline 8.06901
+[2024-07-26 12:36:15,441 submission_checker.py:2788 INFO] Results closed/Fujitsu/results/GX2560M7_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Server 7.84386
+[2024-07-26 12:36:15,441 submission_checker.py:2790 INFO] ---
+[2024-07-26 12:36:15,441 submission_checker.py:2875 INFO] ---
+[2024-07-26 12:36:15,441 submission_checker.py:2876 INFO] Results=43, NoResults=0, Power Results=0
+[2024-07-26 12:36:15,441 submission_checker.py:2883 INFO] ---
+[2024-07-26 12:36:15,442 submission_checker.py:2884 INFO] Closed Results=43, Closed Power Results=0
+
+[2024-07-26 12:36:15,442 submission_checker.py:2889 INFO] Open Results=0, Open Power Results=0
+
+[2024-07-26 12:36:15,442 submission_checker.py:2894 INFO] Network Results=0, Network Power Results=0
+
+[2024-07-26 12:36:15,442 submission_checker.py:2899 INFO] ---
+[2024-07-26 12:36:15,442 submission_checker.py:2901 INFO] Systems=3, Power Systems=0
+[2024-07-26 12:36:15,442 submission_checker.py:2902 INFO] Closed Systems=3, Closed Power Systems=0
+[2024-07-26 12:36:15,442 submission_checker.py:2907 INFO] Open Systems=0, Open Power Systems=0
+[2024-07-26 12:36:15,442 submission_checker.py:2912 INFO] Network Systems=0, Network Power Systems=0
+[2024-07-26 12:36:15,442 submission_checker.py:2917 INFO] ---
+[2024-07-26 12:36:15,442 submission_checker.py:2922 INFO] SUMMARY: submission looks OK

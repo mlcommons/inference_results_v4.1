@@ -1,0 +1,2771 @@
+Platform Details
+
+------------------------------------------------------------
+1. uname -a
+Linux anandhu-VivoBook-ASUSLaptop-X515UA-M515UA 6.5.0-45-generic #45~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Jul 15 16:40:02 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+------------------------------------------------------------
+2. w
+ 15:34:50 up  5:32,  1 user,  load average: 0.72, 0.74, 0.53
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+anandhu  tty2     tty2             10:04    5:32m  0.02s  0.00s /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+------------------------------------------------------------
+3. Username
+From environment variable $USER: anandhu
+------------------------------------------------------------
+4. ulimit -a
+real-time non-blocking time  (microseconds, -R) unlimited
+core file size              (blocks, -c) 0
+data seg size               (kbytes, -d) unlimited
+scheduling priority                 (-e) 0
+file size                   (blocks, -f) unlimited
+pending signals                     (-i) 77167
+max locked memory           (kbytes, -l) 2479008
+max memory size             (kbytes, -m) unlimited
+open files                          (-n) 1048576
+pipe size                (512 bytes, -p) 8
+POSIX message queues         (bytes, -q) 819200
+real-time priority                  (-r) 0
+stack size                  (kbytes, -s) 8192
+cpu time                   (seconds, -t) unlimited
+max user processes                  (-u) 77167
+virtual memory              (kbytes, -v) unlimited
+file locks                          (-x) unlimited
+------------------------------------------------------------
+5. sysinfo process ancestry
+systemd-+-ModemManager---2*[{ModemManager}]
+        |-NetworkManager---2*[{NetworkManager}]
+        |-accounts-daemon---2*[{accounts-daemon}]
+        |-acpid
+        |-avahi-daemon---avahi-daemon
+        |-bluetoothd
+        |-colord---2*[{colord}]
+        |-containerd---14*[{containerd}]
+        |-cron
+        |-cups-browsed---2*[{cups-browsed}]
+        |-cupsd
+        |-dbus-daemon
+        |-dockerd---17*[{dockerd}]
+        |-fwupd---4*[{fwupd}]
+        |-gdm3-+-gdm-session-wor-+-gdm-wayland-ses-+-gnome-session-b---2*[{gnome-session-b}]
+        |      |                 |                 `-2*[{gdm-wayland-ses}]
+        |      |                 `-2*[{gdm-session-wor}]
+        |      `-2*[{gdm3}]
+        |-gnome-keyring-d---3*[{gnome-keyring-d}]
+        |-ibus-daemon---2*[{ibus-daemon}]
+        |-irqbalance---{irqbalance}
+        |-2*[kerneloops]
+        |-networkd-dispat
+        |-packagekitd---2*[{packagekitd}]
+        |-polkitd---2*[{polkitd}]
+        |-power-profiles----2*[{power-profiles-}]
+        |-rsyslogd---3*[{rsyslogd}]
+        |-rtkit-daemon---2*[{rtkit-daemon}]
+        |-snapd---18*[{snapd}]
+        |-switcheroo-cont---2*[{switcheroo-cont}]
+        |-systemd-+-(sd-pam)
+        |         |-dbus-daemon
+        |         |-pipewire---{pipewire}
+        |         |-pipewire-media----{pipewire-media-}
+        |         |-xdg-document-po-+-fusermount3
+        |         |                 `-5*[{xdg-document-po}]
+        |         `-xdg-permission----2*[{xdg-permission-}]
+        |-systemd-+-(sd-pam)
+        |         |-at-spi2-registr---2*[{at-spi2-registr}]
+        |         |-chrome_crashpad---2*[{chrome_crashpad}]
+        |         |-dbus-daemon
+        |         |-dconf-service---2*[{dconf-service}]
+        |         |-evolution-addre---5*[{evolution-addre}]
+        |         |-evolution-calen---8*[{evolution-calen}]
+        |         |-evolution-sourc---3*[{evolution-sourc}]
+        |         |-2*[gjs---10*[{gjs}]]
+        |         |-gnome-clocks---4*[{gnome-clocks}]
+        |         |-gnome-session-b-+-at-spi-bus-laun-+-dbus-daemon
+        |         |                 |                 `-3*[{at-spi-bus-laun}]
+        |         |                 |-evolution-alarm---5*[{evolution-alarm}]
+        |         |                 |-gsd-disk-utilit---2*[{gsd-disk-utilit}]
+        |         |                 |-update-notifier---3*[{update-notifier}]
+        |         |                 `-3*[{gnome-session-b}]
+        |         |-gnome-session-c---{gnome-session-c}
+        |         |-gnome-shell-+-Xwayland---8*[{Xwayland}]
+        |         |             |-code-+-code---code---19*[{code}]
+        |         |             |      |-code---code---code---20*[{code}]
+        |         |             |      |-code---8*[{code}]
+        |         |             |      |-code-+-bash
+        |         |             |      |      |-bash---cm---sh---bash---pstree
+        |         |             |      |      `-16*[{code}]
+        |         |             |      |-code---14*[{code}]
+        |         |             |      |-code---16*[{code}]
+        |         |             |      |-code-+-code---7*[{code}]
+        |         |             |      |      |-code---8*[{code}]
+        |         |             |      |      |-pet
+        |         |             |      |      `-14*[{code}]
+        |         |             |      `-34*[{code}]
+        |         |             |-firefox-+-Isolated Servic---30*[{Isolated Servic}]
+        |         |             |         |-2*[Isolated Web Co---28*[{Isolated Web Co}]]
+        |         |             |         |-4*[Isolated Web Co---27*[{Isolated Web Co}]]
+        |         |             |         |-4*[Isolated Web Co---26*[{Isolated Web Co}]]
+        |         |             |         |-Isolated Web Co---30*[{Isolated Web Co}]
+        |         |             |         |-Isolated Web Co---32*[{Isolated Web Co}]
+        |         |             |         |-Isolated Web Co---33*[{Isolated Web Co}]
+        |         |             |         |-Privileged Cont---28*[{Privileged Cont}]
+        |         |             |         |-RDD Process---4*[{RDD Process}]
+        |         |             |         |-Socket Process---5*[{Socket Process}]
+        |         |             |         |-Utility Process---4*[{Utility Process}]
+        |         |             |         |-2*[Web Content---19*[{Web Content}]]
+        |         |             |         |-Web Content---18*[{Web Content}]
+        |         |             |         |-WebExtensions---26*[{WebExtensions}]
+        |         |             |         `-148*[{firefox}]
+        |         |             |-gjs---11*[{gjs}]
+        |         |             |-xpad---3*[{xpad}]
+        |         |             `-25*[{gnome-shell}]
+        |         |-gnome-shell-cal---5*[{gnome-shell-cal}]
+        |         |-gnome-terminal--+-bash
+        |         |                 `-3*[{gnome-terminal-}]
+        |         |-goa-daemon---3*[{goa-daemon}]
+        |         |-goa-identity-se---2*[{goa-identity-se}]
+        |         |-gsd-a11y-settin---3*[{gsd-a11y-settin}]
+        |         |-gsd-color---3*[{gsd-color}]
+        |         |-gsd-datetime---3*[{gsd-datetime}]
+        |         |-gsd-housekeepin---3*[{gsd-housekeepin}]
+        |         |-gsd-keyboard---3*[{gsd-keyboard}]
+        |         |-gsd-media-keys---3*[{gsd-media-keys}]
+        |         |-gsd-power---4*[{gsd-power}]
+        |         |-gsd-print-notif---2*[{gsd-print-notif}]
+        |         |-gsd-printer---2*[{gsd-printer}]
+        |         |-gsd-rfkill---2*[{gsd-rfkill}]
+        |         |-gsd-screensaver---2*[{gsd-screensaver}]
+        |         |-gsd-sharing---3*[{gsd-sharing}]
+        |         |-gsd-smartcard---3*[{gsd-smartcard}]
+        |         |-gsd-sound---3*[{gsd-sound}]
+        |         |-gsd-wacom---3*[{gsd-wacom}]
+        |         |-gsd-xsettings---7*[{gsd-xsettings}]
+        |         |-gvfs-afc-volume---3*[{gvfs-afc-volume}]
+        |         |-gvfs-goa-volume---2*[{gvfs-goa-volume}]
+        |         |-gvfs-gphoto2-vo---2*[{gvfs-gphoto2-vo}]
+        |         |-gvfs-mtp-volume---2*[{gvfs-mtp-volume}]
+        |         |-gvfs-udisks2-vo---3*[{gvfs-udisks2-vo}]
+        |         |-gvfsd-+-gvfsd-trash---2*[{gvfsd-trash}]
+        |         |       `-2*[{gvfsd}]
+        |         |-gvfsd-fuse---5*[{gvfsd-fuse}]
+        |         |-gvfsd-metadata---2*[{gvfsd-metadata}]
+        |         |-ibus-portal---2*[{ibus-portal}]
+        |         |-ibus-x11---2*[{ibus-x11}]
+        |         |-pipewire---{pipewire}
+        |         |-pipewire-media----{pipewire-media-}
+        |         |-pulseaudio---3*[{pulseaudio}]
+        |         |-seahorse---3*[{seahorse}]
+        |         |-sh---ibus-daemon-+-ibus-engine-sim---2*[{ibus-engine-sim}]
+        |         |                  |-ibus-extension----3*[{ibus-extension-}]
+        |         |                  |-ibus-memconf---2*[{ibus-memconf}]
+        |         |                  `-2*[{ibus-daemon}]
+        |         |-snap---17*[{snap}]
+        |         |-snapd-desktop-i---snapd-desktop-i---4*[{snapd-desktop-i}]
+        |         |-speech-dispatch-+-sd_dummy---2*[{sd_dummy}]
+        |         |                 |-sd_espeak-ng---{sd_espeak-ng}
+        |         |                 |-sd_espeak-ng-mb
+        |         |                 `-4*[{speech-dispatch}]
+        |         |-tracker-miner-f---5*[{tracker-miner-f}]
+        |         |-xdg-desktop-por---6*[{xdg-desktop-por}]
+        |         |-2*[xdg-desktop-por---3*[{xdg-desktop-por}]]
+        |         |-xdg-document-po-+-fusermount3
+        |         |                 `-6*[{xdg-document-po}]
+        |         `-xdg-permission----2*[{xdg-permission-}]
+        |-systemd-journal
+        |-systemd-logind
+        |-systemd-oomd
+        |-systemd-resolve
+        |-systemd-timesyn---{systemd-timesyn}
+        |-systemd-udevd
+        |-udisksd---4*[{udisksd}]
+        |-unattended-upgr---{unattended-upgr}
+        |-upowerd---2*[{upowerd}]
+        `-wpa_supplicant
+------------------------------------------------------------
+6. /proc/cpuinfo
+processor	: 0
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 104
+model name	: AMD Ryzen 5 5500U with Radeon Graphics
+stepping	: 1
+microcode	: 0x8608104
+cpu MHz		: 400.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 12
+core id		: 0
+cpu cores	: 6
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
+bogomips	: 4192.13
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 1
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 104
+model name	: AMD Ryzen 5 5500U with Radeon Graphics
+stepping	: 1
+microcode	: 0x8608104
+cpu MHz		: 1346.834
+cache size	: 512 KB
+physical id	: 0
+siblings	: 12
+core id		: 0
+cpu cores	: 6
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
+bogomips	: 4192.13
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 2
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 104
+model name	: AMD Ryzen 5 5500U with Radeon Graphics
+stepping	: 1
+microcode	: 0x8608104
+cpu MHz		: 400.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 12
+core id		: 1
+cpu cores	: 6
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
+bogomips	: 4192.13
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 3
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 104
+model name	: AMD Ryzen 5 5500U with Radeon Graphics
+stepping	: 1
+microcode	: 0x8608104
+cpu MHz		: 400.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 12
+core id		: 1
+cpu cores	: 6
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
+bogomips	: 4192.13
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 4
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 104
+model name	: AMD Ryzen 5 5500U with Radeon Graphics
+stepping	: 1
+microcode	: 0x8608104
+cpu MHz		: 2694.524
+cache size	: 512 KB
+physical id	: 0
+siblings	: 12
+core id		: 2
+cpu cores	: 6
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
+bogomips	: 4192.13
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 5
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 104
+model name	: AMD Ryzen 5 5500U with Radeon Graphics
+stepping	: 1
+microcode	: 0x8608104
+cpu MHz		: 400.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 12
+core id		: 2
+cpu cores	: 6
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
+bogomips	: 4192.13
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 6
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 104
+model name	: AMD Ryzen 5 5500U with Radeon Graphics
+stepping	: 1
+microcode	: 0x8608104
+cpu MHz		: 400.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 12
+core id		: 4
+cpu cores	: 6
+apicid		: 8
+initial apicid	: 8
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
+bogomips	: 4192.13
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 7
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 104
+model name	: AMD Ryzen 5 5500U with Radeon Graphics
+stepping	: 1
+microcode	: 0x8608104
+cpu MHz		: 400.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 12
+core id		: 4
+cpu cores	: 6
+apicid		: 9
+initial apicid	: 9
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
+bogomips	: 4192.13
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 8
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 104
+model name	: AMD Ryzen 5 5500U with Radeon Graphics
+stepping	: 1
+microcode	: 0x8608104
+cpu MHz		: 400.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 12
+core id		: 5
+cpu cores	: 6
+apicid		: 10
+initial apicid	: 10
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
+bogomips	: 4192.13
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 9
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 104
+model name	: AMD Ryzen 5 5500U with Radeon Graphics
+stepping	: 1
+microcode	: 0x8608104
+cpu MHz		: 400.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 12
+core id		: 5
+cpu cores	: 6
+apicid		: 11
+initial apicid	: 11
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
+bogomips	: 4192.13
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 10
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 104
+model name	: AMD Ryzen 5 5500U with Radeon Graphics
+stepping	: 1
+microcode	: 0x8608104
+cpu MHz		: 1397.296
+cache size	: 512 KB
+physical id	: 0
+siblings	: 12
+core id		: 6
+cpu cores	: 6
+apicid		: 12
+initial apicid	: 12
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
+bogomips	: 4192.13
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+processor	: 11
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 104
+model name	: AMD Ryzen 5 5500U with Radeon Graphics
+stepping	: 1
+microcode	: 0x8608104
+cpu MHz		: 400.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 12
+core id		: 6
+cpu cores	: 6
+apicid		: 13
+initial apicid	: 13
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca
+bugs		: sysret_ss_attrs spectre_v1 spectre_v2 spec_store_bypass retbleed smt_rsb srso
+bogomips	: 4192.13
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm hwpstate cpb eff_freq_ro [13] [14]
+
+------------------------------------------------------------
+7. lscpu
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Address sizes:                      48 bits physical, 48 bits virtual
+Byte Order:                         Little Endian
+CPU(s):                             12
+On-line CPU(s) list:                0-11
+Vendor ID:                          AuthenticAMD
+Model name:                         AMD Ryzen 5 5500U with Radeon Graphics
+CPU family:                         23
+Model:                              104
+Thread(s) per core:                 2
+Core(s) per socket:                 6
+Socket(s):                          1
+Stepping:                           1
+CPU max MHz:                        4056.0000
+CPU min MHz:                        400.0000
+BogoMIPS:                           4192.13
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca
+Virtualization:                     AMD-V
+L1d cache:                          192 KiB (6 instances)
+L1i cache:                          192 KiB (6 instances)
+L2 cache:                           3 MiB (6 instances)
+L3 cache:                           8 MiB (2 instances)
+NUMA node(s):                       1
+NUMA node0 CPU(s):                  0-11
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Mitigation; untrained return thunk; SMT enabled with STIBP protection
+Vulnerability Spec rstack overflow: Mitigation; Safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+------------------------------------------------------------
+8. numactl --hardware
+available: 1 nodes (0)
+node 0 cpus: 0 1 2 3 4 5 6 7 8 9 10 11
+node 0 size: 19367 MB
+node 0 free: 10457 MB
+node distances:
+node   0 
+  0:  10 
+------------------------------------------------------------
+9. /proc/meminfo
+MemTotal:       19832092 kB
+MemFree:        10708156 kB
+MemAvailable:   13737732 kB
+Buffers:          256848 kB
+Cached:          2990144 kB
+SwapCached:            0 kB
+Active:          5837108 kB
+Inactive:        1498888 kB
+Active(anon):    4258004 kB
+Inactive(anon):        0 kB
+Active(file):    1579104 kB
+Inactive(file):  1498888 kB
+Unevictable:          32 kB
+Mlocked:              32 kB
+SwapTotal:       2097148 kB
+SwapFree:        2097148 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:               176 kB
+Writeback:           168 kB
+AnonPages:       4089140 kB
+Mapped:           944396 kB
+Shmem:            169004 kB
+KReclaimable:     314364 kB
+Slab:             546124 kB
+SReclaimable:     314364 kB
+SUnreclaim:       231760 kB
+KernelStack:       25488 kB
+PageTables:        54824 kB
+SecPageTables:         0 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    12013192 kB
+Committed_AS:   12151624 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       79628 kB
+VmallocChunk:          0 kB
+Percpu:            17792 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+Unaccepted:            0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:     1271620 kB
+DirectMap2M:    11714560 kB
+DirectMap1G:     8388608 kB
+------------------------------------------------------------
+10. who -r
+         run-level 5  2024-07-30 10:02
+------------------------------------------------------------
+11. Systemd service manager version
+systemd 249 (249.11-0ubuntu3.12)
+------------------------------------------------------------
+12. Services, from systemctl list-unit-files
+UNIT FILE                                      STATE           VENDOR PRESET
+proc-sys-fs-binfmt_misc.automount              static          -
+-.mount                                        generated       -
+boot-efi.mount                                 generated       -
+dev-hugepages.mount                            static          -
+dev-mqueue.mount                               static          -
+proc-sys-fs-binfmt_misc.mount                  disabled        disabled
+snap-bare-5.mount                              enabled         enabled
+snap-core18-2829.mount                         enabled         enabled
+snap-core20-1828.mount                         enabled         enabled
+snap-core20-2318.mount                         enabled         enabled
+snap-core22-1380.mount                         enabled         enabled
+snap-core24-423.mount                          enabled         enabled
+snap-firefox-4483.mount                        enabled         enabled
+snap-firefox-4650.mount                        enabled         enabled
+snap-gnome\x2d3\x2d38\x2d2004-119.mount        enabled         enabled
+snap-gnome\x2d3\x2d38\x2d2004-143.mount        enabled         enabled
+snap-gnome\x2d42\x2d2204-176.mount             enabled         enabled
+snap-gtk\x2dcommon\x2dthemes-1535.mount        enabled         enabled
+snap-snap\x2dstore-1113.mount                  enabled         enabled
+snap-snap\x2dstore-638.mount                   enabled         enabled
+snap-snapd-18357.mount                         enabled         enabled
+snap-snapd-21759.mount                         enabled         enabled
+snap-snapd\x2ddesktop\x2dintegration-157.mount enabled         enabled
+snap-speedtest\x2dcli-30.mount                 enabled         enabled
+snap-telegram\x2ddesktop-5970.mount            enabled         enabled
+snap-telegram\x2ddesktop-6055.mount            enabled         enabled
+sys-fs-fuse-connections.mount                  static          -
+sys-kernel-config.mount                        static          -
+sys-kernel-debug.mount                         static          -
+sys-kernel-tracing.mount                       static          -
+var-snap-firefox-common-host\x2dhunspell.mount enabled         enabled
+acpid.path                                     enabled         enabled
+apport-autoreport.path                         enabled         enabled
+cups.path                                      enabled         enabled
+systemd-ask-password-console.path              static          -
+systemd-ask-password-plymouth.path             static          -
+systemd-ask-password-wall.path                 static          -
+whoopsie.path                                  enabled         enabled
+session-2.scope                                transient       -
+session-c1.scope                               transient       -
+accounts-daemon.service                        enabled         enabled
+acpid.service                                  disabled        enabled
+alsa-restore.service                           static          -
+alsa-state.service                             static          -
+alsa-utils.service                             masked          enabled
+anacron.service                                enabled         enabled
+apparmor.service                               enabled         enabled
+apport-autoreport.service                      static          -
+apport-forward@.service                        static          -
+apport.service                                 generated       -
+apt-daily-upgrade.service                      static          -
+apt-daily.service                              static          -
+apt-news.service                               static          -
+autovt@.service                                alias           -
+avahi-daemon.service                           enabled         enabled
+bluetooth.service                              enabled         enabled
+bolt.service                                   static          -
+brltty-udev.service                            static          -
+brltty.service                                 disabled        enabled
+colord.service                                 static          -
+configure-printer@.service                     static          -
+console-getty.service                          disabled        disabled
+console-setup.service                          enabled         enabled
+container-getty@.service                       static          -
+containerd.service                             enabled         enabled
+cron.service                                   enabled         enabled
+cryptdisks-early.service                       masked          enabled
+cryptdisks.service                             masked          enabled
+cups-browsed.service                           enabled         enabled
+cups.service                                   enabled         enabled
+dbus-fi.w1.wpa_supplicant1.service             alias           -
+dbus-org.bluez.service                         alias           -
+dbus-org.freedesktop.Avahi.service             alias           -
+dbus-org.freedesktop.hostname1.service         alias           -
+dbus-org.freedesktop.locale1.service           alias           -
+dbus-org.freedesktop.login1.service            alias           -
+dbus-org.freedesktop.ModemManager1.service     alias           -
+dbus-org.freedesktop.nm-dispatcher.service     alias           -
+dbus-org.freedesktop.oom1.service              alias           -
+dbus-org.freedesktop.resolve1.service          alias           -
+dbus-org.freedesktop.thermald.service          alias           -
+dbus-org.freedesktop.timedate1.service         alias           -
+dbus-org.freedesktop.timesync1.service         alias           -
+dbus.service                                   static          -
+debug-shell.service                            disabled        disabled
+display-manager.service                        alias           -
+dmesg.service                                  enabled         enabled
+docker.service                                 enabled         enabled
+dpkg-db-backup.service                         static          -
+e2scrub@.service                               static          -
+e2scrub_all.service                            static          -
+e2scrub_fail@.service                          static          -
+e2scrub_reap.service                           enabled         enabled
+emergency.service                              static          -
+esm-cache.service                              static          -
+fprintd.service                                static          -
+friendly-recovery.service                      static          -
+fstrim.service                                 static          -
+fwupd-offline-update.service                   static          -
+fwupd-refresh.service                          static          -
+fwupd.service                                  static          -
+gdm.service                                    static          -
+gdm3.service                                   alias           -
+geoclue.service                                static          -
+getty-static.service                           static          -
+getty@.service                                 enabled         enabled
+gpu-manager.service                            enabled         enabled
+grub-common.service                            enabled         enabled
+grub-initrd-fallback.service                   enabled         enabled
+hwclock.service                                masked          enabled
+iio-sensor-proxy.service                       static          -
+initrd-cleanup.service                         static          -
+initrd-parse-etc.service                       static          -
+initrd-switch-root.service                     static          -
+initrd-udevadm-cleanup-db.service              static          -
+ipp-usb.service                                static          -
+irqbalance.service                             enabled         enabled
+kerneloops.service                             enabled         enabled
+keyboard-setup.service                         enabled         enabled
+kmod-static-nodes.service                      static          -
+kmod.service                                   alias           -
+logrotate.service                              static          -
+man-db.service                                 static          -
+ModemManager.service                           enabled         enabled
+modprobe@.service                              static          -
+motd-news.service                              static          -
+netplan-ovs-cleanup.service                    enabled-runtime enabled
+networkd-dispatcher.service                    enabled         enabled
+NetworkManager-dispatcher.service              enabled         enabled
+NetworkManager-wait-online.service             enabled         enabled
+NetworkManager.service                         enabled         enabled
+nftables.service                               disabled        enabled
+nm-priv-helper.service                         static          -
+openvpn-client@.service                        disabled        enabled
+openvpn-server@.service                        disabled        enabled
+openvpn.service                                enabled         enabled
+openvpn@.service                               disabled        enabled
+packagekit-offline-update.service              static          -
+packagekit.service                             static          -
+plymouth-halt.service                          static          -
+plymouth-kexec.service                         static          -
+plymouth-log.service                           alias           -
+plymouth-poweroff.service                      static          -
+plymouth-quit-wait.service                     static          -
+plymouth-quit.service                          static          -
+plymouth-read-write.service                    static          -
+plymouth-reboot.service                        static          -
+plymouth-start.service                         static          -
+plymouth-switch-root-initramfs.service         static          -
+plymouth-switch-root.service                   static          -
+plymouth.service                               alias           -
+polkit.service                                 static          -
+power-profiles-daemon.service                  enabled         enabled
+procps.service                                 alias           -
+pulseaudio-enable-autospawn.service            masked          enabled
+quotaon.service                                static          -
+rc-local.service                               static          -
+rc.service                                     masked          enabled
+rcS.service                                    masked          enabled
+rescue.service                                 static          -
+rsync.service                                  enabled         enabled
+rsyslog.service                                enabled         enabled
+rtkit-daemon.service                           disabled        enabled
+saned.service                                  masked          enabled
+saned@.service                                 indirect        enabled
+secureboot-db.service                          enabled         enabled
+serial-getty@.service                          disabled        enabled
+setvtrgb.service                               enabled         enabled
+snapd.apparmor.service                         enabled         enabled
+snapd.autoimport.service                       enabled         enabled
+snapd.core-fixup.service                       enabled         enabled
+snapd.failure.service                          static          -
+snapd.recovery-chooser-trigger.service         enabled         enabled
+snapd.seeded.service                           enabled         enabled
+snapd.service                                  enabled         enabled
+snapd.snap-repair.service                      static          -
+snapd.system-shutdown.service                  enabled         enabled
+speech-dispatcher.service                      generated       -
+speech-dispatcherd.service                     disabled        enabled
+spice-vdagent.service                          alias           -
+spice-vdagentd.service                         indirect        enabled
+sssd-autofs.service                            indirect        enabled
+sssd-nss.service                               indirect        enabled
+sssd-pac.service                               indirect        enabled
+sssd-pam.service                               indirect        enabled
+sssd-ssh.service                               indirect        enabled
+sssd-sudo.service                              indirect        enabled
+sssd.service                                   enabled         enabled
+sudo.service                                   masked          enabled
+switcheroo-control.service                     enabled         enabled
+syslog.service                                 alias           -
+system-update-cleanup.service                  static          -
+systemd-ask-password-console.service           static          -
+systemd-ask-password-plymouth.service          static          -
+systemd-ask-password-wall.service              static          -
+systemd-backlight@.service                     static          -
+systemd-binfmt.service                         static          -
+systemd-bless-boot.service                     static          -
+systemd-boot-check-no-failures.service         disabled        disabled
+systemd-boot-system-token.service              static          -
+systemd-exit.service                           static          -
+systemd-fsck-root.service                      enabled-runtime enabled
+systemd-fsck@.service                          static          -
+systemd-fsckd.service                          static          -
+systemd-halt.service                           static          -
+systemd-hibernate-resume@.service              static          -
+systemd-hibernate.service                      static          -
+systemd-hostnamed.service                      static          -
+systemd-hybrid-sleep.service                   static          -
+systemd-initctl.service                        static          -
+systemd-journal-flush.service                  static          -
+systemd-journald.service                       static          -
+systemd-journald@.service                      static          -
+systemd-kexec.service                          static          -
+systemd-localed.service                        static          -
+systemd-logind.service                         static          -
+systemd-machine-id-commit.service              static          -
+systemd-modules-load.service                   static          -
+systemd-network-generator.service              disabled        enabled
+systemd-networkd-wait-online.service           disabled        disabled
+systemd-networkd.service                       disabled        enabled
+systemd-oomd.service                           enabled         enabled
+systemd-poweroff.service                       static          -
+systemd-pstore.service                         enabled         enabled
+systemd-quotacheck.service                     static          -
+systemd-random-seed.service                    static          -
+systemd-reboot.service                         static          -
+systemd-remount-fs.service                     enabled-runtime enabled
+systemd-resolved.service                       enabled         enabled
+systemd-rfkill.service                         static          -
+systemd-suspend-then-hibernate.service         static          -
+systemd-suspend.service                        static          -
+systemd-sysctl.service                         static          -
+systemd-sysext.service                         disabled        enabled
+systemd-sysusers.service                       static          -
+systemd-time-wait-sync.service                 disabled        disabled
+systemd-timedated.service                      static          -
+systemd-timesyncd.service                      enabled         enabled
+systemd-tmpfiles-clean.service                 static          -
+systemd-tmpfiles-setup-dev.service             static          -
+systemd-tmpfiles-setup.service                 static          -
+systemd-udev-settle.service                    static          -
+systemd-udev-trigger.service                   static          -
+systemd-udevd.service                          static          -
+systemd-update-utmp-runlevel.service           static          -
+systemd-update-utmp.service                    static          -
+systemd-user-sessions.service                  static          -
+systemd-volatile-root.service                  static          -
+thermald.service                               enabled         enabled
+ua-reboot-cmds.service                         enabled         enabled
+ua-timer.service                               static          -
+ubuntu-advantage-desktop-daemon.service        static          -
+ubuntu-advantage.service                       enabled         enabled
+udev.service                                   alias           -
+udisks2.service                                enabled         enabled
+ufw.service                                    enabled         enabled
+unattended-upgrades.service                    enabled         enabled
+update-notifier-download.service               static          -
+update-notifier-motd.service                   static          -
+upower.service                                 disabled        enabled
+usb_modeswitch@.service                        static          -
+usbmuxd.service                                static          -
+user-runtime-dir@.service                      static          -
+user@.service                                  static          -
+uuidd.service                                  indirect        enabled
+wacom-inputattach@.service                     static          -
+whoopsie.service                               enabled         enabled
+wpa_supplicant-nl80211@.service                disabled        enabled
+wpa_supplicant-wired@.service                  disabled        enabled
+wpa_supplicant.service                         enabled         enabled
+wpa_supplicant@.service                        disabled        enabled
+x11-common.service                             masked          enabled
+machine.slice                                  static          -
+system-systemd\x2dcryptsetup.slice             static          -
+user.slice                                     static          -
+acpid.socket                                   enabled         enabled
+apport-forward.socket                          enabled         enabled
+avahi-daemon.socket                            enabled         enabled
+cups.socket                                    enabled         enabled
+dbus.socket                                    static          -
+docker.socket                                  enabled         enabled
+saned.socket                                   disabled        enabled
+snapd.socket                                   enabled         enabled
+spice-vdagentd.socket                          static          -
+sssd-autofs.socket                             enabled         enabled
+sssd-nss.socket                                enabled         enabled
+sssd-pac.socket                                enabled         enabled
+sssd-pam-priv.socket                           enabled         enabled
+sssd-pam.socket                                enabled         enabled
+sssd-ssh.socket                                enabled         enabled
+sssd-sudo.socket                               enabled         enabled
+syslog.socket                                  static          -
+systemd-fsckd.socket                           static          -
+systemd-initctl.socket                         static          -
+systemd-journald-audit.socket                  static          -
+systemd-journald-dev-log.socket                static          -
+systemd-journald-varlink@.socket               static          -
+systemd-journald.socket                        static          -
+systemd-journald@.socket                       static          -
+systemd-networkd.socket                        disabled        enabled
+systemd-rfkill.socket                          static          -
+systemd-udevd-control.socket                   static          -
+systemd-udevd-kernel.socket                    static          -
+uuidd.socket                                   enabled         enabled
+swapfile.swap                                  generated       -
+basic.target                                   static          -
+blockdev@.target                               static          -
+bluetooth.target                               static          -
+boot-complete.target                           static          -
+cryptsetup-pre.target                          static          -
+cryptsetup.target                              static          -
+ctrl-alt-del.target                            alias           -
+default.target                                 alias           -
+emergency.target                               static          -
+exit.target                                    disabled        disabled
+final.target                                   static          -
+first-boot-complete.target                     static          -
+friendly-recovery.target                       static          -
+getty-pre.target                               static          -
+getty.target                                   static          -
+graphical.target                               static          -
+halt.target                                    disabled        disabled
+hibernate.target                               static          -
+hybrid-sleep.target                            static          -
+initrd-fs.target                               static          -
+initrd-root-device.target                      static          -
+initrd-root-fs.target                          static          -
+initrd-switch-root.target                      static          -
+initrd-usr-fs.target                           static          -
+initrd.target                                  static          -
+kexec.target                                   disabled        disabled
+local-fs-pre.target                            static          -
+local-fs.target                                static          -
+multi-user.target                              static          -
+network-online.target                          static          -
+network-pre.target                             static          -
+network.target                                 static          -
+nss-lookup.target                              static          -
+nss-user-lookup.target                         static          -
+paths.target                                   static          -
+poweroff.target                                disabled        disabled
+printer.target                                 static          -
+reboot.target                                  disabled        enabled
+remote-cryptsetup.target                       disabled        enabled
+remote-fs-pre.target                           static          -
+remote-fs.target                               enabled         enabled
+remote-veritysetup.target                      disabled        enabled
+rescue.target                                  static          -
+rpcbind.target                                 static          -
+runlevel0.target                               alias           -
+runlevel1.target                               alias           -
+runlevel2.target                               alias           -
+runlevel3.target                               alias           -
+runlevel4.target                               alias           -
+runlevel5.target                               alias           -
+runlevel6.target                               alias           -
+shutdown.target                                static          -
+sigpwr.target                                  static          -
+sleep.target                                   static          -
+slices.target                                  static          -
+smartcard.target                               static          -
+snapd.mounts-pre.target                        static          -
+snapd.mounts.target                            static          -
+sockets.target                                 static          -
+sound.target                                   static          -
+suspend-then-hibernate.target                  static          -
+suspend.target                                 static          -
+swap.target                                    static          -
+sysinit.target                                 static          -
+system-update-pre.target                       static          -
+system-update.target                           static          -
+time-set.target                                static          -
+time-sync.target                               static          -
+timers.target                                  static          -
+umount.target                                  static          -
+usb-gadget.target                              static          -
+veritysetup-pre.target                         static          -
+veritysetup.target                             static          -
+anacron.timer                                  enabled         enabled
+apport-autoreport.timer                        enabled         enabled
+apt-daily-upgrade.timer                        enabled         enabled
+apt-daily.timer                                enabled         enabled
+dpkg-db-backup.timer                           enabled         enabled
+e2scrub_all.timer                              enabled         enabled
+fstrim.timer                                   enabled         enabled
+fwupd-refresh.timer                            enabled         enabled
+logrotate.timer                                enabled         enabled
+man-db.timer                                   enabled         enabled
+motd-news.timer                                enabled         enabled
+snapd.snap-repair.timer                        enabled         enabled
+systemd-tmpfiles-clean.timer                   static          -
+ua-timer.timer                                 enabled         enabled
+update-notifier-download.timer                 enabled         enabled
+update-notifier-motd.timer                     enabled         enabled
+
+394 unit files listed.
+------------------------------------------------------------
+13. Linux kernel boot-time arguments, from /proc/cmdline
+BOOT_IMAGE=/boot/vmlinuz-6.5.0-45-generic root=UUID=3b06ecfd-4847-4d89-8826-1fac77e264fc ro quiet splash vt.handoff=7
+------------------------------------------------------------
+14. cpupower frequency-info
+analyzing CPU 7:
+  driver: amd-pstate-epp
+  CPUs which run at the same hardware frequency: 7
+  CPUs which need to have their frequency coordinated by software: 7
+  maximum transition latency:  Cannot determine or is not supported.
+  hardware limits: 400 MHz - 4.06 GHz
+  available cpufreq governors: performance powersave
+  current policy: frequency should be within 400 MHz and 4.06 GHz.
+                  The governor "powersave" may decide which speed to use
+                  within this range.
+  current CPU frequency: Unable to call hardware
+  current CPU frequency: 2.07 GHz (asserted by call to kernel)
+  boost state support:
+    Supported: yes
+    Active: no
+------------------------------------------------------------
+15. sysctl
+abi.vsyscall32 = 1
+debug.exception-trace = 1
+debug.kprobes-optimization = 1
+dev.cdrom.autoclose = 1
+dev.cdrom.autoeject = 0
+dev.cdrom.check_media = 0
+dev.cdrom.debug = 0
+dev.cdrom.info = CD-ROM information, Id: cdrom.c 3.20 2003/12/17
+dev.cdrom.info = 
+dev.cdrom.info = drive name:	
+dev.cdrom.info = drive speed:	
+dev.cdrom.info = drive # of slots:
+dev.cdrom.info = Can close tray:	
+dev.cdrom.info = Can open tray:	
+dev.cdrom.info = Can lock tray:	
+dev.cdrom.info = Can change speed:
+dev.cdrom.info = Can select disk:
+dev.cdrom.info = Can read multisession:
+dev.cdrom.info = Can read MCN:	
+dev.cdrom.info = Reports media changed:
+dev.cdrom.info = Can play audio:	
+dev.cdrom.info = Can write CD-R:	
+dev.cdrom.info = Can write CD-RW:
+dev.cdrom.info = Can read DVD:	
+dev.cdrom.info = Can write DVD-R:
+dev.cdrom.info = Can write DVD-RAM:
+dev.cdrom.info = Can read MRW:	
+dev.cdrom.info = Can write MRW:	
+dev.cdrom.info = Can write RAM:	
+dev.cdrom.info = 
+dev.cdrom.info = 
+dev.cdrom.lock = 0
+dev.hpet.max-user-freq = 64
+dev.mac_hid.mouse_button2_keycode = 97
+dev.mac_hid.mouse_button3_keycode = 100
+dev.mac_hid.mouse_button_emulation = 0
+dev.parport.default.spintime = 500
+dev.parport.default.timeslice = 200
+dev.raid.speed_limit_max = 200000
+dev.raid.speed_limit_min = 1000
+dev.scsi.logging_level = 0
+dev.tty.ldisc_autoload = 1
+dev.tty.legacy_tiocsti = 1
+fs.aio-max-nr = 65536
+fs.aio-nr = 0
+fs.binfmt_misc.python3/10 = enabled
+fs.binfmt_misc.python3/10 = interpreter /usr/bin/python3.10
+fs.binfmt_misc.python3/10 = flags: 
+fs.binfmt_misc.python3/10 = offset 0
+fs.binfmt_misc.python3/10 = magic 6f0d0d0a
+fs.binfmt_misc.status = enabled
+fs.dentry-state = 257458	219703	45	0	34289	0
+fs.dir-notify-enable = 1
+fs.epoll.max_user_watches = 4397568
+fs.fanotify.max_queued_events = 16384
+fs.fanotify.max_user_groups = 128
+fs.fanotify.max_user_marks = 160035
+fs.file-max = 9223372036854775807
+fs.file-nr = 15683	0	9223372036854775807
+fs.inode-nr = 222844	497
+fs.inode-state = 222844	497	0	0	0	0	0
+fs.inotify.max_queued_events = 16384
+fs.inotify.max_user_instances = 128
+fs.inotify.max_user_watches = 65536
+fs.lease-break-time = 45
+fs.leases-enable = 1
+fs.mount-max = 100000
+fs.mqueue.msg_default = 10
+fs.mqueue.msg_max = 10
+fs.mqueue.msgsize_default = 8192
+fs.mqueue.msgsize_max = 8192
+fs.mqueue.queues_max = 256
+fs.nr_open = 1048576
+fs.overflowgid = 65534
+fs.overflowuid = 65534
+fs.pipe-max-size = 1048576
+fs.pipe-user-pages-hard = 0
+fs.pipe-user-pages-soft = 16384
+fs.protected_fifos = 1
+fs.protected_hardlinks = 1
+fs.protected_regular = 2
+fs.protected_symlinks = 1
+fs.quota.allocated_dquots = 0
+fs.quota.cache_hits = 0
+fs.quota.drops = 0
+fs.quota.free_dquots = 0
+fs.quota.lookups = 0
+fs.quota.reads = 0
+fs.quota.syncs = 8
+fs.quota.writes = 0
+fs.suid_dumpable = 2
+fs.verity.require_signatures = 0
+kernel.acct = 4	2	30
+kernel.acpi_video_flags = 0
+kernel.apparmor_display_secid_mode = 0
+kernel.apparmor_restrict_unprivileged_io_uring = 0
+kernel.apparmor_restrict_unprivileged_unconfined = 0
+kernel.apparmor_restrict_unprivileged_userns = 0
+kernel.apparmor_restrict_unprivileged_userns_complain = 0
+kernel.apparmor_restrict_unprivileged_userns_force = 0
+kernel.arch = x86_64
+kernel.auto_msgmni = 0
+kernel.bootloader_type = 6
+kernel.bootloader_version = 38
+kernel.bpf_stats_enabled = 0
+kernel.cad_pid = 1
+kernel.cap_last_cap = 40
+kernel.core_pattern = |/usr/share/apport/apport -p%p -s%s -c%c -d%d -P%P -u%u -g%g -- %E
+kernel.core_pipe_limit = 10
+kernel.core_uses_pid = 1
+kernel.ctrl-alt-del = 0
+kernel.dmesg_restrict = 1
+kernel.domainname = (none)
+kernel.firmware_config.force_sysfs_fallback = 0
+kernel.firmware_config.ignore_sysfs_fallback = 0
+kernel.ftrace_dump_on_oops = 0
+kernel.ftrace_enabled = 1
+kernel.hardlockup_all_cpu_backtrace = 0
+kernel.hardlockup_panic = 0
+kernel.hostname = anandhu-VivoBook-ASUSLaptop-X515UA-M515UA
+kernel.hotplug = 
+kernel.hung_task_all_cpu_backtrace = 0
+kernel.hung_task_check_count = 4194304
+kernel.hung_task_check_interval_secs = 0
+kernel.hung_task_panic = 0
+kernel.hung_task_timeout_secs = 120
+kernel.hung_task_warnings = 10
+kernel.io_delay_type = 1
+kernel.io_uring_disabled = 0
+kernel.io_uring_group = -1
+kernel.kexec_load_disabled = 0
+kernel.kexec_load_limit_panic = -1
+kernel.kexec_load_limit_reboot = -1
+kernel.keys.gc_delay = 300
+kernel.keys.maxbytes = 20000
+kernel.keys.maxkeys = 200
+kernel.keys.persistent_keyring_expiry = 259200
+kernel.keys.root_maxbytes = 25000000
+kernel.keys.root_maxkeys = 1000000
+kernel.kptr_restrict = 1
+kernel.max_lock_depth = 1024
+kernel.max_rcu_stall_to_panic = 0
+kernel.modprobe = /sbin/modprobe
+kernel.modules_disabled = 0
+kernel.msg_next_id = -1
+kernel.msgmax = 8192
+kernel.msgmnb = 16384
+kernel.msgmni = 32000
+kernel.ngroups_max = 65536
+kernel.nmi_watchdog = 1
+kernel.ns_last_pid = 29668
+kernel.numa_balancing = 0
+kernel.numa_balancing_promote_rate_limit_MBps = 65536
+kernel.oops_all_cpu_backtrace = 0
+kernel.oops_limit = 10000
+kernel.osrelease = 6.5.0-45-generic
+kernel.ostype = Linux
+kernel.overflowgid = 65534
+kernel.overflowuid = 65534
+kernel.panic = 0
+kernel.panic_on_io_nmi = 0
+kernel.panic_on_oops = 0
+kernel.panic_on_rcu_stall = 0
+kernel.panic_on_unrecovered_nmi = 0
+kernel.panic_on_warn = 0
+kernel.panic_print = 0
+kernel.perf_cpu_time_max_percent = 25
+kernel.perf_event_max_contexts_per_stack = 8
+kernel.perf_event_max_sample_rate = 79500
+kernel.perf_event_max_stack = 127
+kernel.perf_event_mlock_kb = 516
+kernel.perf_event_paranoid = 4
+kernel.pid_max = 4194304
+kernel.poweroff_cmd = /sbin/poweroff
+kernel.print-fatal-signals = 0
+kernel.printk = 4	4	1	7
+kernel.printk_delay = 0
+kernel.printk_devkmsg = on
+kernel.printk_ratelimit = 5
+kernel.printk_ratelimit_burst = 10
+kernel.pty.max = 4096
+kernel.pty.nr = 4
+kernel.pty.reserve = 1024
+kernel.random.boot_id = 6f02b64f-1da0-4c8a-ba8a-3124160f618d
+kernel.random.entropy_avail = 256
+kernel.random.poolsize = 256
+kernel.random.urandom_min_reseed_secs = 60
+kernel.random.uuid = a787b5d1-de90-405b-940b-48c6dfb1604b
+kernel.random.write_wakeup_threshold = 256
+kernel.randomize_va_space = 2
+kernel.real-root-dev = 0
+kernel.sched_autogroup_enabled = 1
+kernel.sched_cfs_bandwidth_slice_us = 5000
+kernel.sched_child_runs_first = 0
+kernel.sched_deadline_period_max_us = 4194304
+kernel.sched_deadline_period_min_us = 100
+kernel.sched_energy_aware = 1
+kernel.sched_rr_timeslice_ms = 100
+kernel.sched_rt_period_us = 1000000
+kernel.sched_rt_runtime_us = 950000
+kernel.sched_schedstats = 0
+kernel.sched_util_clamp_max = 1024
+kernel.sched_util_clamp_min = 1024
+kernel.sched_util_clamp_min_rt_default = 1024
+kernel.seccomp.actions_avail = kill_process kill_thread trap errno user_notif trace log allow
+kernel.seccomp.actions_logged = kill_process kill_thread trap errno user_notif trace log
+kernel.sem = 32000	1024000000	500	32000
+kernel.sem_next_id = -1
+kernel.shm_next_id = -1
+kernel.shm_rmid_forced = 0
+kernel.shmall = 18446744073692774399
+kernel.shmmax = 18446744073692774399
+kernel.shmmni = 4096
+kernel.soft_watchdog = 1
+kernel.softlockup_all_cpu_backtrace = 0
+kernel.softlockup_panic = 0
+kernel.split_lock_mitigate = 1
+kernel.stack_tracer_enabled = 0
+kernel.sysctl_writes_strict = 1
+kernel.sysrq = 176
+kernel.tainted = 0
+kernel.task_delayacct = 0
+kernel.threads-max = 154334
+kernel.timer_migration = 1
+kernel.traceoff_on_warning = 0
+kernel.tracepoint_printk = 0
+kernel.unknown_nmi_panic = 0
+kernel.unprivileged_bpf_disabled = 2
+kernel.unprivileged_userns_apparmor_policy = 1
+kernel.unprivileged_userns_clone = 1
+kernel.user_events_max = 32768
+kernel.usermodehelper.bset = 4294967295	511
+kernel.usermodehelper.inheritable = 4294967295	511
+kernel.version = #45~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Jul 15 16:40:02 UTC 2
+kernel.warn_limit = 0
+kernel.watchdog = 1
+kernel.watchdog_cpumask = 0-15
+kernel.watchdog_thresh = 10
+kernel.yama.ptrace_scope = 1
+net.bridge.bridge-nf-call-arptables = 1
+net.bridge.bridge-nf-call-ip6tables = 1
+net.bridge.bridge-nf-call-iptables = 1
+net.bridge.bridge-nf-filter-pppoe-tagged = 0
+net.bridge.bridge-nf-filter-vlan-tagged = 0
+net.bridge.bridge-nf-pass-vlan-input-dev = 0
+net.core.bpf_jit_enable = 1
+net.core.bpf_jit_harden = 0
+net.core.bpf_jit_kallsyms = 1
+net.core.bpf_jit_limit = 528482304
+net.core.busy_poll = 0
+net.core.busy_read = 0
+net.core.default_qdisc = fq_codel
+net.core.dev_weight = 64
+net.core.dev_weight_rx_bias = 1
+net.core.dev_weight_tx_bias = 1
+net.core.devconf_inherit_init_net = 0
+net.core.fb_tunnels_only_for_init_net = 0
+net.core.flow_limit_cpu_bitmap = 0000
+net.core.flow_limit_table_len = 4096
+net.core.gro_normal_batch = 8
+net.core.high_order_alloc_disable = 0
+net.core.max_skb_frags = 17
+net.core.mem_pcpu_rsv = 256
+net.core.message_burst = 10
+net.core.message_cost = 5
+net.core.netdev_budget = 300
+net.core.netdev_budget_usecs = 8000
+net.core.netdev_max_backlog = 1000
+net.core.netdev_rss_key = 00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00
+net.core.netdev_tstamp_prequeue = 1
+net.core.netdev_unregister_timeout_secs = 10
+net.core.optmem_max = 20480
+net.core.rmem_default = 212992
+net.core.rmem_max = 212992
+net.core.rps_default_mask = 0000
+net.core.rps_sock_flow_entries = 0
+net.core.skb_defer_max = 64
+net.core.somaxconn = 4096
+net.core.tstamp_allow_data = 1
+net.core.txrehash = 1
+net.core.warnings = 0
+net.core.wmem_default = 212992
+net.core.wmem_max = 212992
+net.core.xfrm_acq_expires = 30
+net.core.xfrm_aevent_etime = 10
+net.core.xfrm_aevent_rseqth = 2
+net.core.xfrm_larval_drop = 1
+net.ipv4.cipso_cache_bucket_size = 10
+net.ipv4.cipso_cache_enable = 1
+net.ipv4.cipso_rbm_optfmt = 0
+net.ipv4.cipso_rbm_strictvalid = 1
+net.ipv4.conf.all.accept_local = 0
+net.ipv4.conf.all.accept_redirects = 0
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv4.conf.all.arp_accept = 0
+net.ipv4.conf.all.arp_announce = 0
+net.ipv4.conf.all.arp_evict_nocarrier = 1
+net.ipv4.conf.all.arp_filter = 0
+net.ipv4.conf.all.arp_ignore = 0
+net.ipv4.conf.all.arp_notify = 0
+net.ipv4.conf.all.bc_forwarding = 0
+net.ipv4.conf.all.bootp_relay = 0
+net.ipv4.conf.all.disable_policy = 0
+net.ipv4.conf.all.disable_xfrm = 0
+net.ipv4.conf.all.drop_gratuitous_arp = 0
+net.ipv4.conf.all.drop_unicast_in_l2_multicast = 0
+net.ipv4.conf.all.force_igmp_version = 0
+net.ipv4.conf.all.forwarding = 1
+net.ipv4.conf.all.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.all.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.all.ignore_routes_with_linkdown = 0
+net.ipv4.conf.all.log_martians = 0
+net.ipv4.conf.all.mc_forwarding = 0
+net.ipv4.conf.all.medium_id = 0
+net.ipv4.conf.all.promote_secondaries = 0
+net.ipv4.conf.all.proxy_arp = 0
+net.ipv4.conf.all.proxy_arp_pvlan = 0
+net.ipv4.conf.all.route_localnet = 0
+net.ipv4.conf.all.rp_filter = 2
+net.ipv4.conf.all.secure_redirects = 1
+net.ipv4.conf.all.send_redirects = 1
+net.ipv4.conf.all.shared_media = 1
+net.ipv4.conf.all.src_valid_mark = 0
+net.ipv4.conf.all.tag = 0
+net.ipv4.conf.default.accept_local = 0
+net.ipv4.conf.default.accept_redirects = 1
+net.ipv4.conf.default.accept_source_route = 0
+net.ipv4.conf.default.arp_accept = 0
+net.ipv4.conf.default.arp_announce = 0
+net.ipv4.conf.default.arp_evict_nocarrier = 1
+net.ipv4.conf.default.arp_filter = 0
+net.ipv4.conf.default.arp_ignore = 0
+net.ipv4.conf.default.arp_notify = 0
+net.ipv4.conf.default.bc_forwarding = 0
+net.ipv4.conf.default.bootp_relay = 0
+net.ipv4.conf.default.disable_policy = 0
+net.ipv4.conf.default.disable_xfrm = 0
+net.ipv4.conf.default.drop_gratuitous_arp = 0
+net.ipv4.conf.default.drop_unicast_in_l2_multicast = 0
+net.ipv4.conf.default.force_igmp_version = 0
+net.ipv4.conf.default.forwarding = 1
+net.ipv4.conf.default.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.default.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.default.ignore_routes_with_linkdown = 0
+net.ipv4.conf.default.log_martians = 0
+net.ipv4.conf.default.mc_forwarding = 0
+net.ipv4.conf.default.medium_id = 0
+net.ipv4.conf.default.promote_secondaries = 1
+net.ipv4.conf.default.proxy_arp = 0
+net.ipv4.conf.default.proxy_arp_pvlan = 0
+net.ipv4.conf.default.route_localnet = 0
+net.ipv4.conf.default.rp_filter = 2
+net.ipv4.conf.default.secure_redirects = 1
+net.ipv4.conf.default.send_redirects = 1
+net.ipv4.conf.default.shared_media = 1
+net.ipv4.conf.default.src_valid_mark = 0
+net.ipv4.conf.default.tag = 0
+net.ipv4.conf.docker0.accept_local = 0
+net.ipv4.conf.docker0.accept_redirects = 1
+net.ipv4.conf.docker0.accept_source_route = 0
+net.ipv4.conf.docker0.arp_accept = 0
+net.ipv4.conf.docker0.arp_announce = 0
+net.ipv4.conf.docker0.arp_evict_nocarrier = 1
+net.ipv4.conf.docker0.arp_filter = 0
+net.ipv4.conf.docker0.arp_ignore = 0
+net.ipv4.conf.docker0.arp_notify = 0
+net.ipv4.conf.docker0.bc_forwarding = 0
+net.ipv4.conf.docker0.bootp_relay = 0
+net.ipv4.conf.docker0.disable_policy = 0
+net.ipv4.conf.docker0.disable_xfrm = 0
+net.ipv4.conf.docker0.drop_gratuitous_arp = 0
+net.ipv4.conf.docker0.drop_unicast_in_l2_multicast = 0
+net.ipv4.conf.docker0.force_igmp_version = 0
+net.ipv4.conf.docker0.forwarding = 1
+net.ipv4.conf.docker0.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.docker0.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.docker0.ignore_routes_with_linkdown = 0
+net.ipv4.conf.docker0.log_martians = 0
+net.ipv4.conf.docker0.mc_forwarding = 0
+net.ipv4.conf.docker0.medium_id = 0
+net.ipv4.conf.docker0.promote_secondaries = 1
+net.ipv4.conf.docker0.proxy_arp = 0
+net.ipv4.conf.docker0.proxy_arp_pvlan = 0
+net.ipv4.conf.docker0.route_localnet = 0
+net.ipv4.conf.docker0.rp_filter = 2
+net.ipv4.conf.docker0.secure_redirects = 1
+net.ipv4.conf.docker0.send_redirects = 1
+net.ipv4.conf.docker0.shared_media = 1
+net.ipv4.conf.docker0.src_valid_mark = 0
+net.ipv4.conf.docker0.tag = 0
+net.ipv4.conf.lo.accept_local = 0
+net.ipv4.conf.lo.accept_redirects = 1
+net.ipv4.conf.lo.accept_source_route = 0
+net.ipv4.conf.lo.arp_accept = 0
+net.ipv4.conf.lo.arp_announce = 0
+net.ipv4.conf.lo.arp_evict_nocarrier = 1
+net.ipv4.conf.lo.arp_filter = 0
+net.ipv4.conf.lo.arp_ignore = 0
+net.ipv4.conf.lo.arp_notify = 0
+net.ipv4.conf.lo.bc_forwarding = 0
+net.ipv4.conf.lo.bootp_relay = 0
+net.ipv4.conf.lo.disable_policy = 1
+net.ipv4.conf.lo.disable_xfrm = 1
+net.ipv4.conf.lo.drop_gratuitous_arp = 0
+net.ipv4.conf.lo.drop_unicast_in_l2_multicast = 0
+net.ipv4.conf.lo.force_igmp_version = 0
+net.ipv4.conf.lo.forwarding = 1
+net.ipv4.conf.lo.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.lo.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.lo.ignore_routes_with_linkdown = 0
+net.ipv4.conf.lo.log_martians = 0
+net.ipv4.conf.lo.mc_forwarding = 0
+net.ipv4.conf.lo.medium_id = 0
+net.ipv4.conf.lo.promote_secondaries = 1
+net.ipv4.conf.lo.proxy_arp = 0
+net.ipv4.conf.lo.proxy_arp_pvlan = 0
+net.ipv4.conf.lo.route_localnet = 0
+net.ipv4.conf.lo.rp_filter = 2
+net.ipv4.conf.lo.secure_redirects = 1
+net.ipv4.conf.lo.send_redirects = 1
+net.ipv4.conf.lo.shared_media = 1
+net.ipv4.conf.lo.src_valid_mark = 0
+net.ipv4.conf.lo.tag = 0
+net.ipv4.conf.wlp1s0.accept_local = 0
+net.ipv4.conf.wlp1s0.accept_redirects = 1
+net.ipv4.conf.wlp1s0.accept_source_route = 0
+net.ipv4.conf.wlp1s0.arp_accept = 0
+net.ipv4.conf.wlp1s0.arp_announce = 0
+net.ipv4.conf.wlp1s0.arp_evict_nocarrier = 1
+net.ipv4.conf.wlp1s0.arp_filter = 0
+net.ipv4.conf.wlp1s0.arp_ignore = 0
+net.ipv4.conf.wlp1s0.arp_notify = 0
+net.ipv4.conf.wlp1s0.bc_forwarding = 0
+net.ipv4.conf.wlp1s0.bootp_relay = 0
+net.ipv4.conf.wlp1s0.disable_policy = 0
+net.ipv4.conf.wlp1s0.disable_xfrm = 0
+net.ipv4.conf.wlp1s0.drop_gratuitous_arp = 0
+net.ipv4.conf.wlp1s0.drop_unicast_in_l2_multicast = 0
+net.ipv4.conf.wlp1s0.force_igmp_version = 0
+net.ipv4.conf.wlp1s0.forwarding = 1
+net.ipv4.conf.wlp1s0.igmpv2_unsolicited_report_interval = 10000
+net.ipv4.conf.wlp1s0.igmpv3_unsolicited_report_interval = 1000
+net.ipv4.conf.wlp1s0.ignore_routes_with_linkdown = 0
+net.ipv4.conf.wlp1s0.log_martians = 0
+net.ipv4.conf.wlp1s0.mc_forwarding = 0
+net.ipv4.conf.wlp1s0.medium_id = 0
+net.ipv4.conf.wlp1s0.promote_secondaries = 1
+net.ipv4.conf.wlp1s0.proxy_arp = 0
+net.ipv4.conf.wlp1s0.proxy_arp_pvlan = 0
+net.ipv4.conf.wlp1s0.route_localnet = 0
+net.ipv4.conf.wlp1s0.rp_filter = 2
+net.ipv4.conf.wlp1s0.secure_redirects = 1
+net.ipv4.conf.wlp1s0.send_redirects = 1
+net.ipv4.conf.wlp1s0.shared_media = 1
+net.ipv4.conf.wlp1s0.src_valid_mark = 0
+net.ipv4.conf.wlp1s0.tag = 0
+net.ipv4.fib_multipath_hash_fields = 7
+net.ipv4.fib_multipath_hash_policy = 0
+net.ipv4.fib_multipath_use_neigh = 0
+net.ipv4.fib_notify_on_flag_change = 0
+net.ipv4.fib_sync_mem = 524288
+net.ipv4.fwmark_reflect = 0
+net.ipv4.icmp_echo_enable_probe = 0
+net.ipv4.icmp_echo_ignore_all = 0
+net.ipv4.icmp_echo_ignore_broadcasts = 1
+net.ipv4.icmp_errors_use_inbound_ifaddr = 0
+net.ipv4.icmp_ignore_bogus_error_responses = 1
+net.ipv4.icmp_msgs_burst = 50
+net.ipv4.icmp_msgs_per_sec = 1000
+net.ipv4.icmp_ratelimit = 1000
+net.ipv4.icmp_ratemask = 6168
+net.ipv4.igmp_link_local_mcast_reports = 1
+net.ipv4.igmp_max_memberships = 20
+net.ipv4.igmp_max_msf = 10
+net.ipv4.igmp_qrv = 2
+net.ipv4.inet_peer_maxttl = 600
+net.ipv4.inet_peer_minttl = 120
+net.ipv4.inet_peer_threshold = 65664
+net.ipv4.ip_autobind_reuse = 0
+net.ipv4.ip_default_ttl = 64
+net.ipv4.ip_dynaddr = 0
+net.ipv4.ip_early_demux = 1
+net.ipv4.ip_forward = 1
+net.ipv4.ip_forward_update_priority = 1
+net.ipv4.ip_forward_use_pmtu = 0
+net.ipv4.ip_local_port_range = 32768	60999
+net.ipv4.ip_local_reserved_ports = 
+net.ipv4.ip_no_pmtu_disc = 0
+net.ipv4.ip_nonlocal_bind = 0
+net.ipv4.ip_unprivileged_port_start = 1024
+net.ipv4.ipfrag_high_thresh = 4194304
+net.ipv4.ipfrag_low_thresh = 3145728
+net.ipv4.ipfrag_max_dist = 64
+net.ipv4.ipfrag_secret_interval = 0
+net.ipv4.ipfrag_time = 30
+net.ipv4.neigh.default.anycast_delay = 100
+net.ipv4.neigh.default.app_solicit = 0
+net.ipv4.neigh.default.base_reachable_time_ms = 30000
+net.ipv4.neigh.default.delay_first_probe_time = 5
+net.ipv4.neigh.default.gc_interval = 30
+net.ipv4.neigh.default.gc_stale_time = 60
+net.ipv4.neigh.default.gc_thresh1 = 128
+net.ipv4.neigh.default.gc_thresh2 = 512
+net.ipv4.neigh.default.gc_thresh3 = 1024
+net.ipv4.neigh.default.interval_probe_time_ms = 5000
+net.ipv4.neigh.default.locktime = 100
+net.ipv4.neigh.default.mcast_resolicit = 0
+net.ipv4.neigh.default.mcast_solicit = 3
+net.ipv4.neigh.default.proxy_delay = 80
+net.ipv4.neigh.default.proxy_qlen = 64
+net.ipv4.neigh.default.retrans_time_ms = 1000
+net.ipv4.neigh.default.ucast_solicit = 3
+net.ipv4.neigh.default.unres_qlen = 101
+net.ipv4.neigh.default.unres_qlen_bytes = 212992
+net.ipv4.neigh.docker0.anycast_delay = 100
+net.ipv4.neigh.docker0.app_solicit = 0
+net.ipv4.neigh.docker0.base_reachable_time_ms = 30000
+net.ipv4.neigh.docker0.delay_first_probe_time = 5
+net.ipv4.neigh.docker0.gc_stale_time = 60
+net.ipv4.neigh.docker0.interval_probe_time_ms = 5000
+net.ipv4.neigh.docker0.locktime = 100
+net.ipv4.neigh.docker0.mcast_resolicit = 0
+net.ipv4.neigh.docker0.mcast_solicit = 3
+net.ipv4.neigh.docker0.proxy_delay = 80
+net.ipv4.neigh.docker0.proxy_qlen = 64
+net.ipv4.neigh.docker0.retrans_time_ms = 1000
+net.ipv4.neigh.docker0.ucast_solicit = 3
+net.ipv4.neigh.docker0.unres_qlen = 101
+net.ipv4.neigh.docker0.unres_qlen_bytes = 212992
+net.ipv4.neigh.lo.anycast_delay = 100
+net.ipv4.neigh.lo.app_solicit = 0
+net.ipv4.neigh.lo.base_reachable_time_ms = 30000
+net.ipv4.neigh.lo.delay_first_probe_time = 5
+net.ipv4.neigh.lo.gc_stale_time = 60
+net.ipv4.neigh.lo.interval_probe_time_ms = 5000
+net.ipv4.neigh.lo.locktime = 100
+net.ipv4.neigh.lo.mcast_resolicit = 0
+net.ipv4.neigh.lo.mcast_solicit = 3
+net.ipv4.neigh.lo.proxy_delay = 80
+net.ipv4.neigh.lo.proxy_qlen = 64
+net.ipv4.neigh.lo.retrans_time_ms = 1000
+net.ipv4.neigh.lo.ucast_solicit = 3
+net.ipv4.neigh.lo.unres_qlen = 101
+net.ipv4.neigh.lo.unres_qlen_bytes = 212992
+net.ipv4.neigh.wlp1s0.anycast_delay = 100
+net.ipv4.neigh.wlp1s0.app_solicit = 0
+net.ipv4.neigh.wlp1s0.base_reachable_time_ms = 30000
+net.ipv4.neigh.wlp1s0.delay_first_probe_time = 5
+net.ipv4.neigh.wlp1s0.gc_stale_time = 60
+net.ipv4.neigh.wlp1s0.interval_probe_time_ms = 5000
+net.ipv4.neigh.wlp1s0.locktime = 100
+net.ipv4.neigh.wlp1s0.mcast_resolicit = 0
+net.ipv4.neigh.wlp1s0.mcast_solicit = 3
+net.ipv4.neigh.wlp1s0.proxy_delay = 80
+net.ipv4.neigh.wlp1s0.proxy_qlen = 64
+net.ipv4.neigh.wlp1s0.retrans_time_ms = 1000
+net.ipv4.neigh.wlp1s0.ucast_solicit = 3
+net.ipv4.neigh.wlp1s0.unres_qlen = 101
+net.ipv4.neigh.wlp1s0.unres_qlen_bytes = 212992
+net.ipv4.nexthop_compat_mode = 1
+net.ipv4.ping_group_range = 0	2147483647
+net.ipv4.raw_l3mdev_accept = 1
+net.ipv4.route.error_burst = 1250
+net.ipv4.route.error_cost = 250
+net.ipv4.route.gc_elasticity = 8
+net.ipv4.route.gc_interval = 60
+net.ipv4.route.gc_min_interval = 0
+net.ipv4.route.gc_min_interval_ms = 500
+net.ipv4.route.gc_thresh = -1
+net.ipv4.route.gc_timeout = 300
+net.ipv4.route.max_size = 2147483647
+net.ipv4.route.min_adv_mss = 256
+net.ipv4.route.min_pmtu = 552
+net.ipv4.route.mtu_expires = 600
+net.ipv4.route.redirect_load = 5
+net.ipv4.route.redirect_number = 9
+net.ipv4.route.redirect_silence = 5120
+net.ipv4.tcp_abort_on_overflow = 0
+net.ipv4.tcp_adv_win_scale = 1
+net.ipv4.tcp_allowed_congestion_control = reno cubic
+net.ipv4.tcp_app_win = 31
+net.ipv4.tcp_autocorking = 1
+net.ipv4.tcp_available_congestion_control = reno cubic
+net.ipv4.tcp_available_ulp = espintcp mptcp
+net.ipv4.tcp_base_mss = 1024
+net.ipv4.tcp_challenge_ack_limit = 2147483647
+net.ipv4.tcp_child_ehash_entries = 0
+net.ipv4.tcp_comp_sack_delay_ns = 1000000
+net.ipv4.tcp_comp_sack_nr = 44
+net.ipv4.tcp_comp_sack_slack_ns = 100000
+net.ipv4.tcp_congestion_control = cubic
+net.ipv4.tcp_dsack = 1
+net.ipv4.tcp_early_demux = 1
+net.ipv4.tcp_early_retrans = 3
+net.ipv4.tcp_ecn = 2
+net.ipv4.tcp_ecn_fallback = 1
+net.ipv4.tcp_ehash_entries = 262144
+net.ipv4.tcp_fack = 0
+net.ipv4.tcp_fastopen = 1
+net.ipv4.tcp_fastopen_blackhole_timeout_sec = 0
+net.ipv4.tcp_fastopen_key = 67e21f38-7ca552ea-1d6c66bd-eaf4684e
+net.ipv4.tcp_fin_timeout = 60
+net.ipv4.tcp_frto = 2
+net.ipv4.tcp_fwmark_accept = 0
+net.ipv4.tcp_invalid_ratelimit = 500
+net.ipv4.tcp_keepalive_intvl = 75
+net.ipv4.tcp_keepalive_probes = 9
+net.ipv4.tcp_keepalive_time = 7200
+net.ipv4.tcp_l3mdev_accept = 0
+net.ipv4.tcp_limit_output_bytes = 1048576
+net.ipv4.tcp_low_latency = 0
+net.ipv4.tcp_max_orphans = 131072
+net.ipv4.tcp_max_reordering = 300
+net.ipv4.tcp_max_syn_backlog = 2048
+net.ipv4.tcp_max_tw_buckets = 131072
+net.ipv4.tcp_mem = 230244	306994	460488
+net.ipv4.tcp_migrate_req = 0
+net.ipv4.tcp_min_rtt_wlen = 300
+net.ipv4.tcp_min_snd_mss = 48
+net.ipv4.tcp_min_tso_segs = 2
+net.ipv4.tcp_moderate_rcvbuf = 1
+net.ipv4.tcp_mtu_probe_floor = 48
+net.ipv4.tcp_mtu_probing = 0
+net.ipv4.tcp_no_metrics_save = 0
+net.ipv4.tcp_no_ssthresh_metrics_save = 1
+net.ipv4.tcp_notsent_lowat = 4294967295
+net.ipv4.tcp_orphan_retries = 0
+net.ipv4.tcp_pacing_ca_ratio = 120
+net.ipv4.tcp_pacing_ss_ratio = 200
+net.ipv4.tcp_plb_cong_thresh = 128
+net.ipv4.tcp_plb_enabled = 0
+net.ipv4.tcp_plb_idle_rehash_rounds = 3
+net.ipv4.tcp_plb_rehash_rounds = 12
+net.ipv4.tcp_plb_suspend_rto_sec = 60
+net.ipv4.tcp_probe_interval = 600
+net.ipv4.tcp_probe_threshold = 8
+net.ipv4.tcp_recovery = 1
+net.ipv4.tcp_reflect_tos = 0
+net.ipv4.tcp_reordering = 3
+net.ipv4.tcp_retrans_collapse = 1
+net.ipv4.tcp_retries1 = 3
+net.ipv4.tcp_retries2 = 15
+net.ipv4.tcp_rfc1337 = 0
+net.ipv4.tcp_rmem = 4096	131072	6291456
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_shrink_window = 0
+net.ipv4.tcp_slow_start_after_idle = 1
+net.ipv4.tcp_stdurg = 0
+net.ipv4.tcp_syn_linear_timeouts = 4
+net.ipv4.tcp_syn_retries = 6
+net.ipv4.tcp_synack_retries = 5
+net.ipv4.tcp_syncookies = 1
+net.ipv4.tcp_thin_linear_timeouts = 0
+net.ipv4.tcp_timestamps = 1
+net.ipv4.tcp_tso_rtt_log = 9
+net.ipv4.tcp_tso_win_divisor = 3
+net.ipv4.tcp_tw_reuse = 2
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_wmem = 4096	16384	4194304
+net.ipv4.tcp_workaround_signed_windows = 0
+net.ipv4.udp_child_hash_entries = 0
+net.ipv4.udp_early_demux = 1
+net.ipv4.udp_hash_entries = 16384
+net.ipv4.udp_l3mdev_accept = 0
+net.ipv4.udp_mem = 460491	613989	920982
+net.ipv4.udp_rmem_min = 4096
+net.ipv4.udp_wmem_min = 4096
+net.ipv4.xfrm4_gc_thresh = 32768
+net.ipv6.anycast_src_echo_reply = 0
+net.ipv6.auto_flowlabels = 1
+net.ipv6.bindv6only = 0
+net.ipv6.calipso_cache_bucket_size = 10
+net.ipv6.calipso_cache_enable = 1
+net.ipv6.conf.all.accept_dad = 0
+net.ipv6.conf.all.accept_ra = 1
+net.ipv6.conf.all.accept_ra_defrtr = 1
+net.ipv6.conf.all.accept_ra_from_local = 0
+net.ipv6.conf.all.accept_ra_min_hop_limit = 1
+net.ipv6.conf.all.accept_ra_min_lft = 0
+net.ipv6.conf.all.accept_ra_mtu = 1
+net.ipv6.conf.all.accept_ra_pinfo = 1
+net.ipv6.conf.all.accept_ra_rt_info_max_plen = 0
+net.ipv6.conf.all.accept_ra_rt_info_min_plen = 0
+net.ipv6.conf.all.accept_ra_rtr_pref = 1
+net.ipv6.conf.all.accept_redirects = 1
+net.ipv6.conf.all.accept_source_route = 0
+net.ipv6.conf.all.accept_untracked_na = 0
+net.ipv6.conf.all.addr_gen_mode = 0
+net.ipv6.conf.all.autoconf = 1
+net.ipv6.conf.all.dad_transmits = 1
+net.ipv6.conf.all.disable_ipv6 = 0
+net.ipv6.conf.all.disable_policy = 0
+net.ipv6.conf.all.drop_unicast_in_l2_multicast = 0
+net.ipv6.conf.all.drop_unsolicited_na = 0
+net.ipv6.conf.all.enhanced_dad = 1
+net.ipv6.conf.all.force_mld_version = 0
+net.ipv6.conf.all.force_tllao = 0
+net.ipv6.conf.all.forwarding = 0
+net.ipv6.conf.all.hop_limit = 64
+net.ipv6.conf.all.ignore_routes_with_linkdown = 0
+net.ipv6.conf.all.ioam6_enabled = 0
+net.ipv6.conf.all.ioam6_id = 65535
+net.ipv6.conf.all.ioam6_id_wide = 4294967295
+net.ipv6.conf.all.keep_addr_on_down = 0
+net.ipv6.conf.all.max_addresses = 16
+net.ipv6.conf.all.max_desync_factor = 600
+net.ipv6.conf.all.mc_forwarding = 0
+net.ipv6.conf.all.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.all.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.all.mtu = 1280
+net.ipv6.conf.all.ndisc_evict_nocarrier = 1
+net.ipv6.conf.all.ndisc_notify = 0
+net.ipv6.conf.all.ndisc_tclass = 0
+net.ipv6.conf.all.proxy_ndp = 0
+net.ipv6.conf.all.ra_defrtr_metric = 1024
+net.ipv6.conf.all.regen_max_retry = 3
+net.ipv6.conf.all.router_probe_interval = 60
+net.ipv6.conf.all.router_solicitation_delay = 1
+net.ipv6.conf.all.router_solicitation_interval = 4
+net.ipv6.conf.all.router_solicitation_max_interval = 3600
+net.ipv6.conf.all.router_solicitations = -1
+net.ipv6.conf.all.rpl_seg_enabled = 0
+net.ipv6.conf.all.seg6_enabled = 0
+net.ipv6.conf.all.seg6_require_hmac = 0
+net.ipv6.conf.all.suppress_frag_ndisc = 1
+net.ipv6.conf.all.temp_prefered_lft = 86400
+net.ipv6.conf.all.temp_valid_lft = 604800
+net.ipv6.conf.all.use_oif_addrs_only = 0
+net.ipv6.conf.all.use_tempaddr = 2
+net.ipv6.conf.default.accept_dad = 1
+net.ipv6.conf.default.accept_ra = 1
+net.ipv6.conf.default.accept_ra_defrtr = 1
+net.ipv6.conf.default.accept_ra_from_local = 0
+net.ipv6.conf.default.accept_ra_min_hop_limit = 1
+net.ipv6.conf.default.accept_ra_min_lft = 0
+net.ipv6.conf.default.accept_ra_mtu = 1
+net.ipv6.conf.default.accept_ra_pinfo = 1
+net.ipv6.conf.default.accept_ra_rt_info_max_plen = 0
+net.ipv6.conf.default.accept_ra_rt_info_min_plen = 0
+net.ipv6.conf.default.accept_ra_rtr_pref = 1
+net.ipv6.conf.default.accept_redirects = 1
+net.ipv6.conf.default.accept_source_route = 0
+net.ipv6.conf.default.accept_untracked_na = 0
+net.ipv6.conf.default.addr_gen_mode = 0
+net.ipv6.conf.default.autoconf = 1
+net.ipv6.conf.default.dad_transmits = 1
+net.ipv6.conf.default.disable_ipv6 = 0
+net.ipv6.conf.default.disable_policy = 0
+net.ipv6.conf.default.drop_unicast_in_l2_multicast = 0
+net.ipv6.conf.default.drop_unsolicited_na = 0
+net.ipv6.conf.default.enhanced_dad = 1
+net.ipv6.conf.default.force_mld_version = 0
+net.ipv6.conf.default.force_tllao = 0
+net.ipv6.conf.default.forwarding = 0
+net.ipv6.conf.default.hop_limit = 64
+net.ipv6.conf.default.ignore_routes_with_linkdown = 0
+net.ipv6.conf.default.ioam6_enabled = 0
+net.ipv6.conf.default.ioam6_id = 65535
+net.ipv6.conf.default.ioam6_id_wide = 4294967295
+net.ipv6.conf.default.keep_addr_on_down = 0
+net.ipv6.conf.default.max_addresses = 16
+net.ipv6.conf.default.max_desync_factor = 600
+net.ipv6.conf.default.mc_forwarding = 0
+net.ipv6.conf.default.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.default.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.default.mtu = 1280
+net.ipv6.conf.default.ndisc_evict_nocarrier = 1
+net.ipv6.conf.default.ndisc_notify = 0
+net.ipv6.conf.default.ndisc_tclass = 0
+net.ipv6.conf.default.proxy_ndp = 0
+net.ipv6.conf.default.ra_defrtr_metric = 1024
+net.ipv6.conf.default.regen_max_retry = 3
+net.ipv6.conf.default.router_probe_interval = 60
+net.ipv6.conf.default.router_solicitation_delay = 1
+net.ipv6.conf.default.router_solicitation_interval = 4
+net.ipv6.conf.default.router_solicitation_max_interval = 3600
+net.ipv6.conf.default.router_solicitations = -1
+net.ipv6.conf.default.rpl_seg_enabled = 0
+net.ipv6.conf.default.seg6_enabled = 0
+net.ipv6.conf.default.seg6_require_hmac = 0
+net.ipv6.conf.default.suppress_frag_ndisc = 1
+net.ipv6.conf.default.temp_prefered_lft = 86400
+net.ipv6.conf.default.temp_valid_lft = 604800
+net.ipv6.conf.default.use_oif_addrs_only = 0
+net.ipv6.conf.default.use_tempaddr = 2
+net.ipv6.conf.docker0.accept_dad = 1
+net.ipv6.conf.docker0.accept_ra = 0
+net.ipv6.conf.docker0.accept_ra_defrtr = 1
+net.ipv6.conf.docker0.accept_ra_from_local = 0
+net.ipv6.conf.docker0.accept_ra_min_hop_limit = 1
+net.ipv6.conf.docker0.accept_ra_min_lft = 0
+net.ipv6.conf.docker0.accept_ra_mtu = 1
+net.ipv6.conf.docker0.accept_ra_pinfo = 1
+net.ipv6.conf.docker0.accept_ra_rt_info_max_plen = 0
+net.ipv6.conf.docker0.accept_ra_rt_info_min_plen = 0
+net.ipv6.conf.docker0.accept_ra_rtr_pref = 1
+net.ipv6.conf.docker0.accept_redirects = 1
+net.ipv6.conf.docker0.accept_source_route = 0
+net.ipv6.conf.docker0.accept_untracked_na = 0
+net.ipv6.conf.docker0.addr_gen_mode = 0
+net.ipv6.conf.docker0.autoconf = 1
+net.ipv6.conf.docker0.dad_transmits = 1
+net.ipv6.conf.docker0.disable_ipv6 = 0
+net.ipv6.conf.docker0.disable_policy = 0
+net.ipv6.conf.docker0.drop_unicast_in_l2_multicast = 0
+net.ipv6.conf.docker0.drop_unsolicited_na = 0
+net.ipv6.conf.docker0.enhanced_dad = 1
+net.ipv6.conf.docker0.force_mld_version = 0
+net.ipv6.conf.docker0.force_tllao = 0
+net.ipv6.conf.docker0.forwarding = 0
+net.ipv6.conf.docker0.hop_limit = 64
+net.ipv6.conf.docker0.ignore_routes_with_linkdown = 0
+net.ipv6.conf.docker0.ioam6_enabled = 0
+net.ipv6.conf.docker0.ioam6_id = 65535
+net.ipv6.conf.docker0.ioam6_id_wide = 4294967295
+net.ipv6.conf.docker0.keep_addr_on_down = 0
+net.ipv6.conf.docker0.max_addresses = 16
+net.ipv6.conf.docker0.max_desync_factor = 600
+net.ipv6.conf.docker0.mc_forwarding = 0
+net.ipv6.conf.docker0.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.docker0.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.docker0.mtu = 1500
+net.ipv6.conf.docker0.ndisc_evict_nocarrier = 1
+net.ipv6.conf.docker0.ndisc_notify = 0
+net.ipv6.conf.docker0.ndisc_tclass = 0
+net.ipv6.conf.docker0.proxy_ndp = 0
+net.ipv6.conf.docker0.ra_defrtr_metric = 1024
+net.ipv6.conf.docker0.regen_max_retry = 3
+net.ipv6.conf.docker0.router_probe_interval = 60
+net.ipv6.conf.docker0.router_solicitation_delay = 1
+net.ipv6.conf.docker0.router_solicitation_interval = 4
+net.ipv6.conf.docker0.router_solicitation_max_interval = 3600
+net.ipv6.conf.docker0.router_solicitations = -1
+net.ipv6.conf.docker0.rpl_seg_enabled = 0
+net.ipv6.conf.docker0.seg6_enabled = 0
+net.ipv6.conf.docker0.seg6_require_hmac = 0
+net.ipv6.conf.docker0.suppress_frag_ndisc = 1
+net.ipv6.conf.docker0.temp_prefered_lft = 86400
+net.ipv6.conf.docker0.temp_valid_lft = 604800
+net.ipv6.conf.docker0.use_oif_addrs_only = 0
+net.ipv6.conf.docker0.use_tempaddr = 2
+net.ipv6.conf.lo.accept_dad = -1
+net.ipv6.conf.lo.accept_ra = 1
+net.ipv6.conf.lo.accept_ra_defrtr = 1
+net.ipv6.conf.lo.accept_ra_from_local = 0
+net.ipv6.conf.lo.accept_ra_min_hop_limit = 1
+net.ipv6.conf.lo.accept_ra_min_lft = 0
+net.ipv6.conf.lo.accept_ra_mtu = 1
+net.ipv6.conf.lo.accept_ra_pinfo = 1
+net.ipv6.conf.lo.accept_ra_rt_info_max_plen = 0
+net.ipv6.conf.lo.accept_ra_rt_info_min_plen = 0
+net.ipv6.conf.lo.accept_ra_rtr_pref = 1
+net.ipv6.conf.lo.accept_redirects = 1
+net.ipv6.conf.lo.accept_source_route = 0
+net.ipv6.conf.lo.accept_untracked_na = 0
+net.ipv6.conf.lo.addr_gen_mode = 0
+net.ipv6.conf.lo.autoconf = 1
+net.ipv6.conf.lo.dad_transmits = 1
+net.ipv6.conf.lo.disable_ipv6 = 0
+net.ipv6.conf.lo.disable_policy = 0
+net.ipv6.conf.lo.drop_unicast_in_l2_multicast = 0
+net.ipv6.conf.lo.drop_unsolicited_na = 0
+net.ipv6.conf.lo.enhanced_dad = 1
+net.ipv6.conf.lo.force_mld_version = 0
+net.ipv6.conf.lo.force_tllao = 0
+net.ipv6.conf.lo.forwarding = 0
+net.ipv6.conf.lo.hop_limit = 64
+net.ipv6.conf.lo.ignore_routes_with_linkdown = 0
+net.ipv6.conf.lo.ioam6_enabled = 0
+net.ipv6.conf.lo.ioam6_id = 65535
+net.ipv6.conf.lo.ioam6_id_wide = 4294967295
+net.ipv6.conf.lo.keep_addr_on_down = 0
+net.ipv6.conf.lo.max_addresses = 16
+net.ipv6.conf.lo.max_desync_factor = 600
+net.ipv6.conf.lo.mc_forwarding = 0
+net.ipv6.conf.lo.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.lo.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.lo.mtu = 65536
+net.ipv6.conf.lo.ndisc_evict_nocarrier = 1
+net.ipv6.conf.lo.ndisc_notify = 0
+net.ipv6.conf.lo.ndisc_tclass = 0
+net.ipv6.conf.lo.proxy_ndp = 0
+net.ipv6.conf.lo.ra_defrtr_metric = 1024
+net.ipv6.conf.lo.regen_max_retry = 3
+net.ipv6.conf.lo.router_probe_interval = 60
+net.ipv6.conf.lo.router_solicitation_delay = 1
+net.ipv6.conf.lo.router_solicitation_interval = 4
+net.ipv6.conf.lo.router_solicitation_max_interval = 3600
+net.ipv6.conf.lo.router_solicitations = -1
+net.ipv6.conf.lo.rpl_seg_enabled = 0
+net.ipv6.conf.lo.seg6_enabled = 0
+net.ipv6.conf.lo.seg6_require_hmac = 0
+net.ipv6.conf.lo.suppress_frag_ndisc = 1
+net.ipv6.conf.lo.temp_prefered_lft = 86400
+net.ipv6.conf.lo.temp_valid_lft = 604800
+net.ipv6.conf.lo.use_oif_addrs_only = 0
+net.ipv6.conf.lo.use_tempaddr = -1
+net.ipv6.conf.wlp1s0.accept_dad = 1
+net.ipv6.conf.wlp1s0.accept_ra = 0
+net.ipv6.conf.wlp1s0.accept_ra_defrtr = 1
+net.ipv6.conf.wlp1s0.accept_ra_from_local = 0
+net.ipv6.conf.wlp1s0.accept_ra_min_hop_limit = 1
+net.ipv6.conf.wlp1s0.accept_ra_min_lft = 0
+net.ipv6.conf.wlp1s0.accept_ra_mtu = 1
+net.ipv6.conf.wlp1s0.accept_ra_pinfo = 1
+net.ipv6.conf.wlp1s0.accept_ra_rt_info_max_plen = 0
+net.ipv6.conf.wlp1s0.accept_ra_rt_info_min_plen = 0
+net.ipv6.conf.wlp1s0.accept_ra_rtr_pref = 1
+net.ipv6.conf.wlp1s0.accept_redirects = 1
+net.ipv6.conf.wlp1s0.accept_source_route = 0
+net.ipv6.conf.wlp1s0.accept_untracked_na = 0
+net.ipv6.conf.wlp1s0.addr_gen_mode = 1
+net.ipv6.conf.wlp1s0.autoconf = 1
+net.ipv6.conf.wlp1s0.dad_transmits = 1
+net.ipv6.conf.wlp1s0.disable_ipv6 = 0
+net.ipv6.conf.wlp1s0.disable_policy = 0
+net.ipv6.conf.wlp1s0.drop_unicast_in_l2_multicast = 0
+net.ipv6.conf.wlp1s0.drop_unsolicited_na = 0
+net.ipv6.conf.wlp1s0.enhanced_dad = 1
+net.ipv6.conf.wlp1s0.force_mld_version = 0
+net.ipv6.conf.wlp1s0.force_tllao = 0
+net.ipv6.conf.wlp1s0.forwarding = 0
+net.ipv6.conf.wlp1s0.hop_limit = 64
+net.ipv6.conf.wlp1s0.ignore_routes_with_linkdown = 0
+net.ipv6.conf.wlp1s0.ioam6_enabled = 0
+net.ipv6.conf.wlp1s0.ioam6_id = 65535
+net.ipv6.conf.wlp1s0.ioam6_id_wide = 4294967295
+net.ipv6.conf.wlp1s0.keep_addr_on_down = 0
+net.ipv6.conf.wlp1s0.max_addresses = 16
+net.ipv6.conf.wlp1s0.max_desync_factor = 600
+net.ipv6.conf.wlp1s0.mc_forwarding = 0
+net.ipv6.conf.wlp1s0.mldv1_unsolicited_report_interval = 10000
+net.ipv6.conf.wlp1s0.mldv2_unsolicited_report_interval = 1000
+net.ipv6.conf.wlp1s0.mtu = 1500
+net.ipv6.conf.wlp1s0.ndisc_evict_nocarrier = 1
+net.ipv6.conf.wlp1s0.ndisc_notify = 0
+net.ipv6.conf.wlp1s0.ndisc_tclass = 0
+net.ipv6.conf.wlp1s0.proxy_ndp = 0
+net.ipv6.conf.wlp1s0.ra_defrtr_metric = 1024
+net.ipv6.conf.wlp1s0.regen_max_retry = 3
+net.ipv6.conf.wlp1s0.router_probe_interval = 60
+net.ipv6.conf.wlp1s0.router_solicitation_delay = 1
+net.ipv6.conf.wlp1s0.router_solicitation_interval = 4
+net.ipv6.conf.wlp1s0.router_solicitation_max_interval = 3600
+net.ipv6.conf.wlp1s0.router_solicitations = -1
+net.ipv6.conf.wlp1s0.rpl_seg_enabled = 0
+net.ipv6.conf.wlp1s0.seg6_enabled = 0
+net.ipv6.conf.wlp1s0.seg6_require_hmac = 0
+net.ipv6.conf.wlp1s0.suppress_frag_ndisc = 1
+net.ipv6.conf.wlp1s0.temp_prefered_lft = 86400
+net.ipv6.conf.wlp1s0.temp_valid_lft = 604800
+net.ipv6.conf.wlp1s0.use_oif_addrs_only = 0
+net.ipv6.conf.wlp1s0.use_tempaddr = 2
+net.ipv6.fib_multipath_hash_fields = 7
+net.ipv6.fib_multipath_hash_policy = 0
+net.ipv6.fib_notify_on_flag_change = 0
+net.ipv6.flowlabel_consistency = 1
+net.ipv6.flowlabel_reflect = 0
+net.ipv6.flowlabel_state_ranges = 0
+net.ipv6.fwmark_reflect = 0
+net.ipv6.icmp.echo_ignore_all = 0
+net.ipv6.icmp.echo_ignore_anycast = 0
+net.ipv6.icmp.echo_ignore_multicast = 0
+net.ipv6.icmp.error_anycast_as_unicast = 0
+net.ipv6.icmp.ratelimit = 1000
+net.ipv6.icmp.ratemask = 0-1,3-127
+net.ipv6.idgen_delay = 1
+net.ipv6.idgen_retries = 3
+net.ipv6.ioam6_id = 16777215
+net.ipv6.ioam6_id_wide = 72057594037927935
+net.ipv6.ip6frag_high_thresh = 4194304
+net.ipv6.ip6frag_low_thresh = 3145728
+net.ipv6.ip6frag_secret_interval = 0
+net.ipv6.ip6frag_time = 60
+net.ipv6.ip_nonlocal_bind = 0
+net.ipv6.max_dst_opts_length = 2147483647
+net.ipv6.max_dst_opts_number = 8
+net.ipv6.max_hbh_length = 2147483647
+net.ipv6.max_hbh_opts_number = 8
+net.ipv6.mld_max_msf = 64
+net.ipv6.mld_qrv = 2
+net.ipv6.neigh.default.anycast_delay = 100
+net.ipv6.neigh.default.app_solicit = 0
+net.ipv6.neigh.default.base_reachable_time_ms = 30000
+net.ipv6.neigh.default.delay_first_probe_time = 5
+net.ipv6.neigh.default.gc_interval = 30
+net.ipv6.neigh.default.gc_stale_time = 60
+net.ipv6.neigh.default.gc_thresh1 = 128
+net.ipv6.neigh.default.gc_thresh2 = 512
+net.ipv6.neigh.default.gc_thresh3 = 1024
+net.ipv6.neigh.default.interval_probe_time_ms = 5000
+net.ipv6.neigh.default.locktime = 0
+net.ipv6.neigh.default.mcast_resolicit = 0
+net.ipv6.neigh.default.mcast_solicit = 3
+net.ipv6.neigh.default.proxy_delay = 80
+net.ipv6.neigh.default.proxy_qlen = 64
+net.ipv6.neigh.default.retrans_time_ms = 1000
+net.ipv6.neigh.default.ucast_solicit = 3
+net.ipv6.neigh.default.unres_qlen = 101
+net.ipv6.neigh.default.unres_qlen_bytes = 212992
+net.ipv6.neigh.docker0.anycast_delay = 100
+net.ipv6.neigh.docker0.app_solicit = 0
+net.ipv6.neigh.docker0.base_reachable_time_ms = 30000
+net.ipv6.neigh.docker0.delay_first_probe_time = 5
+net.ipv6.neigh.docker0.gc_stale_time = 60
+net.ipv6.neigh.docker0.interval_probe_time_ms = 5000
+net.ipv6.neigh.docker0.locktime = 0
+net.ipv6.neigh.docker0.mcast_resolicit = 0
+net.ipv6.neigh.docker0.mcast_solicit = 3
+net.ipv6.neigh.docker0.proxy_delay = 80
+net.ipv6.neigh.docker0.proxy_qlen = 64
+net.ipv6.neigh.docker0.retrans_time_ms = 1000
+net.ipv6.neigh.docker0.ucast_solicit = 3
+net.ipv6.neigh.docker0.unres_qlen = 101
+net.ipv6.neigh.docker0.unres_qlen_bytes = 212992
+net.ipv6.neigh.lo.anycast_delay = 100
+net.ipv6.neigh.lo.app_solicit = 0
+net.ipv6.neigh.lo.base_reachable_time_ms = 30000
+net.ipv6.neigh.lo.delay_first_probe_time = 5
+net.ipv6.neigh.lo.gc_stale_time = 60
+net.ipv6.neigh.lo.interval_probe_time_ms = 5000
+net.ipv6.neigh.lo.locktime = 0
+net.ipv6.neigh.lo.mcast_resolicit = 0
+net.ipv6.neigh.lo.mcast_solicit = 3
+net.ipv6.neigh.lo.proxy_delay = 80
+net.ipv6.neigh.lo.proxy_qlen = 64
+net.ipv6.neigh.lo.retrans_time_ms = 1000
+net.ipv6.neigh.lo.ucast_solicit = 3
+net.ipv6.neigh.lo.unres_qlen = 101
+net.ipv6.neigh.lo.unres_qlen_bytes = 212992
+net.ipv6.neigh.wlp1s0.anycast_delay = 100
+net.ipv6.neigh.wlp1s0.app_solicit = 0
+net.ipv6.neigh.wlp1s0.base_reachable_time_ms = 30000
+net.ipv6.neigh.wlp1s0.delay_first_probe_time = 5
+net.ipv6.neigh.wlp1s0.gc_stale_time = 60
+net.ipv6.neigh.wlp1s0.interval_probe_time_ms = 5000
+net.ipv6.neigh.wlp1s0.locktime = 0
+net.ipv6.neigh.wlp1s0.mcast_resolicit = 0
+net.ipv6.neigh.wlp1s0.mcast_solicit = 3
+net.ipv6.neigh.wlp1s0.proxy_delay = 80
+net.ipv6.neigh.wlp1s0.proxy_qlen = 64
+net.ipv6.neigh.wlp1s0.retrans_time_ms = 1000
+net.ipv6.neigh.wlp1s0.ucast_solicit = 3
+net.ipv6.neigh.wlp1s0.unres_qlen = 101
+net.ipv6.neigh.wlp1s0.unres_qlen_bytes = 212992
+net.ipv6.route.gc_elasticity = 9
+net.ipv6.route.gc_interval = 30
+net.ipv6.route.gc_min_interval = 0
+net.ipv6.route.gc_min_interval_ms = 500
+net.ipv6.route.gc_thresh = 1024
+net.ipv6.route.gc_timeout = 60
+net.ipv6.route.max_size = 2147483647
+net.ipv6.route.min_adv_mss = 1220
+net.ipv6.route.mtu_expires = 600
+net.ipv6.route.skip_notify_on_dev_down = 0
+net.ipv6.seg6_flowlabel = 0
+net.ipv6.xfrm6_gc_thresh = 32768
+net.mptcp.add_addr_timeout = 120
+net.mptcp.allow_join_initial_addr_port = 1
+net.mptcp.checksum_enabled = 0
+net.mptcp.enabled = 1
+net.mptcp.pm_type = 0
+net.mptcp.stale_loss_cnt = 4
+net.netfilter.nf_conntrack_acct = 0
+net.netfilter.nf_conntrack_buckets = 262144
+net.netfilter.nf_conntrack_checksum = 1
+net.netfilter.nf_conntrack_count = 21
+net.netfilter.nf_conntrack_dccp_loose = 1
+net.netfilter.nf_conntrack_dccp_timeout_closereq = 64
+net.netfilter.nf_conntrack_dccp_timeout_closing = 64
+net.netfilter.nf_conntrack_dccp_timeout_open = 43200
+net.netfilter.nf_conntrack_dccp_timeout_partopen = 480
+net.netfilter.nf_conntrack_dccp_timeout_request = 240
+net.netfilter.nf_conntrack_dccp_timeout_respond = 480
+net.netfilter.nf_conntrack_dccp_timeout_timewait = 240
+net.netfilter.nf_conntrack_events = 2
+net.netfilter.nf_conntrack_expect_max = 4096
+net.netfilter.nf_conntrack_frag6_high_thresh = 4194304
+net.netfilter.nf_conntrack_frag6_low_thresh = 3145728
+net.netfilter.nf_conntrack_frag6_timeout = 60
+net.netfilter.nf_conntrack_generic_timeout = 600
+net.netfilter.nf_conntrack_gre_timeout = 30
+net.netfilter.nf_conntrack_gre_timeout_stream = 180
+net.netfilter.nf_conntrack_icmp_timeout = 30
+net.netfilter.nf_conntrack_icmpv6_timeout = 30
+net.netfilter.nf_conntrack_log_invalid = 0
+net.netfilter.nf_conntrack_max = 262144
+net.netfilter.nf_conntrack_sctp_timeout_closed = 10
+net.netfilter.nf_conntrack_sctp_timeout_cookie_echoed = 3
+net.netfilter.nf_conntrack_sctp_timeout_cookie_wait = 3
+net.netfilter.nf_conntrack_sctp_timeout_established = 210
+net.netfilter.nf_conntrack_sctp_timeout_heartbeat_sent = 30
+net.netfilter.nf_conntrack_sctp_timeout_shutdown_ack_sent = 3
+net.netfilter.nf_conntrack_sctp_timeout_shutdown_recd = 3
+net.netfilter.nf_conntrack_sctp_timeout_shutdown_sent = 3
+net.netfilter.nf_conntrack_tcp_be_liberal = 0
+net.netfilter.nf_conntrack_tcp_ignore_invalid_rst = 0
+net.netfilter.nf_conntrack_tcp_loose = 1
+net.netfilter.nf_conntrack_tcp_max_retrans = 3
+net.netfilter.nf_conntrack_tcp_timeout_close = 10
+net.netfilter.nf_conntrack_tcp_timeout_close_wait = 60
+net.netfilter.nf_conntrack_tcp_timeout_established = 432000
+net.netfilter.nf_conntrack_tcp_timeout_fin_wait = 120
+net.netfilter.nf_conntrack_tcp_timeout_last_ack = 30
+net.netfilter.nf_conntrack_tcp_timeout_max_retrans = 300
+net.netfilter.nf_conntrack_tcp_timeout_syn_recv = 60
+net.netfilter.nf_conntrack_tcp_timeout_syn_sent = 120
+net.netfilter.nf_conntrack_tcp_timeout_time_wait = 120
+net.netfilter.nf_conntrack_tcp_timeout_unacknowledged = 300
+net.netfilter.nf_conntrack_timestamp = 0
+net.netfilter.nf_conntrack_udp_timeout = 30
+net.netfilter.nf_conntrack_udp_timeout_stream = 120
+net.netfilter.nf_flowtable_tcp_timeout = 30
+net.netfilter.nf_flowtable_udp_timeout = 30
+net.netfilter.nf_hooks_lwtunnel = 0
+net.netfilter.nf_log.0 = NONE
+net.netfilter.nf_log.1 = NONE
+net.netfilter.nf_log.10 = NONE
+net.netfilter.nf_log.2 = NONE
+net.netfilter.nf_log.3 = NONE
+net.netfilter.nf_log.4 = NONE
+net.netfilter.nf_log.5 = NONE
+net.netfilter.nf_log.6 = NONE
+net.netfilter.nf_log.7 = NONE
+net.netfilter.nf_log.8 = NONE
+net.netfilter.nf_log.9 = NONE
+net.netfilter.nf_log_all_netns = 0
+net.nf_conntrack_max = 262144
+net.unix.max_dgram_qlen = 512
+user.max_cgroup_namespaces = 77167
+user.max_fanotify_groups = 128
+user.max_fanotify_marks = 160035
+user.max_inotify_instances = 128
+user.max_inotify_watches = 65536
+user.max_ipc_namespaces = 77167
+user.max_mnt_namespaces = 77167
+user.max_net_namespaces = 77167
+user.max_pid_namespaces = 77167
+user.max_time_namespaces = 77167
+user.max_user_namespaces = 77167
+user.max_uts_namespaces = 77167
+vm.admin_reserve_kbytes = 8192
+vm.compact_unevictable_allowed = 1
+vm.compaction_proactiveness = 20
+vm.dirty_background_bytes = 0
+vm.dirty_background_ratio = 10
+vm.dirty_bytes = 0
+vm.dirty_expire_centisecs = 3000
+vm.dirty_ratio = 20
+vm.dirty_writeback_centisecs = 500
+vm.dirtytime_expire_seconds = 43200
+vm.extfrag_threshold = 500
+vm.hugetlb_optimize_vmemmap = 0
+vm.hugetlb_shm_group = 0
+vm.laptop_mode = 0
+vm.legacy_va_layout = 0
+vm.lowmem_reserve_ratio = 256	256	32	0	0
+vm.max_map_count = 65530
+vm.memfd_noexec = 0
+vm.memory_failure_early_kill = 0
+vm.memory_failure_recovery = 1
+vm.min_free_kbytes = 67584
+vm.min_slab_ratio = 5
+vm.min_unmapped_ratio = 1
+vm.mmap_min_addr = 65536
+vm.mmap_rnd_bits = 32
+vm.mmap_rnd_compat_bits = 16
+vm.nr_hugepages = 0
+vm.nr_hugepages_mempolicy = 0
+vm.nr_overcommit_hugepages = 0
+vm.numa_stat = 1
+vm.numa_zonelist_order = Node
+vm.oom_dump_tasks = 1
+vm.oom_kill_allocating_task = 0
+vm.overcommit_kbytes = 0
+vm.overcommit_memory = 0
+vm.overcommit_ratio = 50
+vm.page-cluster = 3
+vm.page_lock_unfairness = 5
+vm.panic_on_oom = 0
+vm.percpu_pagelist_high_fraction = 0
+vm.stat_interval = 1
+vm.swappiness = 60
+vm.unprivileged_userfaultfd = 0
+vm.user_reserve_kbytes = 131072
+vm.vfs_cache_pressure = 100
+vm.watermark_boost_factor = 15000
+vm.watermark_scale_factor = 10
+vm.zone_reclaim_mode = 0
+------------------------------------------------------------
+16. /sys/kernel/mm/transparent_hugepage
+always [madvise] never
+------------------------------------------------------------
+17. /sys/kernel/mm/transparent_hugepage/khugepaged
+1
+------------------------------------------------------------
+18. OS release
+PRETTY_NAME="Ubuntu 22.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.4 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+------------------------------------------------------------
+19. Disk information
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0         7:0    0     4K  1 loop /snap/bare/5
+loop1         7:1    0  55.7M  1 loop /snap/core18/2829
+loop2         7:2    0  63.3M  1 loop /snap/core20/1828
+loop3         7:3    0  63.9M  1 loop /snap/core20/2318
+loop4         7:4    0  74.2M  1 loop /snap/core22/1380
+loop5         7:5    0  66.2M  1 loop /snap/core24/423
+loop6         7:6    0 268.7M  1 loop /snap/firefox/4483
+loop7         7:7    0 268.4M  1 loop /snap/firefox/4650
+loop8         7:8    0 346.3M  1 loop /snap/gnome-3-38-2004/119
+loop9         7:9    0 349.7M  1 loop /snap/gnome-3-38-2004/143
+loop10        7:10   0 505.1M  1 loop /snap/gnome-42-2204/176
+loop11        7:11   0  91.7M  1 loop /snap/gtk-common-themes/1535
+loop12        7:12   0  12.9M  1 loop /snap/snap-store/1113
+loop13        7:13   0  45.9M  1 loop /snap/snap-store/638
+loop14        7:14   0  49.8M  1 loop /snap/snapd/18357
+loop15        7:15   0  38.8M  1 loop /snap/snapd/21759
+loop16        7:16   0   476K  1 loop /snap/snapd-desktop-integration/157
+loop17        7:17   0   6.9M  1 loop /snap/speedtest-cli/30
+loop18        7:18   0 445.7M  1 loop /snap/telegram-desktop/5970
+loop19        7:19   0 446.2M  1 loop /snap/telegram-desktop/6055
+nvme0n1     259:0    0 476.9G  0 disk 
+├─nvme0n1p1 259:1    0   100M  0 part /boot/efi
+├─nvme0n1p2 259:2    0    16M  0 part 
+├─nvme0n1p3 259:3    0 280.9G  0 part 
+├─nvme0n1p4 259:4    0  97.7G  0 part 
+├─nvme0n1p5 259:5    0   633M  0 part 
+├─nvme0n1p6 259:6    0   1.9G  0 part 
+└─nvme0n1p7 259:7    0  95.8G  0 part /var/snap/firefox/common/host-hunspell
+                                      /
+------------------------------------------------------------
+20. /sys/devices/virtual/dmi/id
+bios_date
+bios_release
+bios_vendor
+bios_version
+board_asset_tag
+board_name
+board_serial
+board_vendor
+board_version
+chassis_asset_tag
+chassis_serial
+chassis_type
+chassis_vendor
+chassis_version
+modalias
+power
+product_family
+product_name
+product_serial
+product_sku
+product_uuid
+product_version
+subsystem
+sys_vendor
+uevent
+------------------------------------------------------------
+21. dmidecode
+# dmidecode 3.3
+Getting SMBIOS data from sysfs.
+SMBIOS 3.3.0 present.
+Table at 0xBCFF2000.
+
+Handle 0x0000, DMI type 0, 26 bytes
+BIOS Information
+	Vendor: American Megatrends International, LLC.
+	Version: X515UA.309
+	Release Date: 06/06/2023
+	Address: 0xF0000
+	Runtime Size: 64 kB
+	ROM Size: 16 MB
+	Characteristics:
+		PCI is supported
+		BIOS is upgradeable
+		BIOS shadowing is allowed
+		Boot from CD is supported
+		Selectable boot is supported
+		BIOS ROM is socketed
+		EDD is supported
+		ACPI is supported
+		Smart battery is supported
+		BIOS boot specification is supported
+		Targeted content distribution is supported
+		UEFI is supported
+	BIOS Revision: 5.19
+
+Handle 0x0001, DMI type 1, 27 bytes
+System Information
+	Manufacturer: ASUSTeK COMPUTER INC.
+	Product Name: VivoBook_ASUSLaptop X515UA_M515UA
+	Version: 1.0       
+	Serial Number: MBN0CV14M76246B
+	UUID: 563ceb9a-998a-f343-975b-5595f649978f
+	Wake-up Type: Power Switch
+	SKU Number:  
+	Family: ASUSLaptop
+
+Handle 0x0002, DMI type 2, 15 bytes
+Base Board Information
+	Manufacturer: ASUSTeK COMPUTER INC.
+	Product Name: X515UA
+	Version: 1.0       
+	Serial Number: MC49NBCV007W35MB
+	Asset Tag: ATN12345678901234567
+	Features:
+		Board is a hosting board
+		Board is replaceable
+	Location In Chassis: MIDDLE              
+	Chassis Handle: 0x0003
+	Type: Motherboard
+	Contained Object Handles: 0
+
+Handle 0x0003, DMI type 3, 22 bytes
+Chassis Information
+	Manufacturer: ASUSTeK COMPUTER INC.
+	Type: Notebook
+	Lock: Not Present
+	Version: 1.0       
+	Serial Number: MBN0CV14M76246B
+	Asset Tag: No Asset Tag
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Safe
+	Security Status: None
+	OEM Information: 0x00000000
+	Height: Unspecified
+	Number Of Power Cords: 1
+	Contained Elements: 0
+	SKU Number: NA
+
+Handle 0x0007, DMI type 13, 22 bytes
+BIOS Language Information
+	Language Description Format: Long
+	Installable Languages: 1
+		en|US|iso8859-1
+	Currently Installed Language: en|US|iso8859-1
+
+Handle 0x0008, DMI type 31, 28 bytes
+Boot Integrity Services Entry Point
+	Checksum: Invalid
+	16-bit Entry Point Address: FFFF:FFFF
+	32-bit Entry Point Address: 0xFFFFFFFF
+
+Handle 0x0009, DMI type 32, 11 bytes
+System Boot Information
+	Status: No errors detected
+
+Handle 0x0010, DMI type 44, 9 bytes
+Unknown Type
+	Header and Data:
+		2C 09 10 00 00 00 01 01 00
+
+Handle 0x0011, DMI type 43, 31 bytes
+TPM Device
+	Vendor ID: AMD
+	Specification Version: 2.0
+	Firmware Revision: 3.87
+	Description: AMD
+	Characteristics:
+		Family configurable via platform software support
+	OEM-specific Information: 0x00000000
+
+Handle 0x0012, DMI type 18, 23 bytes
+32-bit Memory Error Information
+	Type: OK
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x0013, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 32 GB
+	Error Information Handle: 0x0012
+	Number Of Devices: 2
+
+Handle 0x0014, DMI type 19, 31 bytes
+Memory Array Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x004FFFFFFFF
+	Range Size: 20 GB
+	Physical Array Handle: 0x0013
+	Partition Width: 2
+
+Handle 0x0015, DMI type 7, 27 bytes
+Cache Information
+	Socket Designation: L1 - Cache
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 384 kB
+	Maximum Size: 384 kB
+	Supported SRAM Types:
+		Pipeline Burst
+	Installed SRAM Type: Pipeline Burst
+	Speed: 1 ns
+	Error Correction Type: Multi-bit ECC
+	System Type: Unified
+	Associativity: 8-way Set-associative
+
+Handle 0x0016, DMI type 7, 27 bytes
+Cache Information
+	Socket Designation: L2 - Cache
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 3 MB
+	Maximum Size: 3 MB
+	Supported SRAM Types:
+		Pipeline Burst
+	Installed SRAM Type: Pipeline Burst
+	Speed: 1 ns
+	Error Correction Type: Multi-bit ECC
+	System Type: Unified
+	Associativity: 8-way Set-associative
+
+Handle 0x0017, DMI type 7, 27 bytes
+Cache Information
+	Socket Designation: L3 - Cache
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 8 MB
+	Maximum Size: 8 MB
+	Supported SRAM Types:
+		Pipeline Burst
+	Installed SRAM Type: Pipeline Burst
+	Speed: 1 ns
+	Error Correction Type: Multi-bit ECC
+	System Type: Unified
+	Associativity: 16-way Set-associative
+
+Handle 0x0018, DMI type 4, 48 bytes
+Processor Information
+	Socket Designation: FP6
+	Type: Central Processor
+	Family: Zen
+	Manufacturer: Advanced Micro Devices, Inc.
+	ID: 81 0F 86 00 FF FB 8B 17
+	Signature: Family 23, Model 104, Stepping 1
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		HTT (Multi-threading)
+	Version: AMD Ryzen 5 5500U with Radeon Graphics         
+	Voltage: 1.2 V
+	External Clock: 100 MHz
+	Max Speed: 4050 MHz
+	Current Speed: 2100 MHz
+	Status: Populated, Enabled
+	Upgrade: None
+	L1 Cache Handle: 0x0015
+	L2 Cache Handle: 0x0016
+	L3 Cache Handle: 0x0017
+	Serial Number: Unknown
+	Asset Tag: Unknown
+	Part Number: Unknown
+	Core Count: 6
+	Core Enabled: 6
+	Thread Count: 12
+	Characteristics:
+		64-bit capable
+		Multi-Core
+		Hardware Thread
+		Execute Protection
+		Enhanced Virtualization
+		Power/Performance Control
+
+Handle 0x0019, DMI type 18, 23 bytes
+32-bit Memory Error Information
+	Type: OK
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x001A, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0013
+	Error Information Handle: 0x0019
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4 GB
+	Form Factor: SODIMM
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL A
+	Type: DDR4
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 3200 MT/s
+	Manufacturer: Hynix
+	Serial Number: 00000000
+	Asset Tag: Not Specified
+	Part Number: HMA851S6CJR6N-XN    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Unknown
+	Module Manufacturer ID: Bank 1, Hex 0xAD
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 4 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x001B, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
+	Physical Device Handle: 0x001A
+	Memory Array Mapped Address Handle: 0x0014
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
+
+Handle 0x001C, DMI type 18, 23 bytes
+32-bit Memory Error Information
+	Type: OK
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x001D, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0013
+	Error Information Handle: 0x001C
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 16 GB
+	Form Factor: SODIMM
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL B
+	Type: DDR4
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 3200 MT/s
+	Manufacturer: A-DATA Technology
+	Serial Number: 0E630500
+	Asset Tag: Not Specified
+	Part Number:                     
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Unknown
+	Module Manufacturer ID: Bank 5, Hex 0xCB
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x001E, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x004FFFFFFFF
+	Range Size: 20 GB
+	Physical Device Handle: 0x001D
+	Memory Array Mapped Address Handle: 0x0014
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
+
+Handle 0x0031, DMI type 10, 26 bytes
+On Board Device 1 Information
+	Type: Video
+	Status: Enabled
+	Description: VGA
+On Board Device 2 Information
+	Type: Ethernet
+	Status: Enabled
+	Description: GLAN
+On Board Device 3 Information
+	Type: Ethernet
+	Status: Enabled
+	Description: WLAN
+On Board Device 4 Information
+	Type: Sound
+	Status: Enabled
+	Description: Audio CODEC
+On Board Device 5 Information
+	Type: SATA Controller
+	Status: Enabled
+	Description: SATA Controller
+On Board Device 6 Information
+	Type: Other
+	Status: Enabled
+	Description: USB 2.0 Controller
+On Board Device 7 Information
+	Type: Other
+	Status: Enabled
+	Description: USB 3.0 Controller
+On Board Device 8 Information
+	Type: Other
+	Status: Enabled
+	Description: SMBus Controller
+On Board Device 9 Information
+	Type: Other
+	Status: Enabled
+	Description: Card Reader
+On Board Device 10 Information
+	Type: Other
+	Status: Enabled
+	Description: Cmos Camera
+On Board Device 11 Information
+	Type: Other
+	Status: Enabled
+	Description: Bluetooth
+
+Handle 0x0032, DMI type 11, 5 bytes
+OEM Strings
+	String 1: kPJ-+7X7+EfTa
+	String 2: jTyRUBSNi7Ydf
+	String 3: fCrOzJ6x1i-eh
+	String 4:  
+	String 5: 90NB0U12-M05060
+
+Handle 0x0033, DMI type 12, 5 bytes
+System Configuration Options
+	Option 1: SMI:00B26C
+	Option 2: DSN:                                
+	Option 3: DSN:                                
+	Option 4: DSN:                                
+
+Handle 0x0034, DMI type 127, 4 bytes
+End Of Table
+
+------------------------------------------------------------
+22. BIOS
+# dmidecode 3.3
+Getting SMBIOS data from sysfs.
+SMBIOS 3.3.0 present.
+
+Handle 0x0000, DMI type 0, 26 bytes
+BIOS Information
+	Vendor: American Megatrends International, LLC.
+	Version: X515UA.309
+	Release Date: 06/06/2023
+	Address: 0xF0000
+	Runtime Size: 64 kB
+	ROM Size: 16 MB
+	Characteristics:
+		PCI is supported
+		BIOS is upgradeable
+		BIOS shadowing is allowed
+		Boot from CD is supported
+		Selectable boot is supported
+		BIOS ROM is socketed
+		EDD is supported
+		ACPI is supported
+		Smart battery is supported
+		BIOS boot specification is supported
+		Targeted content distribution is supported
+		UEFI is supported
+	BIOS Revision: 5.19
+
+Handle 0x0007, DMI type 13, 22 bytes
+BIOS Language Information
+	Language Description Format: Long
+	Installable Languages: 1
+		en|US|iso8859-1
+	Currently Installed Language: en|US|iso8859-1
+
+------------------------------------------------------------

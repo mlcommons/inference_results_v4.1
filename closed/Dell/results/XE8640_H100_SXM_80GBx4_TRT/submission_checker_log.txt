@@ -1,0 +1,60 @@
+[2024-07-25 10:25:39,810 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,811 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,812 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,812 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-25 10:25:39,812 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/compliance/XE8640_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,813 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/compliance/XE8640_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,813 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-25 10:25:39,814 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/compliance/XE8640_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,814 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/compliance/XE8640_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,814 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-25 10:25:39,815 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,816 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,817 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,817 submission_checker.py:1166 INFO] Target latency: None, Latency: 632330626174, Scenario: Offline
+[2024-07-25 10:25:39,817 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/compliance/XE8640_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,818 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/compliance/XE8640_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,818 submission_checker.py:1166 INFO] Target latency: None, Latency: 633733752592, Scenario: Offline
+[2024-07-25 10:25:39,819 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/compliance/XE8640_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,819 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/compliance/XE8640_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,819 submission_checker.py:1166 INFO] Target latency: None, Latency: 632700262953, Scenario: Offline
+[2024-07-25 10:25:39,821 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/llama2-70b-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,823 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,825 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,826 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-07-25 10:25:39,827 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/llama2-70b-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,829 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,831 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,831 submission_checker.py:1166 INFO] Target latency: None, Latency: 5953142145235, Scenario: Offline
+[2024-07-25 10:25:39,833 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/llama2-70b-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,835 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,837 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,837 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-07-25 10:25:39,839 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/llama2-70b-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,841 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,842 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-25 10:25:39,842 submission_checker.py:1166 INFO] Target latency: None, Latency: 5953142145235, Scenario: Offline
+[2024-07-25 10:25:39,843 submission_checker.py:2678 INFO] ---
+[2024-07-25 10:25:39,843 submission_checker.py:2682 INFO] Results closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/llama2-70b-99.9/Offline 10699.6
+[2024-07-25 10:25:39,843 submission_checker.py:2682 INFO] Results closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/llama2-70b-99.9/Server 9522.2
+[2024-07-25 10:25:39,843 submission_checker.py:2682 INFO] Results closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/llama2-70b-99/Offline 10699.6
+[2024-07-25 10:25:39,843 submission_checker.py:2682 INFO] Results closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/llama2-70b-99/Server 9522.2
+[2024-07-25 10:25:39,843 submission_checker.py:2682 INFO] Results closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Offline 8.22546
+[2024-07-25 10:25:39,843 submission_checker.py:2682 INFO] Results closed/Dell/results/XE8640_H100_SXM_80GBx4_TRT/stable-diffusion-xl/Server 7.85802
+[2024-07-25 10:25:39,843 submission_checker.py:2684 INFO] ---
+[2024-07-25 10:25:39,843 submission_checker.py:2769 INFO] ---
+[2024-07-25 10:25:39,843 submission_checker.py:2770 INFO] Results=6, NoResults=0, Power Results=0
+[2024-07-25 10:25:39,843 submission_checker.py:2777 INFO] ---
+[2024-07-25 10:25:39,843 submission_checker.py:2778 INFO] Closed Results=6, Closed Power Results=0
+
+[2024-07-25 10:25:39,843 submission_checker.py:2783 INFO] Open Results=0, Open Power Results=0
+
+[2024-07-25 10:25:39,843 submission_checker.py:2788 INFO] Network Results=0, Network Power Results=0
+
+[2024-07-25 10:25:39,843 submission_checker.py:2793 INFO] ---
+[2024-07-25 10:25:39,843 submission_checker.py:2795 INFO] Systems=1, Power Systems=0
+[2024-07-25 10:25:39,843 submission_checker.py:2796 INFO] Closed Systems=1, Closed Power Systems=0
+[2024-07-25 10:25:39,843 submission_checker.py:2801 INFO] Open Systems=0, Open Power Systems=0
+[2024-07-25 10:25:39,843 submission_checker.py:2806 INFO] Network Systems=0, Network Power Systems=0
+[2024-07-25 10:25:39,843 submission_checker.py:2811 INFO] ---
+[2024-07-25 10:25:39,843 submission_checker.py:2816 INFO] SUMMARY: submission looks OK

@@ -1,0 +1,186 @@
+#!/bin/bash
+
+set -e
+
+##temp
+#export ALL_PROXY=http://hpeproxy.its.hpecorp.net:443
+#export FTP_PROXY=http://hpeproxy.its.hpecorp.net:443
+#export HTTPS_PROXY=http://hpeproxy.its.hpecorp.net:443
+#export HTTP_PROXY=http://hpeproxy.its.hpecorp.net:443
+#export all_proxy=http://hpeproxy.its.hpecorp.net:443
+#export ftp_proxy=http://hpeproxy.its.hpecorp.net:443
+#export http_proxy=http://hpeproxy.its.hpecorp.net:443
+#export https_proxy=http://hpeproxy.its.hpecorp.net:443
+#export no_proxy=127.0.0.1,localhost,10.30.32.0/22,10.30.24.0/22,10.14.72.0/21,10.21.196.0/23
+#printf "proxy_servers:\n    http: http://hpeproxy.its.hpecorp.net:443\n    https: http://hpeproxy.its.hpecorp.net:443\n" > /root/.condarc
+#RUN printf "proxy_servers:\n    http_proxy: http://hpeproxy.its.hpecorp.net:443\n    https_proxy: http://hpeproxy.its.hpecorp.net:443\n" > /root/.condarc
+#printf "channels:\n  - conda-forge\n#  - defaults\nchannel_priority: strict\nssl_verify: false" >> /root/.condarc
+
+#pwd
+#ls -la
+#sleep 5
+#wget  http://www.cpan.org/authors/01mailrc.txt.gz
+#sudo mkdir /root/.cpan
+#sudo mkdir /root/.cpan/sources
+#sudo mkdir /root/.cpan/sources/authors/
+#sudo mv 01mailrc.txt.gz /root/.cpan/sources/authors/01mailrc.txt.gz.tmp56059
+#sudo apt update
+##
+
+install_gflags(){
+    local VERSION=$1
+
+    cd /tmp
+    # -DBUILD_SHARED_LIBS=ON -DBUILD_STATIC_LIBS=ON -DBUILD_gflags_LIB=ON .. \
+    git clone -b v${VERSION} https://github.com/gflags/gflags.git
+    cd gflags
+    mkdir build && cd build
+    cmake -DBUILD_SHARED_LIBS=ON -DBUILD_STATIC_LIBS=ON -DBUILD_gflags_LIB=ON ..
+    make -j
+    make install
+    cd /tmp && rm -rf gflags
+}
+
+install_glog(){
+    local VERSION=$1
+
+    cd /tmp
+    git clone -b v${VERSION} https://github.com/google/glog.git
+    cd glog
+    cmake -H. -Bbuild -G "Unix Makefiles" -DBUILD_SHARED_LIBS=ON -DBUILD_STATIC_LIBS=ON
+    cmake --build build
+    cmake --build build --target install
+    cd /tmp && rm -rf glog
+
+}
+
+install_CUB(){
+    local ARCH=$1
+
+    # Install CUB, needed by NMS OPT plugin
+    cd /tmp
+    wget https://github.com/NVlabs/cub/archive/1.8.0.zip -O cub-1.8.0.zip
+    unzip cub-1.8.0.zip
+    mv cub-1.8.0/cub /usr/include/${ARCH}-linux-gnu/
+    rm -rf cub-1.8.0.zip cub-1.8.0
+}
+
+install_nlohmann_json_x86_64(){
+    # Install nlohmann/json for LLM config parsing
+    cd /tmp
+    git clone -b v3.11.2 https://github.com/nlohmann/json.git
+    cp -r json/single_include/nlohmann /usr/include/x86_64-linux-gnu/
+    rm -rf json
+}
+
+install_nlohmann_json_aarch64(){
+    apt install -y nlohmann-json3-dev
+}
+
+install_nvrtc_dev(){
+    local ARCH=$1
+    # remove the default nvrtc package, do a fresh install
+    apt-get remove --purge -y --allow-change-held-packages cuda-nvrtc-dev*
+
+    cd /tmp
+    curl -fsSLO https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/${ARCH}/cuda-keyring_1.0-1_all.deb
+    dpkg -i cuda-keyring_1.0-1_all.deb
+    apt update
+    apt-get install -y --no-install-recommends cuda-nvrtc-dev-12-4=12.4.127-1
+
+    # Create symlink for TRTLLM
+    sudo ln -s /usr/local/cuda-12.4/lib64/libnvrtc_static.a /usr/local/libnvrtc_static.a
+    sudo ln -s /usr/local/cuda-12.4/lib64/libnvrtc-builtins_static.a /usr/local/libnvrtc-builtins_static.a
+}
+
+install_boost_1_78(){
+    apt purge libboost-all-dev \
+      && apt autoremove -y libboost1.74-dev \
+      && sudo rm -rf /usr/lib/libboost_* /usr/include/boost \
+      && wget -O /tmp/boost.tar.gz \
+          https://archives.boost.io/release/1.80.0/source/boost_1_80_0.tar.gz \
+      && (cd /tmp && tar xzf boost.tar.gz) \
+      && mv /tmp/boost_1_80_0/boost /usr/include/boost
+}
+
+install_cupva_orin(){
+    # install cupva
+    wget -nv https://urm.nvidia.com/artifactory/sw-cupva-sdk-debian-local/pool/releases/2.0.0/cupva-2.0.0-l4t.deb
+    dpkg -i cupva-2.0.0-l4t.deb
+    apt update
+    apt install cupva-2.0-l4t
+
+    wget -nv https://developer.nvidia.com/downloads/embedded/l4t/cupva-algos-gen2-2.0.0-cupva_algo_dlops.deb
+    dpkg --add-architecture amd64
+    dpkg -i cupva-algos-gen2-2.0.0-cupva_algo_dlops.deb
+}
+
+install_mxeval_deps() {
+  # Needed by moe submission_checker
+  # Ref: https://github.com/mlcommons/inference/blob/master/language/mixtral-8x7b/Dockerfile.eval
+
+  # php
+  # NOTE(vir): using gettext instead of php-gettext
+  add-apt-repository -y ppa:ondrej/php
+  apt update
+  apt install -y --no-install-recommends php8.0 gettext php-bcmath php-cgi php-common php-curl php-fpm \
+      php-gd php-intl php-json php-mbstring php-pear php-xml php-zip php8.0-common php8.0-mysql
+
+  # java
+  apt install -y --no-install-recommends openjdk-8-jdk
+
+  # golang
+  cd /usr/local
+  ls -la /usr/local
+  local GO_TAR=go1.19.1.linux-amd64.tar.gz
+  #wget https://go.dev/dl/$GO_TAR #sudo
+  tar -xzvf $GO_TAR #sudo
+  rm $GO_TAR #sudo
+  echo 'export PATH="$PATH:/usr/local/go/bin"' >> $HOME/.bashrc
+
+  # swift
+  cd /usr/local
+  local UBUNTU_MAJOR_VER=$(lsb_release -r -s | cut -d. -f1)
+  wget https://download.swift.org/swift-5.7-release/ubuntu${UBUNTU_MAJOR_VER}04/swift-5.7-RELEASE/swift-5.7-RELEASE-ubuntu${UBUNTU_MAJOR_VER}.04.tar.gz
+  tar -xzvf swift-5.7-RELEASE-ubuntu${UBUNTU_MAJOR_VER}.04.tar.gz
+  rm swift-5.7-RELEASE-ubuntu${UBUNTU_MAJOR_VER}.04.tar.gz
+
+  # scala
+  apt install -y --no-install-recommends scala
+
+  # C#
+  apt install -y --no-install-recommends dotnet6
+
+  # perl
+#  sudo PERL_MM_USE_DEFAULT=1 perl -MCPAN -e 'install Data::Compare'
+}
+
+case ${BUILD_CONTEXT} in
+  x86_64)
+    install_gflags 2.2.1
+    install_glog 0.6.0
+    install_CUB x86_64
+    install_nlohmann_json_x86_64
+    install_boost_1_78
+    install_nvrtc_dev x86_64
+    install_mxeval_deps
+    ;;
+  aarch64-GraceHopper)
+    install_gflags 2.2.2
+    install_glog 0.6.0
+    install_CUB aarch64
+    install_nlohmann_json_aarch64
+    install_boost_1_78
+    # install_nvrtc_dev sbsa
+    install_mxeval_deps
+    ;;
+  aarch64-Orin)
+    install_CUB aarch64
+    install_nlohmann_json_aarch64
+    install_cupva_orin
+    ;;
+  *)
+    echo "Supported BUILD_CONTEXT are only x86_64, aarch64-GraceHopper, and aarch64-Orin."
+    exit 1
+    ;;
+esac

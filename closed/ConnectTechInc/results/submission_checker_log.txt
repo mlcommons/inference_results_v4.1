@@ -1,0 +1,27 @@
+[2024-08-09 08:56:53,353 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ConnectTechInc/results/Orin_TRT/gptj-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-08-09 08:56:53,355 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ConnectTechInc/results/Orin_TRT/gptj-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-09 08:56:53,357 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ConnectTechInc/results/Orin_TRT/gptj-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-09 08:56:53,357 submission_checker.py:1166 INFO] Target latency: None, Latency: 14322413237284, Scenario: Offline
+[2024-08-09 08:56:53,359 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ConnectTechInc/results/Orin_TRT/gptj-99/SingleStream/accuracy/mlperf_log_detail.txt.
+[2024-08-09 08:56:53,361 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ConnectTechInc/results/Orin_TRT/gptj-99/SingleStream/performance/run_1/mlperf_log_detail.txt.
+[2024-08-09 08:56:53,364 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ConnectTechInc/results/Orin_TRT/gptj-99/SingleStream/performance/run_1/mlperf_log_detail.txt.
+[2024-08-09 08:56:53,365 submission_checker.py:2678 INFO] ---
+[2024-08-09 08:56:53,365 submission_checker.py:2682 INFO] Results closed/ConnectTechInc/results/Orin_TRT/gptj-99/Offline 64.0078
+[2024-08-09 08:56:53,365 submission_checker.py:2682 INFO] Results closed/ConnectTechInc/results/Orin_TRT/gptj-99/SingleStream 4145.572039
+[2024-08-09 08:56:53,365 submission_checker.py:2684 INFO] ---
+[2024-08-09 08:56:53,365 submission_checker.py:2769 INFO] ---
+[2024-08-09 08:56:53,365 submission_checker.py:2770 INFO] Results=2, NoResults=0, Power Results=0
+[2024-08-09 08:56:53,365 submission_checker.py:2777 INFO] ---
+[2024-08-09 08:56:53,365 submission_checker.py:2778 INFO] Closed Results=2, Closed Power Results=0
+
+[2024-08-09 08:56:53,365 submission_checker.py:2783 INFO] Open Results=0, Open Power Results=0
+
+[2024-08-09 08:56:53,365 submission_checker.py:2788 INFO] Network Results=0, Network Power Results=0
+
+[2024-08-09 08:56:53,365 submission_checker.py:2793 INFO] ---
+[2024-08-09 08:56:53,365 submission_checker.py:2795 INFO] Systems=1, Power Systems=0
+[2024-08-09 08:56:53,365 submission_checker.py:2796 INFO] Closed Systems=1, Closed Power Systems=0
+[2024-08-09 08:56:53,365 submission_checker.py:2801 INFO] Open Systems=0, Open Power Systems=0
+[2024-08-09 08:56:53,365 submission_checker.py:2806 INFO] Network Systems=0, Network Power Systems=0
+[2024-08-09 08:56:53,365 submission_checker.py:2811 INFO] ---
+[2024-08-09 08:56:53,365 submission_checker.py:2816 INFO] SUMMARY: submission looks OK

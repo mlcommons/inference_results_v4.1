@@ -1,0 +1,21 @@
+{
+    "_parent_entries": [ [ "^", "byquery", [ "^^", "substitute", "model_config,device=#{device}#,model=#{model}#" ], {}, [ "device", "model" ] ] ],
+    "tags": [ "device_model_config" ],
+    "config_target": "runtime",
+    "device": "uai",
+    "model": "resnet50",
+    "num_device": 1,
+    "num_cards": 1,
+    "system_type": "edge",
+    "card": "slim",
+    "sut": "h13_u1_slim",
+    "Offline": {
+        "loadgen_batch_size": 10
+    },
+    "SingleStream": {
+        "loadgen_batch_size": 1
+    },
+    "MultiStream": {
+        "loadgen_batch_size": 8
+    }
+}

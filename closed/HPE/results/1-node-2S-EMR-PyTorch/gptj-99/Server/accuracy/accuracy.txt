@@ -1,0 +1,10 @@
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+INFO:absl:Using default tokenizer.
+
+Results
+
+{'rouge1': 43.1253, 'rouge2': 20.21, 'rougeL': 30.0012, 'rougeLsum': 40.2973, 'gen_len': 4120951, 'gen_num': 13368}
+hash=46ad86ab5f5f58bef9b5938bc738bf56bc53a593bc64e48cb7bf1ff85111a222

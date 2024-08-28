@@ -1,0 +1,8 @@
+{
+    'accuracy_results': {
+        'CLIP_SCORE': 31.732986239790918,
+        'FID_SCORE': 23.536709562834687,
+        'scenario': 'TestScenario.Server'
+    },
+}
+hash=0ceac6ac0b9c0a2893090e5818595a1cea521fc833eb2a2d3f1a62e2b8229005

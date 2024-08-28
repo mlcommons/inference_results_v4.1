@@ -1,0 +1,7 @@
+{
+  "starting_weights_filename": "nm-testing/Llama-2-70B-Chat-GPTQ",
+  "retraining": "no",
+  "input_data_types": "int32",
+  "weight_data_types": "int4",
+  "weight_transformations": "quantization"
+}

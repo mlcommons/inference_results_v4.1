@@ -1,0 +1,7 @@
+{
+  "starting_weights_filename": "model_weights",
+  "retraining": "no",
+  "input_data_types": "int8",
+  "weight_data_types": "int8",
+  "weight_transformations": "quantization"
+}

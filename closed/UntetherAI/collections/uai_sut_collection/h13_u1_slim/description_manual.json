@@ -1,0 +1,5 @@
+{
+    "accelerator_host_interconnect": "PCIe Gen5 16x (32 GT/s)",
+    "host_processor_frequency": "1500 MHz (min); 3000 MHz (base); 3700 MHz (boost)",
+    "host_processor_url": "https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series/amd-epyc-9124.html"
+}

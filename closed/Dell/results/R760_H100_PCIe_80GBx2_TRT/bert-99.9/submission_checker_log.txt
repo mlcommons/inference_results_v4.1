@@ -1,0 +1,41 @@
+[2024-07-26 00:52:22,264 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 00:52:22,266 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 00:52:22,268 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 00:52:22,268 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 00:52:22,269 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/compliance/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 00:52:22,270 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/compliance/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 00:52:22,270 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 00:52:22,272 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/compliance/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 00:52:22,273 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/compliance/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 00:52:22,273 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 00:52:22,274 submission_checker.py:2444 INFO] Compliance test accuracy check (deterministic mode) in closed/Dell/compliance/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Server/TEST01 failed
+[2024-07-26 00:52:22,276 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 00:52:22,277 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 00:52:22,279 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/results/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 00:52:22,279 submission_checker.py:1166 INFO] Target latency: None, Latency: 649178966002, Scenario: Offline
+[2024-07-26 00:52:22,280 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/compliance/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 00:52:22,281 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/compliance/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 00:52:22,281 submission_checker.py:1166 INFO] Target latency: None, Latency: 650131173066, Scenario: Offline
+[2024-07-26 00:52:22,283 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/compliance/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 00:52:22,284 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Dell/compliance/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 00:52:22,284 submission_checker.py:1166 INFO] Target latency: None, Latency: 650827856443, Scenario: Offline
+[2024-07-26 00:52:22,285 submission_checker.py:2678 INFO] ---
+[2024-07-26 00:52:22,285 submission_checker.py:2682 INFO] Results closed/Dell/results/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Offline 10138.8
+[2024-07-26 00:52:22,285 submission_checker.py:2682 INFO] Results closed/Dell/results/R760_H100_PCIe_80GBx2_TRT/bert-99.9/Server 8252.92
+[2024-07-26 00:52:22,285 submission_checker.py:2684 INFO] ---
+[2024-07-26 00:52:22,285 submission_checker.py:2769 INFO] ---
+[2024-07-26 00:52:22,285 submission_checker.py:2770 INFO] Results=2, NoResults=0, Power Results=0
+[2024-07-26 00:52:22,285 submission_checker.py:2777 INFO] ---
+[2024-07-26 00:52:22,285 submission_checker.py:2778 INFO] Closed Results=2, Closed Power Results=0
+
+[2024-07-26 00:52:22,285 submission_checker.py:2783 INFO] Open Results=0, Open Power Results=0
+
+[2024-07-26 00:52:22,285 submission_checker.py:2788 INFO] Network Results=0, Network Power Results=0
+
+[2024-07-26 00:52:22,285 submission_checker.py:2793 INFO] ---
+[2024-07-26 00:52:22,285 submission_checker.py:2795 INFO] Systems=1, Power Systems=0
+[2024-07-26 00:52:22,285 submission_checker.py:2796 INFO] Closed Systems=1, Closed Power Systems=0
+[2024-07-26 00:52:22,285 submission_checker.py:2801 INFO] Open Systems=0, Open Power Systems=0
+[2024-07-26 00:52:22,285 submission_checker.py:2806 INFO] Network Systems=0, Network Power Systems=0
+[2024-07-26 00:52:22,285 submission_checker.py:2811 INFO] ---
+[2024-07-26 00:52:22,285 submission_checker.py:2816 INFO] SUMMARY: submission looks OK

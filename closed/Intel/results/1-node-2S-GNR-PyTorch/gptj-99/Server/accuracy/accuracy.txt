@@ -1,0 +1,11 @@
+Downloading builder script:   0%|          | 0.00/6.27k [00:00<?, ?B/s]Downloading builder script: 100%|██████████| 6.27k/6.27k [00:00<00:00, 9.83MB/s]
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Unzipping tokenizers/punkt.zip.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+INFO:absl:Using default tokenizer.
+
+Results
+
+{'rouge1': 43.204, 'rouge2': 20.2488, 'rougeL': 30.0484, 'rougeLsum': 40.349, 'gen_len': 4114960, 'gen_num': 13368}
+hash=66ec4a2021e35949fa3f9e96d06ca365c9c78345ecd795b7dd44517680bcd6bb

@@ -1,0 +1,26 @@
+{
+    "TestScenario.Offline": {
+        "accuracy": 96.60518638464545,
+        "count": 313648,
+        "good_items": 86029237,
+        "mean": 0.020516283684334377,
+        "percentiles": {
+            "50.0": 0.01898646354675293,
+            "80.0": 0.022839927673339845,
+            "90.0": 0.027457141876220698,
+            "95.0": 0.02926921844482422,
+            "99.0": 0.03320992708206176,
+            "99.9": 0.05952892875671689
+        },
+        "qps": 2373.724464736512,
+        "roc_auc": 80.24119408703937,
+        "took": 132.1332802772522,
+        "total_items": 89052400
+    },
+    "cmdline": "Namespace(model='dlrm', model_path='/model/dlrm-multihot-pytorch.pt', dataset='multihot-criteo', dataset_path='/data', profile='dlrm-multihot-pytorch', enable_profiling=False, scenario='Offline', test_num_workers=0, max_ind_range=40000000, data_sub_sample_rate=0.0, max_batchsize=200, output='/logs/run_tmp', inputs=['continuous and categorical features'], outputs=['probability'], backend='pytorch-native', use_gpu=False, use_ipex=True, use_bf16=False, use_int8=True, calibration=False, int8_configure_dir='int8_configure.json', int8_model_dir='/model', int8_model='dlrm_int8.pt', threads=1, cache=0, accuracy=True, find_peak_performance=False, config='./mlperf.conf', user_config='./user.conf', duration=None, target_qps=None, max_latency=None, count_samples=None, count_queries=None, samples_per_query_multistream=None, samples_per_query_offline=204800, samples_to_aggregate_fix=None, samples_to_aggregate_min=None, samples_to_aggregate_max=None, samples_to_aggregate_quantile_file='/workspace/tools/dist_quantile.txt', samples_to_aggregate_trace_file='dlrm_trace_of_aggregated_samples.txt', numpy_rand_seed=123)",
+    "runtime": "pytorch-native-dlrm",
+    "time": 1721639993,
+    "version": "2.1.1+cpu"
+}
+AUC=80.24119408703937
+hash=bb154942cbe6c5bb7cb594ce224c83cd79108466a689c4d02ff4b6331db78f5a

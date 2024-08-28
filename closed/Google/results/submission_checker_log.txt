@@ -1,0 +1,158 @@
+[2024-08-27 21:00:57,011 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/tpu_v5e_x4_flax/stable-diffusion-xl/server/accuracy/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,013 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/tpu_v5e_x4_flax/stable-diffusion-xl/server/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,016 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/tpu_v5e_x4_flax/stable-diffusion-xl/server/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,016 submission_checker.py:1194 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-08-27 21:00:57,017 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/tpu_v5e_x4_flax/stable-diffusion-xl/server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,019 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/tpu_v5e_x4_flax/stable-diffusion-xl/server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,019 submission_checker.py:1194 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-08-27 21:00:57,021 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/tpu_v5e_x4_flax/stable-diffusion-xl/server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,023 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/tpu_v5e_x4_flax/stable-diffusion-xl/server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,023 submission_checker.py:1194 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-08-27 21:00:57,025 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/tpu_v5e_x4_flax/stable-diffusion-xl/offline/accuracy/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,027 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/tpu_v5e_x4_flax/stable-diffusion-xl/offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,028 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/tpu_v5e_x4_flax/stable-diffusion-xl/offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,028 submission_checker.py:1212 INFO] Target latency: None, Latency: 2824320063919, Scenario: Offline
+[2024-08-27 21:00:57,030 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/tpu_v5e_x4_flax/stable-diffusion-xl/offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,032 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/tpu_v5e_x4_flax/stable-diffusion-xl/offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,032 submission_checker.py:1212 INFO] Target latency: None, Latency: 2824275097722, Scenario: Offline
+[2024-08-27 21:00:57,034 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/tpu_v5e_x4_flax/stable-diffusion-xl/offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,035 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/tpu_v5e_x4_flax/stable-diffusion-xl/offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,035 submission_checker.py:1212 INFO] Target latency: None, Latency: 2824421607715, Scenario: Offline
+[2024-08-27 21:00:57,095 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,135 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,167 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,170 submission_checker.py:1194 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-08-27 21:00:57,209 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,242 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,245 submission_checker.py:1194 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-08-27 21:00:57,282 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,315 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,319 submission_checker.py:1194 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-08-27 21:00:57,323 submission_checker.py:2590 INFO] Compliance test accuracy check (deterministic mode) in closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Server/TEST01 failed
+[2024-08-27 21:00:57,376 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,411 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,444 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,447 submission_checker.py:1212 INFO] Target latency: None, Latency: 653507670918, Scenario: Offline
+[2024-08-27 21:00:57,481 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,513 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,516 submission_checker.py:1212 INFO] Target latency: None, Latency: 653280739458, Scenario: Offline
+[2024-08-27 21:00:57,551 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,583 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,586 submission_checker.py:1212 INFO] Target latency: None, Latency: 653394264413, Scenario: Offline
+[2024-08-27 21:00:57,594 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/mixtral-8x7b/Server/accuracy/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,597 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/mixtral-8x7b/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,600 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/mixtral-8x7b/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,604 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/mixtral-8x7b/Offline/accuracy/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,607 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/mixtral-8x7b/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,610 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/mixtral-8x7b/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,610 submission_checker.py:1212 INFO] Target latency: None, Latency: 2677125169682, Scenario: Offline
+[2024-08-27 21:00:57,612 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/3d-unet-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,613 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/3d-unet-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,614 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/3d-unet-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,614 submission_checker.py:1212 INFO] Target latency: None, Latency: 691768492175, Scenario: Offline
+[2024-08-27 21:00:57,615 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/3d-unet-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,616 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/3d-unet-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,616 submission_checker.py:1212 INFO] Target latency: None, Latency: 692734864789, Scenario: Offline
+[2024-08-27 21:00:57,617 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/3d-unet-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,618 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/3d-unet-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,618 submission_checker.py:1212 INFO] Target latency: None, Latency: 692231261786, Scenario: Offline
+[2024-08-27 21:00:57,621 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/stable-diffusion-xl/Server/accuracy/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,622 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/stable-diffusion-xl/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,624 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/stable-diffusion-xl/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,624 submission_checker.py:1194 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-08-27 21:00:57,626 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/stable-diffusion-xl/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,628 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/stable-diffusion-xl/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,628 submission_checker.py:1194 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-08-27 21:00:57,630 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/stable-diffusion-xl/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,631 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/stable-diffusion-xl/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,631 submission_checker.py:1194 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-08-27 21:00:57,634 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/stable-diffusion-xl/Offline/accuracy/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,635 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/stable-diffusion-xl/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,637 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/stable-diffusion-xl/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,637 submission_checker.py:1212 INFO] Target latency: None, Latency: 639921161117, Scenario: Offline
+[2024-08-27 21:00:57,638 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/stable-diffusion-xl/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,640 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/stable-diffusion-xl/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,640 submission_checker.py:1212 INFO] Target latency: None, Latency: 640284626437, Scenario: Offline
+[2024-08-27 21:00:57,642 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/stable-diffusion-xl/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,643 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/stable-diffusion-xl/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,643 submission_checker.py:1212 INFO] Target latency: None, Latency: 639175730634, Scenario: Offline
+[2024-08-27 21:00:57,648 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/llama2-70b-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,653 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,657 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,658 submission_checker.py:1194 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-08-27 21:00:57,663 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/llama2-70b-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,667 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,671 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,671 submission_checker.py:1212 INFO] Target latency: None, Latency: 2615344062425, Scenario: Offline
+[2024-08-27 21:00:57,673 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/3d-unet-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,674 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/3d-unet-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,675 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/3d-unet-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,675 submission_checker.py:1212 INFO] Target latency: None, Latency: 691768492175, Scenario: Offline
+[2024-08-27 21:00:57,676 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/3d-unet-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,677 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/3d-unet-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,677 submission_checker.py:1212 INFO] Target latency: None, Latency: 692734864789, Scenario: Offline
+[2024-08-27 21:00:57,678 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/3d-unet-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,679 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/DGX-H100_H100-SXM-80GBx8_TRT/3d-unet-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,679 submission_checker.py:1212 INFO] Target latency: None, Latency: 692231261786, Scenario: Offline
+[2024-08-27 21:00:57,684 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/llama2-70b-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,688 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,692 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,693 submission_checker.py:1194 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-08-27 21:00:57,698 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/llama2-70b-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,702 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,706 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,706 submission_checker.py:1212 INFO] Target latency: None, Latency: 2615344062425, Scenario: Offline
+[2024-08-27 21:00:57,709 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/tpu_v6_x4_flax/stable-diffusion-xl/server/accuracy/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,710 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/tpu_v6_x4_flax/stable-diffusion-xl/server/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,712 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/tpu_v6_x4_flax/stable-diffusion-xl/server/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,712 submission_checker.py:1194 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-08-27 21:00:57,714 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/tpu_v6_x4_flax/stable-diffusion-xl/server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,715 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/tpu_v6_x4_flax/stable-diffusion-xl/server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,715 submission_checker.py:1194 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-08-27 21:00:57,717 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/tpu_v6_x4_flax/stable-diffusion-xl/server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,719 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/tpu_v6_x4_flax/stable-diffusion-xl/server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,719 submission_checker.py:1194 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-08-27 21:00:57,721 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/tpu_v6_x4_flax/stable-diffusion-xl/offline/accuracy/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,723 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/tpu_v6_x4_flax/stable-diffusion-xl/offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,724 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/results/tpu_v6_x4_flax/stable-diffusion-xl/offline/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,725 submission_checker.py:1212 INFO] Target latency: None, Latency: 919293328142, Scenario: Offline
+[2024-08-27 21:00:57,726 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/tpu_v6_x4_flax/stable-diffusion-xl/offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,728 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/tpu_v6_x4_flax/stable-diffusion-xl/offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,728 submission_checker.py:1212 INFO] Target latency: None, Latency: 918141185314, Scenario: Offline
+[2024-08-27 21:00:57,729 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/tpu_v6_x4_flax/stable-diffusion-xl/offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,731 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/Google/compliance/tpu_v6_x4_flax/stable-diffusion-xl/offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-08-27 21:00:57,731 submission_checker.py:1212 INFO] Target latency: None, Latency: 917860133018, Scenario: Offline
+[2024-08-27 21:00:57,732 submission_checker.py:2819 INFO] ---
+[2024-08-27 21:00:57,732 submission_checker.py:2823 INFO] Results closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/3d-unet-99.9/Offline 51.3841
+[2024-08-27 21:00:57,732 submission_checker.py:2823 INFO] Results closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/3d-unet-99/Offline 51.3841
+[2024-08-27 21:00:57,732 submission_checker.py:2823 INFO] Results closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Offline 375565.0
+[2024-08-27 21:00:57,732 submission_checker.py:2823 INFO] Results closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/dlrm-v2-99.9/Server 340068.0
+[2024-08-27 21:00:57,732 submission_checker.py:2823 INFO] Results closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/llama2-70b-99.9/Offline 24133.7
+[2024-08-27 21:00:57,732 submission_checker.py:2823 INFO] Results closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/llama2-70b-99.9/Server 21588.3
+[2024-08-27 21:00:57,732 submission_checker.py:2823 INFO] Results closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/llama2-70b-99/Offline 24133.7
+[2024-08-27 21:00:57,732 submission_checker.py:2823 INFO] Results closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/llama2-70b-99/Server 21588.3
+[2024-08-27 21:00:57,732 submission_checker.py:2823 INFO] Results closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/mixtral-8x7b/Offline 52524.4
+[2024-08-27 21:00:57,732 submission_checker.py:2823 INFO] Results closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/mixtral-8x7b/Server 50798.8
+[2024-08-27 21:00:57,732 submission_checker.py:2823 INFO] Results closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/stable-diffusion-xl/Offline 16.2613
+[2024-08-27 21:00:57,732 submission_checker.py:2823 INFO] Results closed/Google/results/DGX-H100_H100-SXM-80GBx8_TRT/stable-diffusion-xl/Server 15.8185
+[2024-08-27 21:00:57,732 submission_checker.py:2823 INFO] Results closed/Google/results/tpu_v5e_x4_flax/stable-diffusion-xl/offline 1.75335
+[2024-08-27 21:00:57,733 submission_checker.py:2823 INFO] Results closed/Google/results/tpu_v5e_x4_flax/stable-diffusion-xl/server 1.54554
+[2024-08-27 21:00:57,733 submission_checker.py:2823 INFO] Results closed/Google/results/tpu_v6_x4_flax/stable-diffusion-xl/offline 5.43896
+[2024-08-27 21:00:57,733 submission_checker.py:2823 INFO] Results closed/Google/results/tpu_v6_x4_flax/stable-diffusion-xl/server 4.48577
+[2024-08-27 21:00:57,733 submission_checker.py:2825 INFO] ---
+[2024-08-27 21:00:57,733 submission_checker.py:2910 INFO] ---
+[2024-08-27 21:00:57,733 submission_checker.py:2911 INFO] Results=16, NoResults=0, Power Results=0
+[2024-08-27 21:00:57,733 submission_checker.py:2918 INFO] ---
+[2024-08-27 21:00:57,733 submission_checker.py:2919 INFO] Closed Results=16, Closed Power Results=0
+
+[2024-08-27 21:00:57,733 submission_checker.py:2924 INFO] Open Results=0, Open Power Results=0
+
+[2024-08-27 21:00:57,733 submission_checker.py:2929 INFO] Network Results=0, Network Power Results=0
+
+[2024-08-27 21:00:57,733 submission_checker.py:2934 INFO] ---
+[2024-08-27 21:00:57,733 submission_checker.py:2936 INFO] Systems=3, Power Systems=0
+[2024-08-27 21:00:57,733 submission_checker.py:2937 INFO] Closed Systems=3, Closed Power Systems=0
+[2024-08-27 21:00:57,733 submission_checker.py:2942 INFO] Open Systems=0, Open Power Systems=0
+[2024-08-27 21:00:57,733 submission_checker.py:2947 INFO] Network Systems=0, Network Power Systems=0
+[2024-08-27 21:00:57,733 submission_checker.py:2952 INFO] ---
+[2024-08-27 21:00:57,733 submission_checker.py:2957 INFO] SUMMARY: submission looks OK

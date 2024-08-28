@@ -1,0 +1,18 @@
+{
+    "_parent_entries": [ [ "^", "byquery", [ "^^", "substitute", "model_config,device=#{device}#,model=#{model}#" ], {}, [ "device", "model" ] ] ],
+    "tags": [ "device_model_config" ],
+    "config_target": "runtime",
+    "device": "uai",
+    "model": "resnet50",
+    "num_device": 6,
+    "num_cards": 1,
+    "system_type": "datacenter",
+    "card": "slim",
+    "sut": "r760_u6_slim",
+    "Server": {
+        "loadgen_batch_size": 8
+    },
+    "Offline": {
+        "loadgen_batch_size": 8
+    }
+}

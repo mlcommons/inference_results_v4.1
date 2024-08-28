@@ -1,0 +1,1387 @@
+QUANTIZING
+GENERATING_ENGINES singlestream
+[07/25/2024-19:31:44] [TRT] [I] [MemUsageChange] Init CUDA: CPU +18, GPU +0, now: CPU 50, GPU 3138 (MiB)
+[07/25/2024-19:31:46] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +905, GPU +1076, now: CPU 998, GPU 4258 (MiB)
+[07/25/2024-19:31:47] [TRT] [I] [MemUsageChange] Init CUDA: CPU +18, GPU +0, now: CPU 50, GPU 3486 (MiB)
+[07/25/2024-19:31:49] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +905, GPU +743, now: CPU 998, GPU 4273 (MiB)
+QUANTIZING
+GENERATING_ENGINES singlestream
+[07/25/2024-19:33:24] [TRT] [I] [MemUsageChange] Init CUDA: CPU +18, GPU +0, now: CPU 50, GPU 3498 (MiB)
+[07/25/2024-19:33:25] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +905, GPU +747, now: CPU 998, GPU 4290 (MiB)
+[07/25/2024-21:01:13] [TRT-LLM] [W] A required package 'pynvml' is not installed. Will not monitor the device memory usages. Please install the package first, e.g, 'pip install pynvml>=11.5.0'.
+[TensorRT-LLM] TensorRT-LLM version: 0.11.0.dev2024062500
+Initializing model from build/models/GPTJ-6B/checkpoint-final
+[TensorRT-LLM][WARNING] The manually set model data type is torch.float16, but the data type of the HuggingFace model is torch.float32.
+Initializing tokenizer from build/models/GPTJ-6B/checkpoint-final
+Loading calibration dataset
+Recognized local dataset repo build/preprocessed_data/gptj/mlperf_gptj_openorca_calibration_1k/ for calibration; assuming the calibration data are in the train split and text column.
+Starting quantization...
+Inserted 507 quantizers
+Calibrating batch 0
+Calibrating batch 1
+Calibrating batch 2
+Calibrating batch 3
+Calibrating batch 4
+Calibrating batch 5
+Calibrating batch 6
+Calibrating batch 7
+Calibrating batch 8
+Calibrating batch 9
+Calibrating batch 10
+Calibrating batch 11
+Calibrating batch 12
+Calibrating batch 13
+Calibrating batch 14
+Calibrating batch 15
+Calibrating batch 16
+Calibrating batch 17
+Calibrating batch 18
+Calibrating batch 19
+Calibrating batch 20
+Calibrating batch 21
+Calibrating batch 22
+Calibrating batch 23
+Calibrating batch 24
+Calibrating batch 25
+Calibrating batch 26
+Calibrating batch 27
+Calibrating batch 28
+Calibrating batch 29
+Calibrating batch 30
+Calibrating batch 31
+Calibrating batch 32
+Calibrating batch 33
+Calibrating batch 34
+Calibrating batch 35
+Calibrating batch 36
+Calibrating batch 37
+Calibrating batch 38
+Calibrating batch 39
+Calibrating batch 40
+Calibrating batch 41
+Calibrating batch 42
+Calibrating batch 43
+Calibrating batch 44
+Calibrating batch 45
+Calibrating batch 46
+Calibrating batch 47
+Calibrating batch 48
+Calibrating batch 49
+Calibrating batch 50
+Calibrating batch 51
+Calibrating batch 52
+Calibrating batch 53
+Calibrating batch 54
+Calibrating batch 55
+Calibrating batch 56
+Calibrating batch 57
+Calibrating batch 58
+Calibrating batch 59
+Calibrating batch 60
+Calibrating batch 61
+Calibrating batch 62
+Calibrating batch 63
+Calibrating batch 64
+Calibrating batch 65
+Calibrating batch 66
+Calibrating batch 67
+Calibrating batch 68
+Calibrating batch 69
+Calibrating batch 70
+Calibrating batch 71
+Calibrating batch 72
+Calibrating batch 73
+Calibrating batch 74
+Calibrating batch 75
+Calibrating batch 76
+Calibrating batch 77
+Calibrating batch 78
+Calibrating batch 79
+Calibrating batch 80
+Calibrating batch 81
+Calibrating batch 82
+Calibrating batch 83
+Calibrating batch 84
+Calibrating batch 85
+Calibrating batch 86
+Calibrating batch 87
+Calibrating batch 88
+Calibrating batch 89
+Calibrating batch 90
+Calibrating batch 91
+Calibrating batch 92
+Calibrating batch 93
+Calibrating batch 94
+Calibrating batch 95
+Calibrating batch 96
+Calibrating batch 97
+Calibrating batch 98
+Calibrating batch 99
+Calibrating batch 100
+Calibrating batch 101
+Calibrating batch 102
+Calibrating batch 103
+Calibrating batch 104
+Calibrating batch 105
+Calibrating batch 106
+Calibrating batch 107
+Calibrating batch 108
+Calibrating batch 109
+Calibrating batch 110
+Calibrating batch 111
+Calibrating batch 112
+Calibrating batch 113
+Calibrating batch 114
+Calibrating batch 115
+Calibrating batch 116
+Calibrating batch 117
+Calibrating batch 118
+Calibrating batch 119
+Calibrating batch 120
+Calibrating batch 121
+Calibrating batch 122
+Calibrating batch 123
+Calibrating batch 124
+Calibrating batch 125
+Calibrating batch 126
+Calibrating batch 127
+Calibrating batch 128
+Calibrating batch 129
+Calibrating batch 130
+Calibrating batch 131
+Calibrating batch 132
+Calibrating batch 133
+Calibrating batch 134
+Calibrating batch 135
+Calibrating batch 136
+Calibrating batch 137
+Calibrating batch 138
+Calibrating batch 139
+Calibrating batch 140
+Calibrating batch 141
+Calibrating batch 142
+Calibrating batch 143
+Calibrating batch 144
+Calibrating batch 145
+Calibrating batch 146
+Calibrating batch 147
+Calibrating batch 148
+Calibrating batch 149
+Calibrating batch 150
+Calibrating batch 151
+Calibrating batch 152
+Calibrating batch 153
+Calibrating batch 154
+Calibrating batch 155
+Calibrating batch 156
+Calibrating batch 157
+Calibrating batch 158
+Calibrating batch 159
+Calibrating batch 160
+Calibrating batch 161
+Calibrating batch 162
+Calibrating batch 163
+Calibrating batch 164
+Calibrating batch 165
+Calibrating batch 166
+Calibrating batch 167
+Calibrating batch 168
+Calibrating batch 169
+Calibrating batch 170
+Calibrating batch 171
+Calibrating batch 172
+Calibrating batch 173
+Calibrating batch 174
+Calibrating batch 175
+Calibrating batch 176
+Calibrating batch 177
+Calibrating batch 178
+Calibrating batch 179
+Calibrating batch 180
+Calibrating batch 181
+Calibrating batch 182
+Calibrating batch 183
+Calibrating batch 184
+Calibrating batch 185
+Calibrating batch 186
+Calibrating batch 187
+Calibrating batch 188
+Calibrating batch 189
+Calibrating batch 190
+Calibrating batch 191
+Calibrating batch 192
+Calibrating batch 193
+Calibrating batch 194
+Calibrating batch 195
+Calibrating batch 196
+Calibrating batch 197
+Calibrating batch 198
+Calibrating batch 199
+Calibrating batch 200
+Calibrating batch 201
+Calibrating batch 202
+Calibrating batch 203
+Calibrating batch 204
+Calibrating batch 205
+Calibrating batch 206
+Calibrating batch 207
+Calibrating batch 208
+Calibrating batch 209
+Calibrating batch 210
+Calibrating batch 211
+Calibrating batch 212
+Calibrating batch 213
+Calibrating batch 214
+Calibrating batch 215
+Calibrating batch 216
+Calibrating batch 217
+Calibrating batch 218
+Calibrating batch 219
+Calibrating batch 220
+Calibrating batch 221
+Calibrating batch 222
+Calibrating batch 223
+Calibrating batch 224
+Calibrating batch 225
+Calibrating batch 226
+Calibrating batch 227
+Calibrating batch 228
+Calibrating batch 229
+Calibrating batch 230
+Calibrating batch 231
+Calibrating batch 232
+Calibrating batch 233
+Calibrating batch 234
+Calibrating batch 235
+Calibrating batch 236
+Calibrating batch 237
+Calibrating batch 238
+Calibrating batch 239
+Calibrating batch 240
+Calibrating batch 241
+Calibrating batch 242
+Calibrating batch 243
+Calibrating batch 244
+Calibrating batch 245
+Calibrating batch 246
+Calibrating batch 247
+Calibrating batch 248
+Calibrating batch 249
+Calibrating batch 250
+Calibrating batch 251
+Calibrating batch 252
+Calibrating batch 253
+Calibrating batch 254
+Calibrating batch 255
+Calibrating batch 256
+Calibrating batch 257
+Calibrating batch 258
+Calibrating batch 259
+Calibrating batch 260
+Calibrating batch 261
+Calibrating batch 262
+Calibrating batch 263
+Calibrating batch 264
+Calibrating batch 265
+Calibrating batch 266
+Calibrating batch 267
+Calibrating batch 268
+Calibrating batch 269
+Calibrating batch 270
+Calibrating batch 271
+Calibrating batch 272
+Calibrating batch 273
+Calibrating batch 274
+Calibrating batch 275
+Calibrating batch 276
+Calibrating batch 277
+Calibrating batch 278
+Calibrating batch 279
+Calibrating batch 280
+Calibrating batch 281
+Calibrating batch 282
+Calibrating batch 283
+Calibrating batch 284
+Calibrating batch 285
+Calibrating batch 286
+Calibrating batch 287
+Calibrating batch 288
+Calibrating batch 289
+Calibrating batch 290
+Calibrating batch 291
+Calibrating batch 292
+Calibrating batch 293
+Calibrating batch 294
+Calibrating batch 295
+Calibrating batch 296
+Calibrating batch 297
+Calibrating batch 298
+Calibrating batch 299
+Calibrating batch 300
+Calibrating batch 301
+Calibrating batch 302
+Calibrating batch 303
+Calibrating batch 304
+Calibrating batch 305
+Calibrating batch 306
+Calibrating batch 307
+Calibrating batch 308
+Calibrating batch 309
+Calibrating batch 310
+Calibrating batch 311
+Calibrating batch 312
+Calibrating batch 313
+Calibrating batch 314
+Calibrating batch 315
+Calibrating batch 316
+Calibrating batch 317
+Calibrating batch 318
+Calibrating batch 319
+Calibrating batch 320
+Calibrating batch 321
+Calibrating batch 322
+Calibrating batch 323
+Calibrating batch 324
+Calibrating batch 325
+Calibrating batch 326
+Calibrating batch 327
+Calibrating batch 328
+Calibrating batch 329
+Calibrating batch 330
+Calibrating batch 331
+Calibrating batch 332
+Calibrating batch 333
+Calibrating batch 334
+Calibrating batch 335
+Calibrating batch 336
+Calibrating batch 337
+Calibrating batch 338
+Calibrating batch 339
+Calibrating batch 340
+Calibrating batch 341
+Calibrating batch 342
+Calibrating batch 343
+Calibrating batch 344
+Calibrating batch 345
+Calibrating batch 346
+Calibrating batch 347
+Calibrating batch 348
+Calibrating batch 349
+Calibrating batch 350
+Calibrating batch 351
+Calibrating batch 352
+Calibrating batch 353
+Calibrating batch 354
+Calibrating batch 355
+Calibrating batch 356
+Calibrating batch 357
+Calibrating batch 358
+Calibrating batch 359
+Calibrating batch 360
+Calibrating batch 361
+Calibrating batch 362
+Calibrating batch 363
+Calibrating batch 364
+Calibrating batch 365
+Calibrating batch 366
+Calibrating batch 367
+Calibrating batch 368
+Calibrating batch 369
+Calibrating batch 370
+Calibrating batch 371
+Calibrating batch 372
+Calibrating batch 373
+Calibrating batch 374
+Calibrating batch 375
+Calibrating batch 376
+Calibrating batch 377
+Calibrating batch 378
+Calibrating batch 379
+Calibrating batch 380
+Calibrating batch 381
+Calibrating batch 382
+Calibrating batch 383
+Calibrating batch 384
+Calibrating batch 385
+Calibrating batch 386
+Calibrating batch 387
+Calibrating batch 388
+Calibrating batch 389
+Calibrating batch 390
+Calibrating batch 391
+Calibrating batch 392
+Calibrating batch 393
+Calibrating batch 394
+Calibrating batch 395
+Calibrating batch 396
+Calibrating batch 397
+Calibrating batch 398
+Calibrating batch 399
+Calibrating batch 400
+Calibrating batch 401
+Calibrating batch 402
+Calibrating batch 403
+Calibrating batch 404
+Calibrating batch 405
+Calibrating batch 406
+Calibrating batch 407
+Calibrating batch 408
+Calibrating batch 409
+Calibrating batch 410
+Calibrating batch 411
+Calibrating batch 412
+Calibrating batch 413
+Calibrating batch 414
+Calibrating batch 415
+Calibrating batch 416
+Calibrating batch 417
+Calibrating batch 418
+Calibrating batch 419
+Calibrating batch 420
+Calibrating batch 421
+Calibrating batch 422
+Calibrating batch 423
+Calibrating batch 424
+Calibrating batch 425
+Calibrating batch 426
+Calibrating batch 427
+Calibrating batch 428
+Calibrating batch 429
+Calibrating batch 430
+Calibrating batch 431
+Calibrating batch 432
+Calibrating batch 433
+Calibrating batch 434
+Calibrating batch 435
+Calibrating batch 436
+Calibrating batch 437
+Calibrating batch 438
+Calibrating batch 439
+Calibrating batch 440
+Calibrating batch 441
+Calibrating batch 442
+Calibrating batch 443
+Calibrating batch 444
+Calibrating batch 445
+Calibrating batch 446
+Calibrating batch 447
+Calibrating batch 448
+Calibrating batch 449
+Calibrating batch 450
+Calibrating batch 451
+Calibrating batch 452
+Calibrating batch 453
+Calibrating batch 454
+Calibrating batch 455
+Calibrating batch 456
+Calibrating batch 457
+Calibrating batch 458
+Calibrating batch 459
+Calibrating batch 460
+Calibrating batch 461
+Calibrating batch 462
+Calibrating batch 463
+Calibrating batch 464
+Calibrating batch 465
+Calibrating batch 466
+Calibrating batch 467
+Calibrating batch 468
+Calibrating batch 469
+Calibrating batch 470
+Calibrating batch 471
+Calibrating batch 472
+Calibrating batch 473
+Calibrating batch 474
+Calibrating batch 475
+Calibrating batch 476
+Calibrating batch 477
+Calibrating batch 478
+Calibrating batch 479
+Calibrating batch 480
+Calibrating batch 481
+Calibrating batch 482
+Calibrating batch 483
+Calibrating batch 484
+Calibrating batch 485
+Calibrating batch 486
+Calibrating batch 487
+Calibrating batch 488
+Calibrating batch 489
+Calibrating batch 490
+Calibrating batch 491
+Calibrating batch 492
+Calibrating batch 493
+Calibrating batch 494
+Calibrating batch 495
+Calibrating batch 496
+Calibrating batch 497
+Calibrating batch 498
+Calibrating batch 499
+Calibrating batch 500
+Calibrating batch 501
+Calibrating batch 502
+Calibrating batch 503
+Calibrating batch 504
+Calibrating batch 505
+Calibrating batch 506
+Calibrating batch 507
+Calibrating batch 508
+Calibrating batch 509
+Calibrating batch 510
+Calibrating batch 511
+Calibrating batch 512
+Calibrating batch 513
+Calibrating batch 514
+Calibrating batch 515
+Calibrating batch 516
+Calibrating batch 517
+Calibrating batch 518
+Calibrating batch 519
+Calibrating batch 520
+Calibrating batch 521
+Calibrating batch 522
+Calibrating batch 523
+Calibrating batch 524
+Calibrating batch 525
+Calibrating batch 526
+Calibrating batch 527
+Calibrating batch 528
+Calibrating batch 529
+Calibrating batch 530
+Calibrating batch 531
+Calibrating batch 532
+Calibrating batch 533
+Calibrating batch 534
+Calibrating batch 535
+Calibrating batch 536
+Calibrating batch 537
+Calibrating batch 538
+Calibrating batch 539
+Calibrating batch 540
+Calibrating batch 541
+Calibrating batch 542
+Calibrating batch 543
+Calibrating batch 544
+Calibrating batch 545
+Calibrating batch 546
+Calibrating batch 547
+Calibrating batch 548
+Calibrating batch 549
+Calibrating batch 550
+Calibrating batch 551
+Calibrating batch 552
+Calibrating batch 553
+Calibrating batch 554
+Calibrating batch 555
+Calibrating batch 556
+Calibrating batch 557
+Calibrating batch 558
+Calibrating batch 559
+Calibrating batch 560
+Calibrating batch 561
+Calibrating batch 562
+Calibrating batch 563
+Calibrating batch 564
+Calibrating batch 565
+Calibrating batch 566
+Calibrating batch 567
+Calibrating batch 568
+Calibrating batch 569
+Calibrating batch 570
+Calibrating batch 571
+Calibrating batch 572
+Calibrating batch 573
+Calibrating batch 574
+Calibrating batch 575
+Calibrating batch 576
+Calibrating batch 577
+Calibrating batch 578
+Calibrating batch 579
+Calibrating batch 580
+Calibrating batch 581
+Calibrating batch 582
+Calibrating batch 583
+Calibrating batch 584
+Calibrating batch 585
+Calibrating batch 586
+Calibrating batch 587
+Calibrating batch 588
+Calibrating batch 589
+Calibrating batch 590
+Calibrating batch 591
+Calibrating batch 592
+Calibrating batch 593
+Calibrating batch 594
+Calibrating batch 595
+Calibrating batch 596
+Calibrating batch 597
+Calibrating batch 598
+Calibrating batch 599
+Calibrating batch 600
+Calibrating batch 601
+Calibrating batch 602
+Calibrating batch 603
+Calibrating batch 604
+Calibrating batch 605
+Calibrating batch 606
+Calibrating batch 607
+Calibrating batch 608
+Calibrating batch 609
+Calibrating batch 610
+Calibrating batch 611
+Calibrating batch 612
+Calibrating batch 613
+Calibrating batch 614
+Calibrating batch 615
+Calibrating batch 616
+Calibrating batch 617
+Calibrating batch 618
+Calibrating batch 619
+Calibrating batch 620
+Calibrating batch 621
+Calibrating batch 622
+Calibrating batch 623
+Calibrating batch 624
+Calibrating batch 625
+Calibrating batch 626
+Calibrating batch 627
+Calibrating batch 628
+Calibrating batch 629
+Calibrating batch 630
+Calibrating batch 631
+Calibrating batch 632
+Calibrating batch 633
+Calibrating batch 634
+Calibrating batch 635
+Calibrating batch 636
+Calibrating batch 637
+Calibrating batch 638
+Calibrating batch 639
+Calibrating batch 640
+Calibrating batch 641
+Calibrating batch 642
+Calibrating batch 643
+Calibrating batch 644
+Calibrating batch 645
+Calibrating batch 646
+Calibrating batch 647
+Calibrating batch 648
+Calibrating batch 649
+Calibrating batch 650
+Calibrating batch 651
+Calibrating batch 652
+Calibrating batch 653
+Calibrating batch 654
+Calibrating batch 655
+Calibrating batch 656
+Calibrating batch 657
+Calibrating batch 658
+Calibrating batch 659
+Calibrating batch 660
+Calibrating batch 661
+Calibrating batch 662
+Calibrating batch 663
+Calibrating batch 664
+Calibrating batch 665
+Calibrating batch 666
+Calibrating batch 667
+Calibrating batch 668
+Calibrating batch 669
+Calibrating batch 670
+Calibrating batch 671
+Calibrating batch 672
+Calibrating batch 673
+Calibrating batch 674
+Calibrating batch 675
+Calibrating batch 676
+Calibrating batch 677
+Calibrating batch 678
+Calibrating batch 679
+Calibrating batch 680
+Calibrating batch 681
+Calibrating batch 682
+Calibrating batch 683
+Calibrating batch 684
+Calibrating batch 685
+Calibrating batch 686
+Calibrating batch 687
+Calibrating batch 688
+Calibrating batch 689
+Calibrating batch 690
+Calibrating batch 691
+Calibrating batch 692
+Calibrating batch 693
+Calibrating batch 694
+Calibrating batch 695
+Calibrating batch 696
+Calibrating batch 697
+Calibrating batch 698
+Calibrating batch 699
+Calibrating batch 700
+Calibrating batch 701
+Calibrating batch 702
+Calibrating batch 703
+Calibrating batch 704
+Calibrating batch 705
+Calibrating batch 706
+Calibrating batch 707
+Calibrating batch 708
+Calibrating batch 709
+Calibrating batch 710
+Calibrating batch 711
+Calibrating batch 712
+Calibrating batch 713
+Calibrating batch 714
+Calibrating batch 715
+Calibrating batch 716
+Calibrating batch 717
+Calibrating batch 718
+Calibrating batch 719
+Calibrating batch 720
+Calibrating batch 721
+Calibrating batch 722
+Calibrating batch 723
+Calibrating batch 724
+Calibrating batch 725
+Calibrating batch 726
+Calibrating batch 727
+Calibrating batch 728
+Calibrating batch 729
+Calibrating batch 730
+Calibrating batch 731
+Calibrating batch 732
+Calibrating batch 733
+Calibrating batch 734
+Calibrating batch 735
+Calibrating batch 736
+Calibrating batch 737
+Calibrating batch 738
+Calibrating batch 739
+Calibrating batch 740
+Calibrating batch 741
+Calibrating batch 742
+Calibrating batch 743
+Calibrating batch 744
+Calibrating batch 745
+Calibrating batch 746
+Calibrating batch 747
+Calibrating batch 748
+Calibrating batch 749
+Calibrating batch 750
+Calibrating batch 751
+Calibrating batch 752
+Calibrating batch 753
+Calibrating batch 754
+Calibrating batch 755
+Calibrating batch 756
+Calibrating batch 757
+Calibrating batch 758
+Calibrating batch 759
+Calibrating batch 760
+Calibrating batch 761
+Calibrating batch 762
+Calibrating batch 763
+Calibrating batch 764
+Calibrating batch 765
+Calibrating batch 766
+Calibrating batch 767
+Calibrating batch 768
+Calibrating batch 769
+Calibrating batch 770
+Calibrating batch 771
+Calibrating batch 772
+Calibrating batch 773
+Calibrating batch 774
+Calibrating batch 775
+Calibrating batch 776
+Calibrating batch 777
+Calibrating batch 778
+Calibrating batch 779
+Calibrating batch 780
+Calibrating batch 781
+Calibrating batch 782
+Calibrating batch 783
+Calibrating batch 784
+Calibrating batch 785
+Calibrating batch 786
+Calibrating batch 787
+Calibrating batch 788
+Calibrating batch 789
+Calibrating batch 790
+Calibrating batch 791
+Calibrating batch 792
+Calibrating batch 793
+Calibrating batch 794
+Calibrating batch 795
+Calibrating batch 796
+Calibrating batch 797
+Calibrating batch 798
+Calibrating batch 799
+Calibrating batch 800
+Calibrating batch 801
+Calibrating batch 802
+Calibrating batch 803
+Calibrating batch 804
+Calibrating batch 805
+Calibrating batch 806
+Calibrating batch 807
+Calibrating batch 808
+Calibrating batch 809
+Calibrating batch 810
+Calibrating batch 811
+Calibrating batch 812
+Calibrating batch 813
+Calibrating batch 814
+Calibrating batch 815
+Calibrating batch 816
+Calibrating batch 817
+Calibrating batch 818
+Calibrating batch 819
+Calibrating batch 820
+Calibrating batch 821
+Calibrating batch 822
+Calibrating batch 823
+Calibrating batch 824
+Calibrating batch 825
+Calibrating batch 826
+Calibrating batch 827
+Calibrating batch 828
+Calibrating batch 829
+Calibrating batch 830
+Calibrating batch 831
+Calibrating batch 832
+Calibrating batch 833
+Calibrating batch 834
+Calibrating batch 835
+Calibrating batch 836
+Calibrating batch 837
+Calibrating batch 838
+Calibrating batch 839
+Calibrating batch 840
+Calibrating batch 841
+Calibrating batch 842
+Calibrating batch 843
+Calibrating batch 844
+Calibrating batch 845
+Calibrating batch 846
+Calibrating batch 847
+Calibrating batch 848
+Calibrating batch 849
+Calibrating batch 850
+Calibrating batch 851
+Calibrating batch 852
+Calibrating batch 853
+Calibrating batch 854
+Calibrating batch 855
+Calibrating batch 856
+Calibrating batch 857
+Calibrating batch 858
+Calibrating batch 859
+Calibrating batch 860
+Calibrating batch 861
+Calibrating batch 862
+Calibrating batch 863
+Calibrating batch 864
+Calibrating batch 865
+Calibrating batch 866
+Calibrating batch 867
+Calibrating batch 868
+Calibrating batch 869
+Calibrating batch 870
+Calibrating batch 871
+Calibrating batch 872
+Calibrating batch 873
+Calibrating batch 874
+Calibrating batch 875
+Calibrating batch 876
+Calibrating batch 877
+Calibrating batch 878
+Calibrating batch 879
+Calibrating batch 880
+Calibrating batch 881
+Calibrating batch 882
+Calibrating batch 883
+Calibrating batch 884
+Calibrating batch 885
+Calibrating batch 886
+Calibrating batch 887
+Calibrating batch 888
+Calibrating batch 889
+Calibrating batch 890
+Calibrating batch 891
+Calibrating batch 892
+Calibrating batch 893
+Calibrating batch 894
+Calibrating batch 895
+Calibrating batch 896
+Calibrating batch 897
+Calibrating batch 898
+Calibrating batch 899
+Calibrating batch 900
+Calibrating batch 901
+Calibrating batch 902
+Calibrating batch 903
+Calibrating batch 904
+Calibrating batch 905
+Calibrating batch 906
+Calibrating batch 907
+Calibrating batch 908
+Calibrating batch 909
+Calibrating batch 910
+Calibrating batch 911
+Calibrating batch 912
+Calibrating batch 913
+Calibrating batch 914
+Calibrating batch 915
+Calibrating batch 916
+Calibrating batch 917
+Calibrating batch 918
+Calibrating batch 919
+Calibrating batch 920
+Calibrating batch 921
+Calibrating batch 922
+Calibrating batch 923
+Calibrating batch 924
+Calibrating batch 925
+Calibrating batch 926
+Calibrating batch 927
+Calibrating batch 928
+Calibrating batch 929
+Calibrating batch 930
+Calibrating batch 931
+Calibrating batch 932
+Calibrating batch 933
+Calibrating batch 934
+Calibrating batch 935
+Calibrating batch 936
+Calibrating batch 937
+Calibrating batch 938
+Calibrating batch 939
+Calibrating batch 940
+Calibrating batch 941
+Calibrating batch 942
+Calibrating batch 943
+Calibrating batch 944
+Calibrating batch 945
+Calibrating batch 946
+Calibrating batch 947
+Calibrating batch 948
+Calibrating batch 949
+Calibrating batch 950
+Calibrating batch 951
+Calibrating batch 952
+Calibrating batch 953
+Calibrating batch 954
+Calibrating batch 955
+Calibrating batch 956
+Calibrating batch 957
+Calibrating batch 958
+Calibrating batch 959
+Calibrating batch 960
+Calibrating batch 961
+Calibrating batch 962
+Calibrating batch 963
+Calibrating batch 964
+Calibrating batch 965
+Calibrating batch 966
+Calibrating batch 967
+Calibrating batch 968
+Calibrating batch 969
+Calibrating batch 970
+Calibrating batch 971
+Calibrating batch 972
+Calibrating batch 973
+Calibrating batch 974
+Calibrating batch 975
+Calibrating batch 976
+Calibrating batch 977
+Calibrating batch 978
+Calibrating batch 979
+Calibrating batch 980
+Calibrating batch 981
+Calibrating batch 982
+Calibrating batch 983
+Calibrating batch 984
+Calibrating batch 985
+Calibrating batch 986
+Calibrating batch 987
+Calibrating batch 988
+Calibrating batch 989
+Calibrating batch 990
+Calibrating batch 991
+Calibrating batch 992
+Calibrating batch 993
+Calibrating batch 994
+Calibrating batch 995
+Calibrating batch 996
+Calibrating batch 997
+Calibrating batch 998
+Calibrating batch 999
+Quantization done. Total time used: 2557.67 s.
+torch.distributed not initialized, assuming single world_size.
+torch.distributed not initialized, assuming single world_size.
+torch.distributed not initialized, assuming single world_size.
+torch.distributed not initialized, assuming single world_size.
+torch.distributed not initialized, assuming single world_size.
+torch.distributed not initialized, assuming single world_size.
+torch.distributed not initialized, assuming single world_size.
+current rank: 0, tp rank: 0, pp rank: 0
+torch.distributed not initialized, assuming single world_size.
+Quantized model exported to build/models/GPTJ-6B/fp8-quantized-ammo/GPTJ-FP8-quantized 
+Total time used 21.92 s.
+GENERATING_ENGINES singlestream
+[07/25/2024-21:45:50] [TRT] [I] [MemUsageChange] Init CUDA: CPU +18, GPU +0, now: CPU 50, GPU 10906 (MiB)
+[07/25/2024-21:45:51] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +905, GPU +733, now: CPU 998, GPU 11683 (MiB)
+[07/25/2024-21:45:53] [TRT] [I] [MemUsageChange] Init CUDA: CPU +18, GPU +0, now: CPU 50, GPU 10911 (MiB)
+GENERATING_ENGINES singlestream
+[07/25/2024-21:46:41] [TRT] [I] [MemUsageChange] Init CUDA: CPU +18, GPU +0, now: CPU 50, GPU 10916 (MiB)
+[07/25/2024-21:46:42] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +905, GPU +736, now: CPU 998, GPU 11696 (MiB)
+[07/25/2024-21:46:44] [TRT] [I] [MemUsageChange] Init CUDA: CPU +18, GPU +0, now: CPU 50, GPU 10928 (MiB)
+[07/25/2024-21:46:45] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +905, GPU +732, now: CPU 998, GPU 11705 (MiB)
+Running harness singlestream Accuracy
+[2024-07-25 21:46:47,784 systems.py:174 WARNING] nvidia-smi command exists but failed to execute - Ignoring NUMA detection.
+QUANTIZING
+GENERATING_ENGINES singlestream
+[07/25/2024-21:50:20] [TRT] [I] [MemUsageChange] Init CUDA: CPU +18, GPU +0, now: CPU 50, GPU 10921 (MiB)
+[07/25/2024-21:50:21] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +905, GPU +737, now: CPU 998, GPU 11702 (MiB)
+GENERATING_ENGINES singlestream
+[2024-07-25 23:05:08,173 systems.py:174 WARNING] nvidia-smi command exists but failed to execute - Ignoring NUMA detection.
+[2024-07-25 23:05:08,433 main.py:229 INFO] Detected system ID: KnownSystem.Orin
+[2024-07-25 23:05:09,217 systems.py:174 WARNING] nvidia-smi command exists but failed to execute - Ignoring NUMA detection.
+[2024-07-25 23:05:09,459 generate_engines.py:171 INFO] Building engines for gptj benchmark in SingleStream scenario...
+[07/25/2024-23:05:09] [TRT] [I] [MemUsageChange] Init CUDA: CPU +18, GPU +0, now: CPU 50, GPU 10665 (MiB)
+[07/25/2024-23:05:11] [TRT] [I] [MemUsageChange] Init builder kernel library: CPU +905, GPU +736, now: CPU 998, GPU 11445 (MiB)
+[2024-07-25 23:05:11,141 builder.py:194 INFO] Building GPTJ engine in build/engines/Orin/gptj/SingleStream/bs1-custom_k_99_9_MaxP.
+[2024-07-25 23:05:11,142 builder.py:195 INFO] Command executing in build/TRTLLM dir: /usr/bin/python3.10 -m tensorrt_llm.commands.build --gpt_attention_plugin=float16 --max_batch_size=1 --max_input_len=1919 --max_seq_len=2047 --max_beam_width=4 --max_num_tokens=4096 --output_dir=/work/build/engines/Orin/gptj/SingleStream/bs1-custom_k_99_9_MaxP --context_fmha=enable --remove_input_padding=enable --paged_kv_cache=enable --gemm_plugin=float16 --checkpoint_dir=/work/build/models/GPTJ-6B/orin-w4a16-awq
+[2024-07-25 23:06:50,050 builder.py:214 INFO] Engine build complete in 98.90842604637146s. Saved to build/engines/Orin/gptj/SingleStream/bs1-custom_k_99_9_MaxP/rank0.engine
+[2024-07-25 23:06:50,051 generate_engines.py:175 INFO] Finished building engines for gptj benchmark in SingleStream scenario.
+Time taken to generate engines: 100.59125232696533 seconds
+Running harness singlestream Accuracy
+[2024-07-25 23:06:51,934 systems.py:174 WARNING] nvidia-smi command exists but failed to execute - Ignoring NUMA detection.
+[2024-07-25 23:06:52,176 main.py:229 INFO] Detected system ID: KnownSystem.Orin
+[2024-07-25 23:06:52,282 generate_conf_files.py:107 INFO] Generated measurements/ entries for Orin_TRT/gptj-99.9/SingleStream
+[2024-07-25 23:06:52,283 __init__.py:46 INFO] Running command: ./build/bin/harness_llm --logfile_outdir="/work/build/logs/2024.07.25-23.06.51/Orin_TRT/gptj-99.9/SingleStream" --logfile_prefix="mlperf_log_" --performance_sample_count=13368 --test_mode="AccuracyOnly" --gpu_batch_size=1 --tensor_path="build/preprocessed_data/cnn_dailymail_tokenized_gptj/input_ids_padded.npy,build/preprocessed_data/cnn_dailymail_tokenized_gptj/input_lengths.npy" --use_graphs=false --gpu_inference_streams=1 --gpu_copy_streams=1 --tensor_parallelism=1 --enable_sort=false --llm_gen_config_path="code/gptj/tensorrt/generation_config.json" --use_token_latencies=false --gpu_engines="./build/engines/Orin/gptj/SingleStream/bs1-custom_k_99_9_MaxP/rank0.engine" --mlperf_conf_path="build/loadgen-configs/Orin_TRT/gptj-99.9/SingleStream/mlperf.conf" --user_conf_path="build/loadgen-configs/Orin_TRT/gptj-99.9/SingleStream/user.conf" --scenario SingleStream --model gptj
+[2024-07-25 23:06:52,283 __init__.py:53 INFO] Overriding Environment
+benchmark : Benchmark.GPTJ
+buffer_manager_thread_count : 0
+coalesced_tensor : True
+data_dir : /mnt/mlperf_scratch_4.1.5//data
+enable_sort : False
+gpu_batch_size : 1
+gpu_copy_streams : 1
+gpu_inference_streams : 1
+input_dtype : int32
+input_format : linear
+llm_gen_config_path : code/gptj/tensorrt/generation_config.json
+log_dir : /work/build/logs/2024.07.25-23.06.51
+precision : fp16
+preprocessed_data_dir : /mnt/mlperf_scratch_4.1.5//preprocessed_data
+scenario : Scenario.SingleStream
+single_stream_expected_latency_ns : 5000000000
+system : SystemConfiguration(host_cpu_conf=CPUConfiguration(layout={CPU(name='Cortex-A78AE', architecture=<CPUArchitecture.aarch64: AliasedName(name='aarch64', aliases=(), patterns=())>, core_count=4, threads_per_core=1): 1}), host_mem_conf=MemoryConfiguration(host_memory_capacity=Memory(quantity=64.34958, byte_suffix=<ByteSuffix.GB: (1000, 3)>, _num_bytes=64349580000), comparison_tolerance=0.05), accelerator_conf=AcceleratorConfiguration(layout=defaultdict(<class 'int'>, {GPU(name='CTI Forge', accelerator_type=<AcceleratorType.Integrated: AliasedName(name='Integrated', aliases=(), patterns=())>, vram=None, max_power_limit=None, pci_id=None, compute_sm=87): 1})), numa_conf=None, system_id='Orin')
+tensor_parallelism : 1
+tensor_path : build/preprocessed_data/cnn_dailymail_tokenized_gptj/input_ids_padded.npy,build/preprocessed_data/cnn_dailymail_tokenized_gptj/input_lengths.npy
+test_mode : AccuracyOnly
+use_graphs : False
+use_token_latencies : False
+system_id : Orin
+config_name : Orin_gptj_SingleStream
+workload_setting : WorkloadSetting(HarnessType.Custom, AccuracyTarget.k_99_9, PowerSetting.MaxP)
+optimization_level : plugin-enabled
+num_profiles : 1
+config_ver : custom_k_99_9_MaxP
+accuracy_level : 99.9%
+inference_server : custom
+skip_file_checks : False
+soc_gpu_freq : None
+soc_dla_freq : None
+soc_cpu_freq : None
+soc_emc_freq : None
+soc_pva_freq : None
+orin_num_cores : None
+orin_skip_maxq_reset : None
+gpu_engine_batch_size : 1
+&&&& RUNNING LLM_HARNESS # ./build/bin/harness_llm
+[I] Initializing TensorRT plugin library...
+[I] Initializing TRT-LLM plugin libraries...
+I0725 23:06:52.958382 11110 main_llm.cc:170] Loading LLM config from "./build/engines/Orin/gptj/SingleStream/bs1-custom_k_99_9_MaxP/config.json" and geneartion config from: code/gptj/tensorrt/generation_config.json
+I0725 23:06:53.236277 11110 main_llm.cc:283] LLMConfig Details:
+	mMaxSumSeqlen: 2047 mMaxInputSeqlen: 1919 mMaxOutputSeqlen: 128 mEosId: 50256
+	tp: 1 pp: 1 mWorldSize: 1
+	mMaxGpuBatchSize: 1 mBeamWidth: 4
+	mTemperature: 1 mTopK: 1 mTopP: 0 mMinOutputSeqlen: 30 mIsStreaming: 0 mReportFirstToken: 0 mEnableSort: 0 mExcludeInputInOutput: 1 mUseStopTokens: 0
+	mMaxNumSequences: 0 mMaxTokensInPagedKvcache: 0 mKvCacheFreeGpuMemFraction: 0.95 mEnableTrtOverlap: 0
+	mBatchMode: 2 mSchedulerPolicy: 0
+I0725 23:06:53.236343 11110 main_llm.cc:286] Rank: 0 has pid: 11110
+I0725 23:06:53.236353 11110 main_llm.cc:121] Found 1 GPUs
+I0725 23:06:53.236357 11110 main_llm.cc:416] Instantiating QSL[gptj-SingleStream-QSL]
+I0725 23:06:53.241487 11110 main_llm.cc:419] Instantiated QSL[gptj-SingleStream-QSL]
+I0725 23:06:53.241510 11110 main_llm.cc:421] Instantiating SUT[gptj-SingleStream-SUT]
+I0725 23:06:53.241677 11110 llm_server.cc:444] LLMServer[gptj-SingleStream-SUT] creating LLMCore[0] on Device[0]...
+I0725 23:06:53.241730 11110 llm_core.cc:69] Rank 0:: LLMCore[0] at Device Id [0]
+[TensorRT-LLM][INFO] Engine version 0.11.0.dev2024062500 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][INFO] Parameter layer_types cannot be read from json:
+[TensorRT-LLM][INFO] [json.exception.out_of_range.403] key 'layer_types' not found
+[TensorRT-LLM][INFO] Parameter has_position_embedding cannot be read from json:
+[TensorRT-LLM][INFO] [json.exception.out_of_range.403] key 'has_position_embedding' not found
+[TensorRT-LLM][INFO] Parameter has_token_type_embedding cannot be read from json:
+[TensorRT-LLM][INFO] [json.exception.out_of_range.403] key 'has_token_type_embedding' not found
+[TensorRT-LLM][INFO] [json.exception.type_error.302] type must be string, but is null
+[TensorRT-LLM][INFO] Optional value for parameter kv_cache_quant_algo will not be set.
+[TensorRT-LLM][INFO] Rank 0 is using GPU 0
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 1
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 1
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 4
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 2046
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 2047
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: 2047
+[TensorRT-LLM][INFO] TRTGptModel computeContextLogits: 0
+[TensorRT-LLM][INFO] TRTGptModel computeGenerationLogits: 0
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: MAX_UTILIZATION
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: None
+[TensorRT-LLM][INFO] Loaded engine size: 3566 MiB
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 240.10 MiB for execution context memory.
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 3563 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 988.04 KB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 2.94 MB GPU memory for decoder.
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 61.37 GiB, available: 47.37 GiB
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 1646
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 32
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 45.01 GiB for max tokens in paged KV cache (105344).
+I0725 23:07:06.197860 11110 llm_core.cc:96] Rank 0:: LLMCore Setup complete for device 0
+I0725 23:07:06.198052 11110 llm_server.cc:449] LLMServer[gptj-SingleStream-SUT] created LLMCore[0] on Device[0].
+I0725 23:07:06.251490 11110 main_llm.cc:426] Instantiated SUT[gptj-SingleStream-SUT]
+I0725 23:07:06.251505 11110 main_llm.cc:428] Starting running actual test.
+I0725 23:53:17.722956 11118 llm_server.cc:112] Rank 0:: Processed 1000 samples.
+I0726 00:38:58.195086 11118 llm_server.cc:112] Rank 0:: Processed 2000 samples.
+I0726 01:24:23.867817 11118 llm_server.cc:112] Rank 0:: Processed 3000 samples.
+I0726 02:10:01.544498 11118 llm_server.cc:112] Rank 0:: Processed 4000 samples.
+I0726 02:56:16.986613 11118 llm_server.cc:112] Rank 0:: Processed 5000 samples.
+I0726 03:42:23.690652 11118 llm_server.cc:112] Rank 0:: Processed 6000 samples.
+I0726 04:27:59.396144 11118 llm_server.cc:112] Rank 0:: Processed 7000 samples.
+I0726 05:12:51.094853 11118 llm_server.cc:112] Rank 0:: Processed 8000 samples.
+I0726 05:59:34.697003 11118 llm_server.cc:112] Rank 0:: Processed 9000 samples.
+I0726 06:45:48.844646 11118 llm_server.cc:112] Rank 0:: Processed 10000 samples.
+I0726 07:31:38.466581 11118 llm_server.cc:112] Rank 0:: Processed 11000 samples.
+I0726 08:17:59.764923 11118 llm_server.cc:112] Rank 0:: Processed 12000 samples.
+I0726 09:04:05.533103 11118 llm_server.cc:112] Rank 0:: Processed 13000 samples.
+
+I0726 09:20:55.937539 11110 main_llm.cc:432] Finished running actual test.
+No warnings encountered during test.
+
+No errors encountered during test.
+[TensorRT-LLM][INFO] Terminate signal received, worker thread exiting.
+[2024-07-26 09:20:58,825 run_harness.py:166 INFO] Result: Accuracy run detected.
+[2024-07-26 09:20:58,827 __init__.py:46 INFO] Running command: PYTHONPATH=/work:/usr/lib/python310.zip:/usr/lib/python3.10:/usr/lib/python3.10/lib-dynload:/work/build/TRTLLM/3rdparty/cutlass/python:/usr/local/lib/python3.10/dist-packages:/usr/lib/python3/dist-packages:/usr/lib/python3.10/dist-packages python3 -S /work/build/inference/language/gpt-j/evaluation.py --mlperf-accuracy-file /work/build/logs/2024.07.25-23.06.51/Orin_TRT/gptj-99.9/SingleStream/mlperf_log_accuracy.json --dataset-file /mnt/mlperf_scratch_4.1.5//data/cnn-daily-mail/cnn_eval.json --dtype int32
+Downloading builder script:   0%|          | 0.00/6.27k [00:00<?, ?B/s]Downloading builder script: 100%|██████████| 6.27k/6.27k [00:00<00:00, 16.4MB/s]
+[nltk_data] Downloading package punkt to /home/nvidia/nltk_data...
+[nltk_data]   Unzipping tokenizers/punkt.zip.
+/usr/local/lib/python3.10/dist-packages/huggingface_hub/file_download.py:1150: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Constructing QSL
+Encoding Samples
+
+Results
+
+{'rouge1': 42.9655, 'rouge2': 20.1445, 'rougeL': 29.9678, 'rougeLsum': 40.1301, 'gen_len': 4047613, 'gen_num': 13368}
+Finished destroying QSL.
+ 
+======================== Result summaries: ========================
+
+ Orin_TRT-custom_k_99_9_MaxP-SingleStream:
+   gptj-99.9:
+     accuracy: [PASSED] ROUGE1: 42.965 (Threshold=42.944) | [PASSED] ROUGE2: 20.145 (Threshold=20.103) | [PASSED] ROUGEL: 29.968 (Threshold=29.958) | [PASSED] GEN_LEN: 4047613.000 (Threshold=3615190.200)
+ 
+Running harness singlestream performance
+[2024-07-26 09:24:06,938 systems.py:174 WARNING] nvidia-smi command exists but failed to execute - Ignoring NUMA detection.
+[2024-07-26 09:24:07,326 main.py:229 INFO] Detected system ID: KnownSystem.Orin
+[2024-07-26 09:24:07,439 generate_conf_files.py:107 INFO] Generated measurements/ entries for Orin_TRT/gptj-99.9/SingleStream
+[2024-07-26 09:24:07,440 __init__.py:46 INFO] Running command: ./build/bin/harness_llm --logfile_outdir="/work/build/logs/2024.07.26-09.24.06/Orin_TRT/gptj-99.9/SingleStream" --logfile_prefix="mlperf_log_" --performance_sample_count=13368 --test_mode="PerformanceOnly" --gpu_batch_size=1 --tensor_path="build/preprocessed_data/cnn_dailymail_tokenized_gptj/input_ids_padded.npy,build/preprocessed_data/cnn_dailymail_tokenized_gptj/input_lengths.npy" --use_graphs=false --gpu_inference_streams=1 --gpu_copy_streams=1 --tensor_parallelism=1 --enable_sort=false --llm_gen_config_path="code/gptj/tensorrt/generation_config.json" --use_token_latencies=false --gpu_engines="./build/engines/Orin/gptj/SingleStream/bs1-custom_k_99_9_MaxP/rank0.engine" --mlperf_conf_path="build/loadgen-configs/Orin_TRT/gptj-99.9/SingleStream/mlperf.conf" --user_conf_path="build/loadgen-configs/Orin_TRT/gptj-99.9/SingleStream/user.conf" --scenario SingleStream --model gptj
+[2024-07-26 09:24:07,440 __init__.py:53 INFO] Overriding Environment
+benchmark : Benchmark.GPTJ
+buffer_manager_thread_count : 0
+coalesced_tensor : True
+data_dir : /mnt/mlperf_scratch_4.1.5//data
+enable_sort : False
+gpu_batch_size : 1
+gpu_copy_streams : 1
+gpu_inference_streams : 1
+input_dtype : int32
+input_format : linear
+llm_gen_config_path : code/gptj/tensorrt/generation_config.json
+log_dir : /work/build/logs/2024.07.26-09.24.06
+precision : fp16
+preprocessed_data_dir : /mnt/mlperf_scratch_4.1.5//preprocessed_data
+scenario : Scenario.SingleStream
+single_stream_expected_latency_ns : 5000000000
+system : SystemConfiguration(host_cpu_conf=CPUConfiguration(layout={CPU(name='Cortex-A78AE', architecture=<CPUArchitecture.aarch64: AliasedName(name='aarch64', aliases=(), patterns=())>, core_count=4, threads_per_core=1): 1}), host_mem_conf=MemoryConfiguration(host_memory_capacity=Memory(quantity=64.34958, byte_suffix=<ByteSuffix.GB: (1000, 3)>, _num_bytes=64349580000), comparison_tolerance=0.05), accelerator_conf=AcceleratorConfiguration(layout=defaultdict(<class 'int'>, {GPU(name='CTI Forge', accelerator_type=<AcceleratorType.Integrated: AliasedName(name='Integrated', aliases=(), patterns=())>, vram=None, max_power_limit=None, pci_id=None, compute_sm=87): 1})), numa_conf=None, system_id='Orin')
+tensor_parallelism : 1
+tensor_path : build/preprocessed_data/cnn_dailymail_tokenized_gptj/input_ids_padded.npy,build/preprocessed_data/cnn_dailymail_tokenized_gptj/input_lengths.npy
+test_mode : PerformanceOnly
+use_graphs : False
+use_token_latencies : False
+system_id : Orin
+config_name : Orin_gptj_SingleStream
+workload_setting : WorkloadSetting(HarnessType.Custom, AccuracyTarget.k_99_9, PowerSetting.MaxP)
+optimization_level : plugin-enabled
+num_profiles : 1
+config_ver : custom_k_99_9_MaxP
+accuracy_level : 99.9%
+inference_server : custom
+skip_file_checks : False
+soc_gpu_freq : None
+soc_dla_freq : None
+soc_cpu_freq : None
+soc_emc_freq : None
+soc_pva_freq : None
+orin_num_cores : None
+orin_skip_maxq_reset : None
+gpu_engine_batch_size : 1
+&&&& RUNNING LLM_HARNESS # ./build/bin/harness_llm
+[I] Initializing TensorRT plugin library...
+[I] Initializing TRT-LLM plugin libraries...
+I0726 09:24:07.905174 11330 main_llm.cc:170] Loading LLM config from "./build/engines/Orin/gptj/SingleStream/bs1-custom_k_99_9_MaxP/config.json" and geneartion config from: code/gptj/tensorrt/generation_config.json
+I0726 09:24:08.101509 11330 main_llm.cc:283] LLMConfig Details:
+	mMaxSumSeqlen: 2047 mMaxInputSeqlen: 1919 mMaxOutputSeqlen: 128 mEosId: 50256
+	tp: 1 pp: 1 mWorldSize: 1
+	mMaxGpuBatchSize: 1 mBeamWidth: 4
+	mTemperature: 1 mTopK: 1 mTopP: 0 mMinOutputSeqlen: 30 mIsStreaming: 0 mReportFirstToken: 0 mEnableSort: 0 mExcludeInputInOutput: 1 mUseStopTokens: 0
+	mMaxNumSequences: 0 mMaxTokensInPagedKvcache: 0 mKvCacheFreeGpuMemFraction: 0.95 mEnableTrtOverlap: 0
+	mBatchMode: 2 mSchedulerPolicy: 0
+I0726 09:24:08.101572 11330 main_llm.cc:286] Rank: 0 has pid: 11330
+I0726 09:24:08.101581 11330 main_llm.cc:121] Found 1 GPUs
+I0726 09:24:08.101585 11330 main_llm.cc:416] Instantiating QSL[gptj-SingleStream-QSL]
+I0726 09:24:08.106003 11330 main_llm.cc:419] Instantiated QSL[gptj-SingleStream-QSL]
+I0726 09:24:08.106024 11330 main_llm.cc:421] Instantiating SUT[gptj-SingleStream-SUT]
+I0726 09:24:08.106359 11330 llm_server.cc:444] LLMServer[gptj-SingleStream-SUT] creating LLMCore[0] on Device[0]...
+I0726 09:24:08.106410 11330 llm_core.cc:69] Rank 0:: LLMCore[0] at Device Id [0]
+[TensorRT-LLM][INFO] Engine version 0.11.0.dev2024062500 found in the config file, assuming engine(s) built by new builder API.
+[TensorRT-LLM][INFO] Parameter layer_types cannot be read from json:
+[TensorRT-LLM][INFO] [json.exception.out_of_range.403] key 'layer_types' not found
+[TensorRT-LLM][INFO] Parameter has_position_embedding cannot be read from json:
+[TensorRT-LLM][INFO] [json.exception.out_of_range.403] key 'has_position_embedding' not found
+[TensorRT-LLM][INFO] Parameter has_token_type_embedding cannot be read from json:
+[TensorRT-LLM][INFO] [json.exception.out_of_range.403] key 'has_token_type_embedding' not found
+[TensorRT-LLM][INFO] [json.exception.type_error.302] type must be string, but is null
+[TensorRT-LLM][INFO] Optional value for parameter kv_cache_quant_algo will not be set.
+[TensorRT-LLM][INFO] Rank 0 is using GPU 0
+[TensorRT-LLM][INFO] TRTGptModel maxNumSequences: 1
+[TensorRT-LLM][INFO] TRTGptModel maxBatchSize: 1
+[TensorRT-LLM][INFO] TRTGptModel maxBeamWidth: 4
+[TensorRT-LLM][INFO] TRTGptModel maxInputLen: 2046
+[TensorRT-LLM][INFO] TRTGptModel maxSequenceLen: 2047
+[TensorRT-LLM][INFO] TRTGptModel maxDraftLen: 0
+[TensorRT-LLM][INFO] TRTGptModel mMaxAttentionWindowSize: 2047
+[TensorRT-LLM][INFO] TRTGptModel computeContextLogits: 0
+[TensorRT-LLM][INFO] TRTGptModel computeGenerationLogits: 0
+[TensorRT-LLM][INFO] TRTGptModel enableTrtOverlap: 0
+[TensorRT-LLM][INFO] TRTGptModel normalizeLogProbs: 1
+[TensorRT-LLM][INFO] Capacity Scheduler Policy: MAX_UTILIZATION
+[TensorRT-LLM][INFO] Context Chunking Scheduler Policy: None
+[TensorRT-LLM][INFO] Loaded engine size: 3566 MiB
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 240.10 MiB for execution context memory.
+[TensorRT-LLM][INFO] [MemUsageChange] TensorRT-managed allocation in IExecutionContext creation: CPU +0, GPU +0, now: CPU 0, GPU 3563 (MiB)
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 988.04 KB GPU memory for runtime buffers.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 2.94 MB GPU memory for decoder.
+[TensorRT-LLM][INFO] Memory usage when calculating max tokens in paged kv cache: total: 61.37 GiB, available: 47.36 GiB
+[TensorRT-LLM][INFO] Number of blocks in KV cache primary pool: 1646
+[TensorRT-LLM][INFO] Number of blocks in KV cache secondary pool: 0, onboard blocks to primary memory before reuse: true
+[TensorRT-LLM][INFO] Max KV cache pages per sequence: 32
+[TensorRT-LLM][INFO] Number of tokens per block: 64.
+[TensorRT-LLM][INFO] [MemUsageChange] Allocated 45.01 GiB for max tokens in paged KV cache (105344).
+I0726 09:24:23.926957 11330 llm_core.cc:96] Rank 0:: LLMCore Setup complete for device 0
+I0726 09:24:23.926990 11330 llm_server.cc:449] LLMServer[gptj-SingleStream-SUT] created LLMCore[0] on Device[0].
+I0726 09:24:23.927018 11330 main_llm.cc:426] Instantiated SUT[gptj-SingleStream-SUT]
+I0726 09:24:23.927024 11330 main_llm.cc:428] Starting running actual test.
+I0726 10:10:31.208712 11338 llm_server.cc:112] Rank 0:: Processed 1000 samples.
+I0726 10:57:11.689440 11338 llm_server.cc:112] Rank 0:: Processed 2000 samples.
+I0726 11:43:38.922073 11338 llm_server.cc:112] Rank 0:: Processed 3000 samples.
+I0726 12:30:05.609211 11338 llm_server.cc:112] Rank 0:: Processed 4000 samples.
+I0726 13:15:49.205351 11338 llm_server.cc:112] Rank 0:: Processed 5000 samples.
+I0726 14:01:18.141564 11338 llm_server.cc:112] Rank 0:: Processed 6000 samples.
+I0726 14:46:42.173175 11338 llm_server.cc:112] Rank 0:: Processed 7000 samples.
+I0726 15:32:45.512678 11338 llm_server.cc:112] Rank 0:: Processed 8000 samples.
+I0726 16:18:42.977469 11338 llm_server.cc:112] Rank 0:: Processed 9000 samples.
+I0726 17:04:33.420850 11338 llm_server.cc:112] Rank 0:: Processed 10000 samples.
+I0726 17:50:06.657850 11338 llm_server.cc:112] Rank 0:: Processed 11000 samples.
+I0726 18:35:54.126204 11338 llm_server.cc:112] Rank 0:: Processed 12000 samples.
+I0726 19:22:03.690796 11338 llm_server.cc:112] Rank 0:: Processed 13000 samples.
+================================================
+MLPerf Results Summary
+================================================
+SUT name : gptj-SingleStream-SUT
+Scenario : SingleStream
+Mode     : PerformanceOnly
+90th percentile latency (ns) : 4079418411
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+  Early stopping satisfied: Yes
+Early Stopping Result:
+ * Processed at least 64 queries (13368).
+ * Would discard 1255 highest latency queries.
+ * Early stopping 90th percentile estimate: 4145572039
+ * Early stopping 99th percentile estimate: 4996607198
+
+================================================
+Additional Stats
+================================================
+QPS w/ loadgen overhead         : 0.36
+QPS w/o loadgen overhead        : 0.36
+
+Min latency (ns)                : 952044780
+Max latency (ns)                : 5022440738
+Mean latency (ns)               : 2760936575
+50.00 percentile latency (ns)   : 2602915653
+I0726 19:39:32.553213 11330 main_llm.cc:432] Finished running actual test.
+90.00 percentile latency (ns)   : 4079418411
+95.00 percentile latency (ns)   : 4467124079
+97.00 percentile latency (ns)   : 4719253259
+99.00 percentile latency (ns)   : 4994217526
+99.90 percentile latency (ns)   : 5012373573
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 0.2
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 600000
+max_duration (ms): 0
+min_query_count : 13368
+max_query_count : 0
+qsl_rng_seed : 3066443479025735752
+sample_index_rng_seed : 10688027786191513374
+schedule_rng_seed : 14962580496156340209
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : 0
+performance_issue_unique : 0
+performance_issue_same : 0
+performance_issue_same_index : 0
+performance_sample_count : 13368
+
+No warnings encountered during test.
+
+No errors encountered during test.
+[TensorRT-LLM][INFO] Terminate signal received, worker thread exiting.
+[2024-07-26 19:39:34,510 run_harness.py:166 INFO] Result: result_90.00_percentile_latency_ns: 4079418411, Result is VALID, 10-min runtime requirement met: True
+ 
+======================== Result summaries: ========================
+
+ Orin_TRT-custom_k_99_9_MaxP-SingleStream:
+   gptj-99.9:
+     performance: result_90.00_percentile_latency_ns: 4079418411, Result is VALID, 10-min runtime requirement met: True
+ 
+
+======================== Extra Perf Stats: ========================
+
+ Orin_TRT-custom_k_99_9_MaxP-SingleStream:
+    FileNotFoundError: Cannot find perf logs for Orin_TRT/gptj-99.9/SingleStream at build/artifacts/closed/NVIDIA/results/Orin_TRT/gptj-99.9/SingleStream/performance/run_1. Non-NVIDIA users ignore this. NVIDIA users run `make pull_artifacts_repo`.

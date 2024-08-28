@@ -1,0 +1,48 @@
+diff --git a/cpp/include/tensorrt_llm/common/mpiUtils.h b/cpp/include/tensorrt_llm/common/mpiUtils.h
+old mode 100644
+new mode 100755
+index f191bdf62..fd05badeb
+--- a/cpp/include/tensorrt_llm/common/mpiUtils.h
++++ b/cpp/include/tensorrt_llm/common/mpiUtils.h
+@@ -33,29 +33,29 @@
+ #include <mpi.h>
+ #else
+ // Dummy defines to avoid #if in wider places.
+-typedef int MPI_Datatype;
+-typedef int MPI_Comm;
+-typedef int MPI_Request;
+-typedef int MPI_Message;
+-typedef int MPI_Op;
++// typedef int MPI_Datatype;
++// typedef int MPI_Comm;
++// typedef int MPI_Request;
++// typedef int MPI_Message;
++// typedef int MPI_Op;
+ 
+-typedef struct MPI_Status
+-{
+-    int dummy;
+-} MPI_Status;
++// typedef struct MPI_Status
++// {
++//     int dummy;
++// } MPI_Status;
+ 
+ #define MPI_THREAD_SINGLE 0
+ #define MPI_THREAD_FUNNELED 1
+ #define MPI_THREAD_SERIALIZED 2
+ #define MPI_THREAD_MULTIPLE 3
+-#define MPI_COMM_WORLD ((MPI_Comm) 0x44000000)
+-#define MPI_COMM_NULL ((MPI_Comm) 0x04000000)
++// #define MPI_COMM_WORLD ((MPI_Comm) 0x44000000)
++// #define MPI_COMM_NULL ((MPI_Comm) 0x04000000)
+ #endif // ENABLE_MULTI_DEVICE
+ 
+ #include <type_traits>
+ #include <vector>
+ 
+-#define MPICHECK(cmd) TLLM_MPI_CHECK(cmd)
++// #define MPICHECK(cmd) TLLM_MPI_CHECK(cmd)
+ 
+ namespace tensorrt_llm::runtime
+ {

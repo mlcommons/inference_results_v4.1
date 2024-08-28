@@ -1,0 +1,8 @@
+{
+    'accuracy_results': {
+        'CLIP_SCORE': 31.738648088574408,
+        'FID_SCORE': 23.499357657650307,
+        'scenario': 'TestScenario.Offline'
+    },
+}
+hash=6feeb8d19362352941f380a1a10b14775f185edff04ea5acb41f2654275e71a1

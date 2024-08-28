@@ -1,0 +1,434 @@
+{
+  "app-mlperf-inference,d775cac873ee4231:nvidia,bert-99,tensorrt,cuda,valid,r4.1_default,offline": [
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( nvidia,_bert-99,_tensorrt,_cuda,_valid,_r4.1_default,_offline )"
+      }
+    },
+    {
+      "get,sys-utils-cm": {
+        "script_uid": "bc90993277e84b8e",
+        "script_alias": "get-sys-utils-cm",
+        "script_tags": "get,sys-utils-cm",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( nvidia,_bert-99,_tensorrt,_cuda,_valid,_r4.1_default,_offline )"
+      }
+    },
+    {
+      "get,python": {
+        "script_uid": "d0b5dd74373f4a62",
+        "script_alias": "get-python3",
+        "script_tags": "get,python,python3,get-python,get-python3",
+        "script_variations": "",
+        "version": "3.8.10",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( nvidia,_bert-99,_tensorrt,_cuda,_valid,_r4.1_default,_offline )"
+      }
+    },
+    {
+      "get,mlcommons,inference,src,_deeplearningexamples": {
+        "script_uid": "4b57186581024797",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_variations": "deeplearningexamples",
+        "version": "master-git-28144996310f5303a09355d55f238786737dc346",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( nvidia,_bert-99,_tensorrt,_cuda,_valid,_r4.1_default,_offline )"
+      }
+    },
+    {
+      "get,mlperf,inference,src,_deeplearningexamples": {
+        "script_uid": "4b57186581024797",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_variations": "deeplearningexamples",
+        "version": "master-git-28144996310f5303a09355d55f238786737dc346",
+        "parent": "get-mlperf-inference-utils,e341e5f86d8342e5"
+      }
+    },
+    {
+      "get,mlperf,inference,utils": {
+        "script_uid": "e341e5f86d8342e5",
+        "script_alias": "get-mlperf-inference-utils",
+        "script_tags": "get,mlperf,inference,util,utils,functions",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( nvidia,_bert-99,_tensorrt,_cuda,_valid,_r4.1_default,_offline )"
+      }
+    },
+    {
+      "get,cuda,_toolkit": {
+        "script_uid": "46d133d9ef92422d",
+        "script_alias": "get-cuda",
+        "script_tags": "get,cuda,cuda-compiler,cuda-lib,toolkit,lib,nvcc,get-nvcc,get-cuda,46d133d9ef92422d",
+        "script_variations": "toolkit",
+        "version": "12.2",
+        "parent": "get-cuda-devices,7a3ede4d3558427a"
+      }
+    },
+    {
+      "get,cuda-devices": {
+        "script_uid": "7a3ede4d3558427a",
+        "script_alias": "get-cuda-devices",
+        "script_tags": "get,cuda-devices",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( nvidia,_bert-99,_tensorrt,_cuda,_valid,_r4.1_default,_offline )"
+      }
+    },
+    {
+      "get,dataset,squad,language-processing": {
+        "script_uid": "6651c119c3ae49b3",
+        "script_alias": "get-dataset-squad",
+        "script_tags": "get,dataset,squad,language-processing,validation,original",
+        "script_variations": "",
+        "version": "1.1",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( nvidia,_bert-99,_tensorrt,_cuda,_valid,_r4.1_default,_offline )"
+      }
+    },
+    {
+      "get,dataset-aux,squad-vocab": {
+        "script_uid": "e38874fff5094577",
+        "script_alias": "get-dataset-squad-vocab",
+        "script_tags": "get,aux,dataset-aux,language-processing,squad-aux,vocab,squad-vocab",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( nvidia,_bert-99,_tensorrt,_cuda,_valid,_r4.1_default,_offline )"
+      }
+    },
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "detect-cpu,586c8a43320142f7"
+      }
+    },
+    {
+      "detect,cpu": {
+        "script_uid": "586c8a43320142f7",
+        "script_alias": "detect-cpu",
+        "script_tags": "detect,cpu,detect-cpu,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "get,sys-utils-cm": {
+        "script_uid": "bc90993277e84b8e",
+        "script_alias": "get-sys-utils-cm",
+        "script_tags": "get,sys-utils-cm",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "get,mlperf,inference,nvidia,scratch,space": {
+        "script_uid": "0b2bec8b29fb4ab7",
+        "script_alias": "get-mlperf-inference-nvidia-scratch-space",
+        "script_tags": "get,mlperf,inference,nvidia,scratch,space",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_mlperf_logging": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "mlperf_logging",
+        "version": "3.0.0",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "get,ml-model,bert,_onnx,_fp32": {
+        "script_uid": "5e865dbdc65949d2",
+        "script_alias": "get-ml-model-bert-large-squad",
+        "script_tags": "get,ml-model,raw,bert,bert-large,bert-squad,language,language-processing",
+        "script_variations": "onnx,fp32",
+        "version": "",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "get,ml-model,bert,_onnx,_int8": {
+        "script_uid": "5e865dbdc65949d2",
+        "script_alias": "get-ml-model-bert-large-squad",
+        "script_tags": "get,ml-model,raw,bert,bert-large,bert-squad,language,language-processing",
+        "script_variations": "onnx,int8",
+        "version": "",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "get,squad-vocab": {
+        "script_uid": "e38874fff5094577",
+        "script_alias": "get-dataset-squad-vocab",
+        "script_tags": "get,aux,dataset-aux,language-processing,squad-aux,vocab,squad-vocab",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "get,mlcommons,inference,src,_deeplearningexamples": {
+        "script_uid": "4b57186581024797",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_variations": "deeplearningexamples",
+        "version": "master-git-28144996310f5303a09355d55f238786737dc346",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "get,nvidia,mlperf,inference,common-code,_go": {
+        "script_uid": "26b78bf3ffdc4926",
+        "script_alias": "get-mlperf-inference-nvidia-common-code",
+        "script_tags": "get,nvidia,mlperf,inference,common-code",
+        "script_variations": "go",
+        "version": "r4.0",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
+      }
+    },
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "detect-cpu,586c8a43320142f7"
+      }
+    },
+    {
+      "detect,cpu": {
+        "script_uid": "586c8a43320142f7",
+        "script_alias": "detect-cpu",
+        "script_tags": "detect,cpu,detect-cpu,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
+      }
+    },
+    {
+      "get,python": {
+        "script_uid": "d0b5dd74373f4a62",
+        "script_alias": "get-python3",
+        "script_tags": "get,python,python3,get-python,get-python3",
+        "script_variations": "",
+        "version": "3.8.10",
+        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
+      }
+    },
+    {
+      "get,mlcommons,inference,src,_deeplearningexamples": {
+        "script_uid": "4b57186581024797",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_variations": "deeplearningexamples",
+        "version": "master-git-28144996310f5303a09355d55f238786737dc346",
+        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
+      }
+    },
+    {
+      "get,cache,dir,_name.mlperf-inference-sut-configs": {
+        "script_uid": "48f4622e059b45ce",
+        "script_alias": "get-cache-dir",
+        "script_tags": "get,cache,dir,directory",
+        "script_variations": "name.mlperf-inference-sut-configs",
+        "version": "",
+        "parent": "get-mlperf-inference-sut-configs,c2fbf72009e2445b"
+      }
+    },
+    {
+      "get,sut,configs": {
+        "script_uid": "c2fbf72009e2445b",
+        "script_alias": "get-mlperf-inference-sut-configs",
+        "script_tags": "get,mlperf,inference,sut,configs,sut-configs",
+        "script_variations": "",
+        "version": "",
+        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
+      }
+    },
+    {
+      "generate,user-conf,mlperf,inference": {
+        "script_uid": "3af4475745964b93",
+        "script_alias": "generate-mlperf-inference-user-conf",
+        "script_tags": "generate,mlperf,inference,user-conf,inference-user-conf",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "get,nvidia,mitten": {
+        "script_uid": "1c045f2902374de9",
+        "script_alias": "get-nvidia-mitten",
+        "script_tags": "get,nvidia,mitten,nvidia-mitten",
+        "script_variations": "",
+        "version": "master",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "get,cuda,_cudnn": {
+        "script_uid": "46d133d9ef92422d",
+        "script_alias": "get-cuda",
+        "script_tags": "get,cuda,cuda-compiler,cuda-lib,toolkit,lib,nvcc,get-nvcc,get-cuda,46d133d9ef92422d",
+        "script_variations": "cudnn",
+        "version": "12.2",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "get,tensorrt": {
+        "script_uid": "2a84ca505e4c408d",
+        "script_alias": "get-tensorrt",
+        "script_tags": "get,tensorrt,nvidia",
+        "script_variations": "",
+        "version": "vdetected",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "build,nvidia,inference,server,_go": {
+        "script_uid": "f37403af5e9f4541",
+        "script_alias": "build-mlperf-inference-server-nvidia",
+        "script_tags": "build,mlcommons,mlperf,inference,inference-server,server,nvidia-harness,nvidia",
+        "script_variations": "go",
+        "version": "r4.0",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "reproduce,mlperf,inference,nvidia,harness,_build_engine,_bert-99,_cuda,_tensorrt,_offline,_bert_,_batch_size.256,_v4.0": {
+        "script_uid": "bc3b17fb430f4732",
+        "script_alias": "app-mlperf-inference-nvidia",
+        "script_tags": "reproduce,mlcommons,mlperf,inference,harness,nvidia-harness,nvidia",
+        "script_variations": "build_engine,bert-99,cuda,tensorrt,offline,bert_,batch_size.256,v4.0",
+        "version": "",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "reproduce,mlperf,inference,nvidia,harness,_preprocess_data,_bert-99,_cuda,_tensorrt,_bert_,_v4.0": {
+        "script_uid": "bc3b17fb430f4732",
+        "script_alias": "app-mlperf-inference-nvidia",
+        "script_tags": "reproduce,mlcommons,mlperf,inference,harness,nvidia-harness,nvidia",
+        "script_variations": "preprocess_data,bert-99,cuda,tensorrt,bert_,v4.0",
+        "version": "",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_transformers": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "transformers",
+        "version": "4.42.4",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_safetensors": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "safetensors",
+        "version": "0.4.3",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_onnx": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "onnx",
+        "version": "1.16.1",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_onnx-graphsurgeon": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "onnx-graphsurgeon",
+        "version": "0.5.2",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    },
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "detect-cpu,586c8a43320142f7"
+      }
+    },
+    {
+      "detect,cpu": {
+        "script_uid": "586c8a43320142f7",
+        "script_alias": "detect-cpu",
+        "script_tags": "detect,cpu,detect-cpu,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "benchmark-program,19f369ef47084895"
+      }
+    },
+    {
+      "benchmark-program,program": {
+        "script_uid": "19f369ef47084895",
+        "script_alias": "benchmark-program",
+        "script_tags": "program,benchmark,benchmark-program",
+        "script_variations": "",
+        "version": "",
+        "parent": "benchmark-program-mlperf,cfff0132a8aa4018"
+      }
+    },
+    {
+      "benchmark-mlperf": {
+        "script_uid": "cfff0132a8aa4018",
+        "script_alias": "benchmark-program-mlperf",
+        "script_tags": "mlperf,benchmark-mlperf",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-nvidia,bc3b17fb430f4732 ( run_harness,_bert-99,_cuda,_tensorrt,_offline,_gpu_memory.16 )"
+      }
+    }
+  ]
+}

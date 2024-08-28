@@ -1,0 +1,1554 @@
+{
+  "app-mlperf-inference,d775cac873ee4231:intel,dlrm-v2-99,test,r4.0_default,offline": [
+    {
+      "detect,os": {
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( intel,_dlrm-v2-99,_test,_r4.0_default,_offline )",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_uid": "863735b7db8c44fc",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "get,sys-utils-cm": {
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( intel,_dlrm-v2-99,_test,_r4.0_default,_offline )",
+        "script_alias": "get-sys-utils-cm",
+        "script_tags": "get,sys-utils-cm",
+        "script_uid": "bc90993277e84b8e",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "get,python": {
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( intel,_dlrm-v2-99,_test,_r4.0_default,_offline )",
+        "script_alias": "get-python3",
+        "script_tags": "get,python,python3,get-python,get-python3",
+        "script_uid": "d0b5dd74373f4a62",
+        "script_variations": "",
+        "version": "3.9.0"
+      }
+    },
+    {
+      "get,mlcommons,inference,src": {
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( intel,_dlrm-v2-99,_test,_r4.0_default,_offline )",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_uid": "4b57186581024797",
+        "script_variations": "",
+        "version": "master-git-c83565d85d221bfb46cc7d5eef9dc89cf762d38e"
+      }
+    },
+    {
+      "get,mlperf,inference,src": {
+        "parent": "get-mlperf-inference-utils,e341e5f86d8342e5",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_uid": "4b57186581024797",
+        "script_variations": "",
+        "version": "master-git-c83565d85d221bfb46cc7d5eef9dc89cf762d38e"
+      }
+    },
+    {
+      "get,mlperf,inference,utils": {
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( intel,_dlrm-v2-99,_test,_r4.0_default,_offline )",
+        "script_alias": "get-mlperf-inference-utils",
+        "script_tags": "get,mlperf,inference,util,utils,functions",
+        "script_uid": "e341e5f86d8342e5",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "detect,os": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_uid": "863735b7db8c44fc",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "detect,os": {
+        "parent": "detect-cpu,586c8a43320142f7",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_uid": "863735b7db8c44fc",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "detect,cpu": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "detect-cpu",
+        "script_tags": "detect,cpu,detect-cpu,info",
+        "script_uid": "586c8a43320142f7",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "get,sys-utils-cm": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-sys-utils-cm",
+        "script_tags": "get,sys-utils-cm",
+        "script_uid": "bc90993277e84b8e",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "get,generic-python-lib,_mlperf_logging": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "mlperf_logging",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "get,conda,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-conda",
+        "script_tags": "get,conda,get-conda",
+        "script_uid": "6600115f41324c7b",
+        "script_variations": "name.dlrm-v2-pt",
+        "version": "24.5.0"
+      }
+    },
+    {
+      "get,python,_conda.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-python3",
+        "script_tags": "get,python,python3,get-python,get-python3",
+        "script_uid": "d0b5dd74373f4a62",
+        "script_variations": "conda.dlrm-v2-pt",
+        "version": "3.9.0"
+      }
+    },
+    {
+      "get,generic,conda-package,_package.mkl,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.mkl,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "get,generic,conda-package,_package.mkl-include,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.mkl-include,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "get,generic,conda-package,_package.ncurses,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.ncurses,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "get,generic-sys-util,_numactl": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-generic-sys-util",
+        "script_tags": "get,sys-util,generic,generic-sys-util",
+        "script_uid": "bb0393afa8404a11",
+        "script_variations": "numactl",
+        "version": ""
+      }
+    },
+    {
+      "get,generic,conda-package,_package.jemalloc,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.jemalloc,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "install,ipex,from.src,_for-intel-mlperf-inference-v3.1-dlrm-v2": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "install-ipex-from-src",
+        "script_tags": "install,get,src,from.src,ipex,src-ipex",
+        "script_uid": "09364fff2bf04516",
+        "script_variations": "for-intel-mlperf-inference-v3.1-dlrm-v2",
+        "version": ""
+      }
+    },
+    {
+      "get,mlcommons,inference,src": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_uid": "4b57186581024797",
+        "script_variations": "",
+        "version": "master-git-c83565d85d221bfb46cc7d5eef9dc89cf762d38e"
+      }
+    },
+    {
+      "get,mlcommons,inference,loadgen,_custom-python": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-mlperf-inference-loadgen",
+        "script_tags": "get,loadgen,inference,inference-loadgen,mlperf,mlcommons",
+        "script_uid": "64c3d98d0ba04950",
+        "script_variations": "custom-python",
+        "version": "master"
+      }
+    },
+    {
+      "get,ml-model,dlrm,_pytorch": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-ml-model-dlrm-terabyte",
+        "script_tags": "get,ml-model,dlrm,raw,terabyte,criteo-terabyte,criteo,recommendation",
+        "script_uid": "8fa7582c603a4db3",
+        "script_variations": "pytorch",
+        "version": ""
+      }
+    },
+    {
+      "get,generic-python-lib,_package.absl-py": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "package.absl-py",
+        "version": "2.1.0"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.accelerate": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "package.accelerate",
+        "version": "0.32.1"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.torch,_path.https://download.pytorch.org/whl/nightly/cpu-cxx11-abi/torch-2.1.0.dev20230715%2Bcpu.cxx11.abi-cp39-cp39-linux_x86_64.whl": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "package.torch,path.https://download.pytorch.org/whl/nightly/cpu-cxx11-abi/torch-2.1.0.dev20230715%2Bcpu.cxx11.abi-cp39-cp39-linux_x86_64.whl",
+        "version": "2.1.0.dev20230715"
+      }
+    },
+    {
+      "get,mlperf,inference,results,_ctuning": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-mlperf-inference-results",
+        "script_tags": "get,results,inference,official,inference-results,mlcommons,mlperf",
+        "script_uid": "36bae5b25dbe41da",
+        "script_variations": "ctuning",
+        "version": "v3.1"
+      }
+    },
+    {
+      "detect,os": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_uid": "863735b7db8c44fc",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "detect,os": {
+        "parent": "detect-cpu,586c8a43320142f7",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_uid": "863735b7db8c44fc",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "detect,cpu": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "detect-cpu",
+        "script_tags": "detect,cpu,detect-cpu,info",
+        "script_uid": "586c8a43320142f7",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "get,sys-utils-cm": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-sys-utils-cm",
+        "script_tags": "get,sys-utils-cm",
+        "script_uid": "bc90993277e84b8e",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "get,generic-python-lib,_mlperf_logging": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "mlperf_logging",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "detect,os": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_uid": "863735b7db8c44fc",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "detect,os": {
+        "parent": "detect-cpu,586c8a43320142f7",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_uid": "863735b7db8c44fc",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "detect,cpu": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "detect-cpu",
+        "script_tags": "detect,cpu,detect-cpu,info",
+        "script_uid": "586c8a43320142f7",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "get,sys-utils-cm": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-sys-utils-cm",
+        "script_tags": "get,sys-utils-cm",
+        "script_uid": "bc90993277e84b8e",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "get,generic-python-lib,_mlperf_logging": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "mlperf_logging",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "get,conda,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-conda",
+        "script_tags": "get,conda,get-conda",
+        "script_uid": "6600115f41324c7b",
+        "script_variations": "name.dlrm-v2-pt",
+        "version": "24.5.0"
+      }
+    },
+    {
+      "get,python,_conda.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-python3",
+        "script_tags": "get,python,python3,get-python,get-python3",
+        "script_uid": "d0b5dd74373f4a62",
+        "script_variations": "conda.dlrm-v2-pt",
+        "version": "3.9.0"
+      }
+    },
+    {
+      "get,generic,conda-package,_package.mkl,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.mkl,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "get,generic,conda-package,_package.mkl-include,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.mkl-include,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "get,generic,conda-package,_package.ncurses,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.ncurses,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "get,generic-sys-util,_numactl": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-generic-sys-util",
+        "script_tags": "get,sys-util,generic,generic-sys-util",
+        "script_uid": "bb0393afa8404a11",
+        "script_variations": "numactl",
+        "version": ""
+      }
+    },
+    {
+      "get,generic,conda-package,_package.jemalloc,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.jemalloc,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "install,ipex,from.src,_for-intel-mlperf-inference-v3.1-dlrm-v2": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "install-ipex-from-src",
+        "script_tags": "install,get,src,from.src,ipex,src-ipex",
+        "script_uid": "09364fff2bf04516",
+        "script_variations": "for-intel-mlperf-inference-v3.1-dlrm-v2",
+        "version": ""
+      }
+    },
+    {
+      "get,mlcommons,inference,src": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_uid": "4b57186581024797",
+        "script_variations": "",
+        "version": "master-git-c83565d85d221bfb46cc7d5eef9dc89cf762d38e"
+      }
+    },
+    {
+      "get,mlcommons,inference,loadgen,_custom-python": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-mlperf-inference-loadgen",
+        "script_tags": "get,loadgen,inference,inference-loadgen,mlperf,mlcommons",
+        "script_uid": "64c3d98d0ba04950",
+        "script_variations": "custom-python",
+        "version": "master"
+      }
+    },
+    {
+      "get,ml-model,dlrm,_pytorch": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-ml-model-dlrm-terabyte",
+        "script_tags": "get,ml-model,dlrm,raw,terabyte,criteo-terabyte,criteo,recommendation",
+        "script_uid": "8fa7582c603a4db3",
+        "script_variations": "pytorch",
+        "version": ""
+      }
+    },
+    {
+      "get,generic-python-lib,_package.absl-py": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "package.absl-py",
+        "version": "2.1.0"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.accelerate": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "package.accelerate",
+        "version": "0.32.1"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.torch,_path.https://download.pytorch.org/whl/nightly/cpu-cxx11-abi/torch-2.1.0.dev20230715%2Bcpu.cxx11.abi-cp39-cp39-linux_x86_64.whl": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "package.torch,path.https://download.pytorch.org/whl/nightly/cpu-cxx11-abi/torch-2.1.0.dev20230715%2Bcpu.cxx11.abi-cp39-cp39-linux_x86_64.whl",
+        "version": "2.1.0.dev20230715"
+      }
+    },
+    {
+      "get,mlperf,inference,results,_ctuning": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-mlperf-inference-results",
+        "script_tags": "get,results,inference,official,inference-results,mlcommons,mlperf",
+        "script_uid": "36bae5b25dbe41da",
+        "script_variations": "ctuning",
+        "version": "v3.1"
+      }
+    },
+    {
+      "detect,os": {
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( intel,_dlrm-v2-99,_test,_r4.0_default,_offline )",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_uid": "863735b7db8c44fc",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "get,sys-utils-cm": {
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( intel,_dlrm-v2-99,_test,_r4.0_default,_offline )",
+        "script_alias": "get-sys-utils-cm",
+        "script_tags": "get,sys-utils-cm",
+        "script_uid": "bc90993277e84b8e",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "get,python": {
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( intel,_dlrm-v2-99,_test,_r4.0_default,_offline )",
+        "script_alias": "get-python3",
+        "script_tags": "get,python,python3,get-python,get-python3",
+        "script_uid": "d0b5dd74373f4a62",
+        "script_variations": "",
+        "version": "3.9.0"
+      }
+    },
+    {
+      "get,mlcommons,inference,src": {
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( intel,_dlrm-v2-99,_test,_r4.0_default,_offline )",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_uid": "4b57186581024797",
+        "script_variations": "",
+        "version": "master-git-c83565d85d221bfb46cc7d5eef9dc89cf762d38e"
+      }
+    },
+    {
+      "get,mlperf,inference,src": {
+        "parent": "get-mlperf-inference-utils,e341e5f86d8342e5",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_uid": "4b57186581024797",
+        "script_variations": "",
+        "version": "master-git-c83565d85d221bfb46cc7d5eef9dc89cf762d38e"
+      }
+    },
+    {
+      "get,mlperf,inference,utils": {
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( intel,_dlrm-v2-99,_test,_r4.0_default,_offline )",
+        "script_alias": "get-mlperf-inference-utils",
+        "script_tags": "get,mlperf,inference,util,utils,functions",
+        "script_uid": "e341e5f86d8342e5",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "detect,os": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_uid": "863735b7db8c44fc",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "detect,os": {
+        "parent": "detect-cpu,586c8a43320142f7",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_uid": "863735b7db8c44fc",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "detect,cpu": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "detect-cpu",
+        "script_tags": "detect,cpu,detect-cpu,info",
+        "script_uid": "586c8a43320142f7",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "get,sys-utils-cm": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-sys-utils-cm",
+        "script_tags": "get,sys-utils-cm",
+        "script_uid": "bc90993277e84b8e",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "get,generic-python-lib,_mlperf_logging": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "mlperf_logging",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "get,conda,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-conda",
+        "script_tags": "get,conda,get-conda",
+        "script_uid": "6600115f41324c7b",
+        "script_variations": "name.dlrm-v2-pt",
+        "version": "24.5.0"
+      }
+    },
+    {
+      "get,python,_conda.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-python3",
+        "script_tags": "get,python,python3,get-python,get-python3",
+        "script_uid": "d0b5dd74373f4a62",
+        "script_variations": "conda.dlrm-v2-pt",
+        "version": "3.9.0"
+      }
+    },
+    {
+      "get,generic,conda-package,_package.mkl,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.mkl,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "get,generic,conda-package,_package.mkl-include,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.mkl-include,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "get,generic,conda-package,_package.ncurses,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.ncurses,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "get,generic-sys-util,_numactl": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-generic-sys-util",
+        "script_tags": "get,sys-util,generic,generic-sys-util",
+        "script_uid": "bb0393afa8404a11",
+        "script_variations": "numactl",
+        "version": ""
+      }
+    },
+    {
+      "get,generic,conda-package,_package.jemalloc,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.jemalloc,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "install,ipex,from.src,_for-intel-mlperf-inference-v3.1-dlrm-v2": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "install-ipex-from-src",
+        "script_tags": "install,get,src,from.src,ipex,src-ipex",
+        "script_uid": "09364fff2bf04516",
+        "script_variations": "for-intel-mlperf-inference-v3.1-dlrm-v2",
+        "version": ""
+      }
+    },
+    {
+      "get,mlcommons,inference,src": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_uid": "4b57186581024797",
+        "script_variations": "",
+        "version": "master-git-c83565d85d221bfb46cc7d5eef9dc89cf762d38e"
+      }
+    },
+    {
+      "get,mlcommons,inference,loadgen,_custom-python": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-mlperf-inference-loadgen",
+        "script_tags": "get,loadgen,inference,inference-loadgen,mlperf,mlcommons",
+        "script_uid": "64c3d98d0ba04950",
+        "script_variations": "custom-python",
+        "version": "master"
+      }
+    },
+    {
+      "get,ml-model,dlrm,_pytorch": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-ml-model-dlrm-terabyte",
+        "script_tags": "get,ml-model,dlrm,raw,terabyte,criteo-terabyte,criteo,recommendation",
+        "script_uid": "8fa7582c603a4db3",
+        "script_variations": "pytorch",
+        "version": ""
+      }
+    },
+    {
+      "get,generic-python-lib,_package.absl-py": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "package.absl-py",
+        "version": "2.1.0"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.accelerate": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "package.accelerate",
+        "version": "0.32.1"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.torch,_path.https://download.pytorch.org/whl/nightly/cpu-cxx11-abi/torch-2.1.0.dev20230715%2Bcpu.cxx11.abi-cp39-cp39-linux_x86_64.whl": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "package.torch,path.https://download.pytorch.org/whl/nightly/cpu-cxx11-abi/torch-2.1.0.dev20230715%2Bcpu.cxx11.abi-cp39-cp39-linux_x86_64.whl",
+        "version": "2.1.0.dev20230715"
+      }
+    },
+    {
+      "get,mlperf,inference,results,_ctuning": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( dlrm-v2-99,_pytorch,_offline,_cpu,_v3.1 )",
+        "script_alias": "get-mlperf-inference-results",
+        "script_tags": "get,results,inference,official,inference-results,mlcommons,mlperf",
+        "script_uid": "36bae5b25dbe41da",
+        "script_variations": "ctuning",
+        "version": "v3.1"
+      }
+    },
+    {
+      "detect,os": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_uid": "863735b7db8c44fc",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "detect,os": {
+        "parent": "detect-cpu,586c8a43320142f7",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_uid": "863735b7db8c44fc",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "detect,cpu": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "detect-cpu",
+        "script_tags": "detect,cpu,detect-cpu,info",
+        "script_uid": "586c8a43320142f7",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "get,sys-utils-cm": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-sys-utils-cm",
+        "script_tags": "get,sys-utils-cm",
+        "script_uid": "bc90993277e84b8e",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "get,generic-python-lib,_mlperf_logging": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "mlperf_logging",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "detect,os": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_uid": "863735b7db8c44fc",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "detect,os": {
+        "parent": "detect-cpu,586c8a43320142f7",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_uid": "863735b7db8c44fc",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "detect,cpu": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "detect-cpu",
+        "script_tags": "detect,cpu,detect-cpu,info",
+        "script_uid": "586c8a43320142f7",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "get,sys-utils-cm": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-sys-utils-cm",
+        "script_tags": "get,sys-utils-cm",
+        "script_uid": "bc90993277e84b8e",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "get,generic-python-lib,_mlperf_logging": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "mlperf_logging",
+        "version": "3.0.0"
+      }
+    },
+    {
+      "get,conda,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-conda",
+        "script_tags": "get,conda,get-conda",
+        "script_uid": "6600115f41324c7b",
+        "script_variations": "name.dlrm-v2-pt",
+        "version": "24.5.0"
+      }
+    },
+    {
+      "get,python,_conda.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-python3",
+        "script_tags": "get,python,python3,get-python,get-python3",
+        "script_uid": "d0b5dd74373f4a62",
+        "script_variations": "conda.dlrm-v2-pt",
+        "version": "3.9.0"
+      }
+    },
+    {
+      "get,generic,conda-package,_package.mkl,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.mkl,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "get,generic,conda-package,_package.mkl-include,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.mkl-include,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "get,generic,conda-package,_package.ncurses,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.ncurses,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "get,generic-sys-util,_numactl": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-generic-sys-util",
+        "script_tags": "get,sys-util,generic,generic-sys-util",
+        "script_uid": "bb0393afa8404a11",
+        "script_variations": "numactl",
+        "version": ""
+      }
+    },
+    {
+      "get,generic,conda-package,_package.jemalloc,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.jemalloc,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "install,ipex,from.src,_for-intel-mlperf-inference-v3.1-dlrm-v2": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "install-ipex-from-src",
+        "script_tags": "install,get,src,from.src,ipex,src-ipex",
+        "script_uid": "09364fff2bf04516",
+        "script_variations": "for-intel-mlperf-inference-v3.1-dlrm-v2",
+        "version": ""
+      }
+    },
+    {
+      "get,mlcommons,inference,src": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_uid": "4b57186581024797",
+        "script_variations": "",
+        "version": "master-git-c83565d85d221bfb46cc7d5eef9dc89cf762d38e"
+      }
+    },
+    {
+      "get,mlcommons,inference,loadgen,_custom-python": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-mlperf-inference-loadgen",
+        "script_tags": "get,loadgen,inference,inference-loadgen,mlperf,mlcommons",
+        "script_uid": "64c3d98d0ba04950",
+        "script_variations": "custom-python",
+        "version": "master"
+      }
+    },
+    {
+      "get,ml-model,dlrm,_pytorch": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-ml-model-dlrm-terabyte",
+        "script_tags": "get,ml-model,dlrm,raw,terabyte,criteo-terabyte,criteo,recommendation",
+        "script_uid": "8fa7582c603a4db3",
+        "script_variations": "pytorch",
+        "version": ""
+      }
+    },
+    {
+      "get,generic-python-lib,_package.absl-py": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "package.absl-py",
+        "version": "2.1.0"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.accelerate": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "package.accelerate",
+        "version": "0.32.1"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.torch,_path.https://download.pytorch.org/whl/nightly/cpu-cxx11-abi/torch-2.1.0.dev20230715%2Bcpu.cxx11.abi-cp39-cp39-linux_x86_64.whl": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "package.torch,path.https://download.pytorch.org/whl/nightly/cpu-cxx11-abi/torch-2.1.0.dev20230715%2Bcpu.cxx11.abi-cp39-cp39-linux_x86_64.whl",
+        "version": "2.1.0.dev20230715"
+      }
+    },
+    {
+      "get,mlperf,inference,results,_ctuning": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-mlperf-inference-results",
+        "script_tags": "get,results,inference,official,inference-results,mlcommons,mlperf",
+        "script_uid": "36bae5b25dbe41da",
+        "script_variations": "ctuning",
+        "version": "v3.1"
+      }
+    },
+    {
+      "save,mlperf,inference,state": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "save-mlperf-inference-implementation-state",
+        "script_tags": "save,mlperf,inference,implementation,state",
+        "script_uid": "b14b813229c444f8",
+        "script_variations": "",
+        "version": ""
+      }
+    },
+    {
+      "reproduce,mlperf,inference,intel,_calibration,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "app-mlperf-inference-intel",
+        "script_tags": "reproduce,mlcommons,mlperf,inference,harness,intel-harness,intel,intel-harness,intel",
+        "script_uid": "c05a90433bb04cc1",
+        "script_variations": "calibration,dlrm-v2-99,pytorch,cpu,v3.1,dlrm-v2_,standalone",
+        "version": ""
+      }
+    },
+    {
+      "get,conda,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-conda",
+        "script_tags": "get,conda,get-conda",
+        "script_uid": "6600115f41324c7b",
+        "script_variations": "name.dlrm-v2-pt",
+        "version": "24.5.0"
+      }
+    },
+    {
+      "get,python,_conda.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-python3",
+        "script_tags": "get,python,python3,get-python,get-python3",
+        "script_uid": "d0b5dd74373f4a62",
+        "script_variations": "conda.dlrm-v2-pt",
+        "version": "3.9.0"
+      }
+    },
+    {
+      "get,generic,conda-package,_package.mkl,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.mkl,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "get,generic,conda-package,_package.mkl-include,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.mkl-include,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "get,generic,conda-package,_package.ncurses,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.ncurses,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "get,generic-sys-util,_numactl": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-generic-sys-util",
+        "script_tags": "get,sys-util,generic,generic-sys-util",
+        "script_uid": "bb0393afa8404a11",
+        "script_variations": "numactl",
+        "version": ""
+      }
+    },
+    {
+      "get,generic,conda-package,_package.jemalloc,_source.conda-forge,_name.dlrm-v2-pt": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_uid": "d9275487f5314195",
+        "script_variations": "package.jemalloc,source.conda-forge,name.dlrm-v2-pt",
+        "version": ""
+      }
+    },
+    {
+      "install,ipex,from.src,_for-intel-mlperf-inference-v3.1-dlrm-v2": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "install-ipex-from-src",
+        "script_tags": "install,get,src,from.src,ipex,src-ipex",
+        "script_uid": "09364fff2bf04516",
+        "script_variations": "for-intel-mlperf-inference-v3.1-dlrm-v2",
+        "version": ""
+      }
+    },
+    {
+      "get,mlcommons,inference,src": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_uid": "4b57186581024797",
+        "script_variations": "",
+        "version": "master-git-c83565d85d221bfb46cc7d5eef9dc89cf762d38e"
+      }
+    },
+    {
+      "get,mlcommons,inference,loadgen,_custom-python": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-mlperf-inference-loadgen",
+        "script_tags": "get,loadgen,inference,inference-loadgen,mlperf,mlcommons",
+        "script_uid": "64c3d98d0ba04950",
+        "script_variations": "custom-python",
+        "version": "master"
+      }
+    },
+    {
+      "get,ml-model,dlrm,_pytorch": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-ml-model-dlrm-terabyte",
+        "script_tags": "get,ml-model,dlrm,raw,terabyte,criteo-terabyte,criteo,recommendation",
+        "script_uid": "8fa7582c603a4db3",
+        "script_variations": "pytorch",
+        "version": ""
+      }
+    },
+    {
+      "get,generic-python-lib,_package.absl-py": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "package.absl-py",
+        "version": "2.1.0"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.accelerate": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "package.accelerate",
+        "version": "0.32.1"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.torch,_path.https://download.pytorch.org/whl/nightly/cpu-cxx11-abi/torch-2.1.0.dev20230715%2Bcpu.cxx11.abi-cp39-cp39-linux_x86_64.whl": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_uid": "94b62a682bc44791",
+        "script_variations": "package.torch,path.https://download.pytorch.org/whl/nightly/cpu-cxx11-abi/torch-2.1.0.dev20230715%2Bcpu.cxx11.abi-cp39-cp39-linux_x86_64.whl",
+        "version": "2.1.0.dev20230715"
+      }
+    },
+    {
+      "get,mlperf,inference,results,_ctuning": {
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( build-harness,_dlrm-v2-99,_pytorch,_cpu,_v3.1,_dlrm-v2_,_standalone )",
+        "script_alias": "get-mlperf-inference-results",
+        "script_tags": "get,results,inference,official,inference-results,mlcommons,mlperf",
+        "script_uid": "36bae5b25dbe41da",
+        "script_variations": "ctuning",
+        "version": "v3.1"
+      }
+    },
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( intel,_dlrm-v2-99,_valid,_r4.0_default,_offline )"
+      }
+    },
+    {
+      "get,sys-utils-cm": {
+        "script_uid": "bc90993277e84b8e",
+        "script_alias": "get-sys-utils-cm",
+        "script_tags": "get,sys-utils-cm",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( intel,_dlrm-v2-99,_valid,_r4.0_default,_offline )"
+      }
+    },
+    {
+      "get,python": {
+        "script_uid": "d0b5dd74373f4a62",
+        "script_alias": "get-python3",
+        "script_tags": "get,python,python3,get-python,get-python3",
+        "script_variations": "",
+        "version": "3.9.0",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( intel,_dlrm-v2-99,_valid,_r4.0_default,_offline )"
+      }
+    },
+    {
+      "get,mlcommons,inference,src": {
+        "script_uid": "4b57186581024797",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_variations": "",
+        "version": "master-git-c83565d85d221bfb46cc7d5eef9dc89cf762d38e",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( intel,_dlrm-v2-99,_valid,_r4.0_default,_offline )"
+      }
+    },
+    {
+      "get,mlperf,inference,src": {
+        "script_uid": "4b57186581024797",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_variations": "",
+        "version": "master-git-c83565d85d221bfb46cc7d5eef9dc89cf762d38e",
+        "parent": "get-mlperf-inference-utils,e341e5f86d8342e5"
+      }
+    },
+    {
+      "get,mlperf,inference,utils": {
+        "script_uid": "e341e5f86d8342e5",
+        "script_alias": "get-mlperf-inference-utils",
+        "script_tags": "get,mlperf,inference,util,utils,functions",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( intel,_dlrm-v2-99,_valid,_r4.0_default,_offline )"
+      }
+    },
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "detect-cpu,586c8a43320142f7"
+      }
+    },
+    {
+      "detect,cpu": {
+        "script_uid": "586c8a43320142f7",
+        "script_alias": "detect-cpu",
+        "script_tags": "detect,cpu,detect-cpu,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,sys-utils-cm": {
+        "script_uid": "bc90993277e84b8e",
+        "script_alias": "get-sys-utils-cm",
+        "script_tags": "get,sys-utils-cm",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_mlperf_logging": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "mlperf_logging",
+        "version": "3.0.0",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,conda,_name.dlrm-v2-pt": {
+        "script_uid": "6600115f41324c7b",
+        "script_alias": "get-conda",
+        "script_tags": "get,conda,get-conda",
+        "script_variations": "name.dlrm-v2-pt",
+        "version": "24.5.0",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,python,_conda.dlrm-v2-pt": {
+        "script_uid": "d0b5dd74373f4a62",
+        "script_alias": "get-python3",
+        "script_tags": "get,python,python3,get-python,get-python3",
+        "script_variations": "conda.dlrm-v2-pt",
+        "version": "3.9.0",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,generic,conda-package,_package.mkl,_source.conda-forge,_name.dlrm-v2-pt": {
+        "script_uid": "d9275487f5314195",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_variations": "package.mkl,source.conda-forge,name.dlrm-v2-pt",
+        "version": "",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,generic,conda-package,_package.mkl-include,_source.conda-forge,_name.dlrm-v2-pt": {
+        "script_uid": "d9275487f5314195",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_variations": "package.mkl-include,source.conda-forge,name.dlrm-v2-pt",
+        "version": "",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,generic,conda-package,_package.ncurses,_source.conda-forge,_name.dlrm-v2-pt": {
+        "script_uid": "d9275487f5314195",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_variations": "package.ncurses,source.conda-forge,name.dlrm-v2-pt",
+        "version": "",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,generic-sys-util,_numactl": {
+        "script_uid": "bb0393afa8404a11",
+        "script_alias": "get-generic-sys-util",
+        "script_tags": "get,sys-util,generic,generic-sys-util",
+        "script_variations": "numactl",
+        "version": "",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,generic,conda-package,_package.jemalloc,_source.conda-forge,_name.dlrm-v2-pt": {
+        "script_uid": "d9275487f5314195",
+        "script_alias": "install-generic-conda-package",
+        "script_tags": "get,install,generic,generic-conda-lib,conda-lib,conda-package,generic-conda-package",
+        "script_variations": "package.jemalloc,source.conda-forge,name.dlrm-v2-pt",
+        "version": "",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "install,ipex,from.src,_for-intel-mlperf-inference-v3.1-dlrm-v2": {
+        "script_uid": "09364fff2bf04516",
+        "script_alias": "install-ipex-from-src",
+        "script_tags": "install,get,src,from.src,ipex,src-ipex",
+        "script_variations": "for-intel-mlperf-inference-v3.1-dlrm-v2",
+        "version": "",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,mlcommons,inference,src": {
+        "script_uid": "4b57186581024797",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_variations": "",
+        "version": "master-git-c83565d85d221bfb46cc7d5eef9dc89cf762d38e",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,mlcommons,inference,loadgen,_custom-python": {
+        "script_uid": "64c3d98d0ba04950",
+        "script_alias": "get-mlperf-inference-loadgen",
+        "script_tags": "get,loadgen,inference,inference-loadgen,mlperf,mlcommons",
+        "script_variations": "custom-python",
+        "version": "master",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,ml-model,dlrm,_pytorch": {
+        "script_uid": "8fa7582c603a4db3",
+        "script_alias": "get-ml-model-dlrm-terabyte",
+        "script_tags": "get,ml-model,dlrm,raw,terabyte,criteo-terabyte,criteo,recommendation",
+        "script_variations": "pytorch",
+        "version": "",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.absl-py": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "package.absl-py",
+        "version": "2.1.0",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.accelerate": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "package.accelerate",
+        "version": "0.32.1",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.torch,_path.https://download.pytorch.org/whl/nightly/cpu-cxx11-abi/torch-2.1.0.dev20230715%2Bcpu.cxx11.abi-cp39-cp39-linux_x86_64.whl": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "package.torch,path.https://download.pytorch.org/whl/nightly/cpu-cxx11-abi/torch-2.1.0.dev20230715%2Bcpu.cxx11.abi-cp39-cp39-linux_x86_64.whl",
+        "version": "2.1.0.dev20230715",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,mlperf,inference,results,_ctuning": {
+        "script_uid": "36bae5b25dbe41da",
+        "script_alias": "get-mlperf-inference-results",
+        "script_tags": "get,results,inference,official,inference-results,mlcommons,mlperf",
+        "script_variations": "ctuning",
+        "version": "v3.1",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "reproduce,mlperf,inference,intel,harness,_build-harness,_pytorch,_cpu,_dlrm-v2-99,_v3.1,_dlrm-v2_,_standalone": {
+        "script_uid": "c05a90433bb04cc1",
+        "script_alias": "app-mlperf-inference-intel",
+        "script_tags": "reproduce,mlcommons,mlperf,inference,harness,intel-harness,intel,intel-harness,intel",
+        "script_variations": "build-harness,pytorch,cpu,dlrm-v2-99,v3.1,dlrm-v2_,standalone",
+        "version": "",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
+      }
+    },
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "detect-cpu,586c8a43320142f7"
+      }
+    },
+    {
+      "detect,cpu": {
+        "script_uid": "586c8a43320142f7",
+        "script_alias": "detect-cpu",
+        "script_tags": "detect,cpu,detect-cpu,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
+      }
+    },
+    {
+      "get,python": {
+        "script_uid": "d0b5dd74373f4a62",
+        "script_alias": "get-python3",
+        "script_tags": "get,python,python3,get-python,get-python3",
+        "script_variations": "",
+        "version": "3.9.0",
+        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
+      }
+    },
+    {
+      "get,mlcommons,inference,src": {
+        "script_uid": "4b57186581024797",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_variations": "",
+        "version": "master-git-c83565d85d221bfb46cc7d5eef9dc89cf762d38e",
+        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
+      }
+    },
+    {
+      "get,cache,dir,_name.mlperf-inference-sut-configs": {
+        "script_uid": "48f4622e059b45ce",
+        "script_alias": "get-cache-dir",
+        "script_tags": "get,cache,dir,directory",
+        "script_variations": "name.mlperf-inference-sut-configs",
+        "version": "",
+        "parent": "get-mlperf-inference-sut-configs,c2fbf72009e2445b"
+      }
+    },
+    {
+      "get,sut,configs": {
+        "script_uid": "c2fbf72009e2445b",
+        "script_alias": "get-mlperf-inference-sut-configs",
+        "script_tags": "get,mlperf,inference,sut,configs,sut-configs",
+        "script_variations": "",
+        "version": "",
+        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
+      }
+    },
+    {
+      "generate,user-conf,mlperf,inference": {
+        "script_uid": "3af4475745964b93",
+        "script_alias": "generate-mlperf-inference-user-conf",
+        "script_tags": "generate,mlperf,inference,user-conf,inference-user-conf",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    },
+    {
+      "get,generic-sys-util,_rsync": {
+        "script_uid": "bb0393afa8404a11",
+        "script_alias": "get-generic-sys-util",
+        "script_tags": "get,sys-util,generic,generic-sys-util",
+        "script_variations": "rsync",
+        "version": "",
+        "parent": "app-mlperf-inference-intel,c05a90433bb04cc1 ( offline,_pytorch,_cpu,_dlrm-v2-99,_v3.1 )"
+      }
+    }
+  ]
+}

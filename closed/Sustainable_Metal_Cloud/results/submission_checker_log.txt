@@ -1,0 +1,219 @@
+[2024-07-27 02:03:05,466 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/bert-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,467 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/bert-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,468 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/bert-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,469 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-27 02:03:05,470 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,471 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,471 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-27 02:03:05,472 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,473 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,473 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-27 02:03:05,475 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/bert-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,477 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/bert-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,478 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/bert-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,478 submission_checker.py:1166 INFO] Target latency: None, Latency: 716895725567, Scenario: Offline
+[2024-07-27 02:03:05,479 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,480 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,480 submission_checker.py:1166 INFO] Target latency: None, Latency: 716538556659, Scenario: Offline
+[2024-07-27 02:03:05,481 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,482 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,482 submission_checker.py:1166 INFO] Target latency: None, Latency: 716715181508, Scenario: Offline
+[2024-07-27 02:03:05,486 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/llama2-70b-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,488 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,490 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,490 submission_checker.py:1166 INFO] Target latency: None, Latency: 2609357196859, Scenario: Offline
+[2024-07-27 02:03:05,493 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/llama2-70b-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,495 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,496 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,496 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-07-27 02:03:05,498 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/3d-unet-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,499 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/3d-unet-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,500 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/3d-unet-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,500 submission_checker.py:1166 INFO] Target latency: None, Latency: 685871421296, Scenario: Offline
+[2024-07-27 02:03:05,500 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/3d-unet-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,501 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/3d-unet-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,501 submission_checker.py:1166 INFO] Target latency: None, Latency: 685592296426, Scenario: Offline
+[2024-07-27 02:03:05,502 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/3d-unet-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,502 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/3d-unet-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,502 submission_checker.py:1166 INFO] Target latency: None, Latency: 685607256837, Scenario: Offline
+[2024-07-27 02:03:05,505 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/llama2-70b-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,507 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,509 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,509 submission_checker.py:1166 INFO] Target latency: None, Latency: 2609357196859, Scenario: Offline
+[2024-07-27 02:03:05,512 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/llama2-70b-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,515 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,516 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,516 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-07-27 02:03:05,519 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,520 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,521 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,521 submission_checker.py:1166 INFO] Target latency: None, Latency: 698897627016, Scenario: Offline
+[2024-07-27 02:03:05,522 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,523 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,523 submission_checker.py:1166 INFO] Target latency: None, Latency: 699302750055, Scenario: Offline
+[2024-07-27 02:03:05,524 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,525 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,525 submission_checker.py:1166 INFO] Target latency: None, Latency: 698553811621, Scenario: Offline
+[2024-07-27 02:03:05,528 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,529 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,530 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,530 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-27 02:03:05,531 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,532 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,532 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-27 02:03:05,533 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,534 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,534 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-27 02:03:05,535 submission_checker.py:2444 INFO] Compliance test accuracy check (deterministic mode) in closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Server/TEST01 failed
+[2024-07-27 02:03:05,538 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/mixtral-8x7b/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,539 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/mixtral-8x7b/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,540 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/mixtral-8x7b/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,540 submission_checker.py:1166 INFO] Target latency: None, Latency: 2662793187087, Scenario: Offline
+[2024-07-27 02:03:05,543 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/mixtral-8x7b/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,544 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/mixtral-8x7b/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,546 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/mixtral-8x7b/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,548 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/gptj-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,549 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/gptj-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,550 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/gptj-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,550 submission_checker.py:1166 INFO] Target latency: None, Latency: 697555920970, Scenario: Offline
+[2024-07-27 02:03:05,552 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/gptj-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,554 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/gptj-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,555 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/gptj-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,555 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-27 02:03:05,576 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,589 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,601 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,602 submission_checker.py:1166 INFO] Target latency: None, Latency: 670304891799, Scenario: Offline
+[2024-07-27 02:03:05,613 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,623 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,624 submission_checker.py:1166 INFO] Target latency: None, Latency: 669647429424, Scenario: Offline
+[2024-07-27 02:03:05,636 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,646 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,647 submission_checker.py:1166 INFO] Target latency: None, Latency: 669585193456, Scenario: Offline
+[2024-07-27 02:03:05,665 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,677 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,687 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,688 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-27 02:03:05,700 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,710 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,711 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-27 02:03:05,723 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,733 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,734 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-27 02:03:05,737 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/3d-unet-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,738 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/3d-unet-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,738 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/3d-unet-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,738 submission_checker.py:1166 INFO] Target latency: None, Latency: 685871421296, Scenario: Offline
+[2024-07-27 02:03:05,739 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/3d-unet-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,739 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/3d-unet-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,739 submission_checker.py:1166 INFO] Target latency: None, Latency: 685592296426, Scenario: Offline
+[2024-07-27 02:03:05,740 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/3d-unet-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,740 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/3d-unet-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,741 submission_checker.py:1166 INFO] Target latency: None, Latency: 685607256837, Scenario: Offline
+[2024-07-27 02:03:05,760 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/retinanet/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,762 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/retinanet/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,762 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/retinanet/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,762 submission_checker.py:1148 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-27 02:03:05,763 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/retinanet/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,763 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/retinanet/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,763 submission_checker.py:1148 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-27 02:03:05,764 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/retinanet/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,765 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/retinanet/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,765 submission_checker.py:1148 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-27 02:03:05,783 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/retinanet/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,785 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/retinanet/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,785 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/retinanet/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,785 submission_checker.py:1166 INFO] Target latency: None, Latency: 616884460732, Scenario: Offline
+[2024-07-27 02:03:05,786 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/retinanet/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,786 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/retinanet/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,786 submission_checker.py:1166 INFO] Target latency: None, Latency: 619974599234, Scenario: Offline
+[2024-07-27 02:03:05,787 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/retinanet/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,788 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/retinanet/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,788 submission_checker.py:1166 INFO] Target latency: None, Latency: 625783609444, Scenario: Offline
+[2024-07-27 02:03:05,805 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,817 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,827 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,828 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-27 02:03:05,839 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,848 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,849 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-27 02:03:05,860 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,869 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,870 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-27 02:03:05,871 submission_checker.py:2444 INFO] Compliance test accuracy check (deterministic mode) in closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Server/TEST01 failed
+[2024-07-27 02:03:05,888 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,899 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,909 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,909 submission_checker.py:1166 INFO] Target latency: None, Latency: 663228158118, Scenario: Offline
+[2024-07-27 02:03:05,919 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,928 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,929 submission_checker.py:1166 INFO] Target latency: None, Latency: 663273858103, Scenario: Offline
+[2024-07-27 02:03:05,939 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,949 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,950 submission_checker.py:1166 INFO] Target latency: None, Latency: 663256225408, Scenario: Offline
+[2024-07-27 02:03:05,956 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/resnet50/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,957 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/resnet50/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,957 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/resnet50/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,957 submission_checker.py:1148 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-27 02:03:05,958 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/resnet50/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,959 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/resnet50/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,959 submission_checker.py:1148 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-27 02:03:05,960 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/resnet50/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,960 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/resnet50/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,960 submission_checker.py:1148 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-27 02:03:05,961 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/resnet50/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,962 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/resnet50/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,962 submission_checker.py:1148 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-27 02:03:05,968 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/resnet50/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,969 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/resnet50/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,969 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/resnet50/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,969 submission_checker.py:1166 INFO] Target latency: None, Latency: 665645040174, Scenario: Offline
+[2024-07-27 02:03:05,970 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/resnet50/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,971 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/resnet50/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,971 submission_checker.py:1166 INFO] Target latency: None, Latency: 665582636269, Scenario: Offline
+[2024-07-27 02:03:05,972 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/resnet50/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,972 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/resnet50/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,972 submission_checker.py:1166 INFO] Target latency: None, Latency: 1283244473351, Scenario: Offline
+[2024-07-27 02:03:05,973 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/resnet50/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,974 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/SMC/compliance/SMC_H100_SXM_80GBX8_TRT/resnet50/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-27 02:03:05,974 submission_checker.py:1166 INFO] Target latency: None, Latency: 665211185492, Scenario: Offline
+[2024-07-27 02:03:05,975 submission_checker.py:2678 INFO] ---
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/3d-unet-99.9/Offline 51.8258
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/3d-unet-99/Offline 51.8258
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Offline 61778.8
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/bert-99.9/Server 49613.0
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/bert-99/Offline 69043.2
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/bert-99/Server 56008.8
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Offline 369334.0
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99.9/Server 340067.0
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99/Offline 597885.0
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/dlrm-v2-99/Server 510155.0
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/gptj-99/Offline 19711.1
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/gptj-99/Server 19233.8
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/llama2-70b-99.9/Offline 24459.6
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/llama2-70b-99.9/Server 21327.0
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/llama2-70b-99/Offline 24459.6
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/llama2-70b-99/Server 21327.0
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/mixtral-8x7b/Offline 52817.7
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/mixtral-8x7b/Server 50797.2
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/resnet50/Offline 706789.0
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/resnet50/Server 584207.0
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/retinanet/Offline 14405.3
+[2024-07-27 02:03:05,975 submission_checker.py:2682 INFO] Results closed/SMC/results/SMC_H100_SXM_80GBX8_TRT/retinanet/Server 12884.5
+[2024-07-27 02:03:05,975 submission_checker.py:2684 INFO] ---
+[2024-07-27 02:03:05,975 submission_checker.py:2769 INFO] ---
+[2024-07-27 02:03:05,976 submission_checker.py:2770 INFO] Results=22, NoResults=0, Power Results=0
+[2024-07-27 02:03:05,976 submission_checker.py:2777 INFO] ---
+[2024-07-27 02:03:05,976 submission_checker.py:2778 INFO] Closed Results=22, Closed Power Results=0
+
+[2024-07-27 02:03:05,976 submission_checker.py:2783 INFO] Open Results=0, Open Power Results=0
+
+[2024-07-27 02:03:05,976 submission_checker.py:2788 INFO] Network Results=0, Network Power Results=0
+
+[2024-07-27 02:03:05,976 submission_checker.py:2793 INFO] ---
+[2024-07-27 02:03:05,976 submission_checker.py:2795 INFO] Systems=1, Power Systems=0
+[2024-07-27 02:03:05,976 submission_checker.py:2796 INFO] Closed Systems=1, Closed Power Systems=0
+[2024-07-27 02:03:05,976 submission_checker.py:2801 INFO] Open Systems=0, Open Power Systems=0
+[2024-07-27 02:03:05,976 submission_checker.py:2806 INFO] Network Systems=0, Network Power Systems=0
+[2024-07-27 02:03:05,976 submission_checker.py:2811 INFO] ---
+[2024-07-27 02:03:05,976 submission_checker.py:2816 INFO] SUMMARY: submission looks OK

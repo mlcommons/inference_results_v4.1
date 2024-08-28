@@ -1,0 +1,58 @@
+{
+    "_parent_entries": [ [ "^", "byname", "base_sut" ], [ "^", "byname", "sut_desc_gen" ] ],
+    "_producer_rules": [
+        [ [ "sut_config", "sut=r760_u6_slim" ], [[ "merge" ]] ],
+        [ [ "sut_description", "sut=r760_u6_slim" ], [[ "gen_description" ]] ],
+        [ [ "auto_desc_gen", "sut=r760_u6_slim" ], [[ "update_sut_desc" ]], {}, [] ]
+    ],
+    "sut": "r760_u6_slim",
+    "device": "uai",
+    "card": "slim",
+    "system": "base_system",
+    "num_device": 6,
+    "hypothetical_num_device": 6,
+    "system_type": "datacenter",
+
+    "with_power": true,
+    "power_server_address": "192.168.62.62",
+    "power_server_port": 4950,
+    "power_max_amps": 10,
+    "power_max_volts": 150,
+
+    "override_runtime_config": {
+        "resnet50": {
+            "Offline": {
+                "loadgen_target_qps": 336000,
+                "loadgen_buffer_size_accuracy": 50000,
+                "loadgen_buffer_size_performance": 50000,
+                "recommended_batch_size": 10,
+                "kilt_dispatch_yield_time": 1,
+                "kilt_device_uai_scheduler_yield_time": 0,
+                "kilt_device_uai_postprocessor_time": 0,
+                "kilt_device_uai_queue_length": 750,
+                "kilt_device_uai_flush_yield_time": 10,
+                "kilt_device_uai_wait_timeout": 1000,
+                "uai_model_batch_size": 1000,
+                "uai_model_before_flush_wait_time": 150000,
+                "kilt_datasource_config": "0:1",
+                "kilt_device_config": "0,0,2,4,6:0,8,10,12,14:0,16,18,20,22:1,1,3,5,7:1,9,11,13,15:0,17,19,21,23"
+            },
+            "Server": {
+                "loadgen_target_qps": 336000,
+                "loadgen_buffer_size_accuracy": 50000,
+                "loadgen_buffer_size_performance": 50000,
+                "recommended_batch_size": 10,
+                "kilt_dispatch_yield_time": 1,
+                "kilt_device_uai_scheduler_yield_time": 0,
+                "kilt_device_uai_postprocessor_time": 0,
+                "kilt_device_uai_queue_length": 100,
+                "kilt_device_uai_flush_yield_time": 10,
+                "kilt_device_uai_wait_timeout": 1000,
+                "uai_model_batch_size": 1000,
+                "uai_model_before_flush_wait_time": 150000,
+                "kilt_datasource_config": "0:1",
+                "kilt_device_config": "0,0,2,4,6:0,8,10,12,14:0,16,18,20,22:1,1,3,5,7:1,9,11,13,15:0,17,19,21,23"
+            }
+        }
+    }
+}

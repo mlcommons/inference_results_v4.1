@@ -1,0 +1,104 @@
+Generating measurements/ entries for GH200_96GB_ARMx1
+Note: File ./build/engines/GH200-GraceHopper-Superchip_GH200-96GB_aarch64x1/gptj/Offline/bs480-custom_k_99_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/GH200-GraceHopper-Superchip_GH200-96GB_aarch64x1/gptj/Offline/bs480-custom_k_99_9_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Generating measurements/ entries for GH200_144GB_ARMx1
+Generating measurements/ entries for L40x1
+Generating measurements/ entries for L40x2
+Generating measurements/ entries for L40x4
+Generating measurements/ entries for L40x8
+Generating measurements/ entries for L4x1
+Note: File ./build/engines/L4x1/gptj/Offline/bs7-custom_k_99_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/L4x1/gptj/Offline/bs7-custom_k_99_9_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/L4x1/gptj/SingleStream/bs1-custom_k_99_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/L4x1/gptj/SingleStream/bs1-custom_k_99_9_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Generating measurements/ entries for L4x2
+Generating measurements/ entries for L4x4
+Generating measurements/ entries for L4x8
+Generating measurements/ entries for L40Sx1
+Note: File ./build/engines/L40Sx1/gptj/Offline/bs100-custom_k_99_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/L40Sx1/gptj/Offline/bs100-custom_k_99_9_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Generating measurements/ entries for L40Sx2
+Generating measurements/ entries for L40Sx4
+Generating measurements/ entries for L40Sx8
+Note: File ./build/engines/L40Sx8/gptj/Offline/bs100-custom_k_99_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/L40Sx8/gptj/Offline/bs100-custom_k_99_9_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Generating measurements/ entries for H200_SXM_141GBx1
+Note: File ./build/engines/H200-SXM-141GBx1/gptj/Offline/bs396-custom_k_99_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/H200-SXM-141GBx1/gptj/Offline/bs396-custom_k_99_9_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Generating measurements/ entries for H200_SXM_141GBx2
+Generating measurements/ entries for H200_SXM_141GBx4
+Generating measurements/ entries for H200_SXM_141GBx8
+Note: File ./build/engines/H200-SXM-141GBx8/gptj/Offline/bs396-custom_k_99_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/H200-SXM-141GBx8/gptj/Offline/bs396-custom_k_99_9_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Generating measurements/ entries for H200_SXM_141GB_CTSx1
+Generating measurements/ entries for H200_SXM_141GB_CTSx2
+Generating measurements/ entries for H200_SXM_141GB_CTSx4
+Generating measurements/ entries for H200_SXM_141GB_CTSx8
+Generating measurements/ entries for H100_NVL_94GBx1
+Generating measurements/ entries for H100_NVL_94GBx2
+Generating measurements/ entries for H100_NVL_94GBx4
+Generating measurements/ entries for H100_NVL_94GBx8
+Generating measurements/ entries for H100_SXM_80GBx1
+Note: File ./build/engines/DGX-H100_H100-SXM-80GBx1/gptj/Offline/bs192-custom_k_99_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/DGX-H100_H100-SXM-80GBx1/gptj/Offline/bs192-custom_k_99_9_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/DGX-H100_H100-SXM-80GBx1/gptj/SingleStream/bs1-custom_k_99_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/DGX-H100_H100-SXM-80GBx1/gptj/SingleStream/bs1-custom_k_99_9_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Generating measurements/ entries for H100_SXM_80GBx2
+Generating measurements/ entries for H100_SXM_80GBx4
+Generating measurements/ entries for H100_SXM_80GBx8
+Note: File ./build/engines/DGX-H100_H100-SXM-80GBx8/gptj/Offline/bs192-custom_k_99_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/DGX-H100_H100-SXM-80GBx8/gptj/Offline/bs192-custom_k_99_9_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/DGX-H100_H100-SXM-80GBx8/gptj/Offline/bs192-custom_k_99_9_MaxQ/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/DGX-H100_H100-SXM-80GBx8/gptj/Offline/bs192-custom_k_99_MaxQ/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Generating measurements/ entries for H100_PCIe_80GBx1
+Note: File ./build/engines/H100-PCIe-80GBx1/gptj/Offline/bs192-custom_k_99_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/H100-PCIe-80GBx1/gptj/Offline/bs192-custom_k_99_9_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Generating measurements/ entries for H100_PCIe_80GBx2
+Generating measurements/ entries for H100_PCIe_80GBx4
+Generating measurements/ entries for H100_PCIe_80GBx8
+Note: File ./build/engines/H100-PCIe-80GBx8/gptj/Offline/bs192-custom_k_99_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/H100-PCIe-80GBx8/gptj/Offline/bs192-custom_k_99_9_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/H100-PCIe-80GBx8/gptj/Offline/bs192-custom_k_99_9_MaxQ/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/H100-PCIe-80GBx8/gptj/Offline/bs192-custom_k_99_MaxQ/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Generating measurements/ entries for H100_PCIe_80GB_ARMx1
+Generating measurements/ entries for H100_PCIe_80GB_ARMx2
+Generating measurements/ entries for H100_PCIe_80GB_ARMx4
+Generating measurements/ entries for H100_PCIe_80GB_ARMx8
+Generating measurements/ entries for A100_PCIe_40GB_ARMx1
+Generating measurements/ entries for A100_PCIe_40GB_ARMx2
+Generating measurements/ entries for A100_PCIe_40GB_ARMx4
+Generating measurements/ entries for A100_PCIe_80GBx1
+Generating measurements/ entries for A100_PCIe_80GBx8
+Generating measurements/ entries for A100_PCIe_80GB_ARMx1
+Generating measurements/ entries for A100_PCIe_80GB_ARMx2
+Generating measurements/ entries for A100_PCIe_80GB_ARMx4
+Generating measurements/ entries for A100_PCIe_40GB_MIG_1x1g_5gb
+Generating measurements/ entries for A100_PCIe_40GB_ARM_MIG_1x1g_5gb
+Generating measurements/ entries for A100_PCIe_80GB_MIG_1x1g_10gb
+Generating measurements/ entries for A100_PCIe_80GB_ARM_MIG_1x1g_10gb
+Generating measurements/ entries for A100_SXM4_40GBx1
+Generating measurements/ entries for A100_SXM4_40GBx8
+Generating measurements/ entries for A100_SXM_80GBx1
+Generating measurements/ entries for A100_SXM_80GBx8
+Generating measurements/ entries for A100_SXM_80GB_ARMx1
+Generating measurements/ entries for A100_SXM_80GB_ARMx8
+Generating measurements/ entries for A100_SXM4_40GB_MIG_1x1g_5gb
+Generating measurements/ entries for A100_SXM_80GB_MIG_1x1g_10gb
+Generating measurements/ entries for A100_SXM_80GB_ARM_MIG_1x1g_10gb
+Generating measurements/ entries for GeForceRTX_3080x1
+Generating measurements/ entries for GeForceRTX_3090x1
+Generating measurements/ entries for A10x1
+Generating measurements/ entries for A10x8
+Generating measurements/ entries for A30x1
+Generating measurements/ entries for A30x8
+Generating measurements/ entries for A2x1
+Generating measurements/ entries for A2x2
+Generating measurements/ entries for A30_MIG_1x1g_6gb
+Generating measurements/ entries for T4x1
+Generating measurements/ entries for T4x8
+Generating measurements/ entries for T4x20
+Generating measurements/ entries for Orin
+Note: File ./build/engines/Orin/gptj/Offline/bs256-custom_k_99_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/Orin/gptj/Offline/bs256-custom_k_99_9_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Note: File ./build/engines/Orin/gptj/SingleStream/bs1-custom_k_99_MaxP/rank0.engine does not exist. Attempting to continue regardless, as hard file checks are disabled.
+Generating measurements/ entries for Orin_NX

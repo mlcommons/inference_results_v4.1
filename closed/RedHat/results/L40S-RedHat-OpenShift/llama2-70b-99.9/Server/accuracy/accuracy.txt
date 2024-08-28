@@ -1,0 +1,7 @@
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Unzipping tokenizers/punkt.zip.
+
+Results
+
+{'rouge1': 44.4633, 'rouge2': 22.0929, 'rougeL': 28.7123, 'rougeLsum': 42.0558, 'gen_len': 28677751, 'gen_num': 24576, 'gen_tok_len': 7256140, 'tokens_per_sample': 295.3}
+hash=279357265ac5b126edb197ce37284666990ed2395626e2c2d7841cf27106ec96

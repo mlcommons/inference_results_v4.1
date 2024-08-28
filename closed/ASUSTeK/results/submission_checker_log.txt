@@ -1,0 +1,692 @@
+[2024-07-26 10:23:26,154 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/bert-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,155 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/bert-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,156 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/bert-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,156 submission_checker.py:1166 INFO] Target latency: None, Latency: 667374594460, Scenario: Offline
+[2024-07-26 10:23:26,157 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,158 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,158 submission_checker.py:1166 INFO] Target latency: None, Latency: 669092002213, Scenario: Offline
+[2024-07-26 10:23:26,158 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,159 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,159 submission_checker.py:1166 INFO] Target latency: None, Latency: 669754813442, Scenario: Offline
+[2024-07-26 10:23:26,160 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/bert-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,161 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/bert-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,162 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/bert-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,162 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:26,163 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,163 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,163 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:26,164 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,165 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,165 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:26,165 submission_checker.py:2444 INFO] Compliance test accuracy check (deterministic mode) in closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99.9/Server/TEST01 failed
+[2024-07-26 10:23:26,182 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/dlrm-v2-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,193 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/dlrm-v2-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,203 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/dlrm-v2-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,204 submission_checker.py:1166 INFO] Target latency: None, Latency: 647590243749, Scenario: Offline
+[2024-07-26 10:23:26,214 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,224 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,225 submission_checker.py:1166 INFO] Target latency: None, Latency: 648107008098, Scenario: Offline
+[2024-07-26 10:23:26,235 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,244 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,245 submission_checker.py:1166 INFO] Target latency: None, Latency: 648372722618, Scenario: Offline
+[2024-07-26 10:23:26,261 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/dlrm-v2-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,272 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/dlrm-v2-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,282 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/dlrm-v2-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,283 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:26,293 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,303 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,304 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:26,314 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,324 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,325 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:26,327 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/gptj-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,328 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/gptj-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,329 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/gptj-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,329 submission_checker.py:1166 INFO] Target latency: None, Latency: 702164874205, Scenario: Offline
+[2024-07-26 10:23:26,330 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/gptj-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,331 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/gptj-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,331 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/gptj-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,331 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 10:23:26,335 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/resnet50/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,336 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/resnet50/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,336 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/resnet50/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,336 submission_checker.py:1166 INFO] Target latency: None, Latency: 652880798957, Scenario: Offline
+[2024-07-26 10:23:26,337 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/resnet50/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,337 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/resnet50/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,337 submission_checker.py:1166 INFO] Target latency: None, Latency: 651647536104, Scenario: Offline
+[2024-07-26 10:23:26,338 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/resnet50/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,338 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/resnet50/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,338 submission_checker.py:1166 INFO] Target latency: None, Latency: 806118156352, Scenario: Offline
+[2024-07-26 10:23:26,339 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/resnet50/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,339 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/resnet50/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,339 submission_checker.py:1166 INFO] Target latency: None, Latency: 652259590280, Scenario: Offline
+[2024-07-26 10:23:26,342 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/resnet50/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,343 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/resnet50/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,343 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/resnet50/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,343 submission_checker.py:1148 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 10:23:26,344 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/resnet50/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,344 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/resnet50/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,344 submission_checker.py:1148 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 10:23:26,345 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/resnet50/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,345 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/resnet50/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,345 submission_checker.py:1148 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 10:23:26,346 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/resnet50/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,346 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/resnet50/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,346 submission_checker.py:1148 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 10:23:26,348 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/llama2-70b-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,349 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,350 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,350 submission_checker.py:1166 INFO] Target latency: None, Latency: 5306608095286, Scenario: Offline
+[2024-07-26 10:23:26,351 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/llama2-70b-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,353 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,354 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,354 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-07-26 10:23:26,355 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/3d-unet-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,355 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/3d-unet-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,356 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/3d-unet-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,356 submission_checker.py:1166 INFO] Target latency: None, Latency: 616475744777, Scenario: Offline
+[2024-07-26 10:23:26,356 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/3d-unet-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,356 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/3d-unet-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,356 submission_checker.py:1166 INFO] Target latency: None, Latency: 618434794396, Scenario: Offline
+[2024-07-26 10:23:26,357 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/3d-unet-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,357 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/3d-unet-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,357 submission_checker.py:1166 INFO] Target latency: None, Latency: 618500450185, Scenario: Offline
+[2024-07-26 10:23:26,372 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,382 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,392 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,393 submission_checker.py:1166 INFO] Target latency: None, Latency: 912438962359, Scenario: Offline
+[2024-07-26 10:23:26,403 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,413 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,414 submission_checker.py:1166 INFO] Target latency: None, Latency: 915645298694, Scenario: Offline
+[2024-07-26 10:23:26,424 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,433 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,434 submission_checker.py:1166 INFO] Target latency: None, Latency: 915186698036, Scenario: Offline
+[2024-07-26 10:23:26,436 submission_checker.py:2444 INFO] Compliance test accuracy check (deterministic mode) in closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Offline/TEST01 failed
+[2024-07-26 10:23:26,450 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,461 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,470 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,471 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:26,482 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,491 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,492 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:26,503 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,512 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,513 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:26,514 submission_checker.py:2444 INFO] Compliance test accuracy check (deterministic mode) in closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Server/TEST01 failed
+[2024-07-26 10:23:26,515 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/bert-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,516 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/bert-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,517 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/bert-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,517 submission_checker.py:1166 INFO] Target latency: None, Latency: 666860175859, Scenario: Offline
+[2024-07-26 10:23:26,518 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,518 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,518 submission_checker.py:1166 INFO] Target latency: None, Latency: 666433089888, Scenario: Offline
+[2024-07-26 10:23:26,519 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,520 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,520 submission_checker.py:1166 INFO] Target latency: None, Latency: 667041049809, Scenario: Offline
+[2024-07-26 10:23:26,521 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/bert-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,521 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/bert-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,522 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/bert-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,522 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:26,523 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,524 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,524 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:26,525 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,525 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/bert-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,525 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:26,527 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/llama2-70b-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,528 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,529 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,529 submission_checker.py:1166 INFO] Target latency: None, Latency: 5306608095286, Scenario: Offline
+[2024-07-26 10:23:26,531 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/llama2-70b-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,532 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,533 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,533 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-07-26 10:23:26,534 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/stable-diffusion-xl/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,535 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/stable-diffusion-xl/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,535 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/stable-diffusion-xl/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,535 submission_checker.py:1166 INFO] Target latency: None, Latency: 666657673721, Scenario: Offline
+[2024-07-26 10:23:26,536 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/stable-diffusion-xl/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,536 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/stable-diffusion-xl/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,536 submission_checker.py:1166 INFO] Target latency: None, Latency: 668689902312, Scenario: Offline
+[2024-07-26 10:23:26,537 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/stable-diffusion-xl/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,537 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/stable-diffusion-xl/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,537 submission_checker.py:1166 INFO] Target latency: None, Latency: 665521987423, Scenario: Offline
+[2024-07-26 10:23:26,538 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/stable-diffusion-xl/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,539 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/stable-diffusion-xl/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,539 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/stable-diffusion-xl/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,539 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 10:23:26,540 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/stable-diffusion-xl/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,540 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/stable-diffusion-xl/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,540 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 10:23:26,541 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/stable-diffusion-xl/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,541 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/stable-diffusion-xl/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,541 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 10:23:26,542 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/3d-unet-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,542 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/3d-unet-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,543 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/3d-unet-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,543 submission_checker.py:1166 INFO] Target latency: None, Latency: 616475744777, Scenario: Offline
+[2024-07-26 10:23:26,543 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/3d-unet-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,543 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/3d-unet-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,543 submission_checker.py:1166 INFO] Target latency: None, Latency: 618434794396, Scenario: Offline
+[2024-07-26 10:23:26,544 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/3d-unet-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,544 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/3d-unet-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,544 submission_checker.py:1166 INFO] Target latency: None, Latency: 618500450185, Scenario: Offline
+[2024-07-26 10:23:26,545 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/gptj-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,546 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/gptj-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,546 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/gptj-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,547 submission_checker.py:1166 INFO] Target latency: None, Latency: 702164874205, Scenario: Offline
+[2024-07-26 10:23:26,547 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/gptj-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,548 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/gptj-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,549 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/gptj-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,549 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 10:23:26,566 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/retinanet/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,568 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/retinanet/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,568 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/retinanet/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,568 submission_checker.py:1166 INFO] Target latency: None, Latency: 610317667029, Scenario: Offline
+[2024-07-26 10:23:26,568 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/retinanet/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,569 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/retinanet/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,569 submission_checker.py:1166 INFO] Target latency: None, Latency: 611561096762, Scenario: Offline
+[2024-07-26 10:23:26,569 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/retinanet/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,569 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/retinanet/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,569 submission_checker.py:1166 INFO] Target latency: None, Latency: 611025959437, Scenario: Offline
+[2024-07-26 10:23:26,585 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/retinanet/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,587 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/retinanet/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,587 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/retinanet/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,587 submission_checker.py:1148 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 10:23:26,588 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/retinanet/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,588 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/retinanet/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,588 submission_checker.py:1148 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 10:23:26,588 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/retinanet/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,589 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC8000A_E12_H100x8_TRT/retinanet/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,589 submission_checker.py:1148 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 10:23:26,592 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/resnet50/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,593 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/resnet50/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,593 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/resnet50/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,593 submission_checker.py:1166 INFO] Target latency: None, Latency: 723613898831, Scenario: Offline
+[2024-07-26 10:23:26,594 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/resnet50/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,594 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/resnet50/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,594 submission_checker.py:1166 INFO] Target latency: None, Latency: 723215437218, Scenario: Offline
+[2024-07-26 10:23:26,595 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/resnet50/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,595 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/resnet50/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,595 submission_checker.py:1166 INFO] Target latency: None, Latency: 722493699270, Scenario: Offline
+[2024-07-26 10:23:26,595 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/resnet50/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,596 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/resnet50/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,596 submission_checker.py:1166 INFO] Target latency: None, Latency: 723687754718, Scenario: Offline
+[2024-07-26 10:23:26,599 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/resnet50/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,599 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/resnet50/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,600 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/resnet50/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,600 submission_checker.py:1148 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 10:23:26,600 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/resnet50/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,601 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/resnet50/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,601 submission_checker.py:1148 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 10:23:26,601 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/resnet50/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,602 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/resnet50/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,602 submission_checker.py:1148 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 10:23:26,602 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/resnet50/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,603 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/resnet50/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,603 submission_checker.py:1148 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 10:23:26,603 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/stable-diffusion-xl/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,604 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/stable-diffusion-xl/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,604 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/stable-diffusion-xl/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,604 submission_checker.py:1166 INFO] Target latency: None, Latency: 839486934971, Scenario: Offline
+[2024-07-26 10:23:26,605 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/stable-diffusion-xl/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,605 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/stable-diffusion-xl/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,605 submission_checker.py:1166 INFO] Target latency: None, Latency: 840612507324, Scenario: Offline
+[2024-07-26 10:23:26,606 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/stable-diffusion-xl/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,606 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/stable-diffusion-xl/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,606 submission_checker.py:1166 INFO] Target latency: None, Latency: 840686933575, Scenario: Offline
+[2024-07-26 10:23:26,607 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/stable-diffusion-xl/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,608 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/stable-diffusion-xl/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,608 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/stable-diffusion-xl/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,608 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 10:23:26,609 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/stable-diffusion-xl/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,609 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/stable-diffusion-xl/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,609 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 10:23:26,610 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/stable-diffusion-xl/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,610 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/stable-diffusion-xl/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,610 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 10:23:26,611 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/3d-unet-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,611 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/3d-unet-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,611 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/3d-unet-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,611 submission_checker.py:1166 INFO] Target latency: None, Latency: 759627568251, Scenario: Offline
+[2024-07-26 10:23:26,612 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/3d-unet-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,612 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/3d-unet-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,612 submission_checker.py:1166 INFO] Target latency: None, Latency: 758609975092, Scenario: Offline
+[2024-07-26 10:23:26,612 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/3d-unet-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,613 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/3d-unet-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,613 submission_checker.py:1166 INFO] Target latency: None, Latency: 759063195127, Scenario: Offline
+[2024-07-26 10:23:26,627 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,637 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,647 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,648 submission_checker.py:1166 INFO] Target latency: None, Latency: 1707013198026, Scenario: Offline
+[2024-07-26 10:23:26,658 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,667 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,668 submission_checker.py:1166 INFO] Target latency: None, Latency: 1706623298824, Scenario: Offline
+[2024-07-26 10:23:26,678 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,687 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,688 submission_checker.py:1166 INFO] Target latency: None, Latency: 1706561964680, Scenario: Offline
+[2024-07-26 10:23:26,689 submission_checker.py:2444 INFO] Compliance test accuracy check (deterministic mode) in closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Offline/TEST01 failed
+[2024-07-26 10:23:26,703 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,714 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,723 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,724 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:26,734 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,743 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,744 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:26,754 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,764 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,765 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:26,781 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/retinanet/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,783 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/retinanet/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,783 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/retinanet/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,783 submission_checker.py:1166 INFO] Target latency: None, Latency: 803097739914, Scenario: Offline
+[2024-07-26 10:23:26,784 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/retinanet/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,784 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/retinanet/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,784 submission_checker.py:1166 INFO] Target latency: None, Latency: 801939354706, Scenario: Offline
+[2024-07-26 10:23:26,784 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/retinanet/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,784 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/retinanet/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,785 submission_checker.py:1166 INFO] Target latency: None, Latency: 802135868118, Scenario: Offline
+[2024-07-26 10:23:26,800 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/retinanet/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,801 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/retinanet/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,802 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/retinanet/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,802 submission_checker.py:1148 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 10:23:26,802 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/retinanet/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,803 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/retinanet/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,803 submission_checker.py:1148 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 10:23:26,803 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/retinanet/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,803 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/retinanet/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,803 submission_checker.py:1148 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 10:23:26,804 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/gptj-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,805 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/gptj-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,806 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/gptj-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,806 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 10:23:26,807 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/gptj-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,808 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/gptj-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,809 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/gptj-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,809 submission_checker.py:1166 INFO] Target latency: None, Latency: 920320786456, Scenario: Offline
+[2024-07-26 10:23:26,810 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/llama2-70b-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,811 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,812 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,813 submission_checker.py:1166 INFO] Target latency: None, Latency: 6346056399340, Scenario: Offline
+[2024-07-26 10:23:26,814 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/llama2-70b-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,815 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,817 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,817 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-07-26 10:23:26,818 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/gptj-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,819 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/gptj-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,819 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/gptj-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,819 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 10:23:26,820 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/gptj-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,821 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/gptj-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,822 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/gptj-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,822 submission_checker.py:1166 INFO] Target latency: None, Latency: 920320786456, Scenario: Offline
+[2024-07-26 10:23:26,823 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/bert-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,824 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/bert-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,824 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/bert-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,824 submission_checker.py:1166 INFO] Target latency: None, Latency: 1003344745923, Scenario: Offline
+[2024-07-26 10:23:26,825 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,826 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,826 submission_checker.py:1166 INFO] Target latency: None, Latency: 1004672192756, Scenario: Offline
+[2024-07-26 10:23:26,826 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,827 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,827 submission_checker.py:1166 INFO] Target latency: None, Latency: 1006626406289, Scenario: Offline
+[2024-07-26 10:23:26,828 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/bert-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,829 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/bert-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,829 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/bert-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,829 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:26,830 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,831 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,831 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:26,832 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,832 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,832 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:26,834 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/llama2-70b-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,835 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,836 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,836 submission_checker.py:1166 INFO] Target latency: None, Latency: 6346056399340, Scenario: Offline
+[2024-07-26 10:23:26,838 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/llama2-70b-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,839 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,840 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,841 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-07-26 10:23:26,841 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/bert-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,842 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/bert-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,843 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/bert-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,843 submission_checker.py:1166 INFO] Target latency: None, Latency: 1112585600979, Scenario: Offline
+[2024-07-26 10:23:26,844 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,844 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,844 submission_checker.py:1166 INFO] Target latency: None, Latency: 1118037474828, Scenario: Offline
+[2024-07-26 10:23:26,845 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,846 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,846 submission_checker.py:1166 INFO] Target latency: None, Latency: 1118735526277, Scenario: Offline
+[2024-07-26 10:23:26,846 submission_checker.py:2444 INFO] Compliance test accuracy check (deterministic mode) in closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99.9/Offline/TEST01 failed
+[2024-07-26 10:23:26,847 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/bert-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,847 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/bert-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,848 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/bert-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,848 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:26,849 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,849 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,850 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:26,850 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,851 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,851 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:26,851 submission_checker.py:2444 INFO] Compliance test accuracy check (deterministic mode) in closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/bert-99.9/Server/TEST01 failed
+[2024-07-26 10:23:26,865 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/dlrm-v2-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,875 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/dlrm-v2-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,885 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/dlrm-v2-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,886 submission_checker.py:1166 INFO] Target latency: None, Latency: 1140381663076, Scenario: Offline
+[2024-07-26 10:23:26,895 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,905 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,906 submission_checker.py:1166 INFO] Target latency: None, Latency: 1137524735681, Scenario: Offline
+[2024-07-26 10:23:26,915 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,924 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,925 submission_checker.py:1166 INFO] Target latency: None, Latency: 1136859777619, Scenario: Offline
+[2024-07-26 10:23:26,940 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/dlrm-v2-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,950 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/dlrm-v2-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,959 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/dlrm-v2-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,960 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:26,970 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,979 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,980 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:26,990 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:26,999 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/dlrm-v2-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,000 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:27,001 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/3d-unet-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,002 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/3d-unet-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,002 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/3d-unet-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,002 submission_checker.py:1166 INFO] Target latency: None, Latency: 759627568251, Scenario: Offline
+[2024-07-26 10:23:27,002 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/3d-unet-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,003 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/3d-unet-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,003 submission_checker.py:1166 INFO] Target latency: None, Latency: 758609975092, Scenario: Offline
+[2024-07-26 10:23:27,003 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/3d-unet-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,003 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC4000A_E12_4XH100_TRT/3d-unet-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,003 submission_checker.py:1166 INFO] Target latency: None, Latency: 759063195127, Scenario: Offline
+[2024-07-26 10:23:27,005 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/llama2-70b-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,006 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,008 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/llama2-70b-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,008 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-07-26 10:23:27,009 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/llama2-70b-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,010 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,012 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/llama2-70b-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,012 submission_checker.py:1166 INFO] Target latency: None, Latency: 2609761022871, Scenario: Offline
+[2024-07-26 10:23:27,029 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/dlrm-v2-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,039 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/dlrm-v2-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,048 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/dlrm-v2-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,049 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:27,059 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,068 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,069 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:27,079 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,088 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,089 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:27,104 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/dlrm-v2-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,114 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/dlrm-v2-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,123 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/dlrm-v2-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,124 submission_checker.py:1166 INFO] Target latency: None, Latency: 700957969937, Scenario: Offline
+[2024-07-26 10:23:27,134 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,143 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,144 submission_checker.py:1166 INFO] Target latency: None, Latency: 703004096453, Scenario: Offline
+[2024-07-26 10:23:27,153 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,163 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,164 submission_checker.py:1166 INFO] Target latency: None, Latency: 700843768866, Scenario: Offline
+[2024-07-26 10:23:27,166 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/bert-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,166 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/bert-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,167 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/bert-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,167 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:27,168 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,169 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,169 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:27,169 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,170 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,170 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:27,171 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/bert-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,172 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/bert-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,172 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/bert-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,172 submission_checker.py:1166 INFO] Target latency: None, Latency: 700474831761, Scenario: Offline
+[2024-07-26 10:23:27,173 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,174 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,174 submission_checker.py:1166 INFO] Target latency: None, Latency: 700543454528, Scenario: Offline
+[2024-07-26 10:23:27,175 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,175 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,175 submission_checker.py:1166 INFO] Target latency: None, Latency: 701112891270, Scenario: Offline
+[2024-07-26 10:23:27,176 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/bert-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,177 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/bert-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,178 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/bert-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,178 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:27,179 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,179 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,179 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:27,180 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,181 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,181 submission_checker.py:1148 INFO] Target latency: 130000000, Early Stopping Latency: 130000000, Scenario: Server
+[2024-07-26 10:23:27,181 submission_checker.py:2444 INFO] Compliance test accuracy check (deterministic mode) in closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99.9/Server/TEST01 failed
+[2024-07-26 10:23:27,182 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/bert-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,182 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/bert-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,183 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/bert-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,183 submission_checker.py:1166 INFO] Target latency: None, Latency: 692255222434, Scenario: Offline
+[2024-07-26 10:23:27,184 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,185 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,185 submission_checker.py:1166 INFO] Target latency: None, Latency: 691731998775, Scenario: Offline
+[2024-07-26 10:23:27,185 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,186 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/bert-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,186 submission_checker.py:1166 INFO] Target latency: None, Latency: 691776229895, Scenario: Offline
+[2024-07-26 10:23:27,187 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/3d-unet-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,187 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/3d-unet-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,187 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/3d-unet-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,187 submission_checker.py:1166 INFO] Target latency: None, Latency: 689320097543, Scenario: Offline
+[2024-07-26 10:23:27,188 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/3d-unet-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,188 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/3d-unet-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,188 submission_checker.py:1166 INFO] Target latency: None, Latency: 689421444521, Scenario: Offline
+[2024-07-26 10:23:27,188 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/3d-unet-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,189 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/3d-unet-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,189 submission_checker.py:1166 INFO] Target latency: None, Latency: 689462039392, Scenario: Offline
+[2024-07-26 10:23:27,192 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/resnet50/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,192 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/resnet50/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,193 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/resnet50/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,193 submission_checker.py:1148 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 10:23:27,193 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/resnet50/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,194 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/resnet50/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,194 submission_checker.py:1148 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 10:23:27,194 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/resnet50/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,195 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/resnet50/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,195 submission_checker.py:1148 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 10:23:27,195 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/resnet50/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,196 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/resnet50/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,196 submission_checker.py:1148 INFO] Target latency: 15000000, Early Stopping Latency: 15000000, Scenario: Server
+[2024-07-26 10:23:27,199 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/resnet50/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,200 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/resnet50/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,200 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/resnet50/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,200 submission_checker.py:1166 INFO] Target latency: None, Latency: 662725859247, Scenario: Offline
+[2024-07-26 10:23:27,201 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/resnet50/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,201 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/resnet50/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,201 submission_checker.py:1166 INFO] Target latency: None, Latency: 664574130783, Scenario: Offline
+[2024-07-26 10:23:27,201 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/resnet50/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,202 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/resnet50/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,202 submission_checker.py:1166 INFO] Target latency: None, Latency: 1338158617976, Scenario: Offline
+[2024-07-26 10:23:27,202 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/resnet50/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,203 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/resnet50/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,203 submission_checker.py:1166 INFO] Target latency: None, Latency: 669971392306, Scenario: Offline
+[2024-07-26 10:23:27,204 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/gptj-99/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,205 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/gptj-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,205 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/gptj-99/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,205 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 10:23:27,206 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/gptj-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,207 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/gptj-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,208 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/gptj-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,208 submission_checker.py:1166 INFO] Target latency: None, Latency: 691752115339, Scenario: Offline
+[2024-07-26 10:23:27,209 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/stable-diffusion-xl/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,209 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/stable-diffusion-xl/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,210 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/stable-diffusion-xl/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,210 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 10:23:27,210 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/stable-diffusion-xl/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,211 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/stable-diffusion-xl/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,211 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 10:23:27,211 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/stable-diffusion-xl/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,212 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/stable-diffusion-xl/Server/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,212 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 10:23:27,213 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/stable-diffusion-xl/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,213 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/stable-diffusion-xl/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,214 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/stable-diffusion-xl/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,214 submission_checker.py:1166 INFO] Target latency: None, Latency: 635589296335, Scenario: Offline
+[2024-07-26 10:23:27,214 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/stable-diffusion-xl/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,215 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/stable-diffusion-xl/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,215 submission_checker.py:1166 INFO] Target latency: None, Latency: 635666494881, Scenario: Offline
+[2024-07-26 10:23:27,215 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/stable-diffusion-xl/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,216 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/stable-diffusion-xl/Offline/TEST04/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,216 submission_checker.py:1166 INFO] Target latency: None, Latency: 632830743463, Scenario: Offline
+[2024-07-26 10:23:27,230 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,240 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,249 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,250 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:27,260 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,269 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,270 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:27,280 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,289 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,290 submission_checker.py:1148 INFO] Target latency: 60000000, Early Stopping Latency: 60000000, Scenario: Server
+[2024-07-26 10:23:27,291 submission_checker.py:2444 INFO] Compliance test accuracy check (deterministic mode) in closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Server/TEST01 failed
+[2024-07-26 10:23:27,305 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,314 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,324 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,325 submission_checker.py:1166 INFO] Target latency: None, Latency: 628664944548, Scenario: Offline
+[2024-07-26 10:23:27,334 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,344 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,345 submission_checker.py:1166 INFO] Target latency: None, Latency: 629206946570, Scenario: Offline
+[2024-07-26 10:23:27,354 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,363 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,364 submission_checker.py:1166 INFO] Target latency: None, Latency: 630788567743, Scenario: Offline
+[2024-07-26 10:23:27,367 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/llama2-70b-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,368 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,369 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/llama2-70b-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,369 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 0, Scenario: Server
+[2024-07-26 10:23:27,371 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/llama2-70b-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,372 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,373 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/llama2-70b-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,373 submission_checker.py:1166 INFO] Target latency: None, Latency: 2609761022871, Scenario: Offline
+[2024-07-26 10:23:27,374 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/gptj-99.9/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,375 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/gptj-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,376 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/gptj-99.9/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,376 submission_checker.py:1148 INFO] Target latency: 20000000000, Early Stopping Latency: 20000000000, Scenario: Server
+[2024-07-26 10:23:27,377 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/gptj-99.9/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,378 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/gptj-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,379 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/gptj-99.9/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,379 submission_checker.py:1166 INFO] Target latency: None, Latency: 691752115339, Scenario: Offline
+[2024-07-26 10:23:27,394 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/retinanet/Server/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,396 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/retinanet/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,396 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/retinanet/Server/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,396 submission_checker.py:1148 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 10:23:27,396 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/retinanet/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,397 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/retinanet/Server/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,397 submission_checker.py:1148 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 10:23:27,397 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/retinanet/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,398 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/retinanet/Server/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,398 submission_checker.py:1148 INFO] Target latency: 100000000, Early Stopping Latency: 100000000, Scenario: Server
+[2024-07-26 10:23:27,412 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/retinanet/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,414 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/retinanet/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,414 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/retinanet/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,414 submission_checker.py:1166 INFO] Target latency: None, Latency: 615709123628, Scenario: Offline
+[2024-07-26 10:23:27,415 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/retinanet/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,415 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/retinanet/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,415 submission_checker.py:1166 INFO] Target latency: None, Latency: 615847135069, Scenario: Offline
+[2024-07-26 10:23:27,415 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/retinanet/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,416 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/retinanet/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,416 submission_checker.py:1166 INFO] Target latency: None, Latency: 622251493838, Scenario: Offline
+[2024-07-26 10:23:27,416 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/3d-unet-99/Offline/accuracy/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,416 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/3d-unet-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,417 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/3d-unet-99/Offline/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,417 submission_checker.py:1166 INFO] Target latency: None, Latency: 689320097543, Scenario: Offline
+[2024-07-26 10:23:27,417 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/3d-unet-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,417 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/3d-unet-99/Offline/TEST01/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,417 submission_checker.py:1166 INFO] Target latency: None, Latency: 689421444521, Scenario: Offline
+[2024-07-26 10:23:27,418 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/3d-unet-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,418 log_parser.py:50 INFO] Sucessfully loaded MLPerf log from closed/ASUSTeK/compliance/ESC_N8_E11_H100x8_TRT/3d-unet-99/Offline/TEST05/performance/run_1/mlperf_log_detail.txt.
+[2024-07-26 10:23:27,418 submission_checker.py:1166 INFO] Target latency: None, Latency: 689462039392, Scenario: Offline
+[2024-07-26 10:23:27,418 submission_checker.py:2678 INFO] ---
+[2024-07-26 10:23:27,418 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/3d-unet-99.9/Offline 21.5153
+[2024-07-26 10:23:27,418 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/3d-unet-99/Offline 21.5153
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/bert-99.9/Offline 20380.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/bert-99.9/Server 16002.5
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/bert-99/Offline 24173.2
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/bert-99/Server 17001.6
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Offline 113651.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/dlrm-v2-99.9/Server 100009.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/dlrm-v2-99/Offline 197140.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/dlrm-v2-99/Server 129386.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/gptj-99.9/Offline 6985.51
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/gptj-99.9/Server 6070.26
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/gptj-99/Offline 6985.51
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/gptj-99/Server 6070.26
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/llama2-70b-99.9/Offline 6673.95
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/llama2-70b-99.9/Server 5788.29
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/llama2-70b-99/Offline 6673.95
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/llama2-70b-99/Server 5788.29
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/resnet50/Offline 270891.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/resnet50/Server 233275.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/retinanet/Offline 5288.58
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/retinanet/Server 2647.04
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/stable-diffusion-xl/Offline 5.89745
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC4000A_E12_4XH100_TRT/stable-diffusion-xl/Server 5.3739
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/3d-unet-99.9/Offline 37.1373
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/3d-unet-99/Offline 37.1373
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/bert-99.9/Offline 38464.2
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/bert-99.9/Server 32007.7
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/bert-99/Offline 45409.8
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/bert-99/Server 35365.6
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Offline 211128.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/dlrm-v2-99.9/Server 170021.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/dlrm-v2-99/Offline 368654.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/dlrm-v2-99/Server 170023.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/gptj-99.9/Offline 13078.5
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/gptj-99.9/Server 7986.46
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/gptj-99/Offline 13078.5
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/gptj-99/Server 7986.46
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/llama2-70b-99.9/Offline 9281.5
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/llama2-70b-99.9/Server 8094.27
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/llama2-70b-99/Offline 9281.5
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/llama2-70b-99/Server 8094.27
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/resnet50/Offline 450364.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/resnet50/Server 410103.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/retinanet/Offline 9421.13
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/retinanet/Server 8801.91
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/stable-diffusion-xl/Offline 9.83763
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC8000A_E12_H100x8_TRT/stable-diffusion-xl/Server 7.84131
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/3d-unet-99.9/Offline 51.6944
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/3d-unet-99/Offline 51.6944
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/bert-99.9/Offline 62371.4
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/bert-99.9/Server 51213.8
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/bert-99/Offline 70661.2
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/bert-99/Server 57005.2
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Offline 363048.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/dlrm-v2-99.9/Server 330066.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/dlrm-v2-99/Offline 591476.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/dlrm-v2-99/Server 516159.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/gptj-99.9/Offline 19877.6
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/gptj-99.9/Server 19226.9
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/gptj-99/Offline 19877.6
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/gptj-99/Server 19226.9
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/llama2-70b-99.9/Offline 24323.6
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/llama2-70b-99.9/Server 20605.3
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/llama2-70b-99/Offline 24323.6
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/llama2-70b-99/Server 20605.3
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/resnet50/Offline 709920.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/resnet50/Server 630229.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/retinanet/Offline 14432.8
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/retinanet/Server 13763.0
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/stable-diffusion-xl/Offline 16.4176
+[2024-07-26 10:23:27,419 submission_checker.py:2682 INFO] Results closed/ASUSTeK/results/ESC_N8_E11_H100x8_TRT/stable-diffusion-xl/Server 15.7041
+[2024-07-26 10:23:27,419 submission_checker.py:2684 INFO] ---
+[2024-07-26 10:23:27,419 submission_checker.py:2769 INFO] ---
+[2024-07-26 10:23:27,419 submission_checker.py:2770 INFO] Results=72, NoResults=0, Power Results=0
+[2024-07-26 10:23:27,419 submission_checker.py:2777 INFO] ---
+[2024-07-26 10:23:27,419 submission_checker.py:2778 INFO] Closed Results=72, Closed Power Results=0
+
+[2024-07-26 10:23:27,419 submission_checker.py:2783 INFO] Open Results=0, Open Power Results=0
+
+[2024-07-26 10:23:27,419 submission_checker.py:2788 INFO] Network Results=0, Network Power Results=0
+
+[2024-07-26 10:23:27,419 submission_checker.py:2793 INFO] ---
+[2024-07-26 10:23:27,419 submission_checker.py:2795 INFO] Systems=3, Power Systems=0
+[2024-07-26 10:23:27,419 submission_checker.py:2796 INFO] Closed Systems=3, Closed Power Systems=0
+[2024-07-26 10:23:27,419 submission_checker.py:2801 INFO] Open Systems=0, Open Power Systems=0
+[2024-07-26 10:23:27,419 submission_checker.py:2806 INFO] Network Systems=0, Network Power Systems=0
+[2024-07-26 10:23:27,419 submission_checker.py:2811 INFO] ---
+[2024-07-26 10:23:27,419 submission_checker.py:2816 INFO] SUMMARY: submission looks OK

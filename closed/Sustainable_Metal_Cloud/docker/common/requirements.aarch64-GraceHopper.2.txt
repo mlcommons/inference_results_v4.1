@@ -1,0 +1,6 @@
+--extra-index-url https://pypi.nvidia.com
+onnx-graphsurgeon==0.3.27
+optimum==1.20.0
+nvidia-modelopt[all]~=0.13.1
+polygraphy==0.49.9
+tritonclient[all]

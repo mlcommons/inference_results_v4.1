@@ -1,0 +1,75 @@
+{
+    "_parent_entries": [ [ "^", "byname", "base_sut" ], [ "^", "byname", "sut_desc_gen" ] ],
+    "_producer_rules": [
+        [ [ "sut_config", "sut=r760_u4_slim" ], [[ "merge" ]] ],
+        [ [ "sut_description", "sut=r760_u4_slim" ], [[ "gen_description" ]] ],
+        [ [ "auto_desc_gen", "sut=r760_u4_slim" ], [[ "update_sut_desc" ]], {}, [] ]
+    ],
+    "sut": "r760_u4_slim",
+    "device": "uai",
+    "card": "slim",
+    "system": "base_system",
+    "num_device": 4,
+    "hypothetical_num_device": 4,
+    "system_type": "edge",
+
+    "override_runtime_config": {
+        "resnet50": {
+            "Offline": {
+                "loadgen_target_qps": 224000,
+                "loadgen_buffer_size_accuracy": 50000,
+                "loadgen_buffer_size_performance": 50000,
+                "recommended_batch_size": 10,
+                "kilt_dispatch_yield_time": 1,
+                "kilt_device_uai_scheduler_yield_time": 0,
+                "kilt_device_uai_postprocessor_time": 0,
+                "kilt_device_uai_queue_length": 750,
+                "kilt_device_uai_flush_yield_time": 10,
+                "uai_model_batch_size": 1000,
+                "uai_model_before_flush_wait_time": 150000,
+                "kilt_datasource_config": "0:1",
+                "kilt_device_config": "0,0,2,4,6:0,8,10,12,14:0,16,18,20,22:1,1,3,5,7:1,9,11,13,15:0,17,19,21,23",
+                "device_id": "1+2+4+5",
+                "speedai_devices": "uaib*,uaic*,uaie*,uaif*"
+            },
+            "SingleStream": {
+                "loadgen_target_latency": 0.12,
+                "loadgen_buffer_size_accuracy": 2000,
+                "loadgen_buffer_size_performance": 2000,
+                "recommended_batch_size": 1,
+                "recommended_max_wait_abs": 0,
+                "kilt_dispatch_yield_time": 1,
+                "kilt_device_uai_scheduler_yield_time": 0,
+                "kilt_device_uai_postprocessor_time": 0,
+                "kilt_device_uai_queue_length": 1,
+                "kilt_device_uai_flush_yield_time": 10,
+                "uai_model_batch_size": 1,
+                "uai_model_before_flush_wait_time": 150000,
+                "kilt_datasource_config": "0:1",
+                "kilt_device_config": "0,0,2,4,6:0,8,10,12,14:0,16,18,20,22:1,1,3,5,7:1,9,11,13,15:0,17,19,21,23",
+                "device_id": "1+2+4+5",
+                "speedai_devices": "uaib*,uaic*,uaie*,uaif*",
+                "perf_mode": "SPORT"
+            },
+            "MultiStream": {
+                "loadgen_target_latency": 0.2,
+                "loadgen_buffer_size_accuracy": 2000,
+                "loadgen_buffer_size_performance": 2000,
+                "recommended_batch_size": 2,
+                "recommended_max_wait_abs": 0,
+                "kilt_dispatch_yield_time": 1,
+                "kilt_device_uai_scheduler_yield_time": 0,
+                "kilt_device_uai_postprocessor_time": 0,
+                "kilt_device_uai_queue_length": 1,
+                "kilt_device_uai_flush_yield_time": 10,
+                "uai_model_batch_size": 2,
+                "uai_model_before_flush_wait_time": 150000,
+                "kilt_datasource_config": "0:1",
+                "kilt_device_config": "0,0,2,4,6:0,8,10,12,14:0,16,18,20,22:1,1,3,5,7:1,9,11,13,15:0,17,19,21,23",
+                "device_id": "1+2+4+5",
+                "speedai_devices": "uaib*,uaic*,uaie*,uaif*",
+                "perf_mode": "SPORT"
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : gptj-Offline-SUT
+Scenario : Offline
+Mode     : PerformanceOnly
+Samples per second: 144.446
+Tokens per second (inferred): 9966.79
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+  Early stopping satisfied: Yes
+
+================================================
+Additional Stats
+================================================
+Min latency (ns)                : 2618802210
+Max latency (ns)                : 740372471372
+Mean latency (ns)               : 373442853156
+50.00 percentile latency (ns)   : 373609126882
+90.00 percentile latency (ns)   : 669096919068
+95.00 percentile latency (ns)   : 705991164091
+97.00 percentile latency (ns)   : 720699312659
+99.00 percentile latency (ns)   : 735461731434
+99.90 percentile latency (ns)   : 739826735184
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 95040
+target_qps : 144
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 600000
+max_duration (ms): 0
+min_query_count : 1
+max_query_count : 0
+qsl_rng_seed : 3066443479025735752
+sample_index_rng_seed : 10688027786191513374
+schedule_rng_seed : 14962580496156340209
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : 0
+performance_issue_unique : 0
+performance_issue_same : 0
+performance_issue_same_index : 0
+performance_sample_count : 13368
+
+No warnings encountered during test.
+
+No errors encountered during test.

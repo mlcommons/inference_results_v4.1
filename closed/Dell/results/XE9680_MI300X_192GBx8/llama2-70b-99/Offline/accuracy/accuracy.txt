@@ -1,0 +1,7 @@
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+
+Results
+
+{'rouge1': 44.5205, 'rouge2': 22.0831, 'rougeL': 28.7052, 'rougeLsum': 42.0802, 'gen_len': 28412762, 'gen_num': 24576, 'gen_tok_len': 7214469, 'tokens_per_sample': 293.6}
+hash=6aee7a19891cddf95e670608799caaf5b24b7bb45241e2e3232d41674e748dad

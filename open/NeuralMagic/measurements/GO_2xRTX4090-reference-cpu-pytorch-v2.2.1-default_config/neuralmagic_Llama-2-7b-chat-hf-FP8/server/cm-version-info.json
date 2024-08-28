@@ -1,0 +1,404 @@
+{
+  "app-mlperf-inference,d775cac873ee4231:reference,llama2-70b-99,cpu,valid,r4.1_default,server": [
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( reference,_llama2-70b-99,_cpu,_valid,_r4.1_default,_server )"
+      }
+    },
+    {
+      "get,sys-utils-cm": {
+        "script_uid": "bc90993277e84b8e",
+        "script_alias": "get-sys-utils-cm",
+        "script_tags": "get,sys-utils-cm",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( reference,_llama2-70b-99,_cpu,_valid,_r4.1_default,_server )"
+      }
+    },
+    {
+      "get,python": {
+        "script_uid": "d0b5dd74373f4a62",
+        "script_alias": "get-python3",
+        "script_tags": "get,python,python3,get-python,get-python3",
+        "script_variations": "",
+        "version": "3.11.4",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( reference,_llama2-70b-99,_cpu,_valid,_r4.1_default,_server )"
+      }
+    },
+    {
+      "get,mlcommons,inference,src": {
+        "script_uid": "4b57186581024797",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( reference,_llama2-70b-99,_cpu,_valid,_r4.1_default,_server )"
+      }
+    },
+    {
+      "get,mlperf,inference,src": {
+        "script_uid": "4b57186581024797",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_variations": "",
+        "version": "",
+        "parent": "get-mlperf-inference-utils,e341e5f86d8342e5"
+      }
+    },
+    {
+      "get,mlperf,inference,utils": {
+        "script_uid": "e341e5f86d8342e5",
+        "script_alias": "get-mlperf-inference-utils",
+        "script_tags": "get,mlperf,inference,util,utils,functions",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference,d775cac873ee4231 ( reference,_llama2-70b-99,_cpu,_valid,_r4.1_default,_server )"
+      }
+    },
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "detect-cpu,586c8a43320142f7"
+      }
+    },
+    {
+      "detect,cpu": {
+        "script_uid": "586c8a43320142f7",
+        "script_alias": "detect-cpu",
+        "script_tags": "detect,cpu,detect-cpu,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,sys-utils-cm": {
+        "script_uid": "bc90993277e84b8e",
+        "script_alias": "get-sys-utils-cm",
+        "script_tags": "get,sys-utils-cm",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,python": {
+        "script_uid": "d0b5dd74373f4a62",
+        "script_alias": "get-python3",
+        "script_tags": "get,python,python3,get-python,get-python3",
+        "script_variations": "",
+        "version": "3.11.4",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_torch": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "torch",
+        "version": "2.2.1",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_torchvision": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "torchvision",
+        "version": "0.2.0",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,preprocessed,dataset,openorca,_validation,_mlcommons,_full": {
+        "script_uid": "5614c39cb1564d72",
+        "script_alias": "get-preprocessed-dataset-openorca",
+        "script_tags": "get,dataset,openorca,language-processing,preprocessed",
+        "script_variations": "validation,mlcommons,full",
+        "version": "",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
+      }
+    },
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "detect-cpu,586c8a43320142f7"
+      }
+    },
+    {
+      "detect,cpu": {
+        "script_uid": "586c8a43320142f7",
+        "script_alias": "detect-cpu",
+        "script_tags": "detect,cpu,detect-cpu,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
+      }
+    },
+    {
+      "get,python": {
+        "script_uid": "d0b5dd74373f4a62",
+        "script_alias": "get-python3",
+        "script_tags": "get,python,python3,get-python,get-python3",
+        "script_variations": "",
+        "version": "3.11.4",
+        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
+      }
+    },
+    {
+      "get,mlcommons,inference,src": {
+        "script_uid": "4b57186581024797",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_variations": "",
+        "version": "",
+        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
+      }
+    },
+    {
+      "get,cache,dir,_name.mlperf-inference-sut-configs": {
+        "script_uid": "48f4622e059b45ce",
+        "script_alias": "get-cache-dir",
+        "script_tags": "get,cache,dir,directory",
+        "script_variations": "name.mlperf-inference-sut-configs",
+        "version": "",
+        "parent": "get-mlperf-inference-sut-configs,c2fbf72009e2445b"
+      }
+    },
+    {
+      "get,sut,configs": {
+        "script_uid": "c2fbf72009e2445b",
+        "script_alias": "get-mlperf-inference-sut-configs",
+        "script_tags": "get,mlperf,inference,sut,configs,sut-configs",
+        "script_variations": "",
+        "version": "",
+        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
+      }
+    },
+    {
+      "generate,user-conf,mlperf,inference": {
+        "script_uid": "3af4475745964b93",
+        "script_alias": "generate-mlperf-inference-user-conf",
+        "script_tags": "generate,mlperf,inference,user-conf,inference-user-conf",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,loadgen": {
+        "script_uid": "64c3d98d0ba04950",
+        "script_alias": "get-mlperf-inference-loadgen",
+        "script_tags": "get,loadgen,inference,inference-loadgen,mlperf,mlcommons",
+        "script_variations": "",
+        "version": "master",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,mlcommons,inference,src": {
+        "script_uid": "4b57186581024797",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,mlcommons,inference,src,_repo.https://github.com/gateoverflow/inference_temp,_branch.vllm": {
+        "script_uid": "4b57186581024797",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_variations": "repo.https://github.com/gateoverflow/inference_temp,branch.vllm",
+        "version": "",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.psutil": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "package.psutil",
+        "version": "5.9.6",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.transformers": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "package.transformers",
+        "version": "4.37.2",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.datasets": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "package.datasets",
+        "version": "2.16.1",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.sentencepiece": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "package.sentencepiece",
+        "version": "0.1.99",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.protobuf": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "package.protobuf",
+        "version": "4.23.4",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.accelerate": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "package.accelerate",
+        "version": "0.24.1",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.absl-py": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "package.absl-py",
+        "version": "2.1.0",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.evaluate": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "package.evaluate",
+        "version": "0.4.1",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.nltk": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "package.nltk",
+        "version": "3.8.1",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.numpy": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "package.numpy",
+        "version": "1.26.1",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "get,generic-python-lib,_package.rouge-score": {
+        "script_uid": "94b62a682bc44791",
+        "script_alias": "get-generic-python-lib",
+        "script_tags": "get,install,generic,generic-python-lib",
+        "script_variations": "package.rouge-score",
+        "version": "0.1.2",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    },
+    {
+      "detect,os": {
+        "script_uid": "863735b7db8c44fc",
+        "script_alias": "detect-os",
+        "script_tags": "detect-os,detect,os,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "detect-cpu,586c8a43320142f7"
+      }
+    },
+    {
+      "detect,cpu": {
+        "script_uid": "586c8a43320142f7",
+        "script_alias": "detect-cpu",
+        "script_tags": "detect,cpu,detect-cpu,info",
+        "script_variations": "",
+        "version": "",
+        "parent": "benchmark-program,19f369ef47084895"
+      }
+    },
+    {
+      "benchmark-program,program": {
+        "script_uid": "19f369ef47084895",
+        "script_alias": "benchmark-program",
+        "script_tags": "program,benchmark,benchmark-program",
+        "script_variations": "",
+        "version": "",
+        "parent": "benchmark-program-mlperf,cfff0132a8aa4018"
+      }
+    },
+    {
+      "benchmark-mlperf": {
+        "script_uid": "cfff0132a8aa4018",
+        "script_alias": "benchmark-program-mlperf",
+        "script_tags": "mlperf,benchmark-mlperf",
+        "script_variations": "",
+        "version": "",
+        "parent": "app-mlperf-inference-mlcommons-python,ff149e9781fc4b65 ( server,_llama2-70b-99,_cpu,_pytorch,_fp32 )"
+      }
+    }
+  ]
+}

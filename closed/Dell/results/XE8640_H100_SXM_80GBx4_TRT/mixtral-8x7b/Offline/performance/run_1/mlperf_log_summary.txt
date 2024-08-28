@@ -1,0 +1,54 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : mixtral-8x7b-Offline-SUT
+Scenario : Offline
+Mode     : PerformanceOnly
+Samples per second: 183.793
+Tokens per second: 26824.4
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+  Early stopping satisfied: Yes
+
+================================================
+Additional Stats
+================================================
+Min latency (ns)                : 4635088191
+Max latency (ns)                : 2693243536049
+Mean latency (ns)               : 1350459222988
+50.00 percentile latency (ns)   : 1350557675687
+90.00 percentile latency (ns)   : 2422281591609
+95.00 percentile latency (ns)   : 2556141398565
+97.00 percentile latency (ns)   : 2609590479814
+99.00 percentile latency (ns)   : 2663161920030
+99.90 percentile latency (ns)   : 2679954735383
+
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 485760
+target_qps : 184
+ttft_latency (ns): 2000000000
+tpot_latency (ns): 200000000
+max_async_queries : 1
+min_duration (ms): 2400000
+max_duration (ms): 0
+min_query_count : 1
+max_query_count : 0
+qsl_rng_seed : 3066443479025735752
+sample_index_rng_seed : 10688027786191513374
+schedule_rng_seed : 14962580496156340209
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : 0
+performance_issue_unique : 0
+performance_issue_same : 0
+performance_issue_same_index : 0
+performance_sample_count : 15000
+
+No warnings encountered during test.
+
+No errors encountered during test.

@@ -1,0 +1,25 @@
+{
+    "tags": [ "model_config" ],
+    "device": "uai",
+    "model": "resnet50",
+
+    "scenario_independent_runtime_config":{
+        "model_input_format": "UINT8,1,224,224,3",
+        "model_output_format": "INT64,1",
+        "recommended_max_wait_abs": null,
+        "loadgen_buffer_size": 1024,
+        "kilt_affinity": "127"
+    },
+
+    "scenario_independent_compiletime_model_config": {
+        "quantization_precision": "fp8"
+    },
+
+    "scenario_independent_compiletime_profile_config": {},
+
+    "contained_entries": {
+        "compiletime_collection": "compiletime_collection",
+        "runtime_collection": "runtime_collection",
+        "profile_collection": "profile_collection"
+    }
+}

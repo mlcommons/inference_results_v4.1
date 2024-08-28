@@ -1,0 +1,3 @@
+Device has low memory, running memory saving path!
+Accuracy Results: {'FID_SCORE': 23.440386233648724, 'CLIP_SCORE': 31.80647490143776}
+hash=b3b194dad0aff96baa9332cf782d150b762939dc881263f957c7161aaaa2a404

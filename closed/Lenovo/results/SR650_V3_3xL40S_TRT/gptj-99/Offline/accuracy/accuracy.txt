@@ -1,0 +1,8 @@
+Constructing QSL
+Encoding Samples
+
+Results
+
+{'rouge1': 43.0516, 'rouge2': 20.0942, 'rougeL': 29.9288, 'rougeLsum': 40.1792, 'gen_len': 4111570, 'gen_num': 13368}
+Finished destroying QSL.
+hash=e8db1f245d953fcbd25837a84d1045952de9f43902309b33f24a58aabd20595a

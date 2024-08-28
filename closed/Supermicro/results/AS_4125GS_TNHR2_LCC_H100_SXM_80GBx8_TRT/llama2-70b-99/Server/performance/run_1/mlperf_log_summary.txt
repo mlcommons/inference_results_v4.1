@@ -1,0 +1,80 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : llama2-70b-Server-SUT-LoadGen
+Scenario : Server
+Mode     : PerformanceOnly
+Completed samples per second    : 81.69
+Completed tokens per second: 23699.66
+Result is : VALID
+  Performance constraints satisfied : Yes
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+  Early stopping satisfied: Yes
+TTFT Early Stopping Result:
+ * Run successful.
+TPOT Early Stopping Result:
+ * Run successful.
+
+================================================
+Additional Stats
+================================================
+Scheduled samples per second : 82.37
+Min latency (ns)                : 334630066
+Max latency (ns)                : 177489786786
+Mean latency (ns)               : 45840379332
+50.00 percentile latency (ns)   : 39709068176
+90.00 percentile latency (ns)   : 82955720245
+95.00 percentile latency (ns)   : 102056661909
+97.00 percentile latency (ns)   : 117064639635
+99.00 percentile latency (ns)   : 152488586340
+99.90 percentile latency (ns)   : 171035920359
+
+Completed tokens per second                 : 23699.66
+Min First Token latency (ns)                : 35111652
+Max First Token latency (ns)                : 3495175868
+Mean First Token latency (ns)               : 314913051
+50.00 percentile first token latency (ns)   : 284100456
+90.00 percentile first token latency (ns)   : 396776065
+95.00 percentile first token latency (ns)   : 468951420
+97.00 percentile first token latency (ns)   : 720701173
+99.00 percentile first token latency (ns)   : 1387122034
+99.90 percentile first token latency (ns)   : 2369560560
+
+Min Time to Output Token (ns)                : 38504336
+Max Time to Output Token (ns)                : 287856468
+Mean Time to Output Token (ns)               : 158018105
+50.00 percentile time to output token (ns)   : 160976628
+90.00 percentile time to output token (ns)   : 168845377
+95.00 percentile time to output token (ns)   : 170669062
+97.00 percentile time to output token (ns)   : 172111749
+99.00 percentile time to output token (ns)   : 175276842
+99.90 percentile time to output token (ns)   : 188153067
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 82.24
+ttft_latency (ns): 2000000000
+tpot_latency (ns): 200000000
+max_async_queries : 0
+min_duration (ms): 2400000
+max_duration (ms): 0
+min_query_count : 100
+max_query_count : 0
+qsl_rng_seed : 3066443479025735752
+sample_index_rng_seed : 10688027786191513374
+schedule_rng_seed : 14962580496156340209
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : 0
+performance_issue_unique : 0
+performance_issue_same : 0
+performance_issue_same_index : 0
+performance_sample_count : 24576
+
+No warnings encountered during test.
+
+No errors encountered during test.

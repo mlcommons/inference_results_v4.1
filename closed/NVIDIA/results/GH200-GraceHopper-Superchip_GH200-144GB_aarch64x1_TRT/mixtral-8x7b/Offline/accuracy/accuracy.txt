@@ -1,0 +1,9 @@
+[Errno 17] File exists: '/work/.mixtral-accuracy/src/mxeval/mxeval/c#_exec_eval'
+Processed 5000 in 47.57583111400163s
+ 59.92% pass@1
+{'ruby': 411, 'javascript': 451, 'typescript': 443, 'php': 805, 'python': 493, 'cpp': 393} {'ruby': 846, 'javascript': 834, 'typescript': 868, 'php': 846, 'python': 863, 'cpp': 743}
+
+Results
+
+{'rouge1': 45.3572, 'rouge2': 23.2487, 'rougeL': 30.3161, 'rougeLsum': 42.3604, 'gsm8k': 73.1, 'mbxp': 59.92, 'gen_len': 4292701, 'gen_num': 15000, 'gen_tok_len': 2189177, 'tokens_per_sample': 145.9}
+hash=d68960538ebd74ab2068b7a62f60c3f02ad5f77941e3fd7ffd8f4ddbd19fe9f7

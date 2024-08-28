@@ -1,0 +1,13 @@
+{
+    "tags": [ "hide_from_release" ],
+    "contained_entries": {
+        "r760_u4_slim": "r760_u4_slim",
+        "r760_u6_slim": "r760_u6_slim",
+        "h13_u1_slim": "h13_u1_slim",
+        "h13_u3_slim": "h13_u3_slim",
+        "h13_u1_preview": "h13_u1_preview",
+        "h13_u2_preview": "h13_u2_preview",
+        "h13_u1_preview_dc": "h13_u1_preview_dc",
+        "h13_u2_preview_dc": "h13_u2_preview_dc"
+    }
+}

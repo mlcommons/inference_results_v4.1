@@ -1,0 +1,56 @@
+================================================
+MLPerf Results Summary
+================================================
+SUT name : gptj-Server-SUT
+Scenario : Server
+Mode     : PerformanceOnly
+Completed samples per second    : 115.75
+Completed tokens per second (inferred): 7986.46
+Result is : VALID
+  Performance constraints satisfied : Yes
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+  Early stopping satisfied: Yes
+Early Stopping Result:
+ * Run successful.
+
+================================================
+Additional Stats
+================================================
+Scheduled samples per second : 115.92
+Min latency (ns)                : 375344672
+Max latency (ns)                : 2847144818
+Mean latency (ns)               : 1273549049
+50.00 percentile latency (ns)   : 1216679696
+90.00 percentile latency (ns)   : 1858135381
+95.00 percentile latency (ns)   : 1999144338
+97.00 percentile latency (ns)   : 2085312701
+99.00 percentile latency (ns)   : 2242324617
+99.90 percentile latency (ns)   : 2483578624
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 1
+target_qps : 116
+target_latency (ns): 20000000000
+max_async_queries : 0
+min_duration (ms): 600000
+max_duration (ms): 0
+min_query_count : 100
+max_query_count : 0
+qsl_rng_seed : 3066443479025735752
+sample_index_rng_seed : 10688027786191513374
+schedule_rng_seed : 14962580496156340209
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : 0
+performance_issue_unique : 0
+performance_issue_same : 0
+performance_issue_same_index : 0
+performance_sample_count : 13368
+
+No warnings encountered during test.
+
+No errors encountered during test.

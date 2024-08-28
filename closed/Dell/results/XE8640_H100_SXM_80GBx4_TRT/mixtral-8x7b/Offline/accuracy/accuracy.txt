@@ -1,0 +1,8 @@
+Processed 5000 in 43.69373875201563s
+ 59.84% pass@1
+{'ruby': 411, 'javascript': 451, 'php': 804, 'python': 493, 'typescript': 442, 'cpp': 391} {'ruby': 846, 'javascript': 834, 'php': 846, 'python': 863, 'typescript': 868, 'cpp': 743}
+
+Results
+
+{'rouge1': 45.3721, 'rouge2': 23.2543, 'rougeL': 30.3259, 'rougeLsum': 42.3741, 'gsm8k': 73.12, 'mbxp': 59.84, 'gen_len': 4291049, 'gen_num': 15000, 'gen_tok_len': 2188181, 'tokens_per_sample': 145.9}
+hash=44cee236765cf10f6350f50ce0e0b0bd4e1faa226d64592710eda7fbcb725b88

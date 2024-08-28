@@ -1,0 +1,11 @@
+{
+    "_parent_entries": [ [ "^", "byquery", [ "^^", "substitute", "model_config,device=#{device}#,model=#{model}#" ], {}, [ "device", "model" ] ] ],
+    "tags": [ "device_model_config" ],
+    "config_target": "compile_profile",
+    "device": "uai",
+    "model": "resnet50",
+    "card": "preview",
+    "system_type": "edge",
+    "num_device": 1,
+    "sut": "h13_u1_preview"
+}

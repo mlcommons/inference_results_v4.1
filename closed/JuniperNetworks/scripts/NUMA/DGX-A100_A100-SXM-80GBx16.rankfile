@@ -1,0 +1,17 @@
+rank 0=A100-01 slot=0-55
+rank 1=A100-01 slot=0-55
+rank 2=A100-01 slot=0-55
+rank 3=A100-01 slot=0-55
+rank 4=A100-01 slot=56-111
+rank 5=A100-01 slot=56-111
+rank 6=A100-01 slot=56-111
+rank 7=A100-01 slot=56-111
+rank 8=A100-02 slot=0-55
+rank 9=A100-02 slot=0-55
+rank 10=A100-02 slot=0-55
+rank 11=A100-02 slot=0-55
+rank 12=A100-02 slot=56-111
+rank 13=A100-02 slot=56-111
+rank 14=A100-02 slot=56-111
+rank 15=A100-02 slot=56-111
+rank 16=A100-01 slot=0-55
