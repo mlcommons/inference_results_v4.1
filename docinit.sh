@@ -29,4 +29,6 @@ if [ ! -e docs/thirdparty/tablesorter ]; then
 fi
 
 python3 process.py
+test $? -eq 0 || exit $?
 python3 process_results_table.py
+test $? -eq 0 || exit $?
