@@ -28,7 +28,7 @@ jobs:
           python-version: "3.11"
 
       - name: Init docs site
-        run: bash docinit.sh
+        run: INFERENCE_RESULTS_VERSION=v4.1 bash docinit.sh
 
       - name: Run Mkdocs deploy
         run: mkdocs gh-deploy --force
