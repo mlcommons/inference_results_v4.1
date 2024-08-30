@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ ! -e docs ]; then
-    git clone https://github.com/GATEOverflow/inference_results_visualization_template.git docs
+    git clone https://github.com/mlcommons/inference_results_visualization_template.git docs
     test $? -eq 0 || exit $?
 fi
 
