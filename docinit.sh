@@ -14,7 +14,7 @@ fi
 
 if [ ! -e docs/javascripts/config.js ]; then
    if [ -n "${INFERENCE_RESULTS_VERSION}" ]; then
-   	echo "const result_version=\"${INFERENCE_RESULTS_VERSION}\";" > docs/javascripts/config.js;
+   	echo "const results_version=\"${INFERENCE_RESULTS_VERSION}\";" > docs/javascripts/config.js;
     ver_num=`echo ${INFERENCE_RESULTS_VERSION} | tr -cd '0-9'`
    	echo "const dbVersion =\"${ver_num}\";" >> docs/javascripts/config.js;
    else
