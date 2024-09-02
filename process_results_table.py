@@ -458,7 +458,7 @@ for availability in availabilities:
 summary = construct_summary_table(category, division)
 #print(summary)
 html += f"""
-<h2>Count of Results </h2>
+<h2 id="count_heading">Count of Results </h2>
 {summary}
 <hr>
 """
