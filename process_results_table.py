@@ -478,6 +478,7 @@ var sortcolumnindex = 4, perfsortorder = 1;
 
 <!--<script type="text/javascript" src="javascripts/tablesorter.js"></script>-->
 <script type="text/javascript" src="javascripts/results_tablesorter.js"></script>
+<script type="text/javascript" src="javascripts/results_charts.js"></script>
 """
 
 out_html = f"""---
