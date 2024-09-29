@@ -11,11 +11,11 @@ export RESULTS_DIR=${LAB_CLOG}/${TS_START_BENCHMARKS}
 echo "TS_START_BENCHMARKS=${TS_START_BENCHMARKS}"
 
 echo "Running Offline"
-./run_tests_Offline.sh
+bash run_tests_Offline.sh
 echo "Done Offline"
 
 echo "Running Server"
-./run_tests_Server.sh
+bash run_tests_Server.sh
 echo "Done Server"
 
 echo "Done Benchmarks"
