@@ -20,9 +20,3 @@ echo "Done Server"
 
 echo "Done Benchmarks"
 echo "TS_START_BENCHMARKS=${TS_START_BENCHMARKS}"
-
-echo "Packaging and checking submission results"
-python ../submission/package_submission.py \
-    --base-package-dir ${PACKAGE_DRAFT_DIR} \
-    --system-name ${SYSTEM_NAME} \
-    --input-dir ${RESULTS_DIR}
