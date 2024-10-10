@@ -28,7 +28,7 @@ jobs:
           python-version: "3.11"
 
       - name: Init docs site
-        run: INFERENCE_RESULTS_REPO_OWNER=${{ github.owner }} bash run.sh
+        run: INFERENCE_RESULTS_REPO_OWNER=${{ github.repository_owner }} bash run.sh
 
       - name: Run Mkdocs deploy
         run: mkdocs gh-deploy --force
