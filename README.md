@@ -13,9 +13,9 @@ git clone https://github.com/gateoverflow/inference_results_v4.1
 
 ### Setup the site and fetch the template code
 ```
-bash docinit.sh 
+bash run.sh 
 ```
-(Use docinit.bat on Windows)
+(Use run.bat on Windows)
 
 ### Run the site
 
