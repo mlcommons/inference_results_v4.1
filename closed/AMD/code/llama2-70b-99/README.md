@@ -48,17 +48,17 @@ KV cache scales for the quantized model weights are used and were downloaded fro
 To generate results for the full submission, running the command below in an inference container. Logs can be found in `/lab-hist/mlperf-results/$datetime1/$datetime2`.
 ``` bash
 cd /lab-mlperf-inference/code/llama2-70b-99.9/test_VllmFp8
-./run_scenarios.sh
+bash ./run_scenarios.sh
 ```
 
 To generate results for the Offline scenario only, run the command below in an inference container. Logs can be found in `/lab-hist/mlperf-results/$datetime1/$datetime2/Offline`.
 ``` bash
 cd /lab-mlperf-inference/code/llama2-70b-99.9/test_VllmFp8
-./run_tests_Offline.sh
+bash ./run_tests_Offline.sh
 ```
 
 To generate results for the Server scenario only, run the command below in an inference container. Logs can be found in `/lab-hist/mlperf-results/$datetime1/$datetime2/Server`.
 ``` bash
 cd /lab-mlperf-inference/code/llama2-70b-99.9/test_VllmFp8
-./run_tests_Server.sh
+bash ./run_tests_Server.sh
 ```
