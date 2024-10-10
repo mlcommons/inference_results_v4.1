@@ -1,0 +1,39 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Publish site
+
+
+on:
+  release:
+    types: [published]
+  push:
+    branches:
+      - newbranch
+      - main
+      - docs
+
+jobs:
+
+  publish:
+    name: Publish the site
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository normally
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Configure Git user
+        run: |
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --global user.name "${{ github.actor }}"
+
+      - name: Init docs site
+        run: INFERENCE_RESULTS_REPO_OWNER=${{ github.repository_owner }} bash run.sh
+
+      - name: Run Mkdocs deploy
+        run: mkdocs gh-deploy --force
