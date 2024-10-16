@@ -1,0 +1,1 @@
+LLAMA2 submissions are using the MLCommons reference implementation [extended by NeuralMagic](https://github.com/neuralmagic/inference/blob/vllm/language/llama2-70b/SUT_API.py) to add vllm inferencing. Please follow the [official MLCommons documentation](https://docs.mlcommons.org/inference/benchmarks/language/llama2-70b/#__tabbed_37_1) for the run commands. 
