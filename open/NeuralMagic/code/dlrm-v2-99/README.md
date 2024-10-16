@@ -1,0 +1,1 @@
+DLRMv2 submission is using the Intel implementation from MLPerf inference v4.0. Please follow the [official MLCommons documentation](https://docs.mlcommons.org/inference/benchmarks/recommendation/dlrm-v2/#__tabbed_37_1) to see the run commands.

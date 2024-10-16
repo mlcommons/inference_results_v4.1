@@ -1,0 +1,9 @@
+torch==2.1.1
+pybind11==2.11.1
+diffusers==0.21.2
+transformers==4.33.2
+pandas==2.2.0
+pydantic==2.6.1
+tensorboardX
+google-cloud-storage
+git+https://github.com/google/maxdiffusion.git@mlperf4.1
