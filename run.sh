@@ -4,4 +4,6 @@ if [ ! -e docs ]; then
     test $? -eq 0 || exit $?
 fi
 cp docs/docinit.sh .
+export default_division="closed";
+export default_category="datacenter";
 INFERENCE_RESULTS_VERSION=v4.1 INFERENCE_RESULTS_REPO_OWNER=${INFERENCE_RESULTS_REPO_OWNER} INFERENCE_RESULTS_REPO_BRANCH=main INFERENCE_RESULTS_REPO_NAME=inference_results_v4.1 bash docinit.sh
