@@ -33,7 +33,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
     <th id="tester"><a href="">Submitted by:</a></th>
     <td id="tester_val">NVIDIA</td>
     <th id="sw_avail"><a href="">Availability:</a></th>
-    <td id="sw_avail_val">Preview as of February 2025, should be avaiable within 180 days</td>
+    <td id="sw_avail_val">Preview  as of August 2024, should be avaiable within 180 days</td>
    </tr>
   </tbody>
  </table>

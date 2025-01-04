@@ -33,7 +33,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
     <th id="tester"><a href="">Submitted by:</a></th>
     <td id="tester_val">Quanta_Cloud_Technology</td>
     <th id="sw_avail"><a href="">Availability:</a></th>
-    <td id="sw_avail_val">Available as of February 2025</td>
+    <td id="sw_avail_val">Available  as of August 2024</td>
    </tr>
   </tbody>
  </table>
