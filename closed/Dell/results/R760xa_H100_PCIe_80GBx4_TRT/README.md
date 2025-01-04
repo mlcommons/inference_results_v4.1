@@ -1,5 +1,5 @@
 
-See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/mlcommons/mlperf_inference_test_submissions_v5.0/blob/main/closed/Dell/results/R760xa_H100_PCIe_80GBx4_TRT/summary.html)
+See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GATEOverflow/inference_results_v4.1/blob/main/closed/Dell/results/R760xa_H100_PCIe_80GBx4_TRT/summary.html)
 
 
 
@@ -9,7 +9,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
    <a href="/" style="border: none"><img src="" alt="" /></a>
   </div>
   <div class="titlebar">
-   <h1 class="title">MLPerf Inference v5.0</h1>
+   <h1 class="title">MLPerf Inference v4.1</h1>
    <p style="font-size: smaller">Copyright 2019-2025 MLCommons</p>
   </div>
  </div>
@@ -25,15 +25,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
   <tbody>
    <tr>
     <th id="license_num"><a href="">MLPerf Inference Category:</a></th>
-    <td id="license_num_val">Datacenter</td>
+    <td id="license_num_val">datacenter</td>
     <th id="test_date"><a href="">MLPerf Inference Division:</a></th>
-    <td id="test_date_val">Closed</td>
+    <td id="test_date_val">closed</td>
    </tr>
    <tr>
     <th id="tester"><a href="">Submitted by:</a></th>
     <td id="tester_val">Dell</td>
     <th id="sw_avail"><a href="">Availability:</a></th>
-    <td id="sw_avail_val">Available as of Feb 2025</td>
+    <td id="sw_avail_val">Available as of February 2025</td>
    </tr>
   </tbody>
  </table>
@@ -52,11 +52,10 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
         <th colspan="2">Server</th>
         <th colspan="2">Offline</th>
     </tr>
-    <tr> 
+    <tr>
     <td>Metric</td>
     <td>Performance</td>
     <td>Metric</td>
     <td>Performance</td>
-    </tr>
-    <tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>17880.0</td><td>Samples/s</td> <td>23238.4</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>4502.63</td><td>Samples/s</td> <td>4690.54</td><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>206529.0</td><td>Samples/s</td> <td>196365.0</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td></td><td></td><td>Samples/s</td> <td>18.6131</td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td></td><td></td><td>Samples/s</td> <td>18.6131</td></table>
+    </tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>206529.0</td><td>Samples/s</td> <td>196365.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>4502.63</td><td>Samples/s</td> <td>4690.54</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>17880.0</td><td>Samples/s</td> <td>23238.4</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>18.6131</td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>18.6131</td></table>
 

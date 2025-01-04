@@ -1,5 +1,5 @@
 
-See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/mlcommons/mlperf_inference_test_submissions_v5.0/blob/main/closed/Quanta_Cloud_Technology/results/D54U_3U_L40S_PCIe_48GBx4_TRT/summary.html)
+See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GATEOverflow/inference_results_v4.1/blob/main/closed/Quanta_Cloud_Technology/results/D54U_3U_L40S_PCIe_48GBx4_TRT/summary.html)
 
 
 
@@ -9,7 +9,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
    <a href="/" style="border: none"><img src="" alt="" /></a>
   </div>
   <div class="titlebar">
-   <h1 class="title">MLPerf Inference v5.0</h1>
+   <h1 class="title">MLPerf Inference v4.1</h1>
    <p style="font-size: smaller">Copyright 2019-2025 MLCommons</p>
   </div>
  </div>
@@ -25,15 +25,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
   <tbody>
    <tr>
     <th id="license_num"><a href="">MLPerf Inference Category:</a></th>
-    <td id="license_num_val">Datacenter</td>
+    <td id="license_num_val">datacenter</td>
     <th id="test_date"><a href="">MLPerf Inference Division:</a></th>
-    <td id="test_date_val">Closed</td>
+    <td id="test_date_val">closed</td>
    </tr>
    <tr>
     <th id="tester"><a href="">Submitted by:</a></th>
     <td id="tester_val">Quanta_Cloud_Technology</td>
     <th id="sw_avail"><a href="">Availability:</a></th>
-    <td id="sw_avail_val">Available as of Feb 2025</td>
+    <td id="sw_avail_val">Available as of February 2025</td>
    </tr>
   </tbody>
  </table>
@@ -52,11 +52,10 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
         <th colspan="2">Server</th>
         <th colspan="2">Offline</th>
     </tr>
-    <tr> 
+    <tr>
     <td>Metric</td>
     <td>Performance</td>
     <td>Metric</td>
     <td>Performance</td>
-    </tr>
-    <tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>3096.45</td><td>Tokens/s</td> <td>3463.19</td><tr><td>gptj-99.9</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>3096.45</td><td>Tokens/s</td> <td>3463.19</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>12002.4</td><td>Samples/s</td> <td>13248.3</td><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td>Queries/s</td> <td>84409.0</td><td>Samples/s</td> <td>115424.0</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td>Queries/s</td> <td>51015.1</td><td>Samples/s</td> <td>51911.1</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>3001.4</td><td>Samples/s</td> <td>3191.45</td><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>150015.0</td><td>Samples/s</td> <td>174603.0</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td></td><td></td><td>Samples/s</td> <td>15.551</td></table>
+    </tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>150015.0</td><td>Samples/s</td> <td>174603.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>3001.4</td><td>Samples/s</td> <td>3191.45</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>12002.4</td><td>Samples/s</td> <td>13248.3</td><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td>Queries/s</td> <td>84409.0</td><td>Samples/s</td> <td>115424.0</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td>Queries/s</td> <td>51015.1</td><td>Samples/s</td> <td>51911.1</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>15.551</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>3096.45</td><td>Tokens/s</td> <td>3463.19</td><tr><td>gptj-99.9</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>3096.45</td><td>Tokens/s</td> <td>3463.19</td></table>
 

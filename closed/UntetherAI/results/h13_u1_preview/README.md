@@ -1,5 +1,5 @@
 
-See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/mlcommons/mlperf_inference_test_submissions_v5.0/blob/main/closed/UntetherAI/results/h13_u1_preview/summary.html)
+See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GATEOverflow/inference_results_v4.1/blob/main/closed/UntetherAI/results/h13_u1_preview/summary.html)
 
 
 
@@ -9,7 +9,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
    <a href="/" style="border: none"><img src="" alt="" /></a>
   </div>
   <div class="titlebar">
-   <h1 class="title">MLPerf Inference v5.0</h1>
+   <h1 class="title">MLPerf Inference v4.1</h1>
    <p style="font-size: smaller">Copyright 2019-2025 MLCommons</p>
   </div>
  </div>
@@ -25,15 +25,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
   <tbody>
    <tr>
     <th id="license_num"><a href="">MLPerf Inference Category:</a></th>
-    <td id="license_num_val">Datacenter</td>
+    <td id="license_num_val">edge</td>
     <th id="test_date"><a href="">MLPerf Inference Division:</a></th>
-    <td id="test_date_val">Closed</td>
+    <td id="test_date_val">closed</td>
    </tr>
    <tr>
     <th id="tester"><a href="">Submitted by:</a></th>
     <td id="tester_val">UntetherAI</td>
     <th id="sw_avail"><a href="">Availability:</a></th>
-    <td id="sw_avail_val">Available as of Feb 2025</td>
+    <td id="sw_avail_val">Preview as of February 2025, should be avaiable within 180 days</td>
    </tr>
   </tbody>
  </table>
@@ -49,14 +49,16 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
     <tr>
         <th rowspan="2">Model</th>
         <th rowspan="2">Accuracy Target</th>
-        <th colspan="2">Server</th>
         <th colspan="2">Offline</th>
+        <th colspan="2">SingleStream</th>
+        <th colspan="2">MultiStream</th>
     </tr>
-    <tr> 
+    <tr>
     <td>Metric</td>
     <td>Performance</td>
     <td>Metric</td>
     <td>Performance</td>
-    </tr>
-    <tr><td>resnet</td><td>acc: 75.6954</td><td></td><td></td><td>Samples/s</td> <td>70348.2</td></table>
+    <td>Metric</td>
+    <td>Performance</td>
+    </tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Samples/s</td> <td>70348.2</td><td>Latency (ms)</td> <td>0.119199</td><td>Latency (ms)</td> <td>0.290617</td></table>
 

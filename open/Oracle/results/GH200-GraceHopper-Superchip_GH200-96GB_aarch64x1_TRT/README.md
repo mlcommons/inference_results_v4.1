@@ -1,5 +1,5 @@
 
-See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/mlcommons/mlperf_inference_test_submissions_v5.0/blob/main/closed/Oracle/results/GH200-GraceHopper-Superchip_GH200-96GB_aarch64x1_TRT/summary.html)
+See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GATEOverflow/inference_results_v4.1/blob/main/open/Oracle/results/GH200-GraceHopper-Superchip_GH200-96GB_aarch64x1_TRT/summary.html)
 
 
 
@@ -9,7 +9,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
    <a href="/" style="border: none"><img src="" alt="" /></a>
   </div>
   <div class="titlebar">
-   <h1 class="title">MLPerf Inference v5.0</h1>
+   <h1 class="title">MLPerf Inference v4.1</h1>
    <p style="font-size: smaller">Copyright 2019-2025 MLCommons</p>
   </div>
  </div>
@@ -25,15 +25,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
   <tbody>
    <tr>
     <th id="license_num"><a href="">MLPerf Inference Category:</a></th>
-    <td id="license_num_val">Datacenter</td>
+    <td id="license_num_val">datacenter</td>
     <th id="test_date"><a href="">MLPerf Inference Division:</a></th>
-    <td id="test_date_val">Closed</td>
+    <td id="test_date_val">open</td>
    </tr>
    <tr>
     <th id="tester"><a href="">Submitted by:</a></th>
     <td id="tester_val">Oracle</td>
     <th id="sw_avail"><a href="">Availability:</a></th>
-    <td id="sw_avail_val">Available as of Feb 2025</td>
+    <td id="sw_avail_val">Available as of February 2025</td>
    </tr>
   </tbody>
  </table>
@@ -49,14 +49,13 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
     <tr>
         <th rowspan="2">Model</th>
         <th rowspan="2">Accuracy Target</th>
-        <th colspan="2">Server</th>
-        <th colspan="2">Offline</th>
+        <th colspan="3">Server</th>
+        <th colspan="3">Offline</th>
     </tr>
-    <tr> 
+    <tr><td> Accuracy </td>
+    <td>Metric</td>
+    <td>Performance</td><td> Accuracy </td>
     <td>Metric</td>
     <td>Performance</td>
-    <td>Metric</td>
-    <td>Performance</td>
-    </tr>
-    <tr><td>stable-diffusion-xl</td><td></td><td>Queries/s</td> <td>1.80046</td><td>Samples/s</td> <td>2.32815</td><tr><td>dlrm-v2-99</td><td></td><td></td><td></td><td>Samples/s</td> <td>62061.8</td><tr><td>dlrm-v2-99.9</td><td></td><td></td><td></td><td>Samples/s</td> <td>40885.9</td></table>
+    </tr><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td></td><td></td><td></td><td>AUC: 80.166</td><td>Samples/s</td> <td>62061.8</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td></td><td></td><td></td><td>AUC: 80.233</td><td>Samples/s</td> <td>40885.9</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td>CLIP_SCORE: 31.78172011911869  FID_SCORE: 23.667417520141555</td><td>Queries/s</td> <td>1.80046</td><td>CLIP_SCORE: 31.793520182073117  FID_SCORE: 23.416755634899232</td><td>Samples/s</td> <td>2.32815</td></table>
 

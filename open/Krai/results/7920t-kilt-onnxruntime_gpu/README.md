@@ -1,5 +1,5 @@
 
-See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/mlcommons/mlperf_inference_test_submissions_v5.0/blob/main/closed/Krai/results/7920t-kilt-onnxruntime_gpu/summary.html)
+See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GATEOverflow/inference_results_v4.1/blob/main/open/Krai/results/7920t-kilt-onnxruntime_gpu/summary.html)
 
 
 
@@ -9,7 +9,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
    <a href="/" style="border: none"><img src="" alt="" /></a>
   </div>
   <div class="titlebar">
-   <h1 class="title">MLPerf Inference v5.0</h1>
+   <h1 class="title">MLPerf Inference v4.1</h1>
    <p style="font-size: smaller">Copyright 2019-2025 MLCommons</p>
   </div>
  </div>
@@ -25,15 +25,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
   <tbody>
    <tr>
     <th id="license_num"><a href="">MLPerf Inference Category:</a></th>
-    <td id="license_num_val">Datacenter</td>
+    <td id="license_num_val">edge</td>
     <th id="test_date"><a href="">MLPerf Inference Division:</a></th>
-    <td id="test_date_val">Closed</td>
+    <td id="test_date_val">open</td>
    </tr>
    <tr>
     <th id="tester"><a href="">Submitted by:</a></th>
     <td id="tester_val">Krai</td>
     <th id="sw_avail"><a href="">Availability:</a></th>
-    <td id="sw_avail_val">Available as of Feb 2025</td>
+    <td id="sw_avail_val">Available as of February 2025</td>
    </tr>
   </tbody>
  </table>
@@ -49,14 +49,16 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
     <tr>
         <th rowspan="2">Model</th>
         <th rowspan="2">Accuracy Target</th>
-        <th colspan="2">Server</th>
-        <th colspan="2">Offline</th>
+        <th colspan="3">Offline</th>
+        <th colspan="3">SingleStream</th>
+        <th colspan="3">MultiStream</th>
     </tr>
-    <tr> 
+    <tr><td> Accuracy </td>
+    <td>Metric</td>
+    <td>Performance</td><td> Accuracy </td>
+    <td>Metric</td>
+    <td>Performance</td><td> Accuracy </td>
     <td>Metric</td>
     <td>Performance</td>
-    <td>Metric</td>
-    <td>Performance</td>
-    </tr>
-    <tr><td>bert-99</td><td></td><td></td><td></td><td>Samples/s</td> <td>65.5708</td><tr><td>resnet</td><td></td><td></td><td></td><td>Samples/s</td> <td>1090.09</td></table>
+    </tr><tr><td>resnet</td><td>acc: 75.6954</td><td>acc: 76.456</td><td>Samples/s</td> <td>1090.09</td><td>acc: 76.454</td><td>Latency (ms)</td> <td>4.435463</td><td>acc: 76.456</td><td>Latency (ms)</td> <td>7.773151</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>F1: 90.88232621193973</td><td>Samples/s</td> <td>65.5708</td><td>F1: 90.88232621193973</td><td>Latency (ms)</td> <td>15.877397</td><td colspan="3"> N/A </td></table>
 

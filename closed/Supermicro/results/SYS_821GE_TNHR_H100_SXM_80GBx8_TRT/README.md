@@ -1,5 +1,5 @@
 
-See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/mlcommons/mlperf_inference_test_submissions_v5.0/blob/main/closed/Supermicro/results/SYS_821GE_TNHR_H100_SXM_80GBx8_TRT/summary.html)
+See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GATEOverflow/inference_results_v4.1/blob/main/closed/Supermicro/results/SYS_821GE_TNHR_H100_SXM_80GBx8_TRT/summary.html)
 
 
 
@@ -9,7 +9,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
    <a href="/" style="border: none"><img src="" alt="" /></a>
   </div>
   <div class="titlebar">
-   <h1 class="title">MLPerf Inference v5.0</h1>
+   <h1 class="title">MLPerf Inference v4.1</h1>
    <p style="font-size: smaller">Copyright 2019-2025 MLCommons</p>
   </div>
  </div>
@@ -25,15 +25,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
   <tbody>
    <tr>
     <th id="license_num"><a href="">MLPerf Inference Category:</a></th>
-    <td id="license_num_val">Datacenter</td>
+    <td id="license_num_val">datacenter</td>
     <th id="test_date"><a href="">MLPerf Inference Division:</a></th>
-    <td id="test_date_val">Closed</td>
+    <td id="test_date_val">closed</td>
    </tr>
    <tr>
     <th id="tester"><a href="">Submitted by:</a></th>
     <td id="tester_val">Supermicro</td>
     <th id="sw_avail"><a href="">Availability:</a></th>
-    <td id="sw_avail_val">Available as of Feb 2025</td>
+    <td id="sw_avail_val">Available as of February 2025</td>
    </tr>
   </tbody>
  </table>
@@ -52,11 +52,10 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/ml
         <th colspan="2">Server</th>
         <th colspan="2">Offline</th>
     </tr>
-    <tr> 
+    <tr>
     <td>Metric</td>
     <td>Performance</td>
     <td>Metric</td>
     <td>Performance</td>
-    </tr>
-    <tr><td>llama2-70b-99</td><td>ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td>Tokens/s</td> <td>21986.0</td><td>Tokens/s</td> <td>24140.1</td><tr><td>llama2-70b-99.9</td><td>ROUGE1: 44.3868, ROUGE2: 22.0132, ROUGEL: 28.5876, TOKENS_PER_SAMPLE: 265.005</td><td>Tokens/s</td> <td>21986.0</td><td>Tokens/s</td> <td>24140.1</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>19635.2</td><td>Tokens/s</td> <td>19803.6</td><tr><td>gptj-99.9</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>19635.2</td><td>Tokens/s</td> <td>19803.6</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>57928.3</td><td>Samples/s</td> <td>71806.2</td><tr><td>bert-99.9</td><td>F1: 90.7831</td><td>Queries/s</td> <td>51570.7</td><td>Samples/s</td> <td>62153.9</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td>Queries/s</td> <td>15.994</td><td>Samples/s</td> <td>16.3778</td><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td>Queries/s</td> <td>548900.0</td><td>Samples/s</td> <td>592829.0</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td>Queries/s</td> <td>356561.0</td><td>Samples/s</td> <td>363656.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>13803.0</td><td>Samples/s</td> <td>14405.1</td><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>634193.0</td><td>Samples/s</td> <td>707052.0</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td></td><td></td><td>Samples/s</td> <td>52.2038</td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td></td><td></td><td>Samples/s</td> <td>52.2038</td></table>
+    </tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>634193.0</td><td>Samples/s</td> <td>707052.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>13803.0</td><td>Samples/s</td> <td>14405.1</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>57928.3</td><td>Samples/s</td> <td>71806.2</td><tr><td>bert-99.9</td><td>F1: 90.7831</td><td>Queries/s</td> <td>51570.7</td><td>Samples/s</td> <td>62153.9</td><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td>Queries/s</td> <td>548900.0</td><td>Samples/s</td> <td>592829.0</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td>Queries/s</td> <td>356561.0</td><td>Samples/s</td> <td>363656.0</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>52.2038</td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>52.2038</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>19635.2</td><td>Tokens/s</td> <td>19803.6</td><tr><td>gptj-99.9</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>19635.2</td><td>Tokens/s</td> <td>19803.6</td><tr><td>llama2-70b-99</td><td>ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td>Tokens/s</td> <td>21986.0</td><td>Tokens/s</td> <td>24140.1</td><tr><td>llama2-70b-99.9</td><td>ROUGE1: 44.3868, ROUGE2: 22.0132, ROUGEL: 28.5876, TOKENS_PER_SAMPLE: 265.005</td><td>Tokens/s</td> <td>21986.0</td><td>Tokens/s</td> <td>24140.1</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td>Queries/s</td> <td>15.994</td><td>Samples/s</td> <td>16.3778</td><tr><td>mixtral-8x7b</td><td>ROUGE1: 45.0362, ROUGE2: 23.0501, ROUGEL: 30.0579, TOKENS_PER_SAMPLE: 131.31, gsm8k_accuracy: 73.0422, mbxp_accuracy: 59.5188</td><td>Tokens/s</td> <td>50676.9</td><td>Tokens/s</td> <td>52353.8</td></table>
 
