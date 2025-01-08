@@ -1,5 +1,5 @@
 
-See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/mlcommons/inference_results_v4.1/blob/main/closed/Dell/results/XE9680_MI300X_192GBx8/summary.html)
+See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GATEOverflow/inference_results_v4.1/blob/main/closed/Dell/results/XE9680_MI300X_192GBx8/summary.html)
 
 
 

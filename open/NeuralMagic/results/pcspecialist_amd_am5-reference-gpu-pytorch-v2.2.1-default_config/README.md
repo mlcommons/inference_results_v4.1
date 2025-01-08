@@ -1,5 +1,5 @@
 
-See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/mlcommons/inference_results_v4.1/blob/main/open/NeuralMagic/results/pcspecialist_amd_am5-reference-gpu-pytorch-v2.2.1-default_config/summary.html)
+See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GATEOverflow/inference_results_v4.1/blob/main/open/NeuralMagic/results/pcspecialist_amd_am5-reference-gpu-pytorch-v2.2.1-default_config/summary.html)
 
 
 
