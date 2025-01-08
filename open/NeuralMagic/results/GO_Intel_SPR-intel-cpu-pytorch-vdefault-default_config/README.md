@@ -1,5 +1,5 @@
 
-See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GATEOverflow/inference_results_v4.1/blob/main/open/NeuralMagic/results/GO_Intel_SPR-intel-cpu-pytorch-vdefault-default_config/summary.html)
+See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/mlcommons/inference_results_v4.1/blob/main/open/NeuralMagic/results/GO_Intel_SPR-intel-cpu-pytorch-vdefault-default_config/summary.html)
 
 
 
