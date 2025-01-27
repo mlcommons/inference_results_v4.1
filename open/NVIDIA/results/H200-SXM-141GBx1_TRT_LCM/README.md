@@ -200,7 +200,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <td>Accuracy</td>
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td></td><td></td><td></td><td>{}</td><td>Samples/s</td> <td>10.7891</td></table></div></div>
+</tr><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td></td><td></td><td></td><td>{'CLIP_SCORE': 31.28003, 'FID_SCORE': 28.42806}</td><td>Samples/s</td> <td>10.7891</td></table></div></div>
 </div>
 </div>
 </main>
