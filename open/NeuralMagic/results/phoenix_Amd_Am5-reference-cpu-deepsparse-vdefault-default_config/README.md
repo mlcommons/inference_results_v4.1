@@ -194,10 +194,10 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th colspan="3">Offline</th>
 </tr>
 <tr>
-<td>Accuracy</td>
+<th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
-<td>Accuracy</td>
+<th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
 </tr><tr><td>bert-99</td><td>F1: 89.9653</td><td></td><td></td><td></td><td>{'F1': 88.42042}</td><td>Samples/s</td> <td>98.963</td></table></div></div>

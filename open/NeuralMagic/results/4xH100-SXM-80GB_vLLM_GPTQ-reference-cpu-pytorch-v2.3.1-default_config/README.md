@@ -194,10 +194,10 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th colspan="3">Offline</th>
 </tr>
 <tr>
-<td>Accuracy</td>
+<th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
-<td>Accuracy</td>
+<th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
 </tr><tr><td>llama2-70b-99</td><td>ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td>{'ROUGE1': 44.1657, 'ROUGE2': 21.8046, 'ROUGEL': 28.4386, 'TOKENS_PER_SAMPLE': 291.2}</td><td>Tokens/s</td> <td>1164.04</td><td>{'ROUGE1': 44.2003, 'ROUGE2': 21.8589, 'ROUGEL': 28.4858, 'TOKENS_PER_SAMPLE': 586.9}</td><td>Tokens/s</td> <td>1577.11</td></table></div></div>

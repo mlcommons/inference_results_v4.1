@@ -195,13 +195,13 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th colspan="3">MultiStream</th>
 </tr>
 <tr>
-<td>Accuracy</td>
+<th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
-<td>Accuracy</td>
+<th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
-<td>Accuracy</td>
+<th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
 </tr><tr><td>resnet</td><td>acc: 75.6954</td><td>{'acc': 76.456}</td><td>Samples/s</td> <td>149.84</td><td>{'acc': 76.456}</td><td>Latency (ms)</td> <td>11.3598</td><td>{'acc': 76.456}</td><td>Latency (ms)</td> <td>51.76541</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>{'F1': 90.87487}</td><td>Samples/s</td> <td>2.68543</td><td>{'F1': 90.87487}</td><td>Latency (ms)</td> <td>285.04683</td><td colspan="3"> N/A </td></table></div></div>

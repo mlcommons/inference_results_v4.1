@@ -194,10 +194,10 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th colspan="3">Offline</th>
 </tr>
 <tr>
-<td>Accuracy</td>
+<th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
-<td>Accuracy</td>
+<th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
 </tr><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td></td><td></td><td></td><td>{'CLIP_SCORE': 31.75054, 'FID_SCORE': 23.46805}</td><td>Samples/s</td> <td>0.12572</td></table></div></div>
