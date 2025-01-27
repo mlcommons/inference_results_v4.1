@@ -200,7 +200,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <td>Accuracy</td>
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td></td><td></td><td></td><td>AUC: 80.199</td><td>Samples/s</td> <td>822.557</td></table></div></div>
+</tr><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td></td><td></td><td></td><td>round_to_max_5_digits(AUC: 80.199)</td><td>Samples/s</td> <td>round_to_max_5_digits(822.557)</td></table></div></div>
 </div>
 </div>
 </main>

@@ -200,7 +200,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <td>Accuracy</td>
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>llama2-70b-99</td><td>ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td></td><td></td><td></td><td>ROUGE1: 44.46  ROUGE2: 22.4526  ROUGEL: 29.9493  TOKENS_PER_SAMPLE: 234.4</td><td>Tokens/s</td> <td>4575.06</td></table></div></div>
+</tr><tr><td>llama2-70b-99</td><td>ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td></td><td></td><td></td><td>round_to_max_5_digits(ROUGE1: 44.46  ROUGE2: 22.4526  ROUGEL: 29.9493  TOKENS_PER_SAMPLE: 234.4)</td><td>Tokens/s</td> <td>round_to_max_5_digits(4575.06)</td></table></div></div>
 </div>
 </div>
 </main>

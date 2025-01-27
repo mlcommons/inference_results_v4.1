@@ -138,6 +138,7 @@
         width: 100%;
         table-layout: fixed;
         color: #212529;
+        word-break: break-word;
     }
     .table-striped tbody tr:nth-of-type(odd) {
         background-color: rgba(0, 0, 0, 0.05);
@@ -170,7 +171,7 @@
         transform: translatey(-50%);
     }
     .th-parent,
-    .results-table tr:nth-child(3) td:nth-child(-n+2) {
+    .results-table tr:nth-child(n+3) td:nth-child(-n+2) {
         background-color: #b6bfff;
         text-align: center;
     }
@@ -445,7 +446,7 @@
 
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Samples/s</td> <td>140625.0</td><td>Latency (ms)</td> <td>0.118879</td><td>Latency (ms)</td> <td>0.208008</td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Samples/s</td> <td>round_to_max_5_digits(140625.0)</td><td>Latency (ms)</td> <td>round_to_max_5_digits(0.118879)</td><td>Latency (ms)</td> <td>round_to_max_5_digits(0.208008)</td></table></div></div>
 </div>
 </div>
 </main>

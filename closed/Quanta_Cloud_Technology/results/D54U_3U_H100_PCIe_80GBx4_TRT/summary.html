@@ -138,6 +138,7 @@
         width: 100%;
         table-layout: fixed;
         color: #212529;
+        word-break: break-word;
     }
     .table-striped tbody tr:nth-of-type(odd) {
         background-color: rgba(0, 0, 0, 0.05);
@@ -170,7 +171,7 @@
         transform: translatey(-50%);
     }
     .th-parent,
-    .results-table tr:nth-child(3) td:nth-child(-n+2) {
+    .results-table tr:nth-child(n+3) td:nth-child(-n+2) {
         background-color: #b6bfff;
         text-align: center;
     }
@@ -441,7 +442,7 @@
 
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>188028.0</td><td>Samples/s</td> <td>224868.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>4003.24</td><td>Samples/s</td> <td>4633.9</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>17759.3</td><td>Samples/s</td> <td>23131.4</td><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td>Queries/s</td> <td>175023.0</td><td>Samples/s</td> <td>184239.0</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td>Queries/s</td> <td>100010.0</td><td>Samples/s</td> <td>106363.0</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>18.447</td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>18.447</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td>Queries/s</td> <td>4.0094</td><td>Samples/s</td> <td>4.91259</td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>round_to_max_5_digits(188028.0)</td><td>Samples/s</td> <td>round_to_max_5_digits(224868.0)</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>round_to_max_5_digits(4003.24)</td><td>Samples/s</td> <td>round_to_max_5_digits(4633.9)</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>round_to_max_5_digits(17759.3)</td><td>Samples/s</td> <td>round_to_max_5_digits(23131.4)</td><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td>Queries/s</td> <td>round_to_max_5_digits(175023.0)</td><td>Samples/s</td> <td>round_to_max_5_digits(184239.0)</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td>Queries/s</td> <td>round_to_max_5_digits(100010.0)</td><td>Samples/s</td> <td>round_to_max_5_digits(106363.0)</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>round_to_max_5_digits(18.447)</td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>round_to_max_5_digits(18.447)</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td>Queries/s</td> <td>round_to_max_5_digits(4.0094)</td><td>Samples/s</td> <td>round_to_max_5_digits(4.91259)</td></table></div></div>
 </div>
 </div>
 </main>

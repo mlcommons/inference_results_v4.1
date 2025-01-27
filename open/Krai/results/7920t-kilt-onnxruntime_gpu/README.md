@@ -204,7 +204,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <td>Accuracy</td>
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>acc: 76.456</td><td>Samples/s</td> <td>1090.09</td><td>acc: 76.454</td><td>Latency (ms)</td> <td>4.435463</td><td>acc: 76.456</td><td>Latency (ms)</td> <td>7.773151</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>F1: 90.88232621193973</td><td>Samples/s</td> <td>65.5708</td><td>F1: 90.88232621193973</td><td>Latency (ms)</td> <td>15.877397</td><td colspan="3"> N/A </td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>round_to_max_5_digits(acc: 76.456)</td><td>Samples/s</td> <td>round_to_max_5_digits(1090.09)</td><td>round_to_max_5_digits(acc: 76.454)</td><td>Latency (ms)</td> <td>round_to_max_5_digits(4.435463)</td><td>round_to_max_5_digits(acc: 76.456)</td><td>Latency (ms)</td> <td>round_to_max_5_digits(7.773151)</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>round_to_max_5_digits(F1: 90.88232621193973)</td><td>Samples/s</td> <td>round_to_max_5_digits(65.5708)</td><td>round_to_max_5_digits(F1: 90.88232621193973)</td><td>Latency (ms)</td> <td>round_to_max_5_digits(15.877397)</td><td colspan="3"> N/A </td></table></div></div>
 </div>
 </div>
 </main>
