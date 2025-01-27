@@ -196,14 +196,14 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </tr>
 <tr>
 
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 </tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Samples/s</td> <td>86304.6</td><td>Latency (ms)</td> <td>0.33241</td><td>Latency (ms)</td> <td>0.52546</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Samples/s</td> <td>1629.08</td><td>Latency (ms)</td> <td>1.80963</td><td>Latency (ms)</td> <td>10.39162</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Samples/s</td> <td>6502.66</td><td>Latency (ms)</td> <td>1.11868</td><td colspan="2"> N/A </td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td>Samples/s</td> <td>7.79867</td><td>Latency (ms)</td> <td>492.06648</td><td colspan="2"> N/A </td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>1718.33</td><td>Latency (ms)</td> <td>1437.18334</td><td colspan="2"> N/A </td></table></div></div>
 </div>
 </div>

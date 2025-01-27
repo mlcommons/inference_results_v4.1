@@ -195,11 +195,11 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </tr>
 <tr>
 
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 </tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>584207.0</td><td>Samples/s</td> <td>706789.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>12884.5</td><td>Samples/s</td> <td>14405.3</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>56008.8</td><td>Samples/s</td> <td>69043.2</td><tr><td>bert-99.9</td><td>F1: 90.7831</td><td>Queries/s</td> <td>49613.0</td><td>Samples/s</td> <td>61778.8</td><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td>Queries/s</td> <td>510155.0</td><td>Samples/s</td> <td>597885.0</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td>Queries/s</td> <td>340067.0</td><td>Samples/s</td> <td>369334.0</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>51.8258</td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>51.8258</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>19233.8</td><td>Tokens/s</td> <td>19711.1</td><tr><td>llama2-70b-99</td><td>ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td>Tokens/s</td> <td>21327.0</td><td>Tokens/s</td> <td>24459.6</td><tr><td>llama2-70b-99.9</td><td>ROUGE1: 44.3868, ROUGE2: 22.0132, ROUGEL: 28.5876, TOKENS_PER_SAMPLE: 265.005</td><td>Tokens/s</td> <td>21327.0</td><td>Tokens/s</td> <td>24459.6</td><tr><td>mixtral-8x7b</td><td>ROUGE1: 45.0362, ROUGE2: 23.0501, ROUGEL: 30.0579, TOKENS_PER_SAMPLE: 131.31, gsm8k_accuracy: 73.0422, mbxp_accuracy: 59.5188</td><td>Tokens/s</td> <td>50797.2</td><td>Tokens/s</td> <td>52817.7</td></table></div></div>
 </div>
 </div>

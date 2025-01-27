@@ -195,11 +195,11 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </tr>
 <tr>
 
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 </tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>309752.0</td><td>Samples/s</td> <td>334462.0</td></table></div></div>
 </div>
 </div>

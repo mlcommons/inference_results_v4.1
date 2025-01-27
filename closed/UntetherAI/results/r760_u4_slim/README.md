@@ -196,14 +196,14 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </tr>
 <tr>
 
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 </tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Samples/s</td> <td>221845.0</td><td>Latency (ms)</td> <td>0.12402</td><td>Latency (ms)</td> <td>0.16933</td></table></div></div>
 </div>
 </div>

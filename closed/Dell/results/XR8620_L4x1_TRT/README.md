@@ -196,14 +196,14 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </tr>
 <tr>
 
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 </tr><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Samples/s</td> <td>222.619</td><td>Latency (ms)</td> <td>4.83078</td><td>Latency (ms)</td> <td>42.01993</td></table></div></div>
 </div>
 </div>

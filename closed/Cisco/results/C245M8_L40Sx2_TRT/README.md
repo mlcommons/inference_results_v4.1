@@ -195,11 +195,11 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </tr>
 <tr>
 
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 </tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>90612.1</td><td>Samples/s</td> <td>86700.2</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>1600.42</td><td>Samples/s</td> <td>1655.57</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>6741.2</td><td>Samples/s</td> <td>6844.6</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>1725.54</td><td>Tokens/s</td> <td>1729.6</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td>Queries/s</td> <td>1.25759</td><td>Samples/s</td> <td>1.35121</td></table></div></div>
 </div>
 </div>

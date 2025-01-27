@@ -195,11 +195,11 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </tr>
 <tr>
 <td>Accuracy</td>
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 <td>Accuracy</td>
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 </tr><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td></td><td></td><td></td><td>{'AUC': 80.166}</td><td>Samples/s</td> <td>62061.8</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td></td><td></td><td></td><td>{'AUC': 80.233}</td><td>Samples/s</td> <td>40885.9</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td>{'CLIP_SCORE': 31.78172, 'FID_SCORE': 23.66742}</td><td>Queries/s</td> <td>1.80046</td><td>{'CLIP_SCORE': 31.79352, 'FID_SCORE': 23.41676}</td><td>Samples/s</td> <td>2.32815</td></table></div></div>
 </div>
 </div>

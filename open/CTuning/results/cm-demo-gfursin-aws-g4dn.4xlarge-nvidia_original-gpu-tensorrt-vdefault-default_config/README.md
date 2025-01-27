@@ -195,11 +195,11 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </tr>
 <tr>
 <td>Accuracy</td>
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 <td>Accuracy</td>
-<td>Metric</td>
-<td>Performance</td>
+<th>Metric</th>
+<th>Performance</th>
 </tr><tr><td>bert-99</td><td>F1: 89.9653</td><td></td><td></td><td></td><td>{'F1': 90.21495}</td><td>Samples/s</td> <td>381.124</td></table></div></div>
 </div>
 </div>
