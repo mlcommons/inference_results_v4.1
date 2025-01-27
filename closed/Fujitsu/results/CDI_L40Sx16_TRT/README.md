@@ -200,7 +200,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>round_to_max_5_digits(11948.7)</td><td>Samples/s</td> <td>round_to_max_5_digits(12048.3)</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>round_to_max_5_digits(61.09)</td></table></div></div>
+</tr><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>11948.7</td><td>Samples/s</td> <td>12048.3</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>61.09</td></table></div></div>
 </div>
 </div>
 </main>

@@ -204,7 +204,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <td>Accuracy</td>
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>round_to_max_5_digits(acc: 76.456)</td><td>Samples/s</td> <td>round_to_max_5_digits(149.84)</td><td>round_to_max_5_digits(acc: 76.456)</td><td>Latency (ms)</td> <td>round_to_max_5_digits(11.359795)</td><td>round_to_max_5_digits(acc: 76.456)</td><td>Latency (ms)</td> <td>round_to_max_5_digits(51.765414)</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>round_to_max_5_digits(F1: 90.87487229720105)</td><td>Samples/s</td> <td>round_to_max_5_digits(2.68543)</td><td>round_to_max_5_digits(F1: 90.87487229720105)</td><td>Latency (ms)</td> <td>round_to_max_5_digits(285.046831)</td><td colspan="3"> N/A </td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>{}</td><td>Samples/s</td> <td>149.84</td><td>{}</td><td>Latency (ms)</td> <td>11.3598</td><td>{}</td><td>Latency (ms)</td> <td>51.76541</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>{}</td><td>Samples/s</td> <td>2.68543</td><td>{}</td><td>Latency (ms)</td> <td>285.04683</td><td colspan="3"> N/A </td></table></div></div>
 </div>
 </div>
 </main>

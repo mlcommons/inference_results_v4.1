@@ -200,7 +200,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>round_to_max_5_digits(70096.9)</td><td>Samples/s</td> <td>round_to_max_5_digits(70348.6)</td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>70096.9</td><td>Samples/s</td> <td>70348.6</td></table></div></div>
 </div>
 </div>
 </main>

@@ -200,7 +200,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>round_to_max_5_digits(91209.1)</td><td>Samples/s</td> <td>round_to_max_5_digits(87978.3)</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>round_to_max_5_digits(1580.59)</td><td>Samples/s</td> <td>round_to_max_5_digits(1642.06)</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>round_to_max_5_digits(6761.33)</td><td>Samples/s</td> <td>round_to_max_5_digits(6684.77)</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>round_to_max_5_digits(1734.03)</td><td>Tokens/s</td> <td>round_to_max_5_digits(1747.67)</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td>Queries/s</td> <td>round_to_max_5_digits(1.25757)</td><td>Samples/s</td> <td>round_to_max_5_digits(1.36759)</td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>91209.1</td><td>Samples/s</td> <td>87978.3</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>1580.59</td><td>Samples/s</td> <td>1642.06</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>6761.33</td><td>Samples/s</td> <td>6684.77</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>1734.03</td><td>Tokens/s</td> <td>1747.67</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td>Queries/s</td> <td>1.25757</td><td>Samples/s</td> <td>1.36759</td></table></div></div>
 </div>
 </div>
 </main>

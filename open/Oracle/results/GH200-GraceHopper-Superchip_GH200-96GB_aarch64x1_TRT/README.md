@@ -200,7 +200,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <td>Accuracy</td>
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td></td><td></td><td></td><td>round_to_max_5_digits(AUC: 80.166)</td><td>Samples/s</td> <td>round_to_max_5_digits(62061.8)</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td></td><td></td><td></td><td>round_to_max_5_digits(AUC: 80.233)</td><td>Samples/s</td> <td>round_to_max_5_digits(40885.9)</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td>round_to_max_5_digits(CLIP_SCORE: 31.78172011911869  FID_SCORE: 23.667417520141555)</td><td>Queries/s</td> <td>round_to_max_5_digits(1.80046)</td><td>round_to_max_5_digits(CLIP_SCORE: 31.793520182073117  FID_SCORE: 23.416755634899232)</td><td>Samples/s</td> <td>round_to_max_5_digits(2.32815)</td></table></div></div>
+</tr><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td></td><td></td><td></td><td>{}</td><td>Samples/s</td> <td>62061.8</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td></td><td></td><td></td><td>{}</td><td>Samples/s</td> <td>40885.9</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td>{}</td><td>Queries/s</td> <td>1.80046</td><td>{}</td><td>Samples/s</td> <td>2.32815</td></table></div></div>
 </div>
 </div>
 </main>

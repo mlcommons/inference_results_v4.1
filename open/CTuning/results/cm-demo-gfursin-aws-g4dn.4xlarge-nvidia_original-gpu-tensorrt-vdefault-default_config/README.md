@@ -200,7 +200,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <td>Accuracy</td>
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>bert-99</td><td>F1: 89.9653</td><td></td><td></td><td></td><td>round_to_max_5_digits(F1: 90.21494616303566)</td><td>Samples/s</td> <td>round_to_max_5_digits(381.124)</td></table></div></div>
+</tr><tr><td>bert-99</td><td>F1: 89.9653</td><td></td><td></td><td></td><td>{}</td><td>Samples/s</td> <td>381.124</td></table></div></div>
 </div>
 </div>
 </main>

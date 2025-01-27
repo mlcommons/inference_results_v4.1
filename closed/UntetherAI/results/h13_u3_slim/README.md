@@ -204,7 +204,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Samples/s</td> <td>round_to_max_5_digits(168720.0)</td><td>Latency (ms)</td> <td>round_to_max_5_digits(0.120438)</td><td>Latency (ms)</td> <td>round_to_max_5_digits(0.212477)</td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Samples/s</td> <td>168720.0</td><td>Latency (ms)</td> <td>0.12044</td><td>Latency (ms)</td> <td>0.21248</td></table></div></div>
 </div>
 </div>
 </main>

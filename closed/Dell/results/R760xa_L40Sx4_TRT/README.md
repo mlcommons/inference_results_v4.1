@@ -200,7 +200,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>round_to_max_5_digits(181231.0)</td><td>Samples/s</td> <td>round_to_max_5_digits(180613.0)</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>round_to_max_5_digits(3152.43)</td><td>Samples/s</td> <td>round_to_max_5_digits(3345.71)</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>round_to_max_5_digits(13853.7)</td><td>Samples/s</td> <td>round_to_max_5_digits(13903.8)</td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>181231.0</td><td>Samples/s</td> <td>180613.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>3152.43</td><td>Samples/s</td> <td>3345.71</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>13853.7</td><td>Samples/s</td> <td>13903.8</td></table></div></div>
 </div>
 </div>
 </main>
