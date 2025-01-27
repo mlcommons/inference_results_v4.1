@@ -192,13 +192,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th rowspan="2" class="th-parent">Accuracy Target</th>
 <th colspan="3">Server</th>
 <th colspan="3">Offline</th>
+</tr>
+<tr>
 <td>Accuracy</td>
 <td>Metric</td>
 <td>Performance</td>
 <td>Accuracy</td>
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td></td><td></td><td></td><td>CLIP_SCORE: 31.280030560195446  FID_SCORE: 28.42806073285817</td><td>Samples/s</td> <td>10.7891</td></table></div></div>
+</tr><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td></td><td></td><td></td><td>CLIP_SCORE: 31.280030560195446  FID_SCORE: 28.42806073285817</td><td>Samples/s</td> <td>10.7891</td></table></div></div>
 </div>
 </div>
 </main>

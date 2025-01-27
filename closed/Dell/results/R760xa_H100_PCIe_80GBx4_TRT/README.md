@@ -192,13 +192,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th rowspan="2" class="th-parent">Accuracy Target</th>
 <th colspan="2">Server</th>
 <th colspan="2">Offline</th>
+</tr>
+<tr>
 
 <td>Metric</td>
 <td>Performance</td>
 
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><tr><td>retinanet</td><td>mAP: 37.1745</td><tr><td>bert-99</td><td>F1: 89.9653</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Samples/s</td> <td>196365.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Samples/s</td> <td>4690.54</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Samples/s</td> <td>23238.4</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>18.6131</td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>18.6131</td></table></div></div>
 </div>
 </div>
 </main>

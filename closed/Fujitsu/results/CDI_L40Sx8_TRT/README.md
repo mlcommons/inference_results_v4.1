@@ -192,13 +192,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th rowspan="2" class="th-parent">Accuracy Target</th>
 <th colspan="2">Server</th>
 <th colspan="2">Offline</th>
+</tr>
+<tr>
 
 <td>Metric</td>
 <td>Performance</td>
 
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>gptj-99</td><td>ROUGE1: 42.5566</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><tr><td>gptj-99.9</td><td>ROUGE1: 42.9435</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581, GEN_LEN: 3615190.2</td><tr><td>llama2-70b-99</td><td>ROUGE1: 43.9869</td><td>ROUGE1: 43.9869, ROUGE2: 21.8148</td><td>ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33</td><td>ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><tr><td>llama2-70b-99.9</td><td>ROUGE1: 44.3868</td><td>ROUGE1: 44.3868, ROUGE2: 22.0132</td><td>ROUGE1: 44.3868, ROUGE2: 22.0132, ROUGEL: 28.5876</td><td>ROUGE1: 44.3868, ROUGE2: 22.0132, ROUGEL: 28.5876, TOKENS_PER_SAMPLE: 265.005</td></table></div></div>
+</tr><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>6911.78</td><tr><td>gptj-99.9</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>6911.78</td><tr><td>llama2-70b-99</td><td>ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td>Tokens/s</td> <td>3717.74</td><tr><td>llama2-70b-99.9</td><td>ROUGE1: 44.3868, ROUGE2: 22.0132, ROUGEL: 28.5876, TOKENS_PER_SAMPLE: 265.005</td><td>Tokens/s</td> <td>3717.74</td></table></div></div>
 </div>
 </div>
 </main>

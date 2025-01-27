@@ -204,7 +204,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><tr><td>retinanet</td><td>mAP: 37.1745</td><tr><td>bert-99</td><td>F1: 89.9653</td><td colspan="2"> N/A </td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Samples/s</td> <td>25600.0</td><td>Latency (ms)</td> <td>0.386829</td><td>Latency (ms)</td> <td>0.750563</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Samples/s</td> <td>453.667</td><td>Latency (ms)</td> <td>3.814301</td><td>Latency (ms)</td> <td>32.190689</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Samples/s</td> <td>1928.07</td><td>Latency (ms)</td> <td>2.138389</td><td colspan="2"> N/A </td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td>Samples/s</td> <td>2.21588</td><td>Latency (ms)</td> <td>1737.387316</td><td colspan="2"> N/A </td></table></div></div>
 </div>
 </div>
 </main>

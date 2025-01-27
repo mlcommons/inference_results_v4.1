@@ -192,6 +192,8 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th rowspan="2" class="th-parent">Accuracy Target</th>
 <th colspan="3">Server</th>
 <th colspan="3">Offline</th>
+</tr>
+<tr>
 <td>Accuracy</td>
 <td>Metric</td>
 <td>Performance</td>

@@ -192,13 +192,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th rowspan="2" class="th-parent">Accuracy Target</th>
 <th colspan="3">Server</th>
 <th colspan="3">Offline</th>
+</tr>
+<tr>
 <td>Accuracy</td>
 <td>Metric</td>
 <td>Performance</td>
 <td>Accuracy</td>
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>gptj-99.9</td><td>ROUGE1: 42.9435</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581, GEN_LEN: 3615190.2</td><td>ROUGE1: 43.0346  ROUGE2: 20.0913  ROUGEL: 29.9259  GEN_LEN: 4102422</td><td>Tokens/s</td> <td>19627.6</td><td>ROUGE1: 43.0343  ROUGE2: 20.0912  ROUGEL: 29.9254  GEN_LEN: 4102192</td><td>Tokens/s</td> <td>19889.7</td></table></div></div>
+</tr><tr><td>gptj-99.9</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581, GEN_LEN: 3615190.2</td><td>ROUGE1: 43.0346  ROUGE2: 20.0913  ROUGEL: 29.9259  GEN_LEN: 4102422</td><td>Tokens/s</td> <td>19627.6</td><td>ROUGE1: 43.0343  ROUGE2: 20.0912  ROUGEL: 29.9254  GEN_LEN: 4102192</td><td>Tokens/s</td> <td>19889.7</td></table></div></div>
 </div>
 </div>
 </main>

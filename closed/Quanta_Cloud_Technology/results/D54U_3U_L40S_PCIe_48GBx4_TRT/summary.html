@@ -136,6 +136,7 @@
     .table {
         border-collapse: collapse;
         width: 100%;
+        table-layout: fixed;
         color: #212529;
     }
     .table-striped tbody tr:nth-of-type(odd) {
@@ -432,13 +433,15 @@
 <th rowspan="2" class="th-parent">Accuracy Target</th>
 <th colspan="2">Server</th>
 <th colspan="2">Offline</th>
+</tr>
+<tr>
 
 <td>Metric</td>
 <td>Performance</td>
 
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><tr><td>retinanet</td><td>mAP: 37.1745</td><tr><td>bert-99</td><td>F1: 89.9653</td><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><tr><td>gptj-99</td><td>ROUGE1: 42.5566</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><tr><td>gptj-99.9</td><td>ROUGE1: 42.9435</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581, GEN_LEN: 3615190.2</td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Samples/s</td> <td>174603.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Samples/s</td> <td>3191.45</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Samples/s</td> <td>13248.3</td><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td>Samples/s</td> <td>115424.0</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td>Samples/s</td> <td>51911.1</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>15.551</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>3463.19</td><tr><td>gptj-99.9</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>3463.19</td></table></div></div>
 </div>
 </div>
 </main>

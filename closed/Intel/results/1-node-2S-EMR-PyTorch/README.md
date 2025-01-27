@@ -192,13 +192,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th rowspan="2" class="th-parent">Accuracy Target</th>
 <th colspan="2">Server</th>
 <th colspan="2">Offline</th>
+</tr>
+<tr>
 
 <td>Metric</td>
 <td>Performance</td>
 
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><tr><td>retinanet</td><td>mAP: 37.1745</td><tr><td>bert-99</td><td>F1: 89.9653</td><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td><tr><td>gptj-99</td><td>ROUGE1: 42.5566</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Samples/s</td> <td>25204.5</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Samples/s</td> <td>377.53</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Samples/s</td> <td>1666.82</td><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td>Samples/s</td> <td>9949.2</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td>Samples/s</td> <td>9949.2</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>1.93632</td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>1.93632</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>254.724</td></table></div></div>
 </div>
 </div>
 </main>

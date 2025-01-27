@@ -192,13 +192,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th rowspan="2" class="th-parent">Accuracy Target</th>
 <th colspan="2">Server</th>
 <th colspan="2">Offline</th>
+</tr>
+<tr>
 
 <td>Metric</td>
 <td>Performance</td>
 
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><tr><td>retinanet</td><td>mAP: 37.1745</td><tr><td>bert-99</td><td>F1: 89.9653</td><tr><td>bert-99.9</td><td>F1: 90.7831</td><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td><tr><td>gptj-99</td><td>ROUGE1: 42.5566</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Samples/s</td> <td>250296.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Samples/s</td> <td>5438.57</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Samples/s</td> <td>24851.2</td><tr><td>bert-99.9</td><td>F1: 90.7831</td><td>Samples/s</td> <td>20729.6</td><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td>Samples/s</td> <td>208212.0</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td>Samples/s</td> <td>123033.0</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>22.2878</td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>22.2825</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>7191.41</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td>Samples/s</td> <td>6.13275</td></table></div></div>
 </div>
 </div>
 </main>
