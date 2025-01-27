@@ -200,7 +200,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Samples/s</td> <td>113422.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Samples/s</td> <td>2349.22</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Samples/s</td> <td>11576.0</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>3268.94</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td>Samples/s</td> <td>2.4685</td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>102012.0</td><td>Samples/s</td> <td>113422.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>2101.87</td><td>Samples/s</td> <td>2349.22</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>9060.77</td><td>Samples/s</td> <td>11576.0</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>3258.83</td><td>Tokens/s</td> <td>3268.94</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td>Queries/s</td> <td>2.1963</td><td>Samples/s</td> <td>2.4685</td></table></div></div>
 </div>
 </div>
 </main>

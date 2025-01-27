@@ -200,7 +200,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <td>Metric</td>
 <td>Performance</td>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Samples/s</td> <td>24491.1</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Samples/s</td> <td>372.132</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Samples/s</td> <td>1612.03</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td>Samples/s</td> <td>9962.84</td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>1.86148</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>239.034</td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>22501.7</td><td>Samples/s</td> <td>24491.1</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>280.447</td><td>Samples/s</td> <td>372.132</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>1241.42</td><td>Samples/s</td> <td>1612.03</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td>Queries/s</td> <td>9102.37</td><td>Samples/s</td> <td>9962.84</td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>1.86148</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>113.732</td><td>Tokens/s</td> <td>239.034</td></table></div></div>
 </div>
 </div>
 </main>
