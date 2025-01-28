@@ -49,7 +49,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Cisco/code/C245M8_H100_PCIe_80GBx2_TRT" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Cisco/code" class="button">Code</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Cisco/results/C245M8_H100_PCIe_80GBx2_TRT" class="button">Result Logs</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Cisco/measurements/C245M8_H100_PCIe_80GBx2_TRT" class="button">Measurements</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Cisco/compliance/C245M8_H100_PCIe_80GBx2_TRT" class="button">Compliance</a>

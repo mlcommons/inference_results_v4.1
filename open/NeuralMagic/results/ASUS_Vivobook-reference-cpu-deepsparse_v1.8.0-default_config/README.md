@@ -49,7 +49,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NeuralMagic/code/ASUS_Vivobook-reference-cpu-deepsparse_v1.8.0-default_config" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NeuralMagic/code" class="button">Code</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NeuralMagic/results/ASUS_Vivobook-reference-cpu-deepsparse_v1.8.0-default_config" class="button">Result Logs</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NeuralMagic/measurements/ASUS_Vivobook-reference-cpu-deepsparse_v1.8.0-default_config" class="button">Measurements</a>
 </div>

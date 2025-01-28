@@ -49,7 +49,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Supermicro/code/1-node-2S-EMR-PyTorch" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Supermicro/code" class="button">Code</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Supermicro/results/1-node-2S-EMR-PyTorch" class="button">Result Logs</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Supermicro/measurements/1-node-2S-EMR-PyTorch" class="button">Measurements</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Supermicro/compliance/1-node-2S-EMR-PyTorch" class="button">Compliance</a>

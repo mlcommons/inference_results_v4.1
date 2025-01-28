@@ -49,7 +49,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Supermicro/code/AS_4125GS_TNHR2_LCC_H100_SXM_80GBx8_TRT" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Supermicro/code" class="button">Code</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Supermicro/results/AS_4125GS_TNHR2_LCC_H100_SXM_80GBx8_TRT" class="button">Result Logs</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Supermicro/measurements/AS_4125GS_TNHR2_LCC_H100_SXM_80GBx8_TRT" class="button">Measurements</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Supermicro/compliance/AS_4125GS_TNHR2_LCC_H100_SXM_80GBx8_TRT" class="button">Compliance</a>

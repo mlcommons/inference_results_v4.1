@@ -49,7 +49,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NeuralMagic/code/pcspecialist_amd_am5-reference-gpu-pytorch-v2.2.1-default_config" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NeuralMagic/code" class="button">Code</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NeuralMagic/results/pcspecialist_amd_am5-reference-gpu-pytorch-v2.2.1-default_config" class="button">Result Logs</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NeuralMagic/measurements/pcspecialist_amd_am5-reference-gpu-pytorch-v2.2.1-default_config" class="button">Measurements</a>
 </div>

@@ -49,7 +49,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/CTuning/code/cm-demo-gfursin-scaleway-L4-1-24G-reference-gpu-pytorch-v2.3.1-default_config" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/CTuning/code" class="button">Code</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/CTuning/results/cm-demo-gfursin-scaleway-L4-1-24G-reference-gpu-pytorch-v2.3.1-default_config" class="button">Result Logs</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/CTuning/measurements/cm-demo-gfursin-scaleway-L4-1-24G-reference-gpu-pytorch-v2.3.1-default_config" class="button">Measurements</a>
 </div>

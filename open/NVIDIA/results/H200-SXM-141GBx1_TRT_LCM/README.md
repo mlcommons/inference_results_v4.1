@@ -49,7 +49,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NVIDIA/code/H200-SXM-141GBx1_TRT_LCM" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NVIDIA/code" class="button">Code</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NVIDIA/results/H200-SXM-141GBx1_TRT_LCM" class="button">Result Logs</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NVIDIA/measurements/H200-SXM-141GBx1_TRT_LCM" class="button">Measurements</a>
 </div>

@@ -49,7 +49,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/AMD/code/1xMI300X_2xEPYC-9374F" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/AMD/code" class="button">Code</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/AMD/results/1xMI300X_2xEPYC-9374F" class="button">Result Logs</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/AMD/measurements/1xMI300X_2xEPYC-9374F" class="button">Measurements</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/AMD/compliance/1xMI300X_2xEPYC-9374F" class="button">Compliance</a>

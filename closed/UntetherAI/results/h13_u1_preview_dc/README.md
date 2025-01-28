@@ -49,7 +49,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/UntetherAI/code/h13_u1_preview_dc" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/UntetherAI/code" class="button">Code</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/UntetherAI/results/h13_u1_preview_dc" class="button">Result Logs</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/UntetherAI/measurements/h13_u1_preview_dc" class="button">Measurements</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/UntetherAI/compliance/h13_u1_preview_dc" class="button">Compliance</a>
