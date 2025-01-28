@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/Sustainable_Metal_Cloud/measurementss/SMC_H100_SXM_80GBX8_TRT" class="button">Measurements</a>
 <a href="closed/Sustainable_Metal_Cloud/compliances/SMC_H100_SXM_80GBX8_TRT" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

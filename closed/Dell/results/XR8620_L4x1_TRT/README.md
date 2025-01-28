@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/Dell/measurementss/XR8620_L4x1_TRT" class="button">Measurements</a>
 <a href="closed/Dell/compliances/XR8620_L4x1_TRT" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

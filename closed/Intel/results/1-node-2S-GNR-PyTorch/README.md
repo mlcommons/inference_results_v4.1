@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/Intel/measurementss/1-node-2S-GNR-PyTorch" class="button">Measurements</a>
 <a href="closed/Intel/compliances/1-node-2S-GNR-PyTorch" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

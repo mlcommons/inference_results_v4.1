@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/Supermicro/measurementss/SYS_421GE_TNHR2_LCC_H100_SXM_80GBx8_TRT" class="button">Measurements</a>
 <a href="closed/Supermicro/compliances/SYS_421GE_TNHR2_LCC_H100_SXM_80GBx8_TRT" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

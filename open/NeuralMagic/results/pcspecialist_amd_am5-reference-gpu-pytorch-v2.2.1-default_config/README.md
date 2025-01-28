@@ -52,7 +52,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="open/NeuralMagic/codes/pcspecialist_amd_am5-reference-gpu-pytorch-v2.2.1-default_config" class="button">Code</a>
 <a href="open/NeuralMagic/resultss/pcspecialist_amd_am5-reference-gpu-pytorch-v2.2.1-default_config" class="button">Result Logs</a>
 <a href="open/NeuralMagic/measurementss/pcspecialist_amd_am5-reference-gpu-pytorch-v2.2.1-default_config" class="button">Measurements</a>
-
+</div>
 </div>
 </div>
 <div class="details-container">

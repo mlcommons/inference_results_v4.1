@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/NVIDIA/measurementss/H200-SXM-141GBx8_TRT_Triton" class="button">Measurements</a>
 <a href="closed/NVIDIA/compliances/H200-SXM-141GBx8_TRT_Triton" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/UntetherAI/measurementss/r760_u4_slim" class="button">Measurements</a>
 <a href="closed/UntetherAI/compliances/r760_u4_slim" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

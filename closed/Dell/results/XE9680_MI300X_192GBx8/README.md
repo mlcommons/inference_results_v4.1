@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/Dell/measurementss/XE9680_MI300X_192GBx8" class="button">Measurements</a>
 <a href="closed/Dell/compliances/XE9680_MI300X_192GBx8" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

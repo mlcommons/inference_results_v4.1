@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/HPE/measurementss/1-node-2S-EMR-PyTorch" class="button">Measurements</a>
 <a href="closed/HPE/compliances/1-node-2S-EMR-PyTorch" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

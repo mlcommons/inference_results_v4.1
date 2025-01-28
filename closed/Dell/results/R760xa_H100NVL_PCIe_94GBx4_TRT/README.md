@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/Dell/measurementss/R760xa_H100NVL_PCIe_94GBx4_TRT" class="button">Measurements</a>
 <a href="closed/Dell/compliances/R760xa_H100NVL_PCIe_94GBx4_TRT" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

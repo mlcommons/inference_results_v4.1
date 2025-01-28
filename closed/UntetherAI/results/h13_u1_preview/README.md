@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/UntetherAI/measurementss/h13_u1_preview" class="button">Measurements</a>
 <a href="closed/UntetherAI/compliances/h13_u1_preview" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

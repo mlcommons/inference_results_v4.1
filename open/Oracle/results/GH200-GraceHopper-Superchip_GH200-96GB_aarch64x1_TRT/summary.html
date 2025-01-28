@@ -27,6 +27,46 @@
         text-align: left;
     }
 
+        .button-container {
+            display: flex;
+            width: 100%;
+            max-width: 800px; /* Optional: Limit the container width */
+            margin: 0 auto;
+        }
+
+        .button-container a {
+            flex: 1; /* Distribute space evenly */
+            text-decoration: none;
+        }
+
+        .button {
+            padding: 15px 0;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .button:active {
+            background-color: #003f8a;
+            transform: scale(0.95);
+        }
+
+        /* Add spacing between buttons */
+        .button:not(:last-child) {
+            margin-right: 10px;
+        }
+
     .topbar {
         /* position: fixed; */
         top: 0;
@@ -299,7 +339,7 @@
 <a href="open/Oracle/codes/GH200-GraceHopper-Superchip_GH200-96GB_aarch64x1_TRT" class="button">Code</a>
 <a href="open/Oracle/resultss/GH200-GraceHopper-Superchip_GH200-96GB_aarch64x1_TRT" class="button">Result Logs</a>
 <a href="open/Oracle/measurementss/GH200-GraceHopper-Superchip_GH200-96GB_aarch64x1_TRT" class="button">Measurements</a>
-
+</div>
 </div>
 </div>
 <div class="details-container">

@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/Quanta_Cloud_Technology/measurementss/D54U_3U_H100_PCIe_80GBx4_TRT" class="button">Measurements</a>
 <a href="closed/Quanta_Cloud_Technology/compliances/D54U_3U_H100_PCIe_80GBx4_TRT" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

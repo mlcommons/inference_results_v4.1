@@ -52,7 +52,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="open/NVIDIA/codes/H200-SXM-141GBx1_TRT_Sparse" class="button">Code</a>
 <a href="open/NVIDIA/resultss/H200-SXM-141GBx1_TRT_Sparse" class="button">Result Logs</a>
 <a href="open/NVIDIA/measurementss/H200-SXM-141GBx1_TRT_Sparse" class="button">Measurements</a>
-
+</div>
 </div>
 </div>
 <div class="details-container">

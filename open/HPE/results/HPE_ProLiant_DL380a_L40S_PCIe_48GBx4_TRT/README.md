@@ -52,7 +52,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="open/HPE/codes/HPE_ProLiant_DL380a_L40S_PCIe_48GBx4_TRT" class="button">Code</a>
 <a href="open/HPE/resultss/HPE_ProLiant_DL380a_L40S_PCIe_48GBx4_TRT" class="button">Result Logs</a>
 <a href="open/HPE/measurementss/HPE_ProLiant_DL380a_L40S_PCIe_48GBx4_TRT" class="button">Measurements</a>
-
+</div>
 </div>
 </div>
 <div class="details-container">

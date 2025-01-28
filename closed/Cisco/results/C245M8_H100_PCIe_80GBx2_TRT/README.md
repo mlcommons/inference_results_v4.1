@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/Cisco/measurementss/C245M8_H100_PCIe_80GBx2_TRT" class="button">Measurements</a>
 <a href="closed/Cisco/compliances/C245M8_H100_PCIe_80GBx2_TRT" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

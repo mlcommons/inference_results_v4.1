@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/HPE/measurementss/HPE_ProLiant_DL380a_H100_NVL_94GBx4_TRT" class="button">Measurements</a>
 <a href="closed/HPE/compliances/HPE_ProLiant_DL380a_H100_NVL_94GBx4_TRT" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/AMD/measurementss/1xMI300X_2xEPYC-9374F" class="button">Measurements</a>
 <a href="closed/AMD/compliances/1xMI300X_2xEPYC-9374F" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

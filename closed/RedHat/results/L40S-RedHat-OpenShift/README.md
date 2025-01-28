@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/RedHat/measurementss/L40S-RedHat-OpenShift" class="button">Measurements</a>
 <a href="closed/RedHat/compliances/L40S-RedHat-OpenShift" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

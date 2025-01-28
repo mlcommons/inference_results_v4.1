@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/Dell/measurementss/XE9640_H100_SXM_80GBx4_TRT" class="button">Measurements</a>
 <a href="closed/Dell/compliances/XE9640_H100_SXM_80GBx4_TRT" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

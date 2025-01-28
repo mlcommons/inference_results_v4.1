@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/Supermicro/measurementss/GH200-GraceHopper-Superchip_GH200-96GB_aarch64x1_TRT" class="button">Measurements</a>
 <a href="closed/Supermicro/compliances/GH200-GraceHopper-Superchip_GH200-96GB_aarch64x1_TRT" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

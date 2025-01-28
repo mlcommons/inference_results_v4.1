@@ -52,7 +52,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="open/NVIDIA/codes/Orin_TRT_DepthPruned" class="button">Code</a>
 <a href="open/NVIDIA/resultss/Orin_TRT_DepthPruned" class="button">Result Logs</a>
 <a href="open/NVIDIA/measurementss/Orin_TRT_DepthPruned" class="button">Measurements</a>
-
+</div>
 </div>
 </div>
 <div class="details-container">

@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/Lenovo/measurementss/Lenovo_2xL4_TRT" class="button">Measurements</a>
 <a href="closed/Lenovo/compliances/Lenovo_2xL4_TRT" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

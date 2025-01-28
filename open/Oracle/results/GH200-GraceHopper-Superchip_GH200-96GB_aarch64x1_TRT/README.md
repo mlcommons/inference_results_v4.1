@@ -52,7 +52,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="open/Oracle/codes/GH200-GraceHopper-Superchip_GH200-96GB_aarch64x1_TRT" class="button">Code</a>
 <a href="open/Oracle/resultss/GH200-GraceHopper-Superchip_GH200-96GB_aarch64x1_TRT" class="button">Result Logs</a>
 <a href="open/Oracle/measurementss/GH200-GraceHopper-Superchip_GH200-96GB_aarch64x1_TRT" class="button">Measurements</a>
-
+</div>
 </div>
 </div>
 <div class="details-container">

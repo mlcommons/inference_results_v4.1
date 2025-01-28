@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/Lenovo/measurementss/H200_SXM_141GBx8_TRT" class="button">Measurements</a>
 <a href="closed/Lenovo/compliances/H200_SXM_141GBx8_TRT" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

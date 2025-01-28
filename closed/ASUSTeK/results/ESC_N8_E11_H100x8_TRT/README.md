@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/ASUSTeK/measurementss/ESC_N8_E11_H100x8_TRT" class="button">Measurements</a>
 <a href="closed/ASUSTeK/compliances/ESC_N8_E11_H100x8_TRT" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

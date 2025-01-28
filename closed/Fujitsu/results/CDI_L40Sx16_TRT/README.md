@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/Fujitsu/measurementss/CDI_L40Sx16_TRT" class="button">Measurements</a>
 <a href="closed/Fujitsu/compliances/CDI_L40Sx16_TRT" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

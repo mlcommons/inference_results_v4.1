@@ -52,7 +52,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="open/NeuralMagic/codes/4xH100-SXM-80GB_vLLM_GPTQ-reference-cpu-pytorch-v2.3.1-default_config" class="button">Code</a>
 <a href="open/NeuralMagic/resultss/4xH100-SXM-80GB_vLLM_GPTQ-reference-cpu-pytorch-v2.3.1-default_config" class="button">Result Logs</a>
 <a href="open/NeuralMagic/measurementss/4xH100-SXM-80GB_vLLM_GPTQ-reference-cpu-pytorch-v2.3.1-default_config" class="button">Measurements</a>
-
+</div>
 </div>
 </div>
 <div class="details-container">

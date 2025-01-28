@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/NVIDIA/measurementss/B200-SXM-180GBx1_TRT" class="button">Measurements</a>
 <a href="closed/NVIDIA/compliances/B200-SXM-180GBx1_TRT" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">

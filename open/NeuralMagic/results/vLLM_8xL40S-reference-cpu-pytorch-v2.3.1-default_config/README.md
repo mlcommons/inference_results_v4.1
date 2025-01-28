@@ -52,7 +52,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="open/NeuralMagic/codes/vLLM_8xL40S-reference-cpu-pytorch-v2.3.1-default_config" class="button">Code</a>
 <a href="open/NeuralMagic/resultss/vLLM_8xL40S-reference-cpu-pytorch-v2.3.1-default_config" class="button">Result Logs</a>
 <a href="open/NeuralMagic/measurementss/vLLM_8xL40S-reference-cpu-pytorch-v2.3.1-default_config" class="button">Measurements</a>
-
+</div>
 </div>
 </div>
 <div class="details-container">

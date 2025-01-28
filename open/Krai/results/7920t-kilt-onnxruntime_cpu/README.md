@@ -52,7 +52,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="open/Krai/codes/7920t-kilt-onnxruntime_cpu" class="button">Code</a>
 <a href="open/Krai/resultss/7920t-kilt-onnxruntime_cpu" class="button">Result Logs</a>
 <a href="open/Krai/measurementss/7920t-kilt-onnxruntime_cpu" class="button">Measurements</a>
-
+</div>
 </div>
 </div>
 <div class="details-container">

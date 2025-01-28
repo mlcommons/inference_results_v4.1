@@ -54,7 +54,6 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <a href="closed/Google/measurementss/tpu_v5e_x4_flax" class="button">Measurements</a>
 <a href="closed/Google/compliances/tpu_v5e_x4_flax" class="button">Compliance</a>
 </div>
-
 </div>
 </div>
 <div class="details-container">
