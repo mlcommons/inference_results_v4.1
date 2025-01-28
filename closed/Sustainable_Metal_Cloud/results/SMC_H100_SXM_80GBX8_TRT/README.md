@@ -47,6 +47,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
+<div class="welcome-section-wrapper">
+<div class="button-container">
+<a href="closed/Sustainable_Metal_Cloud/codes/SMC_H100_SXM_80GBX8_TRT" class="button">Code</a>
+<a href="closed/Sustainable_Metal_Cloud/resultss/SMC_H100_SXM_80GBX8_TRT" class="button">Result Logs</a>
+<a href="closed/Sustainable_Metal_Cloud/measurementss/SMC_H100_SXM_80GBX8_TRT" class="button">Measurements</a>
+<a href="closed/Sustainable_Metal_Cloud/compliances/SMC_H100_SXM_80GBX8_TRT" class="button">Compliance</a>
+</div>
+
+</div>
 </div>
 <div class="details-container">
 <div class="table-half table-striped">

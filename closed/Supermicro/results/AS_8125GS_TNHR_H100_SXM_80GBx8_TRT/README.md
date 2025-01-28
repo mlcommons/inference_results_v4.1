@@ -47,6 +47,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
+<div class="welcome-section-wrapper">
+<div class="button-container">
+<a href="closed/Supermicro/codes/AS_8125GS_TNHR_H100_SXM_80GBx8_TRT" class="button">Code</a>
+<a href="closed/Supermicro/resultss/AS_8125GS_TNHR_H100_SXM_80GBx8_TRT" class="button">Result Logs</a>
+<a href="closed/Supermicro/measurementss/AS_8125GS_TNHR_H100_SXM_80GBx8_TRT" class="button">Measurements</a>
+<a href="closed/Supermicro/compliances/AS_8125GS_TNHR_H100_SXM_80GBx8_TRT" class="button">Compliance</a>
+</div>
+
+</div>
 </div>
 <div class="details-container">
 <div class="table-half table-striped">

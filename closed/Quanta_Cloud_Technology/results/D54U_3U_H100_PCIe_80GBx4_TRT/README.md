@@ -47,6 +47,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
+<div class="welcome-section-wrapper">
+<div class="button-container">
+<a href="closed/Quanta_Cloud_Technology/codes/D54U_3U_H100_PCIe_80GBx4_TRT" class="button">Code</a>
+<a href="closed/Quanta_Cloud_Technology/resultss/D54U_3U_H100_PCIe_80GBx4_TRT" class="button">Result Logs</a>
+<a href="closed/Quanta_Cloud_Technology/measurementss/D54U_3U_H100_PCIe_80GBx4_TRT" class="button">Measurements</a>
+<a href="closed/Quanta_Cloud_Technology/compliances/D54U_3U_H100_PCIe_80GBx4_TRT" class="button">Compliance</a>
+</div>
+
+</div>
 </div>
 <div class="details-container">
 <div class="table-half table-striped">

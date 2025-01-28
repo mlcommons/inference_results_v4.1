@@ -47,6 +47,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
+<div class="welcome-section-wrapper">
+<div class="button-container">
+<a href="closed/HPE/codes/HPE_ProLiant_DL380a_H100_NVL_94GBx4_TRT" class="button">Code</a>
+<a href="closed/HPE/resultss/HPE_ProLiant_DL380a_H100_NVL_94GBx4_TRT" class="button">Result Logs</a>
+<a href="closed/HPE/measurementss/HPE_ProLiant_DL380a_H100_NVL_94GBx4_TRT" class="button">Measurements</a>
+<a href="closed/HPE/compliances/HPE_ProLiant_DL380a_H100_NVL_94GBx4_TRT" class="button">Compliance</a>
+</div>
+
+</div>
 </div>
 <div class="details-container">
 <div class="table-half table-striped">

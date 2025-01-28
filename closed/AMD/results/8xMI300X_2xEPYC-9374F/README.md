@@ -47,6 +47,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
+<div class="welcome-section-wrapper">
+<div class="button-container">
+<a href="closed/AMD/codes/8xMI300X_2xEPYC-9374F" class="button">Code</a>
+<a href="closed/AMD/resultss/8xMI300X_2xEPYC-9374F" class="button">Result Logs</a>
+<a href="closed/AMD/measurementss/8xMI300X_2xEPYC-9374F" class="button">Measurements</a>
+<a href="closed/AMD/compliances/8xMI300X_2xEPYC-9374F" class="button">Compliance</a>
+</div>
+
+</div>
 </div>
 <div class="details-container">
 <div class="table-half table-striped">

@@ -47,6 +47,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
+<div class="welcome-section-wrapper">
+<div class="button-container">
+<a href="closed/JuniperNetworks/codes/DGX-H100_H100-SXM-80GBx32_TRT" class="button">Code</a>
+<a href="closed/JuniperNetworks/resultss/DGX-H100_H100-SXM-80GBx32_TRT" class="button">Result Logs</a>
+<a href="closed/JuniperNetworks/measurementss/DGX-H100_H100-SXM-80GBx32_TRT" class="button">Measurements</a>
+<a href="closed/JuniperNetworks/compliances/DGX-H100_H100-SXM-80GBx32_TRT" class="button">Compliance</a>
+</div>
+
+</div>
 </div>
 <div class="details-container">
 <div class="table-half table-striped">

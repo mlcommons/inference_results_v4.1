@@ -47,6 +47,13 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
+<div class="welcome-section-wrapper">
+<div class="button-container">
+<a href="open/NeuralMagic/codes/ASUS_Vivobook-reference-cpu-deepsparse_v1.8.0-default_config" class="button">Code</a>
+<a href="open/NeuralMagic/resultss/ASUS_Vivobook-reference-cpu-deepsparse_v1.8.0-default_config" class="button">Result Logs</a>
+<a href="open/NeuralMagic/measurementss/ASUS_Vivobook-reference-cpu-deepsparse_v1.8.0-default_config" class="button">Measurements</a>
+
+</div>
 </div>
 <div class="details-container">
 <div class="table-half table-striped">

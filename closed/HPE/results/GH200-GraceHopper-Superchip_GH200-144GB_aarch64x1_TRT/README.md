@@ -47,6 +47,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
+<div class="welcome-section-wrapper">
+<div class="button-container">
+<a href="closed/HPE/codes/GH200-GraceHopper-Superchip_GH200-144GB_aarch64x1_TRT" class="button">Code</a>
+<a href="closed/HPE/resultss/GH200-GraceHopper-Superchip_GH200-144GB_aarch64x1_TRT" class="button">Result Logs</a>
+<a href="closed/HPE/measurementss/GH200-GraceHopper-Superchip_GH200-144GB_aarch64x1_TRT" class="button">Measurements</a>
+<a href="closed/HPE/compliances/GH200-GraceHopper-Superchip_GH200-144GB_aarch64x1_TRT" class="button">Compliance</a>
+</div>
+
+</div>
 </div>
 <div class="details-container">
 <div class="table-half table-striped">

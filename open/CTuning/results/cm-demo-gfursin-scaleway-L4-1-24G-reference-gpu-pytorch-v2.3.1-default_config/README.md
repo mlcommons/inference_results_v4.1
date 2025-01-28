@@ -47,6 +47,13 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
+<div class="welcome-section-wrapper">
+<div class="button-container">
+<a href="open/CTuning/codes/cm-demo-gfursin-scaleway-L4-1-24G-reference-gpu-pytorch-v2.3.1-default_config" class="button">Code</a>
+<a href="open/CTuning/resultss/cm-demo-gfursin-scaleway-L4-1-24G-reference-gpu-pytorch-v2.3.1-default_config" class="button">Result Logs</a>
+<a href="open/CTuning/measurementss/cm-demo-gfursin-scaleway-L4-1-24G-reference-gpu-pytorch-v2.3.1-default_config" class="button">Measurements</a>
+
+</div>
 </div>
 <div class="details-container">
 <div class="table-half table-striped">

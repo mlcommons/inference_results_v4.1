@@ -47,6 +47,13 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
+<div class="welcome-section-wrapper">
+<div class="button-container">
+<a href="open/NVIDIA/codes/Orin_TRT_DepthPruned" class="button">Code</a>
+<a href="open/NVIDIA/resultss/Orin_TRT_DepthPruned" class="button">Result Logs</a>
+<a href="open/NVIDIA/measurementss/Orin_TRT_DepthPruned" class="button">Measurements</a>
+
+</div>
 </div>
 <div class="details-container">
 <div class="table-half table-striped">

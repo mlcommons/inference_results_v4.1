@@ -47,6 +47,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
+<div class="welcome-section-wrapper">
+<div class="button-container">
+<a href="closed/NVIDIA/codes/H200-SXM-141GBx8_TRT_Triton" class="button">Code</a>
+<a href="closed/NVIDIA/resultss/H200-SXM-141GBx8_TRT_Triton" class="button">Result Logs</a>
+<a href="closed/NVIDIA/measurementss/H200-SXM-141GBx8_TRT_Triton" class="button">Measurements</a>
+<a href="closed/NVIDIA/compliances/H200-SXM-141GBx8_TRT_Triton" class="button">Compliance</a>
+</div>
+
+</div>
 </div>
 <div class="details-container">
 <div class="table-half table-striped">

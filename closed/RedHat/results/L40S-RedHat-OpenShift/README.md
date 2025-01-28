@@ -47,6 +47,15 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
+<div class="welcome-section-wrapper">
+<div class="button-container">
+<a href="closed/RedHat/codes/L40S-RedHat-OpenShift" class="button">Code</a>
+<a href="closed/RedHat/resultss/L40S-RedHat-OpenShift" class="button">Result Logs</a>
+<a href="closed/RedHat/measurementss/L40S-RedHat-OpenShift" class="button">Measurements</a>
+<a href="closed/RedHat/compliances/L40S-RedHat-OpenShift" class="button">Compliance</a>
+</div>
+
+</div>
 </div>
 <div class="details-container">
 <div class="table-half table-striped">

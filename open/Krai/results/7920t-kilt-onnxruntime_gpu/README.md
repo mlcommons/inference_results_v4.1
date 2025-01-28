@@ -47,6 +47,13 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
+<div class="welcome-section-wrapper">
+<div class="button-container">
+<a href="open/Krai/codes/7920t-kilt-onnxruntime_gpu" class="button">Code</a>
+<a href="open/Krai/resultss/7920t-kilt-onnxruntime_gpu" class="button">Result Logs</a>
+<a href="open/Krai/measurementss/7920t-kilt-onnxruntime_gpu" class="button">Measurements</a>
+
+</div>
 </div>
 <div class="details-container">
 <div class="table-half table-striped">
