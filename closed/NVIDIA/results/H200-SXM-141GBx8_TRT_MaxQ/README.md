@@ -49,10 +49,10 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="https://github.com/gateoverflow/inference_code_v4.1/tree/main/closed/NVIDIA/code/H200-SXM-141GBx8_TRT_MaxQ" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/NVIDIA/code/H200-SXM-141GBx8_TRT_MaxQ" class="button">Code</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/NVIDIA/results/H200-SXM-141GBx8_TRT_MaxQ" class="button">Result Logs</a>
-<a href="https://github.com/gateoverflow/inference_measurements_v4.1/tree/main/closed/NVIDIA/measurements/H200-SXM-141GBx8_TRT_MaxQ" class="button">Measurements</a>
-<a href="https://github.com/gateoverflow/inference_compliance_v4.1/tree/main/closed/NVIDIA/compliance/H200-SXM-141GBx8_TRT_MaxQ" class="button">Compliance</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/NVIDIA/measurements/H200-SXM-141GBx8_TRT_MaxQ" class="button">Measurements</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/NVIDIA/compliance/H200-SXM-141GBx8_TRT_MaxQ" class="button">Compliance</a>
 </div>
 </div>
 </div>

@@ -49,9 +49,9 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="https://github.com/gateoverflow/inference_code_v4.1/tree/main/open/NVIDIA/code/Orin_TRT_DepthPruned" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NVIDIA/code/Orin_TRT_DepthPruned" class="button">Code</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NVIDIA/results/Orin_TRT_DepthPruned" class="button">Result Logs</a>
-<a href="https://github.com/gateoverflow/inference_measurements_v4.1/tree/main/open/NVIDIA/measurements/Orin_TRT_DepthPruned" class="button">Measurements</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NVIDIA/measurements/Orin_TRT_DepthPruned" class="button">Measurements</a>
 </div>
 </div>
 </div>
