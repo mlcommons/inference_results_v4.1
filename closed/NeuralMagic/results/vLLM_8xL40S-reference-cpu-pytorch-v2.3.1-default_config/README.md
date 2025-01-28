@@ -49,10 +49,10 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="closed/NeuralMagic/codes/vLLM_8xL40S-reference-cpu-pytorch-v2.3.1-default_config" class="button">Code</a>
-<a href="closed/NeuralMagic/resultss/vLLM_8xL40S-reference-cpu-pytorch-v2.3.1-default_config" class="button">Result Logs</a>
-<a href="closed/NeuralMagic/measurementss/vLLM_8xL40S-reference-cpu-pytorch-v2.3.1-default_config" class="button">Measurements</a>
-<a href="closed/NeuralMagic/compliances/vLLM_8xL40S-reference-cpu-pytorch-v2.3.1-default_config" class="button">Compliance</a>
+<a href="https://github.com/gateoverflow/inference_code_v4.1/tree/main/closed/NeuralMagic/code/vLLM_8xL40S-reference-cpu-pytorch-v2.3.1-default_config" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/NeuralMagic/results/vLLM_8xL40S-reference-cpu-pytorch-v2.3.1-default_config" class="button">Result Logs</a>
+<a href="https://github.com/gateoverflow/inference_measurements_v4.1/tree/main/closed/NeuralMagic/measurements/vLLM_8xL40S-reference-cpu-pytorch-v2.3.1-default_config" class="button">Measurements</a>
+<a href="https://github.com/gateoverflow/inference_compliance_v4.1/tree/main/closed/NeuralMagic/compliance/vLLM_8xL40S-reference-cpu-pytorch-v2.3.1-default_config" class="button">Compliance</a>
 </div>
 </div>
 </div>

@@ -49,10 +49,10 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="closed/Supermicro/codes/SYS_421GE_TNHR2_LCC_H100_SXM_80GBx8_TRT" class="button">Code</a>
-<a href="closed/Supermicro/resultss/SYS_421GE_TNHR2_LCC_H100_SXM_80GBx8_TRT" class="button">Result Logs</a>
-<a href="closed/Supermicro/measurementss/SYS_421GE_TNHR2_LCC_H100_SXM_80GBx8_TRT" class="button">Measurements</a>
-<a href="closed/Supermicro/compliances/SYS_421GE_TNHR2_LCC_H100_SXM_80GBx8_TRT" class="button">Compliance</a>
+<a href="https://github.com/gateoverflow/inference_code_v4.1/tree/main/closed/Supermicro/code/SYS_421GE_TNHR2_LCC_H100_SXM_80GBx8_TRT" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Supermicro/results/SYS_421GE_TNHR2_LCC_H100_SXM_80GBx8_TRT" class="button">Result Logs</a>
+<a href="https://github.com/gateoverflow/inference_measurements_v4.1/tree/main/closed/Supermicro/measurements/SYS_421GE_TNHR2_LCC_H100_SXM_80GBx8_TRT" class="button">Measurements</a>
+<a href="https://github.com/gateoverflow/inference_compliance_v4.1/tree/main/closed/Supermicro/compliance/SYS_421GE_TNHR2_LCC_H100_SXM_80GBx8_TRT" class="button">Compliance</a>
 </div>
 </div>
 </div>

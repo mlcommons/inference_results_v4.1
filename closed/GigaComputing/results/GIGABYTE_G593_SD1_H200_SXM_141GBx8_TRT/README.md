@@ -49,10 +49,10 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="closed/GigaComputing/codes/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT" class="button">Code</a>
-<a href="closed/GigaComputing/resultss/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT" class="button">Result Logs</a>
-<a href="closed/GigaComputing/measurementss/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT" class="button">Measurements</a>
-<a href="closed/GigaComputing/compliances/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT" class="button">Compliance</a>
+<a href="https://github.com/gateoverflow/inference_code_v4.1/tree/main/closed/GigaComputing/code/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/GigaComputing/results/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT" class="button">Result Logs</a>
+<a href="https://github.com/gateoverflow/inference_measurements_v4.1/tree/main/closed/GigaComputing/measurements/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT" class="button">Measurements</a>
+<a href="https://github.com/gateoverflow/inference_compliance_v4.1/tree/main/closed/GigaComputing/compliance/GIGABYTE_G593_SD1_H200_SXM_141GBx8_TRT" class="button">Compliance</a>
 </div>
 </div>
 </div>

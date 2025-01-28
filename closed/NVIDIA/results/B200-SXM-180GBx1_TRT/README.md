@@ -49,10 +49,10 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="closed/NVIDIA/codes/B200-SXM-180GBx1_TRT" class="button">Code</a>
-<a href="closed/NVIDIA/resultss/B200-SXM-180GBx1_TRT" class="button">Result Logs</a>
-<a href="closed/NVIDIA/measurementss/B200-SXM-180GBx1_TRT" class="button">Measurements</a>
-<a href="closed/NVIDIA/compliances/B200-SXM-180GBx1_TRT" class="button">Compliance</a>
+<a href="https://github.com/gateoverflow/inference_code_v4.1/tree/main/closed/NVIDIA/code/B200-SXM-180GBx1_TRT" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/NVIDIA/results/B200-SXM-180GBx1_TRT" class="button">Result Logs</a>
+<a href="https://github.com/gateoverflow/inference_measurements_v4.1/tree/main/closed/NVIDIA/measurements/B200-SXM-180GBx1_TRT" class="button">Measurements</a>
+<a href="https://github.com/gateoverflow/inference_compliance_v4.1/tree/main/closed/NVIDIA/compliance/B200-SXM-180GBx1_TRT" class="button">Compliance</a>
 </div>
 </div>
 </div>

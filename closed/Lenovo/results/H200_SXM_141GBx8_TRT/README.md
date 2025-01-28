@@ -49,10 +49,10 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="closed/Lenovo/codes/H200_SXM_141GBx8_TRT" class="button">Code</a>
-<a href="closed/Lenovo/resultss/H200_SXM_141GBx8_TRT" class="button">Result Logs</a>
-<a href="closed/Lenovo/measurementss/H200_SXM_141GBx8_TRT" class="button">Measurements</a>
-<a href="closed/Lenovo/compliances/H200_SXM_141GBx8_TRT" class="button">Compliance</a>
+<a href="https://github.com/gateoverflow/inference_code_v4.1/tree/main/closed/Lenovo/code/H200_SXM_141GBx8_TRT" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Lenovo/results/H200_SXM_141GBx8_TRT" class="button">Result Logs</a>
+<a href="https://github.com/gateoverflow/inference_measurements_v4.1/tree/main/closed/Lenovo/measurements/H200_SXM_141GBx8_TRT" class="button">Measurements</a>
+<a href="https://github.com/gateoverflow/inference_compliance_v4.1/tree/main/closed/Lenovo/compliance/H200_SXM_141GBx8_TRT" class="button">Compliance</a>
 </div>
 </div>
 </div>

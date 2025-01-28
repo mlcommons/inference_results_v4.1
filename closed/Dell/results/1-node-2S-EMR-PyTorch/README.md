@@ -49,10 +49,10 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="closed/Dell/codes/1-node-2S-EMR-PyTorch" class="button">Code</a>
-<a href="closed/Dell/resultss/1-node-2S-EMR-PyTorch" class="button">Result Logs</a>
-<a href="closed/Dell/measurementss/1-node-2S-EMR-PyTorch" class="button">Measurements</a>
-<a href="closed/Dell/compliances/1-node-2S-EMR-PyTorch" class="button">Compliance</a>
+<a href="https://github.com/gateoverflow/inference_code_v4.1/tree/main/closed/Dell/code/1-node-2S-EMR-PyTorch" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Dell/results/1-node-2S-EMR-PyTorch" class="button">Result Logs</a>
+<a href="https://github.com/gateoverflow/inference_measurements_v4.1/tree/main/closed/Dell/measurements/1-node-2S-EMR-PyTorch" class="button">Measurements</a>
+<a href="https://github.com/gateoverflow/inference_compliance_v4.1/tree/main/closed/Dell/compliance/1-node-2S-EMR-PyTorch" class="button">Compliance</a>
 </div>
 </div>
 </div>

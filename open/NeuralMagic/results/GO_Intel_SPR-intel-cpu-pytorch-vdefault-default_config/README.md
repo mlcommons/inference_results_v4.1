@@ -49,9 +49,9 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="open/NeuralMagic/codes/GO_Intel_SPR-intel-cpu-pytorch-vdefault-default_config" class="button">Code</a>
-<a href="open/NeuralMagic/resultss/GO_Intel_SPR-intel-cpu-pytorch-vdefault-default_config" class="button">Result Logs</a>
-<a href="open/NeuralMagic/measurementss/GO_Intel_SPR-intel-cpu-pytorch-vdefault-default_config" class="button">Measurements</a>
+<a href="https://github.com/gateoverflow/inference_code_v4.1/tree/main/open/NeuralMagic/code/GO_Intel_SPR-intel-cpu-pytorch-vdefault-default_config" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NeuralMagic/results/GO_Intel_SPR-intel-cpu-pytorch-vdefault-default_config" class="button">Result Logs</a>
+<a href="https://github.com/gateoverflow/inference_measurements_v4.1/tree/main/open/NeuralMagic/measurements/GO_Intel_SPR-intel-cpu-pytorch-vdefault-default_config" class="button">Measurements</a>
 </div>
 </div>
 </div>

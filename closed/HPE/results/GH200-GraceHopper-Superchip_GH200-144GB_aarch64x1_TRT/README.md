@@ -49,10 +49,10 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="closed/HPE/codes/GH200-GraceHopper-Superchip_GH200-144GB_aarch64x1_TRT" class="button">Code</a>
-<a href="closed/HPE/resultss/GH200-GraceHopper-Superchip_GH200-144GB_aarch64x1_TRT" class="button">Result Logs</a>
-<a href="closed/HPE/measurementss/GH200-GraceHopper-Superchip_GH200-144GB_aarch64x1_TRT" class="button">Measurements</a>
-<a href="closed/HPE/compliances/GH200-GraceHopper-Superchip_GH200-144GB_aarch64x1_TRT" class="button">Compliance</a>
+<a href="https://github.com/gateoverflow/inference_code_v4.1/tree/main/closed/HPE/code/GH200-GraceHopper-Superchip_GH200-144GB_aarch64x1_TRT" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/HPE/results/GH200-GraceHopper-Superchip_GH200-144GB_aarch64x1_TRT" class="button">Result Logs</a>
+<a href="https://github.com/gateoverflow/inference_measurements_v4.1/tree/main/closed/HPE/measurements/GH200-GraceHopper-Superchip_GH200-144GB_aarch64x1_TRT" class="button">Measurements</a>
+<a href="https://github.com/gateoverflow/inference_compliance_v4.1/tree/main/closed/HPE/compliance/GH200-GraceHopper-Superchip_GH200-144GB_aarch64x1_TRT" class="button">Compliance</a>
 </div>
 </div>
 </div>

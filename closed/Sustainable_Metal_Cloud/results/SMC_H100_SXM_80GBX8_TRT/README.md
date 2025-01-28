@@ -49,10 +49,10 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="closed/Sustainable_Metal_Cloud/codes/SMC_H100_SXM_80GBX8_TRT" class="button">Code</a>
-<a href="closed/Sustainable_Metal_Cloud/resultss/SMC_H100_SXM_80GBX8_TRT" class="button">Result Logs</a>
-<a href="closed/Sustainable_Metal_Cloud/measurementss/SMC_H100_SXM_80GBX8_TRT" class="button">Measurements</a>
-<a href="closed/Sustainable_Metal_Cloud/compliances/SMC_H100_SXM_80GBX8_TRT" class="button">Compliance</a>
+<a href="https://github.com/gateoverflow/inference_code_v4.1/tree/main/closed/Sustainable_Metal_Cloud/code/SMC_H100_SXM_80GBX8_TRT" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Sustainable_Metal_Cloud/results/SMC_H100_SXM_80GBX8_TRT" class="button">Result Logs</a>
+<a href="https://github.com/gateoverflow/inference_measurements_v4.1/tree/main/closed/Sustainable_Metal_Cloud/measurements/SMC_H100_SXM_80GBX8_TRT" class="button">Measurements</a>
+<a href="https://github.com/gateoverflow/inference_compliance_v4.1/tree/main/closed/Sustainable_Metal_Cloud/compliance/SMC_H100_SXM_80GBX8_TRT" class="button">Compliance</a>
 </div>
 </div>
 </div>

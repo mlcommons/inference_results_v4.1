@@ -49,9 +49,9 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="open/HPE/codes/HPE_Cray_XD670_H100_SXM_80GBx8_TRT" class="button">Code</a>
-<a href="open/HPE/resultss/HPE_Cray_XD670_H100_SXM_80GBx8_TRT" class="button">Result Logs</a>
-<a href="open/HPE/measurementss/HPE_Cray_XD670_H100_SXM_80GBx8_TRT" class="button">Measurements</a>
+<a href="https://github.com/gateoverflow/inference_code_v4.1/tree/main/open/HPE/code/HPE_Cray_XD670_H100_SXM_80GBx8_TRT" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/HPE/results/HPE_Cray_XD670_H100_SXM_80GBx8_TRT" class="button">Result Logs</a>
+<a href="https://github.com/gateoverflow/inference_measurements_v4.1/tree/main/open/HPE/measurements/HPE_Cray_XD670_H100_SXM_80GBx8_TRT" class="button">Measurements</a>
 </div>
 </div>
 </div>

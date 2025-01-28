@@ -49,10 +49,10 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 <div class="welcome-section-wrapper">
 <div class="button-container">
-<a href="closed/Dell/codes/XR8620_L4x1_TRT" class="button">Code</a>
-<a href="closed/Dell/resultss/XR8620_L4x1_TRT" class="button">Result Logs</a>
-<a href="closed/Dell/measurementss/XR8620_L4x1_TRT" class="button">Measurements</a>
-<a href="closed/Dell/compliances/XR8620_L4x1_TRT" class="button">Compliance</a>
+<a href="https://github.com/gateoverflow/inference_code_v4.1/tree/main/closed/Dell/code/XR8620_L4x1_TRT" class="button">Code</a>
+<a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Dell/results/XR8620_L4x1_TRT" class="button">Result Logs</a>
+<a href="https://github.com/gateoverflow/inference_measurements_v4.1/tree/main/closed/Dell/measurements/XR8620_L4x1_TRT" class="button">Measurements</a>
+<a href="https://github.com/gateoverflow/inference_compliance_v4.1/tree/main/closed/Dell/compliance/XR8620_L4x1_TRT" class="button">Compliance</a>
 </div>
 </div>
 </div>
