@@ -17,6 +17,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <div class="titlebarcontainer">
 <div class="titlebar">
 <h1 class="main-title">MLPerf Inference v4.1</h1>
+<span class="date-right">August 2024</span>
 <p class="main-title-description">Copyright 2019 - 2025 MLCommons</p>
 </div>
 </div>
@@ -26,21 +27,21 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <div class="test-details-container table-half">
 <div class="test-details">
 <div class="details-group">
-<span id="license_num" class="details-cell"><a href="">MLPerf Inference Category:</a></span>
+<span id="license_num" class="details-cell"><a href="https://github.com/mlcommons/inference/blob/master/README.md">MLPerf Inference Category:</a></span>
 <span id="license_num_val" class="details-cell">datacenter</span>
 </div>
 <div class="details-group">
-<span id="sw_avail" class="details-cell"><a href="">Availability:</a></span>
-<span id="sw_avail_val" class="details-cell">Preview  as of August 2024, should be avaiable within 180 days</span>
+<span id="sw_avail" class="details-cell"><a href="https://github.com/mlcommons/policies/blob/master/submission_rules.adoc#results-categories">Availability:</a></span>
+<span id="sw_avail_val" class="details-cell">preview</span>
 </div>
 </div>
 <div class="test-details">
 <div class="details-group">
-<span id="tester" class="details-cell"><a href="">Submitted by:</a></span>
+<span id="tester" class="details-cell">Submitted by:</span>
 <span id="tester_val" class="details-cell">NVIDIA</span>
 </div>
 <div class="details-group">
-<span id="test_date" class="details-cell"><a href="">MLPerf Inference Division:</a></span>
+<span id="test_date" class="details-cell"><a href="https://github.com/mlcommons/inference_policies/blob/master/inference_rules.adoc#divisions">MLPerf Inference Division:</a></span>
 <span id="test_date_val" class="details-cell">closed</span>
 </div>
 </div>
@@ -79,7 +80,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <h3>Accelerator Details</h3>
 <div class="table-container">
 <table class="table">
-<tr><td>accelerator_model_name</td><td>NVIDIA B200-SXM-180GB</td></tr><tr><td>accelerators_per_node</td><td>1</td></tr><tr><td>accelerator_memory_capacity</td><td>180 GB</td></tr><tr><td>accelerator_host_interconnect</td><td>PCIe Gen5 x16</td></tr><tr><td>accelerator_frequency</td><td></td></tr><tr><td>accelerator_host_interconnect</td><td>PCIe Gen5 x16</td></tr><tr><td>accelerator_interconnect</td><td>N/A</td></tr><tr><td>accelerator_interconnect_topology</td><td></td></tr><tr><td>accelerator_memory_capacity</td><td>180 GB</td></tr><tr><td>accelerator_memory_configuration</td><td>HBM3e</td></tr><tr><td>accelerator_model_name</td><td>NVIDIA B200-SXM-180GB</td></tr><tr><td>accelerator_on-chip_memories</td><td></td></tr><tr><td>accelerators_per_node</td><td>1</td></tr></table></div></div>
+<tr><td>accelerator_model_name</td><td>NVIDIA B200-SXM-180GB</td></tr><tr><td>accelerators_per_node</td><td>1</td></tr><tr><td>accelerator_memory_capacity</td><td>180 GB</td></tr><tr><td>accelerator_host_interconnect</td><td>PCIe Gen5 x16</td></tr><tr><td>accelerator_host_interconnect</td><td>PCIe Gen5 x16</td></tr><tr><td>accelerator_memory_capacity</td><td>180 GB</td></tr><tr><td>accelerator_model_name</td><td>NVIDIA B200-SXM-180GB</td></tr><tr><td>accelerators_per_node</td><td>1</td></tr></table></div></div>
 <div class="table-wrapper"><div class="yellow-strip floater" data-speed="0.1" style="transform: translate3d(0px, 19px, 0px);">
 <svg role="presentation" aria-hidden="true" width="83" height="21" viewBox="0 0 83 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 0L0 3.42863L3.24487 0L0 0Z" fill="#FBBC04"></path>
@@ -101,7 +102,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <h3>Processor and Memory Details</h3>
 <div class="table-container">
 <table class="table">
-<tr><td>host_memory_capacity</td><td>408GB</td></tr><tr><td>host_memory_configuration</td><td>6x 64GB MTC40F2046S1RC48BA1</td></tr><tr><td>host_processor_caches</td><td></td></tr><tr><td>host_processor_core_count</td><td>12</td></tr><tr><td>host_processor_frequency</td><td></td></tr><tr><td>host_processor_interconnect</td><td></td></tr><tr><td>host_processor_model_name</td><td>Intel(R) Xeon(R) Silver 4410Y</td></tr><tr><td>host_processors_per_node</td><td>1</td></tr></table></div></div>
+<tr><td>host_processor_model_name</td><td>Intel(R) Xeon(R) Silver 4410Y</td></tr><tr><td>host_processors_per_node</td><td>1</td></tr><tr><td>host_processor_core_count</td><td>12</td></tr><tr><td>host_processor_frequency</td><td></td></tr><tr><td>host_memory_capacity</td><td>408GB</td></tr><tr><td>host_memory_configuration</td><td>6x 64GB MTC40F2046S1RC48BA1</td></tr><tr><td>host_processor_caches</td><td></td></tr><tr><td>host_processor_interconnect</td><td></td></tr></table></div></div>
 </div>
 <div class="table-half table-striped">
 <div class="table-wrapper"><div class="yellow-strip floater" data-speed="0.1" style="transform: translate3d(0px, 19px, 0px);">
