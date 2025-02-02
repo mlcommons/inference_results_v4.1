@@ -6,7 +6,7 @@ theme:
   favicon: img/logo_v2.svg
   palette:
     primary: grey
-    accent: cyan
+    accent: blue grey
  
   custom_dir: overrides
   features:
