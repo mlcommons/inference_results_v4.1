@@ -80,7 +80,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <h3>Accelerator Details</h3>
 <div class="table-container">
 <table class="table">
-<tr><td>accelerator_model_name</td><td>NVIDIA H100-PCIe-80GB</td></tr><tr><td>accelerators_per_node</td><td>4</td></tr><tr><td>accelerator_memory_capacity</td><td>80 GB</td></tr><tr><td>accelerator_host_interconnect</td><td>PCIe Gen5 x16</td></tr><tr><td>accelerator_host_interconnect</td><td>PCIe Gen5 x16</td></tr><tr><td>accelerator_memory_capacity</td><td>80 GB</td></tr><tr><td>accelerator_model_name</td><td>NVIDIA H100-PCIe-80GB</td></tr><tr><td>accelerators_per_node</td><td>4</td></tr></table></div></div>
+<tr><td>accelerator_model_name</td><td>NVIDIA H100-PCIe-80GB</td></tr><tr><td>accelerators_per_node</td><td>4</td></tr><tr><td>accelerator_memory_capacity</td><td>80 GB</td></tr><tr><td>accelerator_host_interconnect</td><td>PCIe Gen5 x16</td></tr><tr><td>accelerator_frequency</td><td></td></tr><tr><td>accelerator_interconnect</td><td>PCIe Gen5 x16</td></tr><tr><td>accelerator_interconnect_topology</td><td></td></tr><tr><td>accelerator_memory_configuration</td><td>HBM2e</td></tr><tr><td>accelerator_on-chip_memories</td><td></td></tr></table></div></div>
 <div class="table-wrapper"><div class="yellow-strip floater" data-speed="0.1" style="transform: translate3d(0px, 19px, 0px);">
 <svg role="presentation" aria-hidden="true" width="83" height="21" viewBox="0 0 83 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 0L0 3.42863L3.24487 0L0 0Z" fill="#FBBC04"></path>
