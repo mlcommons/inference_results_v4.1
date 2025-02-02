@@ -1,12 +1,12 @@
 site_name: MLPerf Inference Results Comparison
-repo_url: https://github.com/mlcommons/inference_results_v4.0
+repo_url: https://github.com/mlcommons/inference_results_v4.1
 theme:
   name: material
   logo: img/logo_v2.svg
   favicon: img/logo_v2.svg
   palette:
-    primary: deep purple
-    accent: yellow
+    primary: gray
+    accent: cyan
   custom_dir: overrides
   features:
     - content.tabs.link
