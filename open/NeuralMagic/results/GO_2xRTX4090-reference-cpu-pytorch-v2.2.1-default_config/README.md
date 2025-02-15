@@ -208,7 +208,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>llama2-70b-99</td><td>ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td></td><td></td><td></td><td>ROUGE1: 44.0047, ROUGE2: 21.7276, ROUGEL: 28.4008, TOKENS PER SAMPLE: 291.9</td><td class="units">Tokens/s</td> <td class="perf">424.895</td><tr><td>llama2-70b-99.9</td><td>ROUGE1: 44.3868, ROUGE2: 22.0132, ROUGEL: 28.5876, TOKENS_PER_SAMPLE: 265.005</td><td>ROUGE1: 42.0442, ROUGE2: 19.8615, ROUGEL: 26.7971, TOKENS PER SAMPLE: 283.5</td><td class="units">Queries/s</td> <td class="perf">1954.36</td><td>ROUGE1: 44.0047, ROUGE2: 21.7276, ROUGEL: 28.4008, TOKENS PER SAMPLE: 291.9</td><td class="units">Tokens/s</td> <td class="perf">424.895</td></table></div></div>
+</tr><tr><td class="model">llama2-70b-99</td><td class="acc-target">ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td></td><td></td><td></td><td class="accuracy">ROUGE1: 44.0047, ROUGE2: 21.7276, ROUGEL: 28.4008, TOKENS PER SAMPLE: 291.9</td><td class="units">Tokens/s</td> <td class="perf">424.89</td><tr><td class="model">llama2-70b-99.9</td><td class="acc-target">ROUGE1: 44.3868, ROUGE2: 22.0132, ROUGEL: 28.5876, TOKENS_PER_SAMPLE: 265.005</td><td class="accuracy">ROUGE1: 42.0442, ROUGE2: 19.8615, ROUGEL: 26.7971, TOKENS PER SAMPLE: 283.5</td><td class="units">Queries/s</td> <td class="perf">1954.36</td><td class="accuracy">ROUGE1: 44.0047, ROUGE2: 21.7276, ROUGEL: 28.4008, TOKENS PER SAMPLE: 291.9</td><td class="units">Tokens/s</td> <td class="perf">424.89</td></table></div></div>
 </div>
 </div>
 </main>

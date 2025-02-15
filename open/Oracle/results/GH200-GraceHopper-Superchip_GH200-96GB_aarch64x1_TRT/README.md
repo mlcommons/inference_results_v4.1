@@ -208,7 +208,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td></td><td></td><td></td><td>AUC: 80.166</td><td class="units">Samples/s</td> <td class="perf">62061.8</td><tr><td>dlrm-v2-99.9</td><td>AUC: 80.2297</td><td></td><td></td><td></td><td>AUC: 80.233</td><td class="units">Samples/s</td> <td class="perf">40885.9</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td>CLIP SCORE: 31.78172, FID SCORE: 23.66742</td><td class="units">Queries/s</td> <td class="perf">1.80046</td><td>CLIP SCORE: 31.79352, FID SCORE: 23.41676</td><td class="units">Samples/s</td> <td class="perf">2.32815</td></table></div></div>
+</tr><tr><td class="model">dlrm-v2-99</td><td class="acc-target">AUC: 79.5069</td><td></td><td></td><td></td><td class="accuracy">AUC: 80.166</td><td class="units">Samples/s</td> <td class="perf">62061.80</td><tr><td class="model">dlrm-v2-99.9</td><td class="acc-target">AUC: 80.2297</td><td></td><td></td><td></td><td class="accuracy">AUC: 80.233</td><td class="units">Samples/s</td> <td class="perf">40885.90</td><tr><td class="model">stable-diffusion-xl</td><td class="acc-target">CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td class="accuracy">CLIP SCORE: 31.78172, FID SCORE: 23.66742</td><td class="units">Queries/s</td> <td class="perf">1.80</td><td class="accuracy">CLIP SCORE: 31.79352, FID SCORE: 23.41676</td><td class="units">Samples/s</td> <td class="perf">2.33</td></table></div></div>
 </div>
 </div>
 </main>

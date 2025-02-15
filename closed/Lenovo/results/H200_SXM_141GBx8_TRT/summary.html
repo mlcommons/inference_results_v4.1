@@ -245,7 +245,7 @@ display: inline-block; /* Allows background-color to apply */
     border-bottom: 2px solid #b3b6b9;
 }
 
-.perf{
+.perf,.accuracy{
  text-align: right;
     padding-right: 20px;
     font-weight: bold;
@@ -253,6 +253,13 @@ display: inline-block; /* Allows background-color to apply */
 .units{
 text-align: center;
     padding-left: 20px;
+}
+.na{
+text-align: center;
+}
+.model,.acc-target {
+text-align: left;
+padding-left: 20px;
 }
 
 
@@ -535,7 +542,7 @@ text-align: center;
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>retinanet</td><td>mAP: 37.1745</td><td class="units">Queries/s</td> <td class="perf">13164.0</td><td class="units">Samples/s</td> <td class="perf">15015.4</td><tr><td>bert-99</td><td>F1: 89.9653</td><td class="units">Queries/s</td> <td class="perf">56811.1</td><td class="units">Samples/s</td> <td class="perf">70319.1</td><tr><td>bert-99.9</td><td>F1: 90.7831</td><td class="units">Queries/s</td> <td class="perf">51211.0</td><td class="units">Samples/s</td> <td class="perf">62102.5</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td class="units">Samples/s</td> <td class="perf">54.3653</td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td><td class="units">Samples/s</td> <td class="perf">54.3653</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td class="units">Tokens/s</td> <td class="perf">19716.0</td><td class="units">Tokens/s</td> <td class="perf">19859.2</td><tr><td>llama2-70b-99</td><td>ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td class="units">Tokens/s</td> <td class="perf">30068.5</td><td class="units">Tokens/s</td> <td class="perf">31917.0</td><tr><td>llama2-70b-99.9</td><td>ROUGE1: 44.3868, ROUGE2: 22.0132, ROUGEL: 28.5876, TOKENS_PER_SAMPLE: 265.005</td><td class="units">Tokens/s</td> <td class="perf">30068.5</td><td class="units">Tokens/s</td> <td class="perf">31917.0</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td class="units">Queries/s</td> <td class="perf">16.645</td><td class="units">Samples/s</td> <td class="perf">17.1877</td></table></div></div>
+</tr><tr><td class="model">retinanet</td><td class="acc-target">mAP: 37.1745</td><td class="units">Queries/s</td> <td class="perf">13164.00</td><td class="units">Samples/s</td> <td class="perf">15015.40</td><tr><td class="model">bert-99</td><td class="acc-target">F1: 89.9653</td><td class="units">Queries/s</td> <td class="perf">56811.10</td><td class="units">Samples/s</td> <td class="perf">70319.10</td><tr><td class="model">bert-99.9</td><td class="acc-target">F1: 90.7831</td><td class="units">Queries/s</td> <td class="perf">51211.00</td><td class="units">Samples/s</td> <td class="perf">62102.50</td><tr><td class="model">3d-unet-99</td><td class="acc-target">DICE: 0.8531</td><td class="na" colspan="2"> N/A </td><td class="units">Samples/s</td> <td class="perf">54.37</td><tr><td class="model">3d-unet-99.9</td><td class="acc-target">DICE: 0.8608</td><td class="na" colspan="2"> N/A </td><td class="units">Samples/s</td> <td class="perf">54.37</td><tr><td class="model">gptj-99</td><td class="acc-target">ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td class="units">Tokens/s</td> <td class="perf">19716.00</td><td class="units">Tokens/s</td> <td class="perf">19859.20</td><tr><td class="model">llama2-70b-99</td><td class="acc-target">ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td class="units">Tokens/s</td> <td class="perf">30068.50</td><td class="units">Tokens/s</td> <td class="perf">31917.00</td><tr><td class="model">llama2-70b-99.9</td><td class="acc-target">ROUGE1: 44.3868, ROUGE2: 22.0132, ROUGEL: 28.5876, TOKENS_PER_SAMPLE: 265.005</td><td class="units">Tokens/s</td> <td class="perf">30068.50</td><td class="units">Tokens/s</td> <td class="perf">31917.00</td><tr><td class="model">stable-diffusion-xl</td><td class="acc-target">CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td class="units">Queries/s</td> <td class="perf">16.64</td><td class="units">Samples/s</td> <td class="perf">17.19</td></table></div></div>
 </div>
 </div>
 </main>

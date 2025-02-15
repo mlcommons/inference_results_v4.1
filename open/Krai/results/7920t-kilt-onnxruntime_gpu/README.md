@@ -212,7 +212,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>acc: 76.456</td><td class="units">Samples/s</td> <td class="perf">1090.09</td><td>acc: 76.454</td><td class="units">Latency (ms)</td> <td class="perf">4.43546</td><td>acc: 76.456</td><td class="units">Latency (ms)</td> <td class="perf">7.77315</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>F1: 90.88233</td><td class="units">Samples/s</td> <td class="perf">65.5708</td><td>F1: 90.88233</td><td class="units">Latency (ms)</td> <td class="perf">15.8774</td><td colspan="3"> N/A </td></table></div></div>
+</tr><tr><td class="model">resnet</td><td class="acc-target">acc: 75.6954</td><td class="accuracy">acc: 76.456</td><td class="units">Samples/s</td> <td class="perf">1090.09</td><td class="accuracy">acc: 76.454</td><td class="units">Latency (ms)</td> <td class="perf">4.44</td><td class="accuracy">acc: 76.456</td><td class="units">Latency (ms)</td> <td class="perf">7.77</td><tr><td class="model">bert-99</td><td class="acc-target">F1: 89.9653</td><td class="accuracy">F1: 90.88233</td><td class="units">Samples/s</td> <td class="perf">65.57</td><td class="accuracy">F1: 90.88233</td><td class="units">Latency (ms)</td> <td class="perf">15.88</td><td class="na" colspan="3"> N/A </td></table></div></div>
 </div>
 </div>
 </main>

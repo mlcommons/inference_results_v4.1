@@ -209,7 +209,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td class="units">Tokens/s</td> <td class="perf">2159.89</td><td class="units">Tokens/s</td> <td class="perf">2659.47</td><tr><td>gptj-99.9</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581, GEN_LEN: 3615190.2</td><td class="units">Tokens/s</td> <td class="perf">2159.89</td><td class="units">Tokens/s</td> <td class="perf">2659.47</td></table></div></div>
+</tr><tr><td class="model">gptj-99</td><td class="acc-target">ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td class="units">Tokens/s</td> <td class="perf">2159.89</td><td class="units">Tokens/s</td> <td class="perf">2659.47</td><tr><td class="model">gptj-99.9</td><td class="acc-target">ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581, GEN_LEN: 3615190.2</td><td class="units">Tokens/s</td> <td class="perf">2159.89</td><td class="units">Tokens/s</td> <td class="perf">2659.47</td></table></div></div>
 </div>
 </div>
 </main>

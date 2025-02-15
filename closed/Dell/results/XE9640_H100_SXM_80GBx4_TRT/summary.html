@@ -245,7 +245,7 @@ display: inline-block; /* Allows background-color to apply */
     border-bottom: 2px solid #b3b6b9;
 }
 
-.perf{
+.perf,.accuracy{
  text-align: right;
     padding-right: 20px;
     font-weight: bold;
@@ -253,6 +253,13 @@ display: inline-block; /* Allows background-color to apply */
 .units{
 text-align: center;
     padding-left: 20px;
+}
+.na{
+text-align: center;
+}
+.model,.acc-target {
+text-align: left;
+padding-left: 20px;
 }
 
 
@@ -535,7 +542,7 @@ text-align: center;
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>retinanet</td><td>mAP: 37.1745</td><td class="units">Queries/s</td> <td class="perf">6738.09</td><td class="units">Samples/s</td> <td class="perf">7149.42</td><tr><td>bert-99</td><td>F1: 89.9653</td><td class="units">Queries/s</td> <td class="perf">28348.3</td><td class="units">Samples/s</td> <td class="perf">36051.2</td><tr><td>bert-99.9</td><td>F1: 90.7831</td><td class="units">Queries/s</td> <td class="perf">24854.8</td><td class="units">Samples/s</td> <td class="perf">31412.4</td><tr><td>llama2-70b-99</td><td>ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td class="units">Tokens/s</td> <td class="perf">8937.82</td><td class="units">Tokens/s</td> <td class="perf">10594.1</td><tr><td>llama2-70b-99.9</td><td>ROUGE1: 44.3868, ROUGE2: 22.0132, ROUGEL: 28.5876, TOKENS_PER_SAMPLE: 265.005</td><td class="units">Tokens/s</td> <td class="perf">8937.82</td><td class="units">Tokens/s</td> <td class="perf">10594.1</td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td class="units">Queries/s</td> <td class="perf">6.36178</td><td class="units">Samples/s</td> <td class="perf">8.31658</td></table></div></div>
+</tr><tr><td class="model">retinanet</td><td class="acc-target">mAP: 37.1745</td><td class="units">Queries/s</td> <td class="perf">6738.09</td><td class="units">Samples/s</td> <td class="perf">7149.42</td><tr><td class="model">bert-99</td><td class="acc-target">F1: 89.9653</td><td class="units">Queries/s</td> <td class="perf">28348.30</td><td class="units">Samples/s</td> <td class="perf">36051.20</td><tr><td class="model">bert-99.9</td><td class="acc-target">F1: 90.7831</td><td class="units">Queries/s</td> <td class="perf">24854.80</td><td class="units">Samples/s</td> <td class="perf">31412.40</td><tr><td class="model">llama2-70b-99</td><td class="acc-target">ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td class="units">Tokens/s</td> <td class="perf">8937.82</td><td class="units">Tokens/s</td> <td class="perf">10594.10</td><tr><td class="model">llama2-70b-99.9</td><td class="acc-target">ROUGE1: 44.3868, ROUGE2: 22.0132, ROUGEL: 28.5876, TOKENS_PER_SAMPLE: 265.005</td><td class="units">Tokens/s</td> <td class="perf">8937.82</td><td class="units">Tokens/s</td> <td class="perf">10594.10</td><tr><td class="model">stable-diffusion-xl</td><td class="acc-target">CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td class="units">Queries/s</td> <td class="perf">6.36</td><td class="units">Samples/s</td> <td class="perf">8.32</td></table></div></div>
 </div>
 </div>
 </main>

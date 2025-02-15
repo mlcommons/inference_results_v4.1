@@ -208,7 +208,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>gptj-99.9</td><td>ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581, GEN_LEN: 3615190.2</td><td>ROUGE1: 43.0346, ROUGE2: 20.0913, ROUGEL: 29.9259, GEN LEN: 4102422.0</td><td class="units">Tokens/s</td> <td class="perf">19627.6</td><td>ROUGE1: 43.0343, ROUGE2: 20.0912, ROUGEL: 29.9254, GEN LEN: 4102192.0</td><td class="units">Tokens/s</td> <td class="perf">19889.7</td></table></div></div>
+</tr><tr><td class="model">gptj-99.9</td><td class="acc-target">ROUGE1: 42.9435, ROUGE2: 20.1034, ROUGEL: 29.9581, GEN_LEN: 3615190.2</td><td class="accuracy">ROUGE1: 43.0346, ROUGE2: 20.0913, ROUGEL: 29.9259, GEN LEN: 4102422.0</td><td class="units">Tokens/s</td> <td class="perf">19627.60</td><td class="accuracy">ROUGE1: 43.0343, ROUGE2: 20.0912, ROUGEL: 29.9254, GEN LEN: 4102192.0</td><td class="units">Tokens/s</td> <td class="perf">19889.70</td></table></div></div>
 </div>
 </div>
 </main>

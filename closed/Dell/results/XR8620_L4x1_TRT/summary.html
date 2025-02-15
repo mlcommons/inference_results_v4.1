@@ -245,7 +245,7 @@ display: inline-block; /* Allows background-color to apply */
     border-bottom: 2px solid #b3b6b9;
 }
 
-.perf{
+.perf,.accuracy{
  text-align: right;
     padding-right: 20px;
     font-weight: bold;
@@ -253,6 +253,13 @@ display: inline-block; /* Allows background-color to apply */
 .units{
 text-align: center;
     padding-left: 20px;
+}
+.na{
+text-align: center;
+}
+.model,.acc-target {
+text-align: left;
+padding-left: 20px;
 }
 
 
@@ -539,7 +546,7 @@ text-align: center;
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>retinanet</td><td>mAP: 37.1745</td><td class="units">Samples/s</td> <td class="perf">222.619</td><td class="units">Latency (ms)</td> <td class="perf">4.83078</td><td class="units">Latency (ms)</td> <td class="perf">42.01993</td></table></div></div>
+</tr><tr><td class="model">retinanet</td><td class="acc-target">mAP: 37.1745</td><td class="units">Samples/s</td> <td class="perf">222.62</td><td class="units">Latency (ms)</td> <td class="perf">4.83</td><td class="units">Latency (ms)</td> <td class="perf">42.02</td></table></div></div>
 </div>
 </div>
 </main>

@@ -209,7 +209,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td class="units">Queries/s</td> <td class="perf">4.48577</td><td class="units">Samples/s</td> <td class="perf">5.43896</td></table></div></div>
+</tr><tr><td class="model">stable-diffusion-xl</td><td class="acc-target">CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td class="units">Queries/s</td> <td class="perf">4.49</td><td class="units">Samples/s</td> <td class="perf">5.44</td></table></div></div>
 </div>
 </div>
 </main>

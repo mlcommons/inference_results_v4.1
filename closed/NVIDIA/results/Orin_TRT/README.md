@@ -213,7 +213,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td class="units">Tokens/s</td> <td class="perf">64.4734</td><td class="units">Latency (ms)</td> <td class="perf">4176.62608</td><td colspan="2"> N/A </td><tr><td>stable-diffusion-xl</td><td>CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td class="units">Samples/s</td> <td class="perf">0.1017</td><td class="units">Latency (ms)</td> <td class="perf">9966.78136</td><td colspan="2"> N/A </td></table></div></div>
+</tr><tr><td class="model">gptj-99</td><td class="acc-target">ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td class="units">Tokens/s</td> <td class="perf">64.47</td><td class="units">Latency (ms)</td> <td class="perf">4176.63</td><td class="na" colspan="2"> N/A </td><tr><td class="model">stable-diffusion-xl</td><td class="acc-target">CLIP_SCORE: 31.6863, FID_SCORE: 23.0109</td><td class="units">Samples/s</td> <td class="perf">0.10</td><td class="units">Latency (ms)</td> <td class="perf">9966.78</td><td class="na" colspan="2"> N/A </td></table></div></div>
 </div>
 </div>
 </main>

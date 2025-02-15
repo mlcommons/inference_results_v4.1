@@ -208,7 +208,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>mixtral-8x7b</td><td>ROUGE1: 45.0362, ROUGE2: 23.0501, ROUGEL: 30.0579, TOKENS_PER_SAMPLE: 131.31, gsm8k_accuracy: 73.0422, mbxp_accuracy: 59.5188</td><td>ROUGE1: 45.4098, ROUGE2: 23.2338, ROUGEL: 30.3109, TOKENS PER SAMPLE: 145.3, gsm8k accuracy: 73.66, mbxp accuracy: 60.0</td><td class="units">Tokens/s</td> <td class="perf">17453.4</td><td>ROUGE1: 45.4026, ROUGE2: 23.228, ROUGEL: 30.3021, TOKENS PER SAMPLE: 145.3, gsm8k accuracy: 73.64, mbxp accuracy: 59.98</td><td class="units">Tokens/s</td> <td class="perf">18839.0</td></table></div></div>
+</tr><tr><td class="model">mixtral-8x7b</td><td class="acc-target">ROUGE1: 45.0362, ROUGE2: 23.0501, ROUGEL: 30.0579, TOKENS_PER_SAMPLE: 131.31, gsm8k_accuracy: 73.0422, mbxp_accuracy: 59.5188</td><td class="accuracy">ROUGE1: 45.4098, ROUGE2: 23.2338, ROUGEL: 30.3109, TOKENS PER SAMPLE: 145.3, gsm8k accuracy: 73.66, mbxp accuracy: 60.0</td><td class="units">Tokens/s</td> <td class="perf">17453.40</td><td class="accuracy">ROUGE1: 45.4026, ROUGE2: 23.228, ROUGEL: 30.3021, TOKENS PER SAMPLE: 145.3, gsm8k accuracy: 73.64, mbxp accuracy: 59.98</td><td class="units">Tokens/s</td> <td class="perf">18839.00</td></table></div></div>
 </div>
 </div>
 </main>

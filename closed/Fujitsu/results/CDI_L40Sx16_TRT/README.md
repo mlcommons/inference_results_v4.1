@@ -209,7 +209,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>retinanet</td><td>mAP: 37.1745</td><td class="units">Queries/s</td> <td class="perf">11948.7</td><td class="units">Samples/s</td> <td class="perf">12048.3</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td class="units">Samples/s</td> <td class="perf">61.09</td></table></div></div>
+</tr><tr><td class="model">retinanet</td><td class="acc-target">mAP: 37.1745</td><td class="units">Queries/s</td> <td class="perf">11948.70</td><td class="units">Samples/s</td> <td class="perf">12048.30</td><tr><td class="model">3d-unet-99</td><td class="acc-target">DICE: 0.8531</td><td class="na" colspan="2"> N/A </td><td class="units">Samples/s</td> <td class="perf">61.09</td></table></div></div>
 </div>
 </div>
 </main>

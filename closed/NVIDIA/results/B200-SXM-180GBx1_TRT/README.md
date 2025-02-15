@@ -209,7 +209,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>llama2-70b-99</td><td>ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td class="units">Tokens/s</td> <td class="perf">10755.6</td><td class="units">Tokens/s</td> <td class="perf">11264.4</td><tr><td>llama2-70b-99.9</td><td>ROUGE1: 44.3868, ROUGE2: 22.0132, ROUGEL: 28.5876, TOKENS_PER_SAMPLE: 265.005</td><td class="units">Tokens/s</td> <td class="perf">10755.6</td><td class="units">Tokens/s</td> <td class="perf">11264.4</td></table></div></div>
+</tr><tr><td class="model">llama2-70b-99</td><td class="acc-target">ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td class="units">Tokens/s</td> <td class="perf">10755.60</td><td class="units">Tokens/s</td> <td class="perf">11264.40</td><tr><td class="model">llama2-70b-99.9</td><td class="acc-target">ROUGE1: 44.3868, ROUGE2: 22.0132, ROUGEL: 28.5876, TOKENS_PER_SAMPLE: 265.005</td><td class="units">Tokens/s</td> <td class="perf">10755.60</td><td class="units">Tokens/s</td> <td class="perf">11264.40</td></table></div></div>
 </div>
 </div>
 </main>

@@ -245,7 +245,7 @@ display: inline-block; /* Allows background-color to apply */
     border-bottom: 2px solid #b3b6b9;
 }
 
-.perf{
+.perf,.accuracy{
  text-align: right;
     padding-right: 20px;
     font-weight: bold;
@@ -253,6 +253,13 @@ display: inline-block; /* Allows background-color to apply */
 .units{
 text-align: center;
     padding-left: 20px;
+}
+.na{
+text-align: center;
+}
+.model,.acc-target {
+text-align: left;
+padding-left: 20px;
 }
 
 
@@ -535,7 +542,7 @@ text-align: center;
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td class="units">Queries/s</td> <td class="perf">22501.7</td><td class="units">Samples/s</td> <td class="perf">25643.7</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td class="units">Queries/s</td> <td class="perf">285.454</td><td class="units">Samples/s</td> <td class="perf">388.142</td><tr><td>bert-99</td><td>F1: 89.9653</td><td class="units">Queries/s</td> <td class="perf">1321.65</td><td class="units">Samples/s</td> <td class="perf">1678.45</td><tr><td>dlrm-v2-99</td><td>AUC: 79.5069</td><td class="units">Queries/s</td> <td class="perf">9102.39</td><td class="units">Samples/s</td> <td class="perf">10404.5</td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td><td class="units">Samples/s</td> <td class="perf">1.93148</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td class="units">Tokens/s</td> <td class="perf">113.739</td><td class="units">Tokens/s</td> <td class="perf">252.597</td></table></div></div>
+</tr><tr><td class="model">resnet</td><td class="acc-target">acc: 75.6954</td><td class="units">Queries/s</td> <td class="perf">22501.70</td><td class="units">Samples/s</td> <td class="perf">25643.70</td><tr><td class="model">retinanet</td><td class="acc-target">mAP: 37.1745</td><td class="units">Queries/s</td> <td class="perf">285.45</td><td class="units">Samples/s</td> <td class="perf">388.14</td><tr><td class="model">bert-99</td><td class="acc-target">F1: 89.9653</td><td class="units">Queries/s</td> <td class="perf">1321.65</td><td class="units">Samples/s</td> <td class="perf">1678.45</td><tr><td class="model">dlrm-v2-99</td><td class="acc-target">AUC: 79.5069</td><td class="units">Queries/s</td> <td class="perf">9102.39</td><td class="units">Samples/s</td> <td class="perf">10404.50</td><tr><td class="model">3d-unet-99.9</td><td class="acc-target">DICE: 0.8608</td><td class="na" colspan="2"> N/A </td><td class="units">Samples/s</td> <td class="perf">1.93</td><tr><td class="model">gptj-99</td><td class="acc-target">ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td class="units">Tokens/s</td> <td class="perf">113.74</td><td class="units">Tokens/s</td> <td class="perf">252.60</td></table></div></div>
 </div>
 </div>
 </main>

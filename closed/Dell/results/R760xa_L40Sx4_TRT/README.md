@@ -209,7 +209,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td class="units">Queries/s</td> <td class="perf">181231.0</td><td class="units">Samples/s</td> <td class="perf">180613.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td class="units">Queries/s</td> <td class="perf">3152.43</td><td class="units">Samples/s</td> <td class="perf">3345.71</td><tr><td>bert-99</td><td>F1: 89.9653</td><td class="units">Queries/s</td> <td class="perf">13853.7</td><td class="units">Samples/s</td> <td class="perf">13903.8</td></table></div></div>
+</tr><tr><td class="model">resnet</td><td class="acc-target">acc: 75.6954</td><td class="units">Queries/s</td> <td class="perf">181231.00</td><td class="units">Samples/s</td> <td class="perf">180613.00</td><tr><td class="model">retinanet</td><td class="acc-target">mAP: 37.1745</td><td class="units">Queries/s</td> <td class="perf">3152.43</td><td class="units">Samples/s</td> <td class="perf">3345.71</td><tr><td class="model">bert-99</td><td class="acc-target">F1: 89.9653</td><td class="units">Queries/s</td> <td class="perf">13853.70</td><td class="units">Samples/s</td> <td class="perf">13903.80</td></table></div></div>
 </div>
 </div>
 </main>
