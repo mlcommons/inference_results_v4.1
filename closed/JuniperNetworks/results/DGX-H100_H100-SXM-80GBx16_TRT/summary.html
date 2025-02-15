@@ -241,6 +241,15 @@ display: inline-block; /* Allows background-color to apply */
 .results-table th, .results-table tr:nth-child(n+3) td:nth-child(-n+2) {
     background-color: #dddee3;
     text-align: center;
+    border-bottom: 2px solid #b3b6b9;
+}
+/* For result numbers*/
+.results-table tr td:nth-child(2n+3) {
+    text-align: right;
+}
+
+.results-table th:not(:last-child):after, .results-table tr:nth-child(n+3) td:nth-child(-n+2):not(:last-child):after {
+    background-color: #b3b6b9;
 }
 
     .footer {
