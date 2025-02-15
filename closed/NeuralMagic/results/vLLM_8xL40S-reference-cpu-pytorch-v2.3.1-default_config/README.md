@@ -209,7 +209,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>llama2-70b-99</td><td>ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td>Tokens/s</td> <td>592.265</td><td>Tokens/s</td> <td>948.198</td></table></div></div>
+</tr><tr><td>llama2-70b-99</td><td>ROUGE1: 43.9869, ROUGE2: 21.8148, ROUGEL: 28.33, TOKENS_PER_SAMPLE: 265.005</td><td class="units">Tokens/s</td> <td class="perf">592.265</td><td class="units">Tokens/s</td> <td class="perf">948.198</td></table></div></div>
 </div>
 </div>
 </main>

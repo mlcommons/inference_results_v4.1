@@ -213,7 +213,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>64.0078</td><td>Latency (ms)</td> <td>4145.57204</td><td colspan="2"> N/A </td></table></div></div>
+</tr><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td class="units">Tokens/s</td> <td class="perf">64.0078</td><td class="units">Latency (ms)</td> <td class="perf">4145.57204</td><td colspan="2"> N/A </td></table></div></div>
 </div>
 </div>
 </main>

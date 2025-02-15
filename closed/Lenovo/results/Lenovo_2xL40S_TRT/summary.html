@@ -244,16 +244,17 @@ display: inline-block; /* Allows background-color to apply */
     text-align: center;
     border-bottom: 2px solid #b3b6b9;
 }
-/* For perf numbers*/
-.results-table tr td:nth-child(2n+4) {
-    text-align: right;
+
+.perf{
+ text-align: right;
     padding-right: 20px;
     font-weight: bold;
 }
-.results-table tr td:nth-child(2n+3) {
-    text-align: center;
+.units{
+text-align: center;
     padding-left: 20px;
 }
+
 
 .results-table th:not(:last-child):after, .results-table tr:nth-child(n+3) td:nth-child(-n+2):not(:last-child):after {
     background-color: #b3b6b9;
@@ -538,7 +539,7 @@ display: inline-block; /* Allows background-color to apply */
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Samples/s</td> <td>86304.6</td><td>Latency (ms)</td> <td>0.33241</td><td>Latency (ms)</td> <td>0.52546</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Samples/s</td> <td>1629.08</td><td>Latency (ms)</td> <td>1.80963</td><td>Latency (ms)</td> <td>10.39162</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Samples/s</td> <td>6502.66</td><td>Latency (ms)</td> <td>1.11868</td><td colspan="2"> N/A </td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td>Samples/s</td> <td>7.79867</td><td>Latency (ms)</td> <td>492.06648</td><td colspan="2"> N/A </td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>1718.33</td><td>Latency (ms)</td> <td>1437.18334</td><td colspan="2"> N/A </td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td class="units">Samples/s</td> <td class="perf">86304.6</td><td class="units">Latency (ms)</td> <td class="perf">0.33241</td><td class="units">Latency (ms)</td> <td class="perf">0.52546</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td class="units">Samples/s</td> <td class="perf">1629.08</td><td class="units">Latency (ms)</td> <td class="perf">1.80963</td><td class="units">Latency (ms)</td> <td class="perf">10.39162</td><tr><td>bert-99</td><td>F1: 89.9653</td><td class="units">Samples/s</td> <td class="perf">6502.66</td><td class="units">Latency (ms)</td> <td class="perf">1.11868</td><td colspan="2"> N/A </td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td class="units">Samples/s</td> <td class="perf">7.79867</td><td class="units">Latency (ms)</td> <td class="perf">492.06648</td><td colspan="2"> N/A </td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td class="units">Tokens/s</td> <td class="perf">1718.33</td><td class="units">Latency (ms)</td> <td class="perf">1437.18334</td><td colspan="2"> N/A </td></table></div></div>
 </div>
 </div>
 </main>

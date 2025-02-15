@@ -209,7 +209,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>206529.0</td><td>Samples/s</td> <td>196365.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>4502.63</td><td>Samples/s</td> <td>4690.54</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>17880.0</td><td>Samples/s</td> <td>23238.4</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>18.6131</td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>18.6131</td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td class="units">Queries/s</td> <td class="perf">206529.0</td><td class="units">Samples/s</td> <td class="perf">196365.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td class="units">Queries/s</td> <td class="perf">4502.63</td><td class="units">Samples/s</td> <td class="perf">4690.54</td><tr><td>bert-99</td><td>F1: 89.9653</td><td class="units">Queries/s</td> <td class="perf">17880.0</td><td class="units">Samples/s</td> <td class="perf">23238.4</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td class="units">Samples/s</td> <td class="perf">18.6131</td><tr><td>3d-unet-99.9</td><td>DICE: 0.8608</td><td colspan="2"> N/A </td><td class="units">Samples/s</td> <td class="perf">18.6131</td></table></div></div>
 </div>
 </div>
 </main>

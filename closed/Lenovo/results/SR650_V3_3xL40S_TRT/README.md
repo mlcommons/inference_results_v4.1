@@ -209,7 +209,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>132008.0</td><td>Samples/s</td> <td>132436.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Queries/s</td> <td>2201.83</td><td>Samples/s</td> <td>2290.08</td><tr><td>bert-99</td><td>F1: 89.9653</td><td>Queries/s</td> <td>9302.0</td><td>Samples/s</td> <td>9480.82</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td>Samples/s</td> <td>11.6149</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td>Tokens/s</td> <td>2475.22</td><td>Tokens/s</td> <td>2593.65</td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td class="units">Queries/s</td> <td class="perf">132008.0</td><td class="units">Samples/s</td> <td class="perf">132436.0</td><tr><td>retinanet</td><td>mAP: 37.1745</td><td class="units">Queries/s</td> <td class="perf">2201.83</td><td class="units">Samples/s</td> <td class="perf">2290.08</td><tr><td>bert-99</td><td>F1: 89.9653</td><td class="units">Queries/s</td> <td class="perf">9302.0</td><td class="units">Samples/s</td> <td class="perf">9480.82</td><tr><td>3d-unet-99</td><td>DICE: 0.8531</td><td colspan="2"> N/A </td><td class="units">Samples/s</td> <td class="perf">11.6149</td><tr><td>gptj-99</td><td>ROUGE1: 42.5566, ROUGE2: 19.9223, ROUGEL: 29.6882, GEN_LEN: 3615190.2</td><td class="units">Tokens/s</td> <td class="perf">2475.22</td><td class="units">Tokens/s</td> <td class="perf">2593.65</td></table></div></div>
 </div>
 </div>
 </main>

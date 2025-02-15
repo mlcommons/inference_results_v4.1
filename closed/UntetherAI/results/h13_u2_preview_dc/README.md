@@ -209,7 +209,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Queries/s</td> <td>140239.0</td><td>Samples/s</td> <td>140631.0</td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td class="units">Queries/s</td> <td class="perf">140239.0</td><td class="units">Samples/s</td> <td class="perf">140631.0</td></table></div></div>
 </div>
 </div>
 </main>

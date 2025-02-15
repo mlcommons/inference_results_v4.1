@@ -213,7 +213,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>resnet</td><td>acc: 75.6954</td><td>Samples/s</td> <td>56277.1</td><td>Latency (ms)</td> <td>0.12103</td><td>Latency (ms)</td> <td>0.28545</td></table></div></div>
+</tr><tr><td>resnet</td><td>acc: 75.6954</td><td class="units">Samples/s</td> <td class="perf">56277.1</td><td class="units">Latency (ms)</td> <td class="perf">0.12103</td><td class="units">Latency (ms)</td> <td class="perf">0.28545</td></table></div></div>
 </div>
 </div>
 </main>

@@ -208,7 +208,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 <th>Accuracy</th>
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>llama2-70b-99.9</td><td>ROUGE1: 44.3868, ROUGE2: 22.0132, ROUGEL: 28.5876, TOKENS_PER_SAMPLE: 265.005</td><td>ROUGE1: 42.0303, ROUGE2: 19.868, ROUGEL: 26.8128, TOKENS_PER_SAMPLE: 285.7</td><td>Queries/s</td> <td>1429.85</td><td>ROUGE1: 41.7123, ROUGE2: 19.6143, ROUGEL: 26.4603, TOKENS_PER_SAMPLE: 296.6</td><td>Samples/s</td> <td>1337.46</td></table></div></div>
+</tr><tr><td>llama2-70b-99.9</td><td>ROUGE1: 44.3868, ROUGE2: 22.0132, ROUGEL: 28.5876, TOKENS_PER_SAMPLE: 265.005</td><td>ROUGE1: 42.0303, ROUGE2: 19.868, ROUGEL: 26.8128, TOKENS PER SAMPLE: 285.7</td><td class="units">Queries/s</td> <td class="perf">1429.85</td><td>ROUGE1: 41.7123, ROUGE2: 19.6143, ROUGEL: 26.4603, TOKENS PER SAMPLE: 296.6</td><td class="units">Samples/s</td> <td class="perf">1337.46</td></table></div></div>
 </div>
 </div>
 </main>

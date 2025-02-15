@@ -213,7 +213,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 
 <th>Metric</th>
 <th>Performance</th>
-</tr><tr><td>retinanet</td><td>mAP: 37.1745</td><td>Samples/s</td> <td>222.619</td><td>Latency (ms)</td> <td>4.83078</td><td>Latency (ms)</td> <td>42.01993</td></table></div></div>
+</tr><tr><td>retinanet</td><td>mAP: 37.1745</td><td class="units">Samples/s</td> <td class="perf">222.619</td><td class="units">Latency (ms)</td> <td class="perf">4.83078</td><td class="units">Latency (ms)</td> <td class="perf">42.01993</td></table></div></div>
 </div>
 </div>
 </main>
