@@ -48,7 +48,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
-<div class="welcome-section-wrapper">
+<div class="welcome-section-wrapper2">
 <div class="button-container">
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NeuralMagic/code" class="button">Code</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/open/NeuralMagic/results/4xH100-SXM-80GB_vLLM_FP8-reference-cpu-pytorch-v2.3.1-default_config" class="button">Result Logs</a>

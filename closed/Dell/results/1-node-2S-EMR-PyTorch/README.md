@@ -48,7 +48,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
-<div class="welcome-section-wrapper">
+<div class="welcome-section-wrapper2">
 <div class="button-container">
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Dell/code" class="button">Code</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Dell/results/1-node-2S-EMR-PyTorch" class="button">Result Logs</a>

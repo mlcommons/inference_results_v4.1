@@ -48,7 +48,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
-<div class="welcome-section-wrapper">
+<div class="welcome-section-wrapper2">
 <div class="button-container">
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Lenovo/code" class="button">Code</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Lenovo/results/SR650_V3_3xL40S_TRT" class="button">Result Logs</a>

@@ -48,7 +48,7 @@ See the HTML preview [here](https://htmlpreview.github.io/?https://github.com/GA
 </div>
 
 </div>
-<div class="welcome-section-wrapper">
+<div class="welcome-section-wrapper2">
 <div class="button-container">
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Supermicro/code" class="button">Code</a>
 <a href="https://github.com/gateoverflow/inference_results_v4.1/tree/main/closed/Supermicro/results/SYS_421GE_TNHR2_LCC_H100_SXM_80GBx8_TRT" class="button">Result Logs</a>
