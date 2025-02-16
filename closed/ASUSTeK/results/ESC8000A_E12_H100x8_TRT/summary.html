@@ -250,9 +250,13 @@ display: inline-block; /* Allows background-color to apply */
 }
 
 .perf,.accuracy{
- text-align: right;
     padding-right: 20px;
     font-weight: bold;
+     display: flex;
+    justify-content: center;  /* Centers text */
+    align-items: center;
+    text-align: right;  /* Aligns numbers to the right */
+    min-width: 80px;  /* Ensures consistent column width */
 }
 .units{
 text-align: center;
