@@ -33,7 +33,7 @@ import multiprocessing as mp
 from typing import List
 
 import code.common.auditing as auditing
-
+from jtop_measure import JtopMeasure
 from code.actionhandler import *
 from code.common import logging
 from code.common.constants import *
@@ -199,7 +199,10 @@ def dispatch_action(main_args, benchmark_conf, workload_setting):
                                   verify=not main_args["no_audit_verify"])
     else:
         logging.info(f"Action {action} is not currently supported")
+    measure=JtopMeasure()
+    measure.start()
     handler.run()
+    measure.stop()
 
 
 def parse_main_args(custom=None):
