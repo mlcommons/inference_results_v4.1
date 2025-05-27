@@ -19,16 +19,31 @@
 #include "gflags/gflags.h"
 #include "glog/logging.h"
 #include <dlfcn.h>
-
 #include "loadgen.h"
 #include "logger.h"
 #include "test_settings.h"
-
+#include <stdlib.h>
+#include <stdio.h>
 #include "bert_server.h"
 #include "qsl.hpp"
 
 #include "cuda_profiler_api.h"
 
+void call_python_start() {
+    // Use the system function to call the Python script
+    int status = system("python3 code/harness/harness_bert/remote_measure.py start");
+    if (status != 0) {
+        printf("Error calling Python script\n");
+    }
+}
+
+void call_python_stop() {
+    // Use the system function to call the Python script
+    int status = system("python3 code/harness/harness_bert/remote_measure.py stop");
+    if (status != 0) {
+        printf("Error calling Python script\n");
+    }
+}
 DEFINE_string(gpu_engines, "", "Engine");
 DEFINE_string(devices, "all", "Enable comma separated numbered devices");
 
@@ -182,11 +197,16 @@ int main(int argc, char* argv[])
             testSettings.server_num_issue_query_threads, FLAGS_use_fp8, FLAGS_eviction_last, FLAGS_verbose_nvtx);
 
         LOG(INFO) << "Starting running actual test.";
-
+	call_python_start();
         cudaProfilerStart();
-        StartTest(bert_server.get(), qsl.get(), testSettings, logSettings);
+       
+	try {
+    		StartTest(bert_server.get(), qsl.get(), testSettings, logSettings);
+	} catch (const std::exception& e) {
+   	 	LOG(ERROR) << "An error occurred during StartTest: " << e.what();
+   	}
         cudaProfilerStop();
-
+	call_python_stop();
         LOG(INFO) << "Finished running actual test.";
     }
 

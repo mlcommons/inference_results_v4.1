@@ -3,6 +3,7 @@ onnx==1.15.0
 onnxruntime==1.17.0
 diffusers==0.21.2
 transformers==4.33.1
+jetson-stats
 nltk==3.8.1
 evaluate==0.4.1
 datasets==2.19.0

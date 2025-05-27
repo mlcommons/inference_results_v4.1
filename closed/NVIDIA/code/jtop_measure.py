@@ -1,40 +1,54 @@
 import time
 from jtop import jtop
 import threading
-with jtop() as jetson :
-    class JtopMeasure:
-        def __init__(self):
-            self.jetson = jetson
-            self.running = False
-            self.thread = None
+import traceback
+print(float(jtop.interval))
+class JtopMeasure:
+    _instance = None
 
-        def start(self):
-            if not self.jetson.ok():
-                print("Erreur lors de l'initialisation de jtop.")
-                return
-            print("###################Debut de la mesure jtop###########################")
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super(JtopMeasure, cls).__new__(cls)
+            cls._instance.running = False
+            cls._instance.thread = None
+        return cls._instance
+
+    def start(self):
+        if not self.running:
+            print("###################Début de la mesure jtop###########################")
             self.running = True
             self.thread = threading.Thread(target=self.run)
             self.thread.start()
+        else:
+            print("Le processus est déjà en cours d'exécution.")
 
-        def stop(self):
+    def stop(self):
+        if self.running:
             self.running = False
             print("###################Fin de la mesure jtop###########################")
             if self.thread is not None:
                 self.thread.join()
+        else:
+            print("Le processus n'est pas en cours d'exécution.")
 
-        def run(self):
-            with open("/media/nvidia/177d5801-095d-441b-88e2-959056c30fac/data/consommation_energie_jetson.csv", "w") as f:
-                f.write("timestamp,gpu_power\n")
-                start_time = time.time()  # Temps de départ
-                elapsed_time = 0  # Temps écoulé initialisé à 0
+    def run(self):
+        try:
+            with jtop() as jetson:
+                if not jetson.ok():
+                    print("Erreur lors de l'initialisation de jtop.")
+                    return
 
-                try:
-                    while self.running and self.jetson.ok():
-                        # Lire les données de puissance du GPU
-                        gpu_power = self.jetson.power[1]["GPU"]["cur"]
+                with open("/media/nvidia/00640565-37a8-4b58-a27b-fbd90cd43fec/data/consommation_energie_jetson.csv", "w") as f:
+                    f.write("timestamp,gpu_power\n")
+                    
+                    start_time = time.time()
+
+                    while self.running:
+                        gpu_power = jetson.power['rail']['VDD_GPU_SOC']['power']
+                        elapsed_time = time.time() - start_time
                         f.write(f"{elapsed_time},{gpu_power}\n")
-                        f.flush()  # Forcer l'écriture immédiate sur le disque
-                        elapsed_time = time.time() - start_time  # Mettre à jour le temps écoulé
-                except Exception as e:
-                    print(f"Une erreur s'est produite : {e}")
+                        f.flush()
+                        time.sleep(0.2)
+        except Exception as e:
+            print(f"Une erreur s'est produite : {e}")
+            traceback.print_exc()

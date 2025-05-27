@@ -33,7 +33,7 @@ import multiprocessing as mp
 from typing import List
 
 import code.common.auditing as auditing
-from jtop_measure import JtopMeasure
+import paramiko
 from code.actionhandler import *
 from code.common import logging
 from code.common.constants import *
@@ -42,6 +42,43 @@ from code.common.mps import turn_off_mps
 from code.common.power_limit import get_power_controller
 from code.common.systems.system_list import DETECTED_SYSTEM, MATCHED_SYSTEM
 from configs.configuration import ConfigRegistry
+
+
+class RemoteJtopMeasure:
+    def __init__(self, hostname, username, password, script_dir):
+        self.hostname = hostname
+        self.username = username
+        self.password = password
+        self.script_dir = script_dir
+        self.ssh_client = paramiko.SSHClient()
+        self.ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+
+    def start(self):
+        try:
+            self.ssh_client.connect(self.hostname, username=self.username, password=self.password)
+            print("###################Début de la mesure jtop###########################")
+
+            # Commande pour exécuter le script de démarrage
+            command =  f"nohup sudo {self.script_dir}/script_start_tx.sh > /dev/null 2>&1 &"
+            stdin, stdout, stderr = self.ssh_client.exec_command(command)
+            print(stdout.read().decode())
+            print(stderr.read().decode())  # Ajoutez cette ligne pour voir les erreurs
+        except Exception as e:
+            print(f"Erreur lors de la connexion SSH ou de l'exécution du script : {e}")
+
+    def stop(self):
+        try:
+            # Commande pour exécuter le script d'arrêt
+            command = f"sudo {self.script_dir}/script_stop_tx.sh"
+            stdin, stdout, stderr = self.ssh_client.exec_command(command)
+            print(stdout.read().decode())
+            print(stderr.read().decode())  # Ajoutez cette ligne pour voir les erreurs
+            print("###################Fin de la mesure jtop###########################")
+        except Exception as e:
+            print(f"Erreur lors de l'arrêt du script : {e}")
+        finally:
+            self.ssh_client.close()
+
 
 
 def populate_config_registry(benchmarks: List[Benchmark], scenarios: List[Scenario]):
@@ -146,6 +183,7 @@ def main(main_args, system, load_config_fn=populate_config_registry):
 
 def dispatch_action(main_args, benchmark_conf, workload_setting):
     # Pull settings out of main_args
+
     action = Action.get_match(main_args["action"])
     profile = main_args.get("profile", None)
     power = main_args.get("power", False)
@@ -199,10 +237,9 @@ def dispatch_action(main_args, benchmark_conf, workload_setting):
                                   verify=not main_args["no_audit_verify"])
     else:
         logging.info(f"Action {action} is not currently supported")
-    measure=JtopMeasure()
-    measure.start()
+   
+    
     handler.run()
-    measure.stop()
 
 
 def parse_main_args(custom=None):
@@ -231,4 +268,14 @@ if __name__ == "__main__":
     else:
         logging.info(f"Detected system ID: {MATCHED_SYSTEM}")
         main_args = parse_main_args()
+        remote_measure = RemoteJtopMeasure(
+        hostname="10.42.0.64",
+        username="sshuser",
+        password="nvidia",
+        script_dir="/media/nvidia/00640565-37a8-4b58-a27b-fbd90cd43fec/inference_results_v4.1/closed/NVIDIA/code"
+)
+        #remote_measure.start()
+       
         main(main_args, DETECTED_SYSTEM)
+       
+        #remote_measure.stop()

@@ -33,6 +33,36 @@ class SingleStreamGPUBaseConfig(GPUBaseConfig):
     use_small_tile_gemm_plugin = False
 
 
+
+@ConfigRegistry.register(HarnessType.Custom, AccuracyTarget.k_99, PowerSetting.MaxP)
+class Orin(SingleStreamGPUBaseConfig):
+    system = KnownSystem.Orin
+    single_stream_expected_latency_ns = 6200000
+    min_query_count=256
+    max_query_count=256
+    use_graphs = True
+
+
+@ConfigRegistry.register(HarnessType.Triton, AccuracyTarget.k_99, PowerSetting.MaxP)
+class Orin_Triton(Orin):
+    use_triton = True
+
+
+@ConfigRegistry.register(HarnessType.TritonUnified, AccuracyTarget.k_99, PowerSetting.MaxP)
+class Orin_TritonUnified(Orin):
+    use_triton = True
+
+
+@ConfigRegistry.register(HarnessType.Custom, AccuracyTarget.k_99, PowerSetting.MaxQ)
+class Orin_MaxQ(Orin):
+    soc_cpu_freq = 576000
+    soc_gpu_freq = 816000000
+    soc_dla_freq = 0
+    soc_emc_freq = 2133000000
+    soc_pva_freq = 115000000
+    orin_num_cores = 4
+    single_stream_expected_latency_ns = 11914844
+
 @ConfigRegistry.register(HarnessType.Custom, AccuracyTarget.k_99, PowerSetting.MaxP)
 class GH200_96GB_aarch64x1(SingleStreamGPUBaseConfig):
     system = KnownSystem.GH200_96GB_ARMx1
@@ -571,34 +601,6 @@ class A30x1_HighAccuracy_Triton(A30x1_Triton):
 class A30x1_HighAccuracy_TritonUnified(A30x1_Triton):
     precision = "fp16"
     single_stream_expected_latency_ns = 1700000
-
-
-@ConfigRegistry.register(HarnessType.Custom, AccuracyTarget.k_99, PowerSetting.MaxP)
-class Orin(SingleStreamGPUBaseConfig):
-    system = KnownSystem.Orin
-    single_stream_expected_latency_ns = 6200000
-    use_graphs = True
-
-
-@ConfigRegistry.register(HarnessType.Triton, AccuracyTarget.k_99, PowerSetting.MaxP)
-class Orin_Triton(Orin):
-    use_triton = True
-
-
-@ConfigRegistry.register(HarnessType.TritonUnified, AccuracyTarget.k_99, PowerSetting.MaxP)
-class Orin_TritonUnified(Orin):
-    use_triton = True
-
-
-@ConfigRegistry.register(HarnessType.Custom, AccuracyTarget.k_99, PowerSetting.MaxQ)
-class Orin_MaxQ(Orin):
-    soc_cpu_freq = 576000
-    soc_gpu_freq = 816000000
-    soc_dla_freq = 0
-    soc_emc_freq = 2133000000
-    soc_pva_freq = 115000000
-    orin_num_cores = 4
-    single_stream_expected_latency_ns = 11914844
 
 
 @ConfigRegistry.register(HarnessType.Custom, AccuracyTarget.k_99, PowerSetting.MaxP)
